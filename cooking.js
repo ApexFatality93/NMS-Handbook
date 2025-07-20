@@ -17,7 +17,7 @@ function createCookingCard(recipe) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = recipe.Icon_Filename.replace("DDS", "png");
+    icon.src = recipe.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = recipe.Name_Text || recipe.Name;
 
     const rgba = `rgba(${recipe.Colour_R * 255}, ${recipe.Colour_G * 255}, ${recipe.Colour_B * 255}, ${recipe.Colour_A})`;

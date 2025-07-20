@@ -23,7 +23,7 @@ function createCard(item, isProduct = true, key) {
     const icon = document.createElement("img");
     icon.className = "product-icon";
     icon.style.backgroundColor = `rgba(${parseFloat(item.Colour_R) * 255}, ${parseFloat(item.Colour_G) * 255}, ${parseFloat(item.Colour_B) * 255}, ${item.Colour_A})`;
-    icon.src = item.Icon_Filename.replace("TEXTURES", "TEXTURES").replace("DDS", "png").toUpperCase();
+    icon.src = item.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = item.Name_Text || item.Name;
     imageWrapper.appendChild(icon);
 

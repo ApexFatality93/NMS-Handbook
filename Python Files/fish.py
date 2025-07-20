@@ -3,15 +3,15 @@ import json
 
 # --- CONFIG ---
 mxml_file = './Game Files/FISHDATATABLE.MXML'
-lang_json_file = './JSON Files/All_Lang_Data.json'
-output_json_file = './JSON Files/Fish_Table.json'
+lang_json_file = './JSON_Files/All_Lang_Data.json'
+output_json_file = './JSON_Files/Fish_Table.json'
 
 # --- LOAD LANG JSON ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:
     lang_entries = json.load(f)
 
 # --- LOAD PRODUCT TABLE JSON ---
-with open('./JSON Files/Product_Table.json', 'r', encoding='utf-8') as f:
+with open('./JSON_Files/Product_Table.json', 'r', encoding='utf-8') as f:
     product_table = json.load(f)
 
 product_lookup = {key: value for key, value in product_table.items()}

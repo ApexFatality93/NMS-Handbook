@@ -127,7 +127,7 @@ function populateDropdown(select, values) {
 }
 
 // Load fish data and initialize UI
-fetch("./JSON Files/Fish_Table.json")
+fetch("./JSON_Files/Fish_Table.json")
     .then(response => response.json())
     .then(data => {
 

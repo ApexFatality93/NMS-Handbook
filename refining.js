@@ -55,7 +55,7 @@ function applyRefiningFilter() {
     });
 }
 
-fetch("./JSON Files/Refining_Table.json")
+fetch("./JSON_Files/Refining_Table.json")
     .then(res => res.json())
     .then(data => {
         refiningData = data;

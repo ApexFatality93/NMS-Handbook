@@ -1,61 +1,3 @@
-// const fullSearchInput = document.getElementById("full-search-input");
-// const resultsGrid = document.getElementById("search-results-grid");
-
-// // Use the same global `allItems` array from search.js
-// if (fullSearchInput && resultsGrid) {
-//     const urlParams = new URLSearchParams(window.location.search);
-//     const queryFromURL = urlParams.get("q") || "";
-
-//     fullSearchInput.value = queryFromURL;
-//     renderSearchResults(queryFromURL);
-
-//     fullSearchInput.addEventListener("input", () => {
-//         const query = fullSearchInput.value.trim().toLowerCase();
-//         renderSearchResults(query);
-//     });
-// }
-
-// function renderSearchResults(query) {
-//     resultsGrid.innerHTML = "";
-
-//     if (!query) return;
-
-//     const matches = allItems.filter(item =>
-//         item.name && item.name.toLowerCase().includes(query)
-//     );
-
-//     matches.forEach(item => {
-//         const card = document.createElement("div");
-//         card.className = "item-card";
-
-//         const icon = document.createElement("div");
-//         icon.className = "item-icon";
-
-//         // Fix: convert DDS path to PNG in correct folder
-//         const iconPath = item.icon
-//             ? `assets/PNGs/${item.icon.split('/').pop().replace('.DDS', '.png')}`
-//             : 'assets/PNGs/default.png';
-
-//         icon.style.backgroundImage = `url(${iconPath})`;
-//         icon.style.backgroundColor = item.rgba ? `rgba(${item.rgba.join(",")})` : "transparent";
-
-//         const name = document.createElement("h3");
-//         name.textContent = item.name;
-
-//         card.appendChild(icon);
-//         card.appendChild(name);
-
-//         card.onclick = () => {
-//             const params = new URLSearchParams({ id: item.id, type: item.type });
-//             window.location.href = `item.html?${params.toString()}`;
-//         };
-
-//         resultsGrid.appendChild(card);
-//     });
-// }
-
-
-
 const fullSearchInput = document.getElementById("full-search-input");
 const resultsGrid = document.getElementById("search-results-grid");
 
@@ -63,11 +5,11 @@ let productData = {};
 let substanceData = {};
 let fishData = {};
 
-// Load all JSON files first
+// Load all JSON_files first
 Promise.all([
-    fetch("./JSON Files/Product_Table.json").then(res => res.json()),
-    fetch("./JSON Files/Substance_Table.json").then(res => res.json()),
-    fetch("./JSON Files/Fish_Table.json").then(res => res.json())
+    fetch("./JSON_Files/Product_Table.json").then(res => res.json()),
+    fetch("./JSON_Files/Substance_Table.json").then(res => res.json()),
+    fetch("./JSON_Files/Fish_Table.json").then(res => res.json())
 ]).then(([products, substances, fish]) => {
     productData = products;
     substanceData = substances;

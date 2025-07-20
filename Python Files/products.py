@@ -1,101 +1,10 @@
-# import xml.etree.ElementTree as ET
-# import json
-
-
-# # Define the MXML file to read and the JSON file to write
-# mxml_file = './Game Files/NMS_Reality_GCPRODUCTTABLE.MXML'
-# json_file = './JSON Files/Product_Table.json'
-
-# # Function to extract data recursively
-# def extract_data(property_node):
-#     data = {}
-#     for prop in property_node:
-#         name = prop.get('name')  # Property name
-#         value = prop.get('value')  # Property value
-#         # Handle nested properties
-#         if len(prop):
-#             # If there are child elements
-#             nested_data = extract_data(prop)
-#             if name:
-#                 data[name] = nested_data
-#         else:
-#             # If there's a value, store it directly
-#             data[name] = value
-#     return data
-
-# # Parse the MXML file
-# tree = ET.parse(mxml_file)
-# root = tree.getroot()
-
-# # Initialize an empty dictionary to hold product data with ID as the key
-# product_data_dict = {}
-
-# # Iterate through all GcProductData entries
-# for product in root.findall('.//Property[@value="GcProductData"]'):
-#     # Extract data for each product
-#     data = extract_data(product)
-
-#     # Use the ID as the key, and the rest of the data as the value
-#     product_id = data.get('ID', None)
-    
-#     if product_id:
-#         product_data_dict[product_id] = {
-#             'Name': data.get('Name', ''),
-#             'NameLower': data.get('NameLower', ''),
-#             'Subtitle': data.get('Subtitle', ''),
-#             'Description': data.get('Description', ''),
-#             'BaseValue': data.get('BaseValue', ''),
-#             'Level': data.get('Level', ''),
-#             'Icon_Filename': data.get('Icon', {}).get('Filename', ''),
-#             'Colour_R': data.get('Colour', {}).get('R', ''),
-#             'Colour_G': data.get('Colour', {}).get('G', ''),
-#             'Colour_B': data.get('Colour', {}).get('B', ''),
-#             'Colour_A': data.get('Colour', {}).get('A', ''),
-#             'Category': data.get('Category', {}).get('SubstanceCategory', ''),
-#             'Type': data.get('Type', {}).get('ProductCategory', ''),
-#             'Rarity': data.get('Rarity', {}).get('Rarity', ''),
-#             'Legality': data.get('Legality', {}).get('Legality', ''),
-#             'Consumable': data.get('Consumable', ''),
-#             'ChargeValue': data.get('ChargeValue', ''),
-#             'StackMultiplier': data.get('StackMultiplier', ''),
-#             'DefaultCraftAmount': data.get('DefaultCraftAmount', ''),
-#             'CraftAmountStepSize': data.get('CraftAmountStepSize', ''),
-#             'CraftAmountMultiplier': data.get('CraftAmountMultiplier', ''),
-#             'Cost_SpaceStationMarkup': data.get('Cost', {}).get('SpaceStationMarkup', ''),
-#             'Cost_LowPriceMod': data.get('Cost', {}).get('LowPriceMod', ''),
-#             'Cost_HighPriceMod': data.get('Cost', {}).get('HighPriceMod', ''),
-#             'Cost_BuyBaseMarkup': data.get('Cost', {}).get('BuyBaseMarkup', ''),
-#             'Cost_BuyMarkupMod': data.get('Cost', {}).get('BuyMarkupMod', ''),
-#             'RecipeCost': data.get('RecipeCost', ''),
-#             'SpecificChargeOnly': data.get('SpecificChargeOnly', ''),
-#             'TradeCategory': data.get('TradeCategory', {}).get('TradeCategory', ''),
-#             'WikiCategory': data.get('WikiCategory', ''),
-#             'IsCraftable': data.get('IsCraftable', ''),
-#             'EconomyInfluenceMultiplier': data.get('EconomyInfluenceMultiplier', ''),
-#             'CookingIngredient': data.get('CookingIngredient', ''),
-#             'CookingValue': data.get('CookingValue', ''),
-#             'GoodForSelling': data.get('GoodForSelling', ''),
-#             'GiveRewardOnSpecialPurchase': data.get('GiveRewardOnSpecialPurchase', ''),
-#             'EggModifierIngredient': data.get('EggModifierIngredient', ''),
-#             'IsTechbox': data.get('IsTechbox', ''),
-#             'CanSendToOtherPlayers': data.get('CanSendToOtherPlayers', '')
-#         }
-
-# # Write the dictionary of product data to a JSON file
-# with open(json_file, 'w', encoding='utf-8') as json_out:
-#     json.dump(product_data_dict, json_out, indent=4, ensure_ascii=False)
-
-# print(f"Data has been extracted and written to {json_file}")
-# print(len(product_data_dict))
-
-
 import xml.etree.ElementTree as ET
 import json
 
 # --- CONFIG ---
 mxml_file = './Game Files/NMS_Reality_GCPRODUCTTABLE.MXML'
-lang_json_file = './JSON Files/All_Lang_Data.json'
-output_json_file = './JSON Files/Product_Table.json'
+lang_json_file = './JSON_Files/All_Lang_Data.json'
+output_json_file = './JSON_Files/Product_Table.json'
 
 # --- LOAD LANG JSON ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:

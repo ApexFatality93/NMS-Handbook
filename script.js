@@ -81,7 +81,7 @@ function displayData(data, filterType = "All") {
 }
 
 function fetchAndDisplay(dataset) {
-    const file = dataset === "products" ? "./JSON Files/Product_Table.json" : "./JSON Files/Substance_Table.json";
+    const file = dataset === "products" ? "./JSON_Files/Product_Table.json" : "./JSON_Files/Substance_Table.json";
 
     fetch(file)
         .then(response => response.json())

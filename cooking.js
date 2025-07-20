@@ -59,7 +59,7 @@ function applyCookingFilter() {
     });
 }
 
-fetch("./JSON Files/Cooking_Table.json")
+fetch("./JSON_Files/Cooking_Table.json")
     .then(res => res.json())
     .then(data => {
         cookingData = data;

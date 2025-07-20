@@ -82,7 +82,7 @@ function populateCategoryFilter() {
     categoryFilter.value = "Crafting";
 }
 
-fetch("./JSON Files/Crafting_Table.json")
+fetch("./JSON_Files/Crafting_Table.json")
     .then(res => res.json())
     .then(data => {
         craftingData = data;

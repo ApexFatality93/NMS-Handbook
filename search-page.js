@@ -95,7 +95,7 @@ function createSearchCard(item) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = item.icon.replace("DDS", "png").replace("TEXTURES", "TEXTURES").toUpperCase();
+    icon.src = item.icon.replace("DDS", "png");
     icon.alt = item.name;
 
     if (item.rgba && item.rgba.length === 4) {

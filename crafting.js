@@ -19,7 +19,7 @@ function createCraftingCard(item) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = item.Icon_Filename.replace("DDS", "png").replace("TEXTURES", "TEXTURES").toUpperCase();
+    icon.src = item.Icon_Filename.replace("DDS", "png");
     icon.alt = item.Name_Text || item.Name;
 
     const rgba = `rgba(${item.Colour_R * 255}, ${item.Colour_G * 255}, ${item.Colour_B * 255}, ${item.Colour_A})`;

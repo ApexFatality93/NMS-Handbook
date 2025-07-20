@@ -45,7 +45,7 @@ function createFishCard(fish) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = fish.Icon_Filename.replace("DDS", "png").replace("TEXTURES", "TEXTURES").toUpperCase();
+    icon.src = fish.Icon_Filename.replace("DDS", "png");
     icon.alt = fish.Name_Text || fish.Name;
     const rgba = `rgba(${fish.Colour_R * 255}, ${fish.Colour_G * 255}, ${fish.Colour_B * 255}, ${fish.Colour_A})`;
     icon.style.backgroundColor = rgba;

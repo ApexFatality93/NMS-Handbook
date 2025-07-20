@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About | No Man's Sky Handbook</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+    fetch("header.html")
+        .then(res => res.text())
+        .then(data => {
+        document.getElementById("header-placeholder").innerHTML = data;
+        });
+    </script>
+
+    <main class="about-container">
+    <section class="about-card">
+        <h2>About the Creator</h2>
+        <p>
+        This project was created by <strong>ApexFatality</strong>, a long-time explorer and community member in the No Man’s Sky universe.
+        You can find me on:
+        </p>
+        <ul>
+        <li><a href="https://github.com/ApexFatality93">GitHub</a></li>
+        <li><a href="https://discord.com/users/123151755440553987">Discord</a></li>
+        <li><a href="https://www.reddit.com/user/ApexFatality/">Reddit</a></li>
+        </ul>
+    </section>
+
+    <section class="about-card">
+        <h2>Open Source and Free</h2>
+        <p>
+        The No Man’s Sky Handbook is <strong>100% free</strong> and always will be. There are no ads, no logins, and no paywalls.
+        </p>
+        <p>
+        All of the code is open source and publicly available. This makes it easy for others to contribute, learn from, or build upon.
+        </p>
+    </section>
+
+    <section class="about-card">
+        <h2>How It Works</h2>
+        <p>
+        This site pulls data directly from No Man’s Sky game files. By parsing the actual MBIN/EXML files, it ensures the information is accurate and up to date.
+        </p>
+        <p>
+        Every recipe, stat, and item listed here is precisely what’s in the game. No guesswork, no outdated info.
+        </p>
+        <p>
+        Whenever the game receives an update, the new files can be uploaded and re-parsed to generate new data. This makes content after new updates quick, simple and reliable.
+        </p>
+    </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script>
+    fetch("footer.html")
+        .then(res => res.text())
+        .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

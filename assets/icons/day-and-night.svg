@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   height="800px"
+   width="800px"
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="day-and-night-moon-svgrepo-com.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs15" /><sodipodi:namedview
+   id="namedview15"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.295"
+   inkscape:cx="398.30508"
+   inkscape:cy="401.69492"
+   inkscape:window-width="1496"
+   inkscape:window-height="726"
+   inkscape:window-x="0"
+   inkscape:window-y="38"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<path
+   style="fill:#F2E7BF;"
+   d="M299.346,86.692c-0.001,0-0.002,0-0.003,0V425.46c0.001,0,0.002,0,0.003,0  c93.548,0,169.384-75.836,169.384-169.384S392.893,86.692,299.346,86.692z"
+   id="path1" />
+<circle
+   style="opacity:0.08;enable-background:new    ;"
+   cx="367.226"
+   cy="327.807"
+   r="37.156"
+   id="circle1" />
+<path
+   style="opacity:0.08;enable-background:new    ;"
+   d="M315.682,409.122c-5.513,0-10.963-0.273-16.341-0.788v17.125  c0.001,0,0.002,0,0.003,0c50.932,0,96.608-22.484,127.66-58.062C397.235,393.378,358.299,409.122,315.682,409.122z"
+   id="path2" />
+<path
+   style="fill:#E18C36;"
+   d="M288.327,6.362l-59.689,103.386h70.709V0C295.06,0,290.775,2.121,288.327,6.362z"
+   id="path3" />
+<path
+   style="fill:#EC8560;"
+   d="M114.98,87.293l30.897,115.312l99.998-99.998L130.564,71.71  C121.102,69.175,112.445,77.832,114.98,87.293z"
+   id="path4" />
+<path
+   style="fill:#E18C36;"
+   d="M49.633,267.094l103.386,59.689V185.366L49.633,245.055C41.15,249.953,41.15,262.197,49.633,267.094z  "
+   id="path5" />
+<path
+   style="fill:#EC8560;"
+   d="M130.564,440.44l115.312-30.897l-99.998-99.998L114.98,424.857  C112.445,434.318,121.102,442.975,130.564,440.44z"
+   id="path6" />
+<path
+   style="fill:#E18C36;"
+   d="M228.636,402.402l59.689,103.386c2.042,3.537,5.362,5.599,8.892,6.186  c1.11,0.185,2.127-0.66,2.127-1.785V402.402L228.636,402.402L228.636,402.402z"
+   id="path7" />
+<path
+   style="opacity:0.1;enable-background:new    ;"
+   d="M140.033,180.793l5.845,21.812l92.608-92.608  C197.568,120.73,162.699,146.383,140.033,180.793z"
+   id="path8" />
+<path
+   style="opacity:0.1;enable-background:new    ;"
+   d="M129.675,198.843c-11.184,22.609-17.48,48.067-17.48,74.999  c0,10.594,0.982,20.958,2.843,31.014l37.981,21.929V185.366L129.675,198.843z"
+   id="path9" />
+<path
+   style="opacity:0.1;enable-background:new    ;"
+   d="M145.877,309.545l-12.447,46.453  c15.387,27.687,38.306,50.606,65.992,65.992l46.453-12.447L145.877,309.545z"
+   id="path10" />
+<path
+   style="opacity:0.1;enable-background:new    ;"
+   d="M228.636,402.401l21.929,37.981c10.055,1.861,20.42,2.843,31.014,2.843  c6.003,0,11.927-0.33,17.767-0.94v-39.884H228.636z"
+   id="path11" />
+<path
+   style="fill:#F7D64C;"
+   d="M129.962,256.075c0,93.548,75.836,169.384,169.384,169.384V86.692  C205.798,86.692,129.962,162.527,129.962,256.075z"
+   id="path12" />
+
+</svg>

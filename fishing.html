@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fishing - No Man's Sky Handbook</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <section class="intro-text">
+            <h2>Fishing & Baits</h2>
+            <p>
+                Fishing allows players to gather resources like <strong>fish</strong> and <strong>flotsam</strong> using Angling Equipment, a Multi-tool upgrade. Different baits can be used and some fish can only be found in certain conditions.
+            </p>
+        </section>
+
+        <section class="nav-cards">
+            <div class="fishing-cards">
+                <a href="bait.html" class="nav-card">
+                    <h3>Bait</h3>
+                    <p>Browse info on which baits can have an effect on the rarity and size of the fish you catch.</p>
+                    <img src="assets/icons/bait.png" alt="Bait Icon" />
+                </a>
+                <a href="fish.html" class="nav-card">
+                    <h3>Fish Locations</h3>
+                    <p>See what fish are avaiable to catch based on the biome, time of day, and if it's storming or not.</p>
+                    <img src="assets/icons/fish.png" alt="Fish Icon" />
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>

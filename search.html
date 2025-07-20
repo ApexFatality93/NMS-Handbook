@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results - No Man’s Sky Handbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch("header.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("header-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <section class="intro-text">
+            <h2>Search Results</h2>
+            <p>Type a query below to explore relevant entries.</p>
+        </section>
+
+        <section class="search-fullpage">
+            <input type="text" id="full-search-input" placeholder="Search all items..." />
+        </section>
+
+        <div id="search-results-grid" class="grid-container"></div>
+    </main>
+
+    <script src="search.js"></script>
+    <script src="search-page.js"></script>
+    <script src="script.js"></script>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch("footer.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+</body>
+</html>

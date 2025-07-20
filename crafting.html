@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crafting - No Man's Sky Handbook</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <section class="intro-text">
+            <h2>Crafting Products</h2>
+            <p>
+                Search for products that can be crafted in your inventory
+            </p>
+        </section>
+
+        <section class="filter-bar">
+            <div class="filter-group">
+                <label for="search-bar">Search:</label>
+                <input type="text" id="search-bar" placeholder="Enter item name..." />
+            </div>
+            <div class="filter-group">
+                <label for="categoryFilter">Filter by Category:</label>
+                <select id="categoryFilter"></select>
+            </div>
+        </section>
+
+        <section id="crafting-grid" class="card-fish-grid"></section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <script src="crafting.js"></script>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

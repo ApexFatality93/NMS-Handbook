@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>No Man's Sky Handbook</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome, Traveler!</h1>
+                <p>
+                    The <strong>No Man's Sky Handbook</strong> is a fan-made resource for everything you need to know
+                    across the NMS universe. From crafting and refining to fishing and cooking. Whether you're new to the game or a
+                    seasoned explorer, there's something here for you.
+                </p>
+            </div>
+        </section>
+
+        <section class="nav-cards">
+            <h2>Explore the Handbook</h2>
+            <div class="card-grid">
+                <a href="items.html" class="nav-card">
+                    <h3>Items</h3>
+                    <p>Browse detailed info on all products and substances.</p>
+                    <img src="assets/icons/items.png" alt="Items Icon" />
+                </a>
+                <a href="crafting.html" class="nav-card">
+                    <h3>Crafting</h3>
+                    <p>Recipes, components, and buildable technologies.</p>
+                    <img src="assets/icons/crafting.png" alt="Crafting Icon" />
+                </a>
+                <a href="cooking.html" class="nav-card">
+                    <h3>Cooking</h3>
+                    <p>Discover all edible creations and their ingredients.</p>
+                    <img src="assets/icons/cooking.png" alt="Cooking Icon" />
+                </a>
+                <a href="refining.html" class="nav-card">
+                    <h3>Refining</h3>
+                    <p>Refiner combos and upgrade strategies.</p>
+                    <img src="assets/icons/refining.png" alt="Refining Icon" />
+                </a>
+                <a href="fishing.html" class="nav-card">
+                    <h3>Fishing</h3>
+                    <p>Look up fishing baits and the locations of individual fish.</p>
+                    <img src="assets/icons/fishing.png" alt="Fishing Icon" />
+                </a>
+                <a href="about.html" class="nav-card">
+                    <h3>About</h3>
+                    <p>Learn more about this project and its development.</p>
+                    <img src="assets/icons/about.png" alt="About Icon" />
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>

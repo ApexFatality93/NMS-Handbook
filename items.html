@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Man's Sky Items</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <section class="intro-text">
+            <h2>Item Browser</h2>
+            <p>
+                Filter for items that can be found in your inventory
+            </p>
+        </section>
+        <br>
+        <div class="filters">
+            <label for="dataset-select">Select Dataset:</label>
+            <select id="dataset-select">
+                <option value="products" selected>Products</option>
+                <option value="substances">Substances</option>
+            </select>
+
+            <div id="product-type-filter">
+                <label for="product-type-select">Product Category:</label>
+                <select id="product-type-select">
+                    <option value="none">-- select a filter --</option>
+                    <option value="All">All</option>
+                    <option value="Component">Component</option>
+                    <option value="Consumable">Consumable</option>
+                    <option value="Curiosity">Curiosity</option>
+                    <option value="Tradeable">Tradeable</option>
+                    <option value="CreatureEgg">CreatureEgg</option>
+                    <option value="Fish">Fish</option>
+                    <option value="CustomisationPart">CustomisationPart</option>
+                    <option value="BuildingPart">BuildingPart</option>
+                    <option value="Emote">Emote</option>
+                </select>
+            </div>
+
+            <div id="substance-category-filter">
+                <label for="substance-category-select">Substance Category:</label>
+                <select id="substance-category-select">
+                    <option value="">--select a filter--</option>
+                    <option value="All">All</option>
+                    <option value="Earth">Earth</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Special">Special</option>
+                    <option value="Exotic">Exotic</option>
+                    <option value="Stellar">Stellar</option>
+                    <option value="Fuel">Fuel</option>
+                    <option value="Flora">Flora</option>
+                    <option value="Catalyst">Catalyst</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="product-grid" class="grid-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>

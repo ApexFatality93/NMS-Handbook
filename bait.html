@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bait - No Man's Sky Handbook</title>
+    <meta name="description" content="A handbook for No Man's Sky featuring resource data, crafting, refining, cooking recipes, fishing locations, and more, in a lightweight, wiki-style format.">
+    <meta name="theme-color" content="#4aa8ff">
+    <meta name="keywords" content="No Man's Sky, NMS, crafting, refining, cooking, fishing, wiki">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nmshandbook.com/">
+    <meta property="og:title" content="No Man's Sky Handbook">
+    <meta property="og:description" content="Explore every item and recipe in No Man's Sky with this comprehensive wiki-style guide.">
+    <meta property="og:image" content="https://nmshandbook.com/android-chrome-512x512.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://nmshandbook.com/">
+    <meta name="twitter:title" content="No Man's Sky Handbook">
+    <meta name="twitter:description" content="A guide to No Man's Sky featuring items, recipes, fishing spots, and more.">
+    <meta name="twitter:image" content="https://nmshandbook.com/android-chrome-512x512.png">
+
+    <link rel="canonical" href="https://nmshandbook.com/">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+    <link rel="manifest" href="site.webmanifest">
+    <script data-goatcounter="https://nmshandbook.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <section class="intro-text">
+            <h2>Bait Guide</h2>
+            <p>
+                Filter and browse different bait types based on their rarity, size, and what they're used for.
+            </p>
+        </section>
+
+        <section class="filter-bar">
+            <div class="filter-group">
+                <label for="search-bar">Search:</label>
+                <input type="text" id="search-bar" placeholder="Enter bait name..." />
+                <button id="reset-filters">Reset Filters</button>
+            </div>
+        
+            <div class="filter-group">
+                <label for="usedfor-filter">Used For:</label>
+                <select id="usedfor-filter"><option value="All">All</option></select>
+
+                <label for="rarity-filter">Rarity %:</label>
+                <select id="rarity-filter">
+                <option value="none">All</option>
+                <option value="asc">Low → High</option>
+                <option value="desc">High → Low</option>
+                </select>
+
+                <label for="size-filter">Size %:</label>
+                <select id="size-filter">
+                <option value="none">All</option>
+                <option value="asc">Low → High</option>
+                <option value="desc">High → Low</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="bait-grid" class="card-fish-grid"></section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <script src="bait.js"></script>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

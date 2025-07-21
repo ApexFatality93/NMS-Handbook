@@ -692,7 +692,7 @@ function loadDataAndDisplay() {
 
 
             if (id) {
-                fetch("./JSON Files/Crafting_Table.json")
+                fetch("./JSON_Files/Crafting_Table.json")
                     .then(res => res.json())
                     .then(craftingData => {
                         const craftingItem = craftingData[id];

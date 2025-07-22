@@ -767,3 +767,62 @@ h1 {
 .about-card a:hover {
     text-decoration: underline;
 }
+
+/* --------------------------------- */
+
+.lore-page-wrapper {
+    border: 1px solid var(--color-primary);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.lore-page-header {
+    background-color: var(--color-bg);
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+	justify-content: center; 
+	align-items: center;
+	position: relative;
+}
+
+.lore-page-entries {
+    padding: 10px;
+    display: block;
+}
+
+.lore-page-entries.collapsed {
+    display: none;
+}
+
+.lore-entry {
+    padding: 5px 0;
+    border-bottom: 1px solid var(--color-primary);
+    background-color: #0a374b;
+    border-left: 4px solid #ffffff;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.lore-entry:last-child {
+    border-bottom: none;
+}
+
+.page-title {
+	flex: 1;
+	text-align: center;
+}
+
+.toggle-wrapper {
+	position: absolute;
+	right: 10px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 0.9em;
+}

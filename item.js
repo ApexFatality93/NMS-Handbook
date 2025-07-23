@@ -175,7 +175,7 @@ function createCookingUsedInSection(itemId, cookingData) {
                     info.className = "ingredient-info";
 
                     const link = document.createElement("a");
-                    link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type}`;
+                    link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
                     link.textContent = ingredient.NameLower_Text;
                     link.className = "ingredient-name";
 
@@ -226,101 +226,6 @@ function createCookingUsedInSection(itemId, cookingData) {
 
     return section;
 }
-
-// function createRefiningRecipeSection(refiningRecipes) {
-//     const section = document.createElement("div");
-//     section.className = "recipe-section";
-
-//     const title = document.createElement("h2");
-//     title.textContent = "Refiner Recipes";
-//     section.appendChild(title);
-
-//     const recipeGrid = document.createElement("div");
-//     recipeGrid.className = "recipe-grid";
-
-//     const recipeCards = [];
-
-//     refiningRecipes.forEach((recipe, index) => {
-//         const card = document.createElement("div");
-//         card.className = "recipe-card";
-
-//         const header = document.createElement("h3");
-//         header.textContent = `Recipe ${index + 1}`;
-//         card.appendChild(header);
-
-//         const amount = document.createElement("h4");
-//         amount.textContent = `Amount: ${recipe.Amount}`;
-//         card.appendChild(amount);
-
-//         const time = document.createElement("h4");
-//         const roundedTime = parseFloat(recipe.TimeToMake).toFixed(1);
-//         time.textContent = `Refining time: ${roundedTime} seconds`;
-//         card.appendChild(time);
-
-//         const ingredientGrid = document.createElement("div");
-//         ingredientGrid.className = "ingredient-grid";
-
-//         recipe.Ingredients.forEach(ingredient => {
-//             const ingredientCard = document.createElement("div");
-//             ingredientCard.className = "ingredient";
-
-//             const icon = document.createElement("img");
-//             icon.className = "ingredient-icon";
-//             icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
-//             icon.alt = ingredient.NameLower_Text || ingredient.Name;
-//             const rgba = `rgba(${ingredient.Colour_R * 255}, ${ingredient.Colour_G * 255}, ${ingredient.Colour_B * 255}, ${ingredient.Colour_A})`;
-//             icon.style.backgroundColor = rgba;
-
-//             const info = document.createElement("div");
-//             info.className = "ingredient-info";
-
-//             const link = document.createElement("a");
-//             link.href = `./item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
-//             link.textContent = ingredient.NameLower_Text;
-//             link.className = "ingredient-name";
-
-//             const qty = document.createElement("span");
-//             qty.className = "ingredient-qty";
-//             qty.textContent = ` (x${ingredient.Amount})`;
-
-//             info.appendChild(link);
-//             info.appendChild(qty);
-
-//             ingredientCard.appendChild(icon);
-//             ingredientCard.appendChild(info);
-//             ingredientGrid.appendChild(ingredientCard);
-//         });
-
-//         card.appendChild(ingredientGrid);
-
-//         if (index >= 4) card.style.display = "none";
-
-//         recipeCards.push(card);
-//         recipeGrid.appendChild(card);
-//     });
-
-//     section.appendChild(recipeGrid);
-
-//     if (refiningRecipes.length > 4) {
-//         const toggleBtn = document.createElement("button");
-//         toggleBtn.className = "recipe-toggle-btn";
-//         toggleBtn.textContent = "See More";
-
-//         let expanded = false;
-
-//         toggleBtn.addEventListener("click", () => {
-//             expanded = !expanded;
-//             recipeCards.forEach((card, index) => {
-//                 card.style.display = (expanded || index < 4) ? "" : "none";
-//             });
-//             toggleBtn.textContent = expanded ? "See Less" : "See More";
-//         });
-
-//         section.appendChild(toggleBtn);
-//     }
-
-//     return section;
-// }
 
 function createRefiningRecipeSection(recipeItem, recipes) {
     const section = document.createElement("div");
@@ -377,7 +282,7 @@ function createRefiningRecipeSection(recipeItem, recipes) {
             info.className = "ingredient-info";
 
             const link = document.createElement("a");
-            link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type}`;
+            link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
             link.textContent = ingredient.NameLower_Text;
             link.className = "ingredient-name";
 
@@ -489,7 +394,7 @@ function createRefiningUsedInSection(itemId, refiningData) {
                     info.className = "ingredient-info";
 
                     const link = document.createElement("a");
-                    link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type}`;
+                    link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
                     link.textContent = ingredient.NameLower_Text;
                     link.className = "ingredient-name";
 
@@ -716,7 +621,7 @@ function createUsedInCraftingSection(itemId, craftingData) {
 
 function loadDataAndDisplay() {
     const { id, type } = getQueryParams();
-    const file = type === "product" ? "./JSON_Files/Product_Table.json" : "./JSON_Files/Substance_Table.json";
+    const file = type === "product" ? "./JSON Files/Product_Table.json" : "./JSON Files/Substance_Table.json";
 
     fetch(file)
         .then(res => res.json())
@@ -768,7 +673,7 @@ function loadDataAndDisplay() {
             valueText.textContent = `Value: ${formattedValue} `;
 
             const unitsIcon = document.createElement("img");
-            unitsIcon.src = "assets/icons/units.png"; 
+            unitsIcon.src = "assets/icons/units.png";
             unitsIcon.alt = "Units";
             unitsIcon.className = "units-icon";
 
@@ -786,82 +691,72 @@ function loadDataAndDisplay() {
             infoContainer.appendChild(iconTextWrapper);
             mainContainer.appendChild(infoContainer);
 
-            // --- Bottom: Dynamic Sections (recipes, used in, etc.) ---
+            // --- Bottom: Dynamic Sections ---
             const sectionContainer = document.createElement("div");
             sectionContainer.className = "item-sections-container";
 
-            if (id) {
-                fetch("./JSON_Files/Cooking_Table.json")
-                    .then(res => res.json())
-                    .then(cookingData => {
-                        const cookingItem = cookingData[id];
+            // Loads all JSON files before appending sections in fixed order
+            Promise.all([
+                fetch("./JSON_Files/Refining_Table.json").then(res => res.json()),
+                fetch("./JSON_Files/Crafting_Table.json").then(res => res.json()),
+                fetch("./JSON_Files/Cooking_Table.json").then(res => res.json())
+            ]).then(([refiningData, craftingData, cookingData]) => {
+                
+                // === Refining Section ===
+                const refiningItem = refiningData[id];
+                if (
+                    type === "substance" &&
+                    refiningItem &&
+                    Array.isArray(refiningItem.Recipes) &&
+                    refiningItem.Recipes.length > 0
+                ) {
+                    const refiningSection = createRefiningRecipeSection(refiningItem, refiningItem.Recipes);
+                    sectionContainer.appendChild(refiningSection);
+                }
 
-                        if (
-                            type === "product" &&
-                            cookingItem &&
-                            Array.isArray(cookingItem.Recipes) &&
-                            cookingItem.Recipes.length > 0
-                        ) {
-                            const recipeSection = createCookingRecipeSection(cookingItem, cookingItem.Recipes); 
-                            sectionContainer.appendChild(recipeSection);
-                        }
+                const usedInRefining = createRefiningUsedInSection(id, refiningData);
+                if (usedInRefining) {
+                    sectionContainer.appendChild(usedInRefining);
+                }
 
-                        const usedInSection = createCookingUsedInSection(id, cookingData);
-                        if (usedInSection) {
-                            sectionContainer.appendChild(usedInSection);
-                        }
-                    });
-            }
+                // === Crafting Section ===
+                const craftingItem = craftingData[id];
+                if (
+                    type === "product" &&
+                    craftingItem &&
+                    Array.isArray(craftingItem.Ingredients) &&
+                    craftingItem.Ingredients.length > 0
+                ) {
+                    const craftingSection = createCraftingSection(craftingItem);
+                    if (craftingSection) {
+                        sectionContainer.appendChild(craftingSection);
+                    }
+                }
 
-            if (id) {
-                fetch("./JSON_Files/Refining_Table.json")
-                    .then(res => res.json())
-                    .then(refiningData => {
-                        const refiningItem = refiningData[id];
+                const usedInCraftingSection = createUsedInCraftingSection(id, craftingData);
+                if (usedInCraftingSection) {
+                    sectionContainer.appendChild(usedInCraftingSection);
+                }
 
-                        if (
-                            type === "substance" &&
-                            refiningItem &&
-                            Array.isArray(refiningItem.Recipes) &&
-                            refiningItem.Recipes.length > 0
-                        ) {
-                            const refiningSection = createRefiningRecipeSection(refiningItem, refiningItem.Recipes);
-                            sectionContainer.appendChild(refiningSection);
-                        }
+                // === Cooking Section ===
+                const cookingItem = cookingData[id];
+                if (
+                    type === "product" &&
+                    cookingItem &&
+                    Array.isArray(cookingItem.Recipes) &&
+                    cookingItem.Recipes.length > 0
+                ) {
+                    const recipeSection = createCookingRecipeSection(cookingItem, cookingItem.Recipes);
+                    sectionContainer.appendChild(recipeSection);
+                }
 
-                        const usedInRefining = createRefiningUsedInSection(id, refiningData);
-                        if (usedInRefining) {
-                            sectionContainer.appendChild(usedInRefining);
-                        }
-                    });
-            }
+                const usedInCooking = createCookingUsedInSection(id, cookingData);
+                if (usedInCooking) {
+                    sectionContainer.appendChild(usedInCooking);
+                }
 
-            if (id) {
-                fetch("./JSON_Files/Crafting_Table.json")
-                    .then(res => res.json())
-                    .then(craftingData => {
-                        const craftingItem = craftingData[id];
-
-                        if (
-                            type === "product" &&
-                            craftingItem &&
-                            Array.isArray(craftingItem.Ingredients) &&
-                            craftingItem.Ingredients.length > 0
-                        ) {
-                            const craftingSection = createCraftingSection(craftingItem);
-                            if (craftingSection) {
-                                sectionContainer.appendChild(craftingSection);
-                            }
-                        }
-
-                        const usedInCraftingSection = createUsedInCraftingSection(id, craftingData);
-                        if (usedInCraftingSection) {
-                            sectionContainer.appendChild(usedInCraftingSection);
-                        }
-                    });
-            }
-
-            mainContainer.appendChild(sectionContainer);
+                mainContainer.appendChild(sectionContainer);
+            });
         });
 }
 

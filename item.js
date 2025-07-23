@@ -619,6 +619,110 @@ function createUsedInCraftingSection(itemId, craftingData) {
     return section;
 }
 
+function createBaitSection(itemId, baitData) {
+    const baitItem = baitData[itemId];
+    if (!baitItem) return null;
+
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "Bait Info";
+    section.appendChild(title);
+
+    const card = document.createElement("div");
+    card.className = "recipe-card";
+
+    // Used For
+    if (baitItem.UsedFor) {
+        const usedFor = document.createElement("p");
+        usedFor.innerHTML = `<strong>Used For:</strong> ${baitItem.UsedFor}`;
+        card.appendChild(usedFor);
+    }
+
+    // Rarity
+    if (baitItem.RarityPercent) {
+        const rarity = document.createElement("p");
+        rarity.innerHTML = `<strong>Rarity:</strong> ${baitItem.RarityPercent}%`;
+        card.appendChild(rarity);
+    }
+
+    // Size
+    if (baitItem.SizePercent) {
+        const size = document.createElement("p");
+        size.innerHTML = `<strong>Size:</strong> ${baitItem.SizePercent}%`;
+        card.appendChild(size);
+    }
+
+    // Source link (if Source and Title are valid)
+    if (baitItem.Source && baitItem.Title) {
+        const source = document.createElement("p");
+        source.innerHTML = `<strong>Source:</strong> <a href="item.html?id=${baitItem.Source}&type=product">${baitItem.Source}</a>`;
+        card.appendChild(source);
+    }
+
+    section.appendChild(card);
+    return section;
+}
+
+function createFishSection(itemId, fishData) {
+    const fishItem = fishData[itemId];
+    if (!fishItem) return null;
+
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "Fish Data";
+    section.appendChild(title);
+
+    const card = document.createElement("div");
+    card.className = "recipe-card";
+
+    // Quality
+    if (fishItem.Quality) {
+        const quality = document.createElement("p");
+        quality.innerHTML = `<strong>Quality:</strong> ${fishItem.Quality}`;
+        card.appendChild(quality);
+    }
+
+    // Size
+    if (fishItem.Size) {
+        const size = document.createElement("p");
+        size.innerHTML = `<strong>Size:</strong> ${fishItem.Size}`;
+        card.appendChild(size);
+    }
+
+    // Time of day
+    if (fishItem.Time) {
+        let timeOfDay = fishItem.Time
+        if (timeOfDay === "Both") {
+            timeOfDay = "Day/Night"
+        }
+        const time = document.createElement("p");
+        time.innerHTML = `<strong>Time:</strong> ${timeOfDay}`;
+        card.appendChild(time);
+    }
+
+    // Needs storm
+    if (fishItem.NeedsStorm) {
+        const needsStorm = document.createElement("p");
+        needsStorm.innerHTML = `Requires Storm: ${fishItem.NeedsStorm === "true" ? "✅" : "❌"}`;
+        card.appendChild(needsStorm);
+    }
+
+    // Biomes
+    if (fishItem.Biomes) {
+        const biomes = document.createElement("p");
+        biomes.innerHTML = `Biome: ${fishItem.Biomes.join(", ")}`;
+        card.appendChild(biomes);
+    }
+
+    section.appendChild(card);
+
+    return section;
+}
+
 function loadDataAndDisplay() {
     const { id, type } = getQueryParams();
     const file = type === "product" ? "./JSON_Files/Product_Table.json" : "./JSON_Files/Substance_Table.json";
@@ -699,8 +803,10 @@ function loadDataAndDisplay() {
             Promise.all([
                 fetch("./JSON_Files/Refining_Table.json").then(res => res.json()),
                 fetch("./JSON_Files/Crafting_Table.json").then(res => res.json()),
-                fetch("./JSON_Files/Cooking_Table.json").then(res => res.json())
-            ]).then(([refiningData, craftingData, cookingData]) => {
+                fetch("./JSON_Files/Cooking_Table.json").then(res => res.json()),
+                fetch('./JSON_Files/Bait_Table.json').then(res => res.json()),
+                fetch("./JSON_Files/Fish_Table.json").then(res => res.json())
+            ]).then(([refiningData, craftingData, cookingData, baitData, fishData]) => {
                 
                 // === Refining Section ===
                 const refiningItem = refiningData[id];
@@ -753,6 +859,22 @@ function loadDataAndDisplay() {
                 const usedInCooking = createCookingUsedInSection(id, cookingData);
                 if (usedInCooking) {
                     sectionContainer.appendChild(usedInCooking);
+                }
+
+                // === Bait Section ===
+                if (baitData[id]) {
+                    const baitSection = createBaitSection(id, baitData);
+                    if (baitSection) {
+                        sectionContainer.appendChild(baitSection);
+                    }
+                }
+
+                // === Fish Section ===
+                if (fishData[id]) {
+                    const fishSection = createFishSection(id, fishData);
+                    if (fishSection) {
+                        sectionContainer.appendChild(fishSection);
+                    }
                 }
 
                 mainContainer.appendChild(sectionContainer);

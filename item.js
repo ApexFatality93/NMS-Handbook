@@ -655,8 +655,14 @@ function loadDataAndDisplay() {
             const valueWrapper = document.createElement("div");
             valueWrapper.className = "item-value-wrapper";
 
+            let formattedValue = "N/A";
+            const numericValue = Number(item.BaseValue);
+            if (!isNaN(numericValue)) {
+                formattedValue = numericValue.toLocaleString();
+            }
+
             const valueText = document.createElement("span");
-            valueText.textContent = `Value: ${item.BaseValue} `;
+            valueText.textContent = `Value: ${formattedValue} `;
 
             const unitsIcon = document.createElement("img");
             unitsIcon.src = "assets/icons/units.png"; 

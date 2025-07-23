@@ -56,7 +56,7 @@ function createCookingRecipeSection(cookingItem, recipes) {
 
             const icon = document.createElement("img");
             icon.className = "ingredient-icon";
-            icon.src = ingredient.Icon_Filenamereplace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+            icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
             icon.alt = ingredient.NameLower_Text || ingredient.Name;
             const rgba = `rgba(${ingredient.Colour_R * 255}, ${ingredient.Colour_G * 255}, ${ingredient.Colour_B * 255}, ${ingredient.Colour_A})`;
             icon.style.backgroundColor = rgba;

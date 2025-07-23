@@ -227,36 +227,138 @@ function createCookingUsedInSection(itemId, cookingData) {
     return section;
 }
 
-function createRefiningRecipeSection(refiningRecipes) {
+// function createRefiningRecipeSection(refiningRecipes) {
+//     const section = document.createElement("div");
+//     section.className = "recipe-section";
+
+//     const title = document.createElement("h2");
+//     title.textContent = "Refiner Recipes";
+//     section.appendChild(title);
+
+//     const recipeGrid = document.createElement("div");
+//     recipeGrid.className = "recipe-grid";
+
+//     const recipeCards = [];
+
+//     refiningRecipes.forEach((recipe, index) => {
+//         const card = document.createElement("div");
+//         card.className = "recipe-card";
+
+//         const header = document.createElement("h3");
+//         header.textContent = `Recipe ${index + 1}`;
+//         card.appendChild(header);
+
+//         const amount = document.createElement("h4");
+//         amount.textContent = `Amount: ${recipe.Amount}`;
+//         card.appendChild(amount);
+
+//         const time = document.createElement("h4");
+//         const roundedTime = parseFloat(recipe.TimeToMake).toFixed(1);
+//         time.textContent = `Refining time: ${roundedTime} seconds`;
+//         card.appendChild(time);
+
+//         const ingredientGrid = document.createElement("div");
+//         ingredientGrid.className = "ingredient-grid";
+
+//         recipe.Ingredients.forEach(ingredient => {
+//             const ingredientCard = document.createElement("div");
+//             ingredientCard.className = "ingredient";
+
+//             const icon = document.createElement("img");
+//             icon.className = "ingredient-icon";
+//             icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+//             icon.alt = ingredient.NameLower_Text || ingredient.Name;
+//             const rgba = `rgba(${ingredient.Colour_R * 255}, ${ingredient.Colour_G * 255}, ${ingredient.Colour_B * 255}, ${ingredient.Colour_A})`;
+//             icon.style.backgroundColor = rgba;
+
+//             const info = document.createElement("div");
+//             info.className = "ingredient-info";
+
+//             const link = document.createElement("a");
+//             link.href = `./item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
+//             link.textContent = ingredient.NameLower_Text;
+//             link.className = "ingredient-name";
+
+//             const qty = document.createElement("span");
+//             qty.className = "ingredient-qty";
+//             qty.textContent = ` (x${ingredient.Amount})`;
+
+//             info.appendChild(link);
+//             info.appendChild(qty);
+
+//             ingredientCard.appendChild(icon);
+//             ingredientCard.appendChild(info);
+//             ingredientGrid.appendChild(ingredientCard);
+//         });
+
+//         card.appendChild(ingredientGrid);
+
+//         if (index >= 4) card.style.display = "none";
+
+//         recipeCards.push(card);
+//         recipeGrid.appendChild(card);
+//     });
+
+//     section.appendChild(recipeGrid);
+
+//     if (refiningRecipes.length > 4) {
+//         const toggleBtn = document.createElement("button");
+//         toggleBtn.className = "recipe-toggle-btn";
+//         toggleBtn.textContent = "See More";
+
+//         let expanded = false;
+
+//         toggleBtn.addEventListener("click", () => {
+//             expanded = !expanded;
+//             recipeCards.forEach((card, index) => {
+//                 card.style.display = (expanded || index < 4) ? "" : "none";
+//             });
+//             toggleBtn.textContent = expanded ? "See Less" : "See More";
+//         });
+
+//         section.appendChild(toggleBtn);
+//     }
+
+//     return section;
+// }
+
+function createRefiningRecipeSection(recipeItem, recipes) {
     const section = document.createElement("div");
     section.className = "recipe-section";
 
     const title = document.createElement("h2");
-    title.textContent = "Refiner Recipes";
+    title.textContent = "Refining Recipes";
     section.appendChild(title);
 
-    const recipeGrid = document.createElement("div");
-    recipeGrid.className = "recipe-grid";
+    const grid = document.createElement("div");
+    grid.className = "recipe-grid";
 
     const recipeCards = [];
 
-    refiningRecipes.forEach((recipe, index) => {
+    recipes.forEach((recipe, index) => {
         const card = document.createElement("div");
         card.className = "recipe-card";
 
-        const header = document.createElement("h3");
-        header.textContent = `Recipe ${index + 1}`;
-        card.appendChild(header);
+        // Output name and amount
+        const outputHeader = document.createElement("h4");
+        outputHeader.textContent = `${recipeItem.NameLower_Text || recipeItem.Name} (x${recipe.Amount})`;
+        card.appendChild(outputHeader);
 
-        const amount = document.createElement("h4");
-        amount.textContent = `Amount: ${recipe.Amount}`;
-        card.appendChild(amount);
+        // Output icon
+        const outputIcon = document.createElement("img");
+        outputIcon.className = "ingredient-icon";
+        outputIcon.src = recipeItem.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+        const rgba = `rgba(${recipeItem.Colour_R * 255}, ${recipeItem.Colour_G * 255}, ${recipeItem.Colour_B * 255}, ${recipeItem.Colour_A})`;
+        outputIcon.style.backgroundColor = rgba;
+        card.appendChild(outputIcon);
 
-        const time = document.createElement("h4");
-        const roundedTime = parseFloat(recipe.TimeToMake).toFixed(1);
-        time.textContent = `Refining time: ${roundedTime} seconds`;
-        card.appendChild(time);
+        // Input label
+        const inputLabel = document.createElement("div");
+        inputLabel.className = "ingredient-text";
+        inputLabel.textContent = "Ingredients:";
+        card.appendChild(inputLabel);
 
+        // Ingredient list
         const ingredientGrid = document.createElement("div");
         ingredientGrid.className = "ingredient-grid";
 
@@ -275,7 +377,7 @@ function createRefiningRecipeSection(refiningRecipes) {
             info.className = "ingredient-info";
 
             const link = document.createElement("a");
-            link.href = `./item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
+            link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type}`;
             link.textContent = ingredient.NameLower_Text;
             link.className = "ingredient-name";
 
@@ -293,15 +395,16 @@ function createRefiningRecipeSection(refiningRecipes) {
 
         card.appendChild(ingredientGrid);
 
+        // Hide beyond the first 4 cards
         if (index >= 4) card.style.display = "none";
 
         recipeCards.push(card);
-        recipeGrid.appendChild(card);
+        grid.appendChild(card);
     });
 
-    section.appendChild(recipeGrid);
+    section.appendChild(grid);
 
-    if (refiningRecipes.length > 4) {
+    if (recipes.length > 4) {
         const toggleBtn = document.createElement("button");
         toggleBtn.className = "recipe-toggle-btn";
         toggleBtn.textContent = "See More";
@@ -722,7 +825,7 @@ function loadDataAndDisplay() {
                             Array.isArray(refiningItem.Recipes) &&
                             refiningItem.Recipes.length > 0
                         ) {
-                            const refiningSection = createRefiningRecipeSection(refiningItem.Recipes);
+                            const refiningSection = createRefiningRecipeSection(refiningItem, refiningItem.Recipes);
                             sectionContainer.appendChild(refiningSection);
                         }
 

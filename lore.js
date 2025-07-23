@@ -83,7 +83,9 @@ function displayStoryDetail(storyId, story) {
 
         const icon = document.createElement("span");
         icon.className = "toggle-icon";
-        icon.textContent = "➕";
+        icon.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="16" height="16">
+            <path d="M12 5v14M5 12h14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>`;
 
         const label = document.createElement("span");
         label.className = "toggle-label";
@@ -109,7 +111,13 @@ function displayStoryDetail(storyId, story) {
         // Toggle expand/collapse behavior
         pageHeader.addEventListener("click", () => {
             const isCollapsed = entriesContainer.classList.toggle("collapsed");
-            icon.textContent = isCollapsed ? "➕" : "➖";
+            icon.innerHTML = isCollapsed
+                ? `<svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="16" height="16">
+                    <path d="M12 5v14M5 12h14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>`
+                : `<svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="16" height="16">
+                    <path d="M5 12h14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>`;
             label.textContent = isCollapsed ? "(Expand)" : "(Collapse)";
         });
 

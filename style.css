@@ -906,3 +906,19 @@ h1 {
 	gap: 5px;
 	font-size: 0.9em;
 }
+
+.toggle-icon {
+  margin-right: 0.1rem;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .toggle-label {
+        display: none;
+
+    }
+    .toggle-icon {
+        padding-left: 0.5rem;
+    }
+
+}

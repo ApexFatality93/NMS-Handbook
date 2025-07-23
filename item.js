@@ -621,7 +621,7 @@ function createUsedInCraftingSection(itemId, craftingData) {
 
 function loadDataAndDisplay() {
     const { id, type } = getQueryParams();
-    const file = type === "product" ? "./JSON Files/Product_Table.json" : "./JSON Files/Substance_Table.json";
+    const file = type === "product" ? "./JSON_Files/Product_Table.json" : "./JSON_Files/Substance_Table.json";
 
     fetch(file)
         .then(res => res.json())

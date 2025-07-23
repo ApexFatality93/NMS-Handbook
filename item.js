@@ -10,7 +10,7 @@ function getQueryParams() {
     };
 }
 
-function createCookingRecipeSection(recipes) {
+function createCookingRecipeSection(cookingItem, recipes) {
     const section = document.createElement("div");
     section.className = "recipe-section";
 
@@ -18,8 +18,8 @@ function createCookingRecipeSection(recipes) {
     title.textContent = "Cooking Recipes";
     section.appendChild(title);
 
-    const recipeGrid = document.createElement("div");
-    recipeGrid.className = "recipe-grid";
+    const grid = document.createElement("div");
+    grid.className = "recipe-grid";
 
     const recipeCards = [];
 
@@ -27,19 +27,26 @@ function createCookingRecipeSection(recipes) {
         const card = document.createElement("div");
         card.className = "recipe-card";
 
-        const header = document.createElement("h3");
-        header.textContent = `Recipe ${index + 1}`;
-        card.appendChild(header);
+        // Output product name as header
+        const outputHeader = document.createElement("h4");
+        outputHeader.textContent = cookingItem.NameLower_Text || `Recipe ${index + 1}`;
+        card.appendChild(outputHeader);
 
-        const amount = document.createElement("h4");
-        amount.textContent = `Amount: ${recipe.Amount}`;
-        card.appendChild(amount)
+        // Output icon
+        const outputIcon = document.createElement("img");
+        outputIcon.className = "ingredient-icon";
+        outputIcon.src = cookingItem.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+        const rgba = `rgba(${cookingItem.Colour_R * 255}, ${cookingItem.Colour_G * 255}, ${cookingItem.Colour_B * 255}, ${cookingItem.Colour_A})`;
+        outputIcon.style.backgroundColor = rgba;
+        card.appendChild(outputIcon);
 
-        const time = document.createElement("h4");
-        const roundedTime = parseFloat(recipe.TimeToMake).toFixed(1);
-        time.textContent = `Cooking time: ${roundedTime} seconds`;
-        card.appendChild(time)
+        // Ingredient text
+        const ingredientText = document.createElement("div");
+        ingredientText.className = "ingredient-text";
+        ingredientText.textContent = "Ingredients:";
+        card.appendChild(ingredientText);
 
+        // Ingredient grid
         const ingredientGrid = document.createElement("div");
         ingredientGrid.className = "ingredient-grid";
 
@@ -49,7 +56,7 @@ function createCookingRecipeSection(recipes) {
 
             const icon = document.createElement("img");
             icon.className = "ingredient-icon";
-            icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+            icon.src = ingredient.Icon_Filename.replace("DDS", "png");
             icon.alt = ingredient.NameLower_Text || ingredient.Name;
             const rgba = `rgba(${ingredient.Colour_R * 255}, ${ingredient.Colour_G * 255}, ${ingredient.Colour_B * 255}, ${ingredient.Colour_A})`;
             icon.style.backgroundColor = rgba;
@@ -58,7 +65,7 @@ function createCookingRecipeSection(recipes) {
             info.className = "ingredient-info";
 
             const link = document.createElement("a");
-            link.href = `./item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
+            link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
             link.textContent = ingredient.NameLower_Text;
             link.className = "ingredient-name";
 
@@ -76,16 +83,15 @@ function createCookingRecipeSection(recipes) {
 
         card.appendChild(ingredientGrid);
 
-        // Initially hide recipes after the first 4
+        // Hide recipes after the first 4
         if (index >= 4) card.style.display = "none";
 
         recipeCards.push(card);
-        recipeGrid.appendChild(card);
+        grid.appendChild(card);
     });
 
-    section.appendChild(recipeGrid);
+    section.appendChild(grid);
 
-    // Only add toggle if there are more than 4 recipes
     if (recipes.length > 4) {
         const toggleBtn = document.createElement("button");
         toggleBtn.className = "recipe-toggle-btn";
@@ -618,8 +624,24 @@ function loadDataAndDisplay() {
                 return;
             }
 
-            const container = document.getElementById("item-details");
-            container.className = "item-details-page";
+            const mainContainer = document.getElementById("item-details");
+            mainContainer.className = "item-details-page";
+
+            // --- Top: Item Info Section ---
+            const infoContainer = document.createElement("div");
+            infoContainer.className = "item-info-section";
+
+            const iconTextWrapper = document.createElement("div");
+            iconTextWrapper.className = "icon-text-wrapper";
+
+            const icon = document.createElement("img");
+            icon.src = item.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+            icon.alt = item.Name_Text || item.Name;
+            icon.className = "product-icon";
+            icon.style.backgroundColor = `rgba(${parseFloat(item.Colour_R) * 255}, ${parseFloat(item.Colour_G) * 255}, ${parseFloat(item.Colour_B) * 255}, ${item.Colour_A})`;
+
+            const textBlock = document.createElement("div");
+            textBlock.className = "info-text-block";
 
             const title = document.createElement("h1");
             title.textContent = item.NameLower_Text || item.Name;
@@ -630,38 +652,54 @@ function loadDataAndDisplay() {
             const desc = document.createElement("p");
             desc.textContent = sanitizeText(item.Description_Text || item.Description);
 
-            const icon = document.createElement("img");
-            icon.src = item.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
-            icon.alt = item.Name_Text || item.Name;
-            icon.className = "product-icon";
-            icon.style.backgroundColor = `rgba(${parseFloat(item.Colour_R) * 255}, ${parseFloat(item.Colour_G) * 255}, ${parseFloat(item.Colour_B) * 255}, ${item.Colour_A})`;
+            const valueWrapper = document.createElement("div");
+            valueWrapper.className = "item-value-wrapper";
 
-            container.appendChild(title);
-            container.appendChild(subtitle);
-            container.appendChild(icon);
-            container.appendChild(desc);
+            const valueText = document.createElement("span");
+            valueText.textContent = `Value: ${item.BaseValue} `;
+
+            const unitsIcon = document.createElement("img");
+            unitsIcon.src = "assets/icons/units.png"; 
+            unitsIcon.alt = "Units";
+            unitsIcon.className = "units-icon";
+
+            valueWrapper.appendChild(valueText);
+            valueWrapper.appendChild(unitsIcon);
+
+            textBlock.appendChild(title);
+            textBlock.appendChild(subtitle);
+            textBlock.appendChild(desc);
+            textBlock.appendChild(valueWrapper);
+
+            iconTextWrapper.appendChild(icon);
+            iconTextWrapper.appendChild(textBlock);
+
+            infoContainer.appendChild(iconTextWrapper);
+            mainContainer.appendChild(infoContainer);
+
+            // --- Bottom: Dynamic Sections (recipes, used in, etc.) ---
+            const sectionContainer = document.createElement("div");
+            sectionContainer.className = "item-sections-container";
 
             if (id) {
                 fetch("./JSON_Files/Cooking_Table.json")
                     .then(res => res.json())
                     .then(cookingData => {
                         const cookingItem = cookingData[id];
-            
-                        // Add recipe section only if the item is a product with actual recipes
+
                         if (
                             type === "product" &&
                             cookingItem &&
                             Array.isArray(cookingItem.Recipes) &&
                             cookingItem.Recipes.length > 0
                         ) {
-                            const recipeSection = createCookingRecipeSection(cookingItem.Recipes);
-                            container.appendChild(recipeSection);
+                            const recipeSection = createCookingRecipeSection(cookingItem, cookingItem.Recipes); 
+                            sectionContainer.appendChild(recipeSection);
                         }
-            
-                        // Add "used in" section regardless of type
+
                         const usedInSection = createCookingUsedInSection(id, cookingData);
                         if (usedInSection) {
-                            container.appendChild(usedInSection);
+                            sectionContainer.appendChild(usedInSection);
                         }
                     });
             }
@@ -671,7 +709,7 @@ function loadDataAndDisplay() {
                     .then(res => res.json())
                     .then(refiningData => {
                         const refiningItem = refiningData[id];
-            
+
                         if (
                             type === "substance" &&
                             refiningItem &&
@@ -679,25 +717,22 @@ function loadDataAndDisplay() {
                             refiningItem.Recipes.length > 0
                         ) {
                             const refiningSection = createRefiningRecipeSection(refiningItem.Recipes);
-                            container.appendChild(refiningSection);
+                            sectionContainer.appendChild(refiningSection);
                         }
-            
+
                         const usedInRefining = createRefiningUsedInSection(id, refiningData);
                         if (usedInRefining) {
-                            container.appendChild(usedInRefining);
+                            sectionContainer.appendChild(usedInRefining);
                         }
                     });
             }
-
-
 
             if (id) {
                 fetch("./JSON_Files/Crafting_Table.json")
                     .then(res => res.json())
                     .then(craftingData => {
                         const craftingItem = craftingData[id];
-            
-                        // Add crafting recipe section only if this item is a product being crafted
+
                         if (
                             type === "product" &&
                             craftingItem &&
@@ -706,17 +741,18 @@ function loadDataAndDisplay() {
                         ) {
                             const craftingSection = createCraftingSection(craftingItem);
                             if (craftingSection) {
-                                container.appendChild(craftingSection);
+                                sectionContainer.appendChild(craftingSection);
                             }
                         }
-            
-                        // Add "used in" section regardless of type
+
                         const usedInCraftingSection = createUsedInCraftingSection(id, craftingData);
                         if (usedInCraftingSection) {
-                            container.appendChild(usedInCraftingSection);
+                            sectionContainer.appendChild(usedInCraftingSection);
                         }
                     });
             }
+
+            mainContainer.appendChild(sectionContainer);
         });
 }
 

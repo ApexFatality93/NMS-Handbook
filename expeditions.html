@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Expeditions - No Man's Sky Handbook</title>
+    <meta name="description" content="Explore the rich stories and lore entries from No Man's Sky.">
+    <meta name="theme-color" content="#4aa8ff">
+    <meta name="keywords" content="No Man's Sky, NMS, lore, story, archive, history, wiki">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nmshandbook.com/lore">
+    <meta property="og:title" content="Lore | No Man's Sky Handbook">
+    <meta property="og:description" content="Explore the rich stories and lore entries from No Man's Sky.">
+    <meta property="og:image" content="https://nmshandbook.com/android-chrome-512x512.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://nmshandbook.com/lore">
+    <meta name="twitter:title" content="Lore | No Man's Sky Handbook">
+    <meta name="twitter:description" content="Explore the rich stories and lore entries from No Man's Sky.">
+    <meta name="twitter:image" content="https://nmshandbook.com/android-chrome-512x512.png">
+
+    <link rel="canonical" href="https://nmshandbook.com/lore">
+	<link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+	<div id="header-placeholder"></div>
+	<script>
+		fetch("header.html")
+			.then(res => res.text())
+			.then(data => {
+				document.getElementById("header-placeholder").innerHTML = data;
+			});
+	</script>
+
+	<main>
+		<section class="intro-text">
+			<h2>Expeditions</h2>
+			<p>Explore the rewards from past No Man’s Sky Expeditions.</p>
+		</section>
+        <br><br>
+		<section id="expedition-grid" class="card-grid">
+			<!-- Expedition cards are dynamically inserted here -->
+		</section>
+
+    </div>
+	</main>
+
+	<div id="footer-placeholder"></div>
+	<script>
+		fetch("footer.html")
+			.then(res => res.text())
+			.then(data => {
+				document.getElementById("footer-placeholder").innerHTML = data;
+			});
+	</script>
+	<script src="script.js"></script>
+	<script src="search.js"></script>
+	<script src="expeditions.js"></script>
+</body>
+</html>

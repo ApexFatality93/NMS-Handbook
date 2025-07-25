@@ -54,6 +54,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .site-brand {
@@ -1023,7 +1024,6 @@ h1 {
         overflow-x: hidden;
         position: static;
         overflow: visible;
-        z-index: 1000;
     }
     
     .site-title {

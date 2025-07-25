@@ -520,6 +520,11 @@ h1 {
 /* ---------------------------------------------------------------------- */
 
 /* SEARCH BAR */
+#search-input,
+#search-container {
+    box-sizing: border-box;
+}
+
 #search-container {
     position: relative;
     display: flex;
@@ -676,7 +681,7 @@ h1 {
     
     .item-info-section .product-icon {
         width: 150px;
-        height: 150px;
+        height: auto;
     }
 
     .units-icon {
@@ -977,4 +982,208 @@ h1 {
 .reward-item span {
     color: #ddd;
     font-size: 1.1rem;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* GENERAL MOBILE OPTIMIZATIONS */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+    
+    html, body {
+        overflow-x: hidden;
+    }
+
+    header,
+    .intro-text,
+    main,
+    footer {
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 1rem;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        position: static;
+    }
+    
+    .site-title {
+        font-size: 1.2rem;
+    }
+    
+    .hero {
+        padding: 1rem 1rem !important;
+    }
+    
+    .hero h1 {
+        font-size: 2.0rem;
+    }
+    
+    .hero p {
+        font-size: 1.0rem;
+    }
+    
+    .intro-text {
+        padding: 1rem;
+    }
+    
+    .intro-text h2 {
+        font-size: 1.7rem;
+    }
+    
+    .intro-text p {
+        font-size: 1.0rem;
+    }
+    
+    .nav-cards h2 {
+        font-size: 1.4rem;
+    }
+    
+    .nav-cards,
+    .fishing-cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .card-grid,
+    .product-grid,
+    .card-fish-grid,
+    .grip-container,
+    .recipe-section,
+    .recipe-grid,
+    #product-grid,
+    #cooking-grid,
+    #search-results-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem;
+    }
+
+    .product-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+    
+    .detail-icon,
+    .product-icon {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .product-info {
+        text-align: center;
+    }
+    
+    .product-info h3 {
+        margin-top: 0rem;
+        margin-bottom: 0.7rem
+    }
+    
+    .item-info-section {
+        margin-top: 1rem;
+    }
+        
+    .icon-text-wrapper {
+        gap: 0.5rem
+    }
+    
+    .recipe-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .lore-page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .expedition-detail > h3 {
+        font-size: 1.0rem;
+        font-weight: normal;
+    }
+    
+    .stage-section {
+        margin-top: 0.5rem;
+    }
+    
+    .stage-section:last-child {
+        border-bottom: none;
+    }
+    
+    .stage-section h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .reward-list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .reward-item {
+        margin: 8px;
+        text-align: center;
+    }
+
+    .about-container {
+        margin: auto;
+        padding-top: 2rem;
+    }
+    
+    .filter-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        padding: 1rem; 
+    }
+
+    .filter-group {
+        padding-bottom: 1rem;
+    }
+
+    .filter-group label {
+        display: block;
+        margin-bottom: 0.25rem;
+        margin-top: 0.25rem;
+        text-align: left;
+    }
+
+    .filter-group select,
+    .filter-group input {
+        width: 100%;
+    }
+    
+    #reset-filters {
+        margin-top: 0.5rem;
+    }
+    
+    .search-bar {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #full-search-input {
+        padding: 0.4rem;
+    }
+    
+    .site-footer {
+        margin-top: 2rem;
+    }
+    
+    .footer-content {
+        gap: 1rem;
+    }
 }

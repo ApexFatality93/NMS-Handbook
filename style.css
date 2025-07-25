@@ -1014,6 +1014,7 @@ h1 {
         box-sizing: border-box;
         overflow-x: hidden;
         position: static;
+        overflow: visible;
     }
     
     .site-title {

@@ -137,12 +137,15 @@ h1 {
     text-align: center;
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
 }
 
 .product-card:hover {
     transform: scale(1.03);
     cursor: pointer;
     box-shadow: 0 0 12px var(--color-accent);
+    z-index: 2;
 }
 
 .image-wrapper {
@@ -1020,6 +1023,7 @@ h1 {
         overflow-x: hidden;
         position: static;
         overflow: visible;
+        z-index: 1000;
     }
     
     .site-title {

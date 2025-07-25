@@ -693,17 +693,17 @@ h1 {
 
 .recipe-section {
     margin-top: 2rem;
-    background-color: var(--color-bg);
     padding: 0rem 1rem 1rem 1rem;
+    /* background-color: var(--color-bg);
     border-radius: 8px;
-    border: 2px solid var(--color-accent);
+    border: 2px solid var(--color-accent); */
 }
 
 .recipe-section h2 {
-    background-color: #00131a;
+    /* background-color: #00131a;
     border: 2px solid var(--color-accent);
-    border-radius: 8px;
-/*     text-shadow: #fc0 1px 0 10px; */
+    border-radius: 8px; */
+    border-bottom: 5px solid white;
     padding: 1rem;
 }
 
@@ -712,6 +712,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
+    justify-content: center;
 }
 
 .recipe-card {
@@ -722,6 +723,9 @@ h1 {
     margin-bottom: 1.5rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     max-width: 280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ingredient-grid {
@@ -738,6 +742,7 @@ h1 {
     background: rgba(255, 255, 255, 0.03);
     padding-top: 1rem;
     padding-left: 1rem;
+    padding-right: 10px;
     border-radius: 8px;
 }
 
@@ -1105,6 +1110,11 @@ h1 {
         font-size: 1.2rem;
     }
 
+    .ingredient-name, .ingredient-qty {
+        padding-right: 10px;
+        font-size: 0.7rem;
+    }
+
     .lore-page-header {
         flex-direction: column;
         align-items: flex-start;
@@ -1186,5 +1196,18 @@ h1 {
     
     .footer-content {
         gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+        
+    .ingredient-name, .ingredient-qty {
+        padding-right: 10px;
+        font-size: 0.7rem;
+    }
+    
+    .ingredient .ingredient-icon {
+        width: 30px !important;
+        height: 30px !important;
     }
 }

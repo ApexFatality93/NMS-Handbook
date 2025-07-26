@@ -3,9 +3,9 @@ const MAX_RESULTS = 8;
 
 // Load data from all three JSON_files
 Promise.all([
-    fetch('./JSON_Files/Product_Table.json').then(res => res.json()),
-    fetch('./JSON_Files/Substance_Table.json').then(res => res.json()),
-    fetch('./JSON_Files/Fish_Table.json').then(res => res.json())
+    fetch('../JSON_Files/Product_Table.json').then(res => res.json()),
+    fetch('../JSON_Files/Substance_Table.json').then(res => res.json()),
+    fetch('../JSON_Files/Fish_Table.json').then(res => res.json())
 ])
 .then(([products, substances, fish]) => {
     allItems = [
@@ -50,7 +50,7 @@ function initializeSearch() {
             div.textContent = item.name;
             div.onclick = () => {
                 const params = new URLSearchParams({ id: item.id, type: item.type });
-                window.location.href = `item.html?${params.toString()}`;
+                window.location.href = `../item.html?${params.toString()}`;
             };
             resultBox.appendChild(div);
         });
@@ -61,7 +61,7 @@ function initializeSearch() {
             seeAll.className = 'search-result search-see-all';
             seeAll.textContent = `See all results for "${query}"`;
             seeAll.onclick = () => {
-                window.location.href = `search.html?q=${encodeURIComponent(query)}`;
+                window.location.href = `../search.html?q=${encodeURIComponent(query)}`;
             };
             resultBox.appendChild(seeAll);
         }

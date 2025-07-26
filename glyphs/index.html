@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Glyphs - No Man's Sky Handbook</title>
+    <meta name="description" content="Explore the rich stories and lore entries from No Man's Sky.">
+    <meta name="theme-color" content="#4aa8ff">
+    <meta name="keywords" content="No Man's Sky, NMS, lore, story, archive, history, wiki">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nmshandbook.com/lore">
+    <meta property="og:title" content="Lore | No Man's Sky Handbook">
+    <meta property="og:description" content="Explore the rich stories and lore entries from No Man's Sky.">
+    <meta property="og:image" content="https://nmshandbook.com/android-chrome-512x512.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://nmshandbook.com/lore">
+    <meta name="twitter:title" content="Lore | No Man's Sky Handbook">
+    <meta name="twitter:description" content="Explore the rich stories and lore entries from No Man's Sky.">
+    <meta name="twitter:image" content="https://nmshandbook.com/android-chrome-512x512.png">
+
+    <link rel="canonical" href="https://nmshandbook.com/lore">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="glyphs.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+    <link rel="manifest" href="site.webmanifest">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+
+    <script src="./src/commonNms.js" type="module"></script>
+    <script src="./src/glyphReader.js" type="module"></script>
+    <script src="./src/glyph.js" type="module"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch("../header.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("header-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <main>
+
+        <section class="intro-text">
+            <h2>Glyph Decoder</h2>
+            <p>
+                Convert portal glyphs to coordinates or scan a glyph address from an image.
+            </p>
+        </section>
+		<section class="decoder-section">
+            <h2>Upload an image to scan the glyphs</h2>
+            <input type="file" accept="image/*" name="files[]"
+                data-type="img" onchange="glyph.loadGlyphImage(this)">
+            <h3 id="glyph-reminder" style="display: none;">Reminder: Always double check the output!</h3>
+            <div>
+                <canvas id="ss-canvas"></canvas>
+            </div>
+            <br>
+			<div class="input-container">
+                <input type="text" id="textInput" maxlength="12" autocomplete="off">
+                <div class="buttons">
+                <button id="clearLastCharButton">← Delete</button>
+                <button id="clearButton">Clear Glyphs</button>
+                <button id="copy-link-button" style="display: none;">Copy Link</button>
+                </div>
+                <p id="copy-confirmation" style="display: none; color: green; margin-top: 0.5rem;">Link copied!</p>
+            </div>
+            <div id="error"></div> <!-- Error message container -->
+            <div id="container">
+                <button id="button0" class="glyph">0</button>
+                <button id="button1" class="glyph">1</button>
+                <button id="button2" class="glyph">2</button>
+                <button id="button3" class="glyph">3</button>
+                <button id="button4" class="glyph">4</button>
+                <button id="button5" class="glyph">5</button>
+                <button id="button6" class="glyph">6</button>
+                <button id="button7" class="glyph">7</button>
+                <button id="button8" class="glyph">8</button>
+                <button id="button9" class="glyph">9</button>
+                <button id="buttonA" class="glyph">A</button>
+                <button id="buttonB" class="glyph">B</button>
+                <button id="buttonC" class="glyph">C</button>
+                <button id="buttonD" class="glyph">D</button>
+                <button id="buttonE" class="glyph">E</button>
+                <button id="buttonF" class="glyph">F</button>
+            </div>
+            <br><br>
+            <div>
+                <div class="txt-glyph-disp" id="id-glyph"></div>
+            </div>
+            <div>    
+                <div id="id-addr"></div>
+            </div>
+		</section>
+	</main>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch("../footer.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+    <script src="../script.js"></script>
+    <script src="glyphs.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'NMS Glyphs';
+    src: url('bin/NMS-Glyphs-Mono.ttf') format('truetype');
+}
+
+.decoder-section h3, 
+.decoder-section h2 {
+    padding: 5px;
+}
+
+/* Choose file button */
+[type=file]::file-selector-button {
+    font-family: Nunito;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-color: #596b78;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Cropped screenshot */
+#ss-canvas {
+    display: none; /* hide initially */
+    margin: 1rem auto;
+    width: 700px !important;
+    height: auto !important;
+    padding-top: 5px;
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    margin: auto;
+    margin-top: 1.0rem;
+}
+
+#error {
+    color: red;
+    margin-top: 5px;
+}
+
+.txt-glyph-disp {
+    font-family: "NMS Glyphs" !important;
+    font-size: 50px;
+}
+
+#textInput {
+    font-family: "NMS Glyphs";
+    padding: 5px;
+    margin-bottom: 1.0rem !important;
+    font-size: 2.5rem !important;
+    border: 1px solid #ccc; 
+    border-radius: 6px;
+    width: 50%;
+    height: 20px;
+    margin: auto;
+}
+
+.glyph {
+    font-family: "NMS Glyphs" !important;
+    font-weight: normal !important;
+    font-size: 40px !important; 
+}
+
+button {
+    font-family: Nunito;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 7.5px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--color-accent);
+    color: white;
+    border-radius: 5px;
+}
+
+button#clearButton {
+    background-color: #dc3545;
+}
+
+button#clearLastCharButton {
+    background-color: #dc3545;
+}
+
+button#copy-link-button {
+    background-color: #006416
+}
+
+/* Styles for mobile screens */
+@media screen and (max-width: 960px) {
+    #textInput {
+        font-size: 1.9rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+    
+    #ss-canvas {
+        width: 75% !important;
+        max-height: auto;
+    }
+
+    #textInput {
+        width: 75%; 
+        font-size: 1.5rem !important;
+    }
+
+    button {
+        font-size: 12px; 
+        margin: 5px;
+    }
+
+    .glyph {
+        font-size: 30px !important; 
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        margin: auto;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+
+    .txt-glyph-disp {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 636px) {
+
+    #textInput {
+        font-size: 1.3rem !important;
+    }
+    
+    .txt-glyph-disp {
+        font-size: 2.3rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #textInput {
+        width: 70%; 
+    }
+
+    #ss-canvas {
+        max-width: 75%;
+        max-height: auto;
+    }
+    
+    .txt-glyph-disp {
+        font-size: 2.0rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    
+    #textInput { 
+        font-size: 1.2rem !important;
+    }
+    .txt-glyph-disp {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 329px) {
+    
+    #textInput { 
+        font-size: 1.1rem !important;
+    }
+    
+    #container {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        margin: auto;
+    }
+    
+    .txt-glyph-disp {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    
+    #textInput { 
+        font-size: 1.0rem !important;
+    }
+    .txt-glyph-disp {
+        font-size: 1.3rem;
+    }
+}

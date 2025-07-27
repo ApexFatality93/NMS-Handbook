@@ -617,7 +617,7 @@ h1 {
 
 /* ---------------------------------------------------------------------- */
 
-/* item.html */
+/* /item */
 
 .item-info-section {
     margin-bottom: 2rem;
@@ -801,6 +801,26 @@ h1 {
 
 .product-link:hover {
     text-decoration: underline;
+}
+
+.fallback-message {
+    text-align: center;
+    padding: 2rem;
+}
+
+.fallback-message .button {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.fallback-message .button:hover {
+    background-color: var(--color-accent);
 }
 
 /* ---------------------------------------------------------------------- */

@@ -729,6 +729,23 @@ function createFishSection(itemId, fishData) {
 
 function loadDataAndDisplay() {
     const { id, type } = getQueryParams();
+
+    // Fallback if url parameters are missing
+    if (!id || !type) {
+        document.getElementById("item-details").innerHTML = `
+            <div class="fallback-message">
+                <h2>Oops! No item selected.</h2>
+                <p>This page displays detailed information about a specific item, but no item was selected.</p>
+                <p>Click one of the buttons below to continue browsing:</p>
+                <a href="/items" class="button">Browse All Items</a>
+                <a href="/crafting" class="button">Crafting Products</a>
+                <a href="/cooking" class="button">Cooking Recipes</a>
+                <a href="/refining" class="button">Refining Products</a>
+            </div>
+        `;
+        return;
+    }
+
     const file = type === "product" ? "/JSON_Files/Product_Table.json" : "/JSON_Files/Substance_Table.json";
 
     fetch(file)
@@ -736,7 +753,17 @@ function loadDataAndDisplay() {
         .then(data => {
             const item = data[id];
             if (!item) {
-                document.getElementById("item-details").innerHTML = `<p>Item not found.</p>`;
+                document.getElementById("item-details").innerHTML = `
+                    <div class="fallback-message">
+                        <h2>Item Not Found</h2>
+                        <p>We couldn't find the item you're looking for. It may have been removed or never existed.</p>
+                        <p>Click one of the buttons below to continue browsing:</p>
+                        <a href="/items" class="button">Browse All Items</a>
+                        <a href="/crafting" class="button">Crafting Products</a>
+                        <a href="/cooking" class="button">Cooking Recipes</a>
+                        <a href="/refining" class="button">Refining Products</a>
+                    </div>
+                `;
                 return;
             }
 

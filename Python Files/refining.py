@@ -57,6 +57,7 @@ for refining_product in root.findall('.//Property[@value="GcRefinerRecipe"]'):
 
     # General product info
     if product_id not in refining_data_dict:
+        item_type = "product" if product_id in product_lookup else "substance"
         refining_data_dict[product_id] = {
             'ProductID': product_id,
             'Name': product.get('Name', ''),
@@ -67,6 +68,7 @@ for refining_product in root.findall('.//Property[@value="GcRefinerRecipe"]'):
             'Subtitle_Text': lang_lookup.get(product.get('Subtitle', ''), ''),
             'Description': product.get('Description', ''),
             'Description_Text': lang_lookup.get(product.get('Description', ''), ''),
+            'Type': item_type,
             'Icon_Filename': product.get('Icon_Filename', ''),
             'Colour_R': product.get('Colour_R', ''),
             'Colour_G': product.get('Colour_G', ''),

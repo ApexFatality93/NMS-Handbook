@@ -9,7 +9,7 @@ function createRefiningCard(recipe) {
     card.setAttribute("data-id", recipe.ProductID);
 
     card.addEventListener("click", () => {
-        window.location.href = `/item/?id=${recipe.ProductID}&type=substance`;
+        window.location.href = `/item/?id=${recipe.ProductID}&type=${recipe.Type}`;
     });
 
     const imageWrapper = document.createElement("div");

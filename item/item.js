@@ -462,7 +462,7 @@ function createCraftingSection(craftingItem) {
     card.className = "recipe-card";
 
     // Output name and amount
-    const outputHeader = document.createElement("h3");
+    const outputHeader = document.createElement("h4");
     outputHeader.textContent = `${craftingItem.NameLower_Text || craftingItem.Name} (x1)`;
     card.appendChild(outputHeader);
 

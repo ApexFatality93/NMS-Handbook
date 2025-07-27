@@ -461,14 +461,18 @@ function createCraftingSection(craftingItem) {
     const card = document.createElement("div");
     card.className = "recipe-card";
 
-    // Header & amount (crafting is always x1 unless specified)
-    const header = document.createElement("h3");
-    header.textContent = craftingItem.NameLower_Text || craftingItem.Name_Text || "Result";
-    card.appendChild(header);
+    // Output name and amount
+    const outputHeader = document.createElement("h3");
+    outputHeader.textContent = `${craftingItem.NameLower_Text || craftingItem.Name} (x1)`;
+    card.appendChild(outputHeader);
 
-    const amount = document.createElement("h4");
-    amount.textContent = "Amount: 1";
-    card.appendChild(amount);
+    // Output icon
+    const outputIcon = document.createElement("img");
+    outputIcon.className = "ingredient-icon";
+    outputIcon.src = craftingItem.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    const rgba = `rgba(${craftingItem.Colour_R * 255}, ${craftingItem.Colour_G * 255}, ${craftingItem.Colour_B * 255}, ${craftingItem.Colour_A})`;
+    outputIcon.style.backgroundColor = rgba;
+    card.appendChild(outputIcon);
 
     // Ingredient list
     const ingredientGrid = document.createElement("div");

@@ -13,7 +13,7 @@ function createLoreCard(storyId, story) {
     card.setAttribute("data-id", storyId);
 
     card.addEventListener("click", () => {
-        window.location.href = `lore.html?id=${encodeURIComponent(storyId)}`;
+        window.location.href = `/lore/?id=${encodeURIComponent(storyId)}`;
     });
 
     const imageWrapper = document.createElement("div");
@@ -21,7 +21,7 @@ function createLoreCard(storyId, story) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = story.IconOn.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = story.IconOn.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = story.CategoryText || storyId;
 
     imageWrapper.appendChild(icon);
@@ -59,7 +59,7 @@ function displayStoryDetail(storyId, story) {
     container.appendChild(title);
 
     const icon = document.createElement("img");
-    icon.src = story.IconOn.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = story.IconOn.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = story.CategoryText;
     icon.className = "detail-icon";
     container.appendChild(icon);
@@ -127,11 +127,9 @@ function displayStoryDetail(storyId, story) {
 
     loreGrid.innerHTML = "";  // Clear grid
     loreGrid.appendChild(container);
-
-
 }
 
-fetch("./JSON_Files/Story_Table.json")
+fetch("/JSON_Files/Story_Table.json")
     .then(res => res.json())
     .then(data => {
         loreData = data;

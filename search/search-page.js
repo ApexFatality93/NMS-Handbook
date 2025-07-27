@@ -7,9 +7,9 @@ let fishData = {};
 
 // Load all JSON_files first
 Promise.all([
-    fetch("./JSON_Files/Product_Table.json").then(res => res.json()),
-    fetch("./JSON_Files/Substance_Table.json").then(res => res.json()),
-    fetch("./JSON_Files/Fish_Table.json").then(res => res.json())
+    fetch("/JSON_Files/Product_Table.json").then(res => res.json()),
+    fetch("/JSON_Files/Substance_Table.json").then(res => res.json()),
+    fetch("/JSON_Files/Fish_Table.json").then(res => res.json())
 ]).then(([products, substances, fish]) => {
     productData = products;
     substanceData = substances;
@@ -95,7 +95,7 @@ function createSearchCard(item) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = item.icon.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = item.icon.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = item.name;
 
     if (item.rgba && item.rgba.length === 4) {
@@ -117,7 +117,7 @@ function createSearchCard(item) {
 
     card.addEventListener("click", () => {
         const params = new URLSearchParams({ id: item.id, type: item.type });
-        window.location.href = `item.html?${params.toString()}`;
+        window.location.href = `/item/?${params.toString()}`;
     });
 
     resultsGrid.appendChild(card);

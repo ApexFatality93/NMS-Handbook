@@ -35,7 +35,7 @@ function createCookingRecipeSection(cookingItem, recipes) {
         // Output icon
         const outputIcon = document.createElement("img");
         outputIcon.className = "ingredient-icon";
-        outputIcon.src = cookingItem.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+        outputIcon.src = cookingItem.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
         const rgba = `rgba(${cookingItem.Colour_R * 255}, ${cookingItem.Colour_G * 255}, ${cookingItem.Colour_B * 255}, ${cookingItem.Colour_A})`;
         outputIcon.style.backgroundColor = rgba;
         card.appendChild(outputIcon);
@@ -56,7 +56,7 @@ function createCookingRecipeSection(cookingItem, recipes) {
 
             const icon = document.createElement("img");
             icon.className = "ingredient-icon";
-            icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+            icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
             icon.alt = ingredient.NameLower_Text || ingredient.Name;
             const rgba = `rgba(${ingredient.Colour_R * 255}, ${ingredient.Colour_G * 255}, ${ingredient.Colour_B * 255}, ${ingredient.Colour_A})`;
             icon.style.backgroundColor = rgba;
@@ -65,7 +65,7 @@ function createCookingRecipeSection(cookingItem, recipes) {
             info.className = "ingredient-info";
 
             const link = document.createElement("a");
-            link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
+            link.href = `/item/?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
             link.textContent = ingredient.NameLower_Text;
             link.className = "ingredient-name";
 
@@ -136,7 +136,7 @@ function createCookingUsedInSection(itemId, cookingData) {
                 // Linked product name as header
                 const outputHeader = document.createElement("h4");
                 const productLink = document.createElement("a");
-                productLink.href = `item.html?id=${product.ProductID}&type=product`;
+                productLink.href = `/item/?id=${product.ProductID}&type=product`;
                 productLink.textContent = product.NameLower_Text;
                 productLink.className = "product-link";
                 outputHeader.appendChild(productLink);
@@ -145,7 +145,7 @@ function createCookingUsedInSection(itemId, cookingData) {
                 // Output icon
                 const outputIcon = document.createElement("img");
                 outputIcon.className = "ingredient-icon";
-                outputIcon.src = product.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+                outputIcon.src = product.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
                 const rgba = `rgba(${product.Colour_R * 255}, ${product.Colour_G * 255}, ${product.Colour_B * 255}, ${product.Colour_A})`;
                 outputIcon.style.backgroundColor = rgba;
                 card.appendChild(outputIcon);
@@ -166,7 +166,7 @@ function createCookingUsedInSection(itemId, cookingData) {
 
                     const icon = document.createElement("img");
                     icon.className = "ingredient-icon";
-                    icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+                    icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
                     icon.alt = ingredient.NameLower_Text || ingredient.Name;
                     const rgba = `rgba(${ingredient.Colour_R * 255}, ${ingredient.Colour_G * 255}, ${ingredient.Colour_B * 255}, ${ingredient.Colour_A})`;
                     icon.style.backgroundColor = rgba;
@@ -175,7 +175,7 @@ function createCookingUsedInSection(itemId, cookingData) {
                     info.className = "ingredient-info";
 
                     const link = document.createElement("a");
-                    link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
+                    link.href = `/item/?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
                     link.textContent = ingredient.NameLower_Text;
                     link.className = "ingredient-name";
 
@@ -252,7 +252,7 @@ function createRefiningRecipeSection(recipeItem, recipes) {
         // Output icon
         const outputIcon = document.createElement("img");
         outputIcon.className = "ingredient-icon";
-        outputIcon.src = recipeItem.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+        outputIcon.src = recipeItem.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
         const rgba = `rgba(${recipeItem.Colour_R * 255}, ${recipeItem.Colour_G * 255}, ${recipeItem.Colour_B * 255}, ${recipeItem.Colour_A})`;
         outputIcon.style.backgroundColor = rgba;
         card.appendChild(outputIcon);
@@ -273,7 +273,7 @@ function createRefiningRecipeSection(recipeItem, recipes) {
 
             const icon = document.createElement("img");
             icon.className = "ingredient-icon";
-            icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+            icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
             icon.alt = ingredient.NameLower_Text || ingredient.Name;
             const rgba = `rgba(${ingredient.Colour_R * 255}, ${ingredient.Colour_G * 255}, ${ingredient.Colour_B * 255}, ${ingredient.Colour_A})`;
             icon.style.backgroundColor = rgba;
@@ -282,7 +282,7 @@ function createRefiningRecipeSection(recipeItem, recipes) {
             info.className = "ingredient-info";
 
             const link = document.createElement("a");
-            link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
+            link.href = `/item/?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
             link.textContent = ingredient.NameLower_Text;
             link.className = "ingredient-name";
 
@@ -352,7 +352,7 @@ function createRefiningUsedInSection(itemId, refiningData) {
 
                 const outputHeader = document.createElement("h4");
                 const productLink = document.createElement("a");
-                productLink.href = `item.html?id=${product.ProductID}&type=substance`;
+                productLink.href = `/item/?id=${product.ProductID}&type=substance`;
                 productLink.textContent = product.NameLower_Text;
                 productLink.className = "product-link";
                 outputHeader.appendChild(productLink);
@@ -366,7 +366,7 @@ function createRefiningUsedInSection(itemId, refiningData) {
 
                 const outputIcon = document.createElement("img");
                 outputIcon.className = "ingredient-icon";
-                outputIcon.src = product.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+                outputIcon.src = product.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
                 const rgba = `rgba(${product.Colour_R * 255}, ${product.Colour_G * 255}, ${product.Colour_B * 255}, ${product.Colour_A})`;
                 outputIcon.style.backgroundColor = rgba;
                 card.appendChild(outputIcon);
@@ -385,7 +385,7 @@ function createRefiningUsedInSection(itemId, refiningData) {
 
                     const icon = document.createElement("img");
                     icon.className = "ingredient-icon";
-                    icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+                    icon.src = ingredient.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
                     icon.alt = ingredient.NameLower_Text || ingredient.Name;
                     const rgba = `rgba(${ingredient.Colour_R * 255}, ${ingredient.Colour_G * 255}, ${ingredient.Colour_B * 255}, ${ingredient.Colour_A})`;
                     icon.style.backgroundColor = rgba;
@@ -394,7 +394,7 @@ function createRefiningUsedInSection(itemId, refiningData) {
                     info.className = "ingredient-info";
 
                     const link = document.createElement("a");
-                    link.href = `item.html?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
+                    link.href = `/item/?id=${ingredient.Id}&type=${ingredient.Type.toLowerCase()}`;
                     link.textContent = ingredient.NameLower_Text;
                     link.className = "ingredient-name";
 
@@ -480,7 +480,7 @@ function createCraftingSection(craftingItem) {
 
         const icon = document.createElement("img");
         icon.className = "ingredient-icon";
-        icon.src = ing.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+        icon.src = ing.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
         icon.alt = ing.NameLower_Text || ing.Name_ID;
         icon.style.backgroundColor = `rgba(${ing.Colour_R * 255}, ${ing.Colour_G * 255}, ${ing.Colour_B * 255}, ${ing.Colour_A})`;
 
@@ -488,7 +488,7 @@ function createCraftingSection(craftingItem) {
         info.className = "ingredient-info";
 
         const link = document.createElement("a");
-        link.href = `item.html?id=${ing.Id}&type=${ing.Type.toLowerCase()}`;
+        link.href = `/item/?id=${ing.Id}&type=${ing.Type.toLowerCase()}`;
         link.textContent = ing.NameLower_Text;
         link.className = "ingredient-name";
 
@@ -533,7 +533,7 @@ function createUsedInCraftingSection(itemId, craftingData) {
             // Output product link & icon
             const outputHeader = document.createElement("h4");
             const productLink = document.createElement("a");
-            productLink.href = `item.html?id=${product.ProductId}&type=product`;
+            productLink.href = `/item/?id=${product.ProductId}&type=product`;
             productLink.textContent = product.NameLower_Text;
             productLink.className = "product-link";
             outputHeader.appendChild(productLink);
@@ -541,7 +541,7 @@ function createUsedInCraftingSection(itemId, craftingData) {
 
             const outputIcon = document.createElement("img");
             outputIcon.className = "ingredient-icon";
-            outputIcon.src = product.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+            outputIcon.src = product.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
             outputIcon.style.backgroundColor =
                 `rgba(${product.Colour_R * 255}, ${product.Colour_G * 255}, ${product.Colour_B * 255}, ${product.Colour_A})`;
             card.appendChild(outputIcon);
@@ -561,7 +561,7 @@ function createUsedInCraftingSection(itemId, craftingData) {
 
                 const icon = document.createElement("img");
                 icon.className = "ingredient-icon";
-                icon.src = ing.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+                icon.src = ing.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
                 icon.alt = ing.NameLower_Text || ing.Name_ID;
                 icon.style.backgroundColor = `rgba(${ing.Colour_R * 255}, ${ing.Colour_G * 255}, ${ing.Colour_B * 255}, ${ing.Colour_A})`;
 
@@ -569,7 +569,7 @@ function createUsedInCraftingSection(itemId, craftingData) {
                 info.className = "ingredient-info";
 
                 const link = document.createElement("a");
-                link.href = `item.html?id=${ing.Id}&type=${ing.Type.toLowerCase()}`;
+                link.href = `/item/?id=${ing.Id}&type=${ing.Type.toLowerCase()}`;
                 link.textContent = ing.NameLower_Text;
                 link.className = "ingredient-name";
 
@@ -657,7 +657,7 @@ function createBaitSection(itemId, baitData) {
     // Source link (if Source and Title are valid)
     if (baitItem.Source && baitItem.Title) {
         const source = document.createElement("p");
-        source.innerHTML = `<strong>Source:</strong> <a href="item.html?id=${baitItem.Source}&type=product">${baitItem.Source}</a>`;
+        source.innerHTML = `<strong>Source:</strong> <a href="/item/?id=${baitItem.Source}&type=product">${baitItem.Source}</a>`;
         card.appendChild(source);
     }
 
@@ -725,7 +725,7 @@ function createFishSection(itemId, fishData) {
 
 function loadDataAndDisplay() {
     const { id, type } = getQueryParams();
-    const file = type === "product" ? "./JSON_Files/Product_Table.json" : "./JSON_Files/Substance_Table.json";
+    const file = type === "product" ? "/JSON_Files/Product_Table.json" : "/JSON_Files/Substance_Table.json";
 
     fetch(file)
         .then(res => res.json())
@@ -747,7 +747,7 @@ function loadDataAndDisplay() {
             iconTextWrapper.className = "icon-text-wrapper";
 
             const icon = document.createElement("img");
-            icon.src = item.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+            icon.src = item.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
             icon.alt = item.Name_Text || item.Name;
             icon.className = "product-icon";
             icon.style.backgroundColor = `rgba(${parseFloat(item.Colour_R) * 255}, ${parseFloat(item.Colour_G) * 255}, ${parseFloat(item.Colour_B) * 255}, ${item.Colour_A})`;
@@ -777,7 +777,7 @@ function loadDataAndDisplay() {
             valueText.textContent = `Value: ${formattedValue} `;
 
             const unitsIcon = document.createElement("img");
-            unitsIcon.src = "assets/icons/units.png";
+            unitsIcon.src = "/assets/icons/units.png";
             unitsIcon.alt = "Units";
             unitsIcon.className = "units-icon";
 
@@ -801,11 +801,11 @@ function loadDataAndDisplay() {
 
             // Loads all JSON files before appending sections in fixed order
             Promise.all([
-                fetch("./JSON_Files/Refining_Table.json").then(res => res.json()),
-                fetch("./JSON_Files/Crafting_Table.json").then(res => res.json()),
-                fetch("./JSON_Files/Cooking_Table.json").then(res => res.json()),
-                fetch('./JSON_Files/Bait_Table.json').then(res => res.json()),
-                fetch("./JSON_Files/Fish_Table.json").then(res => res.json())
+                fetch("/JSON_Files/Refining_Table.json").then(res => res.json()),
+                fetch("/JSON_Files/Crafting_Table.json").then(res => res.json()),
+                fetch("/JSON_Files/Cooking_Table.json").then(res => res.json()),
+                fetch("/JSON_Files/Bait_Table.json").then(res => res.json()),
+                fetch("/JSON_Files/Fish_Table.json").then(res => res.json())
             ]).then(([refiningData, craftingData, cookingData, baitData, fishData]) => {
                 
                 // === Refining Section ===

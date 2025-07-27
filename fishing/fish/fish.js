@@ -12,15 +12,15 @@ function getTimeIcon(time) {
     icon.className = "time-icon";
     switch (time.toLowerCase()) {
         case "day":
-            icon.src = "./assets/icons/day.svg";
+            icon.src = "/assets/icons/day.svg";
             icon.alt = "Day";
             break;
         case "night":
-            icon.src = "./assets/icons/night.svg";
+            icon.src = "/assets/icons/night.svg";
             icon.alt = "Night";
             break;
         case "both":
-            icon.src = "./assets/icons/day-and-night.svg";
+            icon.src = "/assets/icons/day-and-night.svg";
             icon.alt = "Day & Night";
             break;
         default:
@@ -37,7 +37,7 @@ function createFishCard(fish) {
 
     // Make card clickable
     card.addEventListener("click", () => {
-        window.location.href = `item.html?id=${fish.ProductID}&type=product`;
+        window.location.href = `/item/?id=${fish.ProductID}&type=product`;
     });
 
     const imageWrapper = document.createElement("div");
@@ -45,7 +45,7 @@ function createFishCard(fish) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = fish.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = fish.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = fish.Name_Text || fish.Name;
     const rgba = `rgba(${fish.Colour_R * 255}, ${fish.Colour_G * 255}, ${fish.Colour_B * 255}, ${fish.Colour_A})`;
     icon.style.backgroundColor = rgba;
@@ -127,7 +127,7 @@ function populateDropdown(select, values) {
 }
 
 // Load fish data and initialize UI
-fetch("./JSON_Files/Fish_Table.json")
+fetch("/JSON_Files/Fish_Table.json")
     .then(response => response.json())
     .then(data => {
 

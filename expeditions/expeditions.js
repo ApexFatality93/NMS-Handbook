@@ -9,7 +9,7 @@ function createExpeditionCard(seasonNumber, seasonData) {
     card.setAttribute("data-id", seasonNumber);
 
     card.addEventListener("click", () => {
-        window.location.href = `expeditions.html?id=${encodeURIComponent(seasonNumber)}`;
+        window.location.href = `/expeditions/?id=${encodeURIComponent(seasonNumber)}`;
     });
 
     const imageWrapper = document.createElement("div");
@@ -17,7 +17,7 @@ function createExpeditionCard(seasonNumber, seasonData) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = seasonData.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = seasonData.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = seasonData.SeasonName || seasonNumber;
 
     imageWrapper.appendChild(icon);
@@ -60,7 +60,7 @@ function displayExpeditionDetail(seasonNumber, seasonData) {
 
     // Icon
     const icon = document.createElement("img");
-    icon.src = seasonData.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = seasonData.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = seasonData.SeasonName;
     icon.className = "detail-icon";
     container.appendChild(icon);
@@ -89,11 +89,11 @@ function displayExpeditionDetail(seasonNumber, seasonData) {
 
                 // Make item clickable
                 listItem.addEventListener("click", () => {
-                    window.location.href = `item.html?id=${reward.ID}&type=product`;
+                    window.location.href = `/item/?id=${reward.ID}&type=product`;
                 });
 
                 const rewardIcon = document.createElement("img");
-                rewardIcon.src = reward.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+                rewardIcon.src = reward.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
                 rewardIcon.alt = reward.RewardName || "Reward";
                 rewardIcon.className = "reward-icon";
                 const rgba = `rgba(${reward.Colour_R * 255}, ${reward.Colour_G * 255}, ${reward.Colour_B * 255}, ${reward.Colour_A})`;
@@ -117,7 +117,7 @@ function displayExpeditionDetail(seasonNumber, seasonData) {
 }
 
 
-fetch("./JSON_Files/Expedition_Table.json")
+fetch("/JSON_Files/Expedition_Table.json")
     .then(res => res.json())
     .then(data => {
         expeditionData = data;

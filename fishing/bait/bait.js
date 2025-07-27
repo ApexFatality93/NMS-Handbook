@@ -13,7 +13,7 @@ function createBaitCard(bait, id) {
     card.setAttribute("data-id", id);
 
     card.addEventListener("click", () => {
-        window.location.href = `item.html?id=${encodeURIComponent(id)}&type=${bait.Source}`;
+        window.location.href = `/item/?id=${encodeURIComponent(id)}&type=${bait.Source}`;
     });
 
     const imageWrapper = document.createElement("div");
@@ -21,7 +21,7 @@ function createBaitCard(bait, id) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = bait.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = bait.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = bait.NameLower_Text;
 
     const r = parseFloat(bait.Colour_R || 0);
@@ -121,7 +121,7 @@ function populateUsedForDropdown(set) {
 }
 
 // Load bait data and initialize
-fetch("./JSON_Files/Bait_Table.json")
+fetch("/JSON_Files/Bait_Table.json")
     .then(response => response.json())
     .then(data => {
         baitData = data;

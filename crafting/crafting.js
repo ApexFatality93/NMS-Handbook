@@ -11,7 +11,7 @@ function createCraftingCard(item) {
     card.setAttribute("data-id", item.ProductId);
 
     card.addEventListener("click", () => {
-        window.location.href = `item.html?id=${item.ProductId}&type=product`;
+        window.location.href = `/item/?id=${item.ProductId}&type=product`;
     });
 
     const imageWrapper = document.createElement("div");
@@ -19,7 +19,7 @@ function createCraftingCard(item) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = item.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = item.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = item.Name_Text || item.Name;
 
     const rgba = `rgba(${item.Colour_R * 255}, ${item.Colour_G * 255}, ${item.Colour_B * 255}, ${item.Colour_A})`;
@@ -82,7 +82,7 @@ function populateCategoryFilter() {
     categoryFilter.value = "Crafting";
 }
 
-fetch("./JSON_Files/Crafting_Table.json")
+fetch("/JSON_Files/Crafting_Table.json")
     .then(res => res.json())
     .then(data => {
         craftingData = data;

@@ -1,15 +1,15 @@
-const cookingGrid = document.getElementById("cooking-grid");
-const cookingSearch = document.getElementById("search-bar");
+const refiningGrid = document.getElementById("refining-grid");
+const refiningSearch = document.getElementById("search-bar");
 
-let cookingData = {};
+let refiningData = {};
 
-function createCookingCard(recipe) {
+function createRefiningCard(recipe) {
     const card = document.createElement("div");
     card.className = "product-card";
     card.setAttribute("data-id", recipe.ProductID);
 
     card.addEventListener("click", () => {
-        window.location.href = `item.html?id=${recipe.ProductID}&type=product`;
+        window.location.href = `/item/?id=${recipe.ProductID}&type=substance`;
     });
 
     const imageWrapper = document.createElement("div");
@@ -17,7 +17,7 @@ function createCookingCard(recipe) {
 
     const icon = document.createElement("img");
     icon.className = "product-icon";
-    icon.src = recipe.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
+    icon.src = recipe.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
     icon.alt = recipe.Name_Text || recipe.Name;
 
     const rgba = `rgba(${recipe.Colour_R * 255}, ${recipe.Colour_G * 255}, ${recipe.Colour_B * 255}, ${recipe.Colour_A})`;
@@ -32,20 +32,16 @@ function createCookingCard(recipe) {
     title.textContent = recipe.NameLower_Text || recipe.Name;
     content.appendChild(title);
 
-    // const ingredients = document.createElement("p");
-    // ingredients.textContent = `Ingredients: ${recipe.Ingredients.map(i => `${i.NameLower_Text} (x${i.Amount})`).join(", ")}`;
-    // content.appendChild(ingredients);
-
     card.appendChild(imageWrapper);
     card.appendChild(content);
-    cookingGrid.appendChild(card);
+    refiningGrid.appendChild(card);
 }
 
-function applyCookingFilter() {
-    const searchTerm = cookingSearch.value.toLowerCase().trim();
-    cookingGrid.innerHTML = "";
+function applyRefiningFilter() {
+    const searchTerm = refiningSearch.value.toLowerCase().trim();
+    refiningGrid.innerHTML = "";
 
-    const sortedRecipes = Object.values(cookingData).sort((a, b) => {
+    const sortedRecipes = Object.values(refiningData).sort((a, b) => {
         const nameA = (a.Name_Text || a.Name || "").toLowerCase();
         const nameB = (b.Name_Text || b.Name || "").toLowerCase();
         return nameA.localeCompare(nameB);
@@ -54,16 +50,16 @@ function applyCookingFilter() {
     sortedRecipes.forEach(recipe => {
         const name = (recipe.Name_Text || recipe.Name || "").toLowerCase();
         if (!searchTerm || name.includes(searchTerm)) {
-            createCookingCard(recipe);
+            createRefiningCard(recipe);
         }
     });
 }
 
-fetch("./JSON_Files/Cooking_Table.json")
+fetch("/JSON_Files/Refining_Table.json")
     .then(res => res.json())
     .then(data => {
-        cookingData = data;
-        applyCookingFilter();
+        refiningData = data;
+        applyRefiningFilter();
     });
 
-cookingSearch.addEventListener("input", applyCookingFilter);
+refiningSearch.addEventListener("input", applyRefiningFilter);

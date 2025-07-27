@@ -11,24 +11,25 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://nmshandbook.com/">
     <meta property="og:title" content="No Man's Sky Handbook">
-    <meta property="og:description" content="Explore every item and recipe in No Man's Sky with this comprehensive wiki-style guide.">
+    <meta property="og:description" content="A handbook for No Man's Sky featuring resource data, crafting, refining, cooking recipes, fishing locations, and more, in a lightweight, wiki-style format.">
     <meta property="og:image" content="https://nmshandbook.com/android-chrome-512x512.png">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://nmshandbook.com/">
     <meta name="twitter:title" content="No Man's Sky Handbook">
-    <meta name="twitter:description" content="A guide to No Man's Sky featuring items, recipes, fishing spots, and more.">
+    <meta name="twitter:description" content="A handbook for No Man's Sky featuring resource data, crafting, refining, cooking recipes, fishing locations, and more, in a lightweight, wiki-style format.">
     <meta name="twitter:image" content="https://nmshandbook.com/android-chrome-512x512.png">
 
     <link rel="canonical" href="https://nmshandbook.com/">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <script data-goatcounter="https://nmshandbook.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -36,7 +37,7 @@
 <body>
     <div id="header-placeholder"></div>
     <script>
-        fetch("header.html")
+        fetch("/header.html")
             .then(response => response.text())
             .then(data => {
                 document.getElementById("header-placeholder").innerHTML = data;
@@ -57,50 +58,50 @@
         <section class="nav-cards">
             <h2>Explore the Handbook</h2>
             <div class="card-grid">
-                <a href="items.html" class="nav-card">
+                <a href="/items" class="nav-card">
                     <h3>Items</h3>
                     <p>Browse detailed info on all products and substances.</p>
-                    <img src="assets/icons/items.png" alt="Items Icon" />
+                    <img src="/assets/icons/items.png" alt="Items Icon" />
                 </a>
-                <a href="crafting.html" class="nav-card">
+                <a href="/crafting" class="nav-card">
                     <h3>Crafting</h3>
                     <p>Recipes, components, and buildable technologies.</p>
-                    <img src="assets/icons/crafting.png" alt="Crafting Icon" />
+                    <img src="/assets/icons/crafting.png" alt="Crafting Icon" />
                 </a>
-                <a href="cooking.html" class="nav-card">
+                <a href="/cooking" class="nav-card">
                     <h3>Cooking</h3>
                     <p>Discover all edible creations and their ingredients.</p>
-                    <img src="assets/icons/cooking.png" alt="Cooking Icon" />
+                    <img src="/assets/icons/cooking.png" alt="Cooking Icon" />
                 </a>
-                <a href="refining.html" class="nav-card">
+                <a href="/refining" class="nav-card">
                     <h3>Refining</h3>
                     <p>Refiner combos and upgrade strategies.</p>
-                    <img src="assets/icons/refining.png" alt="Refining Icon" />
+                    <img src="/assets/icons/refining.png" alt="Refining Icon" />
                 </a>
-                <a href="fishing.html" class="nav-card">
+                <a href="/fishing" class="nav-card">
                     <h3>Fishing</h3>
                     <p>Look up fishing baits and the locations of individual fish.</p>
-                    <img src="assets/icons/fishing.png" alt="Fishing Icon" />
+                    <img src="/assets/icons/fishing.png" alt="Fishing Icon" />
                 </a>
-                <a href="./glyphs" class="nav-card">
+                <a href="/glyphs" class="nav-card">
                     <h3>Glyphs</h3>
                     <p>Convert glyphs to coordinates or scan a glyph address from an image.</p>
-                    <img src="assets/icons/portal.png" alt="Glyph Icon" />
+                    <img src="/assets/icons/portal.png" alt="Glyph Icon" />
                 </a>
-                <a href="expeditions.html" class="nav-card">
+                <a href="/expeditions" class="nav-card">
                     <h3>Expeditions</h3>
                     <p>Explore the rewards from past No Man’s Sky Expeditions.</p>
-                    <img src="assets/icons/expedition.png" alt="Expeditions Icon" />
+                    <img src="/assets/icons/expedition.png" alt="Expeditions Icon" />
                 </a>
-                <a href="lore.html" class="nav-card">
+                <a href="/lore" class="nav-card">
                     <h3>Lore</h3>
                     <p>Access stories and mythic tales from across the stars.</p>
-                    <img src="assets/icons/lore.png" alt="Lore Icon" />
+                    <img src="/assets/icons/lore.png" alt="Lore Icon" />
                 </a>
-                <a href="about.html" class="nav-card">
+                <a href="/about" class="nav-card">
                     <h3>About</h3>
                     <p>Learn more about this project and its development.</p>
-                    <img src="assets/icons/about.png" alt="About Icon" />
+                    <img src="/assets/icons/about.png" alt="About Icon" />
                 </a>
             </div>
         </section>
@@ -108,15 +109,15 @@
 
     <div id="footer-placeholder"></div>
     <script>
-        fetch("footer.html")
+        fetch("/footer.html")
             .then(response => response.text())
             .then(data => {
                 document.getElementById("footer-placeholder").innerHTML = data;
             });
     </script>
 
-    <script src="script.js"></script>
-    <script src="search.js"></script>
+    <script src="/script.js"></script>
+    <script src="/search/search-bar.js"></script>
 </body>
 
 </html>

@@ -106,6 +106,11 @@ function displayItems() {
     for (const key in data) {
         const item = data[key];
 
+        // Skip excluded substance types
+        if (dataset === "substances" && ["Reward Item", "Technological Currency"].includes(item.Subtitle_Text)) {
+            continue;
+        }
+
         // Apply filter
         if (category !== "All") {
             const field = dataset === "products" ? item.Type : item.Category;

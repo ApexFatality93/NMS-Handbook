@@ -823,6 +823,51 @@ h1 {
     background-color: var(--color-accent);
 }
 
+.legacy-section {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    border-left: 5px solid var(--color-primary); 
+    padding: 5px;
+    border-radius: 6px;
+    max-width: 600px;
+}
+
+.legacy-icon {
+    margin-right: 5px;
+    padding: 0px;
+}
+
+.legacy-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.legacy-text h2 {
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+    color: var(--color-primary);
+}
+
+.legacy-text p {
+    text-align: left;
+    margin: 0;
+    font-size: 15px;
+}
+
+.legacy-text a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.legacy-text a:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
 /* ---------------------------------------------------------------------- */
 
 .about-container {

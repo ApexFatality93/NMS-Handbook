@@ -623,6 +623,72 @@ function createUsedInCraftingSection(itemId, craftingData) {
     return section;
 }
 
+// function createLegacySection(itemId, legacyData) {
+
+//     const legacyItem = legacyData[itemId];
+//     if (!legacyItem) return null;
+
+//     const section = document.createElement("div");
+//     section.className = "legacy-section";
+
+//     const title = document.createElement("h2");
+//     title.textContent = "Legacy Item";
+//     section.appendChild(title);
+
+//     const legacyIcon = document.createElement("img");
+//     legacyIcon.className = "legacy-icon";
+//     legacyIcon.src = "/assets/icons/legacy.png";
+//     legacyIcon.alt = "Legacy Icon";
+//     section.appendChild(legacyIcon)
+
+//     const message = document.createElement("p");
+
+//     if (legacyItem.GameFile === "Yes") {
+//         message.innerHTML = 'This item is no longer in the game'
+//     } else {
+//         message.innerHTML = 'This item can no longer be obtained through normal gameplay'
+//     }
+
+//     section.appendChild(message);
+
+//     return section;
+// }
+
+function createLegacySection(itemId, legacyData) {
+    const legacyItem = legacyData[itemId];
+    if (!legacyItem) return null;
+
+    const section = document.createElement("div");
+    section.className = "legacy-section";
+
+    const legacyIcon = document.createElement("img");
+    legacyIcon.className = "legacy-icon";
+    legacyIcon.src = "/assets/icons/legacy.png";
+    legacyIcon.alt = "Legacy Icon";
+    section.appendChild(legacyIcon);
+
+    const textContainer = document.createElement("div");
+    textContainer.className = "legacy-text";
+
+    const title = document.createElement("h2");
+    title.textContent = "Legacy Item";
+    textContainer.appendChild(title);
+
+    const message = document.createElement("p");
+    if (legacyItem.GameFile === "Yes") {
+        convertItem = legacyItem.ConvertName;
+        convertLink = `/item/?id=${legacyItem.ConvertID}&type=product`;
+        message.innerHTML = `This item can no longer be obtained in the game. Any leftover inventory is automatically converted into <a href="${convertLink}">${convertItem}</a>.`;
+    } else {
+        message.innerHTML = 'This item can no longer be obtained through normal gameplay. But, it can still be acquired via save editing or traded between players.';
+    }
+    textContainer.appendChild(message);
+
+    section.appendChild(textContainer);
+
+    return section;
+}
+
 function createBaitSection(itemId, baitData) {
     const baitItem = baitData[itemId];
     if (!baitItem) return null;
@@ -832,12 +898,21 @@ function loadDataAndDisplay() {
 
             // Loads all JSON files before appending sections in fixed order
             Promise.all([
+                fetch("/JSON_Files/Legacy_Item_Table.json").then(res => res.json()),
                 fetch("/JSON_Files/Refining_Table.json").then(res => res.json()),
                 fetch("/JSON_Files/Crafting_Table.json").then(res => res.json()),
                 fetch("/JSON_Files/Cooking_Table.json").then(res => res.json()),
                 fetch("/JSON_Files/Bait_Table.json").then(res => res.json()),
                 fetch("/JSON_Files/Fish_Table.json").then(res => res.json())
-            ]).then(([refiningData, craftingData, cookingData, baitData, fishData]) => {
+            ]).then(([legacyData, refiningData, craftingData, cookingData, baitData, fishData]) => {
+
+                // === Legacy Item Section ===
+                if (legacyData[id]) {
+                    const legacySection = createLegacySection(id, legacyData);
+                    if (legacySection) {
+                        sectionContainer.appendChild(legacySection);
+                    }
+                }
                 
                 // === Refining Section ===
                 const refiningItem = refiningData[id];

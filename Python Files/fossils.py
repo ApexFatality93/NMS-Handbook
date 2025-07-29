@@ -3,15 +3,22 @@ import xml.etree.ElementTree as ET
 import json
 
 # --- CONFIG ---
-mxml_file = './Game Files/NMS_Reality_GCPRODUCTTABLE.MXML'
+mxml_file = './Game Files/NMS_MODULARCUSTOMISATIONPRODUCTS.MXML'
 lang_json_file = './JSON Files/All_Lang_Data.json'
-output_json_file = './JSON Files/Product_Table.json'
+output_json_file = './JSON Files/Fossil_Table.json'
 
-# --- LOAD LANG JSON ---
+# --- LOAD JSON FILES ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:
     lang_entries = json.load(f)
 
-# Create lookup dictionary from lang JSON: { "Id": "English text" }
+# with open('./JSON Files/Product_Table.json', 'r', encoding='utf-8') as f:
+#     product_table = json.load(f)
+
+# with open('./JSON Files/Substance_Table.json', 'r', encoding='utf-8') as f:
+#     substance_table = json.load(f)
+
+# product_lookup = {key: value for key, value in product_table.items()}
+# substance_lookup = {key: value for key, value in substance_table.items()}
 lang_lookup = {entry['Id']: entry['English'] for entry in lang_entries}
 
 # --- UTILITY ---
@@ -36,8 +43,9 @@ product_data_dict = {}
 for product in root.findall('.//Property[@value="GcProductData"]'):
     data = extract_data(product)
     product_id = data.get('ID', None)
+    product_category = data.get('Type', {}).get('ProductCategory', '')
 
-    if product_id:
+    if product_id and product_category == "ExhibitBone":
         name_id = data.get('Name', '')
         name_lower_id = data.get('NameLower', '')
         subtitle_id = data.get('Subtitle', '')
@@ -67,20 +75,8 @@ for product in root.findall('.//Property[@value="GcProductData"]'):
             'Consumable': data.get('Consumable', ''),
             'ChargeValue': data.get('ChargeValue', ''),
             'StackMultiplier': data.get('StackMultiplier', ''),
-            'DefaultCraftAmount': data.get('DefaultCraftAmount', ''),
-            'CraftAmountStepSize': data.get('CraftAmountStepSize', ''),
-            'CraftAmountMultiplier': data.get('CraftAmountMultiplier', ''),
-            'Cost_SpaceStationMarkup': data.get('Cost', {}).get('SpaceStationMarkup', ''),
-            'Cost_LowPriceMod': data.get('Cost', {}).get('LowPriceMod', ''),
-            'Cost_HighPriceMod': data.get('Cost', {}).get('HighPriceMod', ''),
-            'Cost_BuyBaseMarkup': data.get('Cost', {}).get('BuyBaseMarkup', ''),
-            'Cost_BuyMarkupMod': data.get('Cost', {}).get('BuyMarkupMod', ''),
-            'RecipeCost': data.get('RecipeCost', ''),
-            'SpecificChargeOnly': data.get('SpecificChargeOnly', ''),
-            'TradeCategory': data.get('TradeCategory', {}).get('TradeCategory', ''),
             'WikiCategory': data.get('WikiCategory', ''),
-            'IsCraftable': data.get('IsCraftable', ''),
-            'EconomyInfluenceMultiplier': data.get('EconomyInfluenceMultiplier', ''),
+            'FossilCategory': data.get('FossilCategory', {}).get('FossilCategory', ''),
             'CookingIngredient': data.get('CookingIngredient', ''),
             'CookingValue': data.get('CookingValue', ''),
 
@@ -94,9 +90,12 @@ for product in root.findall('.//Property[@value="GcProductData"]'):
             'CanSendToOtherPlayers': data.get('CanSendToOtherPlayers', '')
         }
 
+    else:
+        print(product_id,product_category)
+
 # --- WRITE TO JSON ---
 with open(output_json_file, 'w', encoding='utf-8') as json_out:
     json.dump(product_data_dict, json_out, indent=4, ensure_ascii=False)
 
-print(f"✅ Product data written to: {output_json_file}")
-print(f"🧾 Total products: {len(product_data_dict)}")
+print(f"✅ Fossil data written to: {output_json_file}")
+print(f"🧾 Total Fossils: {len(product_data_dict)}")

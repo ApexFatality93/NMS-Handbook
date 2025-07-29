@@ -5,9 +5,10 @@ const MAX_RESULTS = 8;
 Promise.all([
     fetch('/JSON_Files/Product_Table.json').then(res => res.json()),
     fetch('/JSON_Files/Substance_Table.json').then(res => res.json()),
-    fetch('/JSON_Files/Fish_Table.json').then(res => res.json())
+    fetch('/JSON_Files/Fish_Table.json').then(res => res.json()),
+    fetch('/JSON_Files/Fossil_Table.json').then(res => res.json())
 ])
-.then(([products, substances, fish]) => {
+.then(([products, substances, fish, fossils]) => {
     allItems = [
         ...Object.entries(products).map(([id, item]) => ({
             id,
@@ -23,6 +24,11 @@ Promise.all([
             id,
             name: item.NameLower_Text,
             type: 'product'
+        })),
+        ...Object.entries(fossils).map(([id, item]) => ({
+            id,
+            name: item.NameLower_Text,
+            type: 'fossil'
         }))
     ];
 

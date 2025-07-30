@@ -10,11 +10,13 @@ Promise.all([
     fetch("/JSON_Files/Product_Table.json").then(res => res.json()),
     fetch("/JSON_Files/Substance_Table.json").then(res => res.json()),
     fetch("/JSON_Files/Fish_Table.json").then(res => res.json()),
-    fetch("/JSON_Files/Fossil_Table.json").then(res => res.json())
-]).then(([products, substances, fish, fossils]) => {
+    fetch("/JSON_Files/Fossil_Table.json").then(res => res.json()),
+    fetch("/JSON_Files/Ship_Part_Table.json").then(res => res.json())
+]).then(([products, substances, fish, fossils, shipParts]) => {
     productData = products;
     substanceData = substances;
     fossilData = fossils
+    shipPartData = shipParts
 
     // De-dupe fish by Name
     const uniqueFishMap = new Map();
@@ -91,6 +93,16 @@ function renderSearchResults(query) {
             icon: item.Icon_Filename,
             rgba: [item.Colour_R, item.Colour_G, item.Colour_B, item.Colour_A],
             type: "fossil"
+        });
+    }
+
+    for (const [id, item] of Object.entries(shipPartData)) {
+        allItems.push({
+            id,
+            name: item.NameLower_Text,
+            icon: item.Icon_Filename,
+            rgba: [item.Colour_R, item.Colour_G, item.Colour_B, item.Colour_A],
+            type: "fabrication"
         });
     }
 

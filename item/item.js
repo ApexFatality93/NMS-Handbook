@@ -812,23 +812,17 @@ function loadDataAndDisplay() {
         return;
     }
 
-
-    // const file = type === "product" ? "/JSON_Files/Product_Table.json" : "/JSON_Files/Substance_Table.json";
-
-    // fetch(file)
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         const item = data[id];
-
     const productFile = "/JSON_Files/Product_Table.json";
     const substanceFile = "/JSON_Files/Substance_Table.json";
     const fossilFile = "/JSON_Files/Fossil_Table.json";
+    const shipPartsFile = "/JSON_Files/Ship_Part_Table.json";
 
     Promise.all([
         fetch(productFile).then(res => res.json()),
         fetch(substanceFile).then(res => res.json()),
-        fetch(fossilFile).then(res => res.json())
-    ]).then(([productData, substanceData, fossilData]) => {
+        fetch(fossilFile).then(res => res.json()),
+        fetch(shipPartsFile).then(res => res.json())
+    ]).then(([productData, substanceData, fossilData, shipPartsData]) => {
         let data;
         if (type === "product") {
             data = productData;
@@ -836,6 +830,8 @@ function loadDataAndDisplay() {
             data = substanceData;
         } else if (type === "fossil") {
             data = fossilData;
+        } else if (type === "fabrication") {
+            data = shipPartsData;
         } else {
             data = null;
         }

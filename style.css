@@ -61,6 +61,13 @@ body {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.site-brand:hover {
+    opacity: 0.8;            
+    cursor: pointer;
 }
 
 .site-logo {
@@ -108,7 +115,7 @@ body {
         margin-right: 0px;
     }
     .hero {
-        padding-top: 5.5rem !important;
+        padding-top: 1rem !important;
         padding-bottom: 1rem !important;
     }
     .site-header {
@@ -339,7 +346,7 @@ h1 {
 .hero {
     background: linear-gradient(to right, #002e3e, var(--color-bg-alt));
     color: white;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     text-align: center;
 }
 

@@ -6,7 +6,7 @@ function getQueryParams() {
     const params = new URLSearchParams(window.location.search);
     return {
         id: params.get('id'),
-        type: params.get('type') // 'product' or 'substance'
+        type: params.get('type') // 'product', 'substance', etc.
     };
 }
 
@@ -623,37 +623,6 @@ function createUsedInCraftingSection(itemId, craftingData) {
     return section;
 }
 
-// function createLegacySection(itemId, legacyData) {
-
-//     const legacyItem = legacyData[itemId];
-//     if (!legacyItem) return null;
-
-//     const section = document.createElement("div");
-//     section.className = "legacy-section";
-
-//     const title = document.createElement("h2");
-//     title.textContent = "Legacy Item";
-//     section.appendChild(title);
-
-//     const legacyIcon = document.createElement("img");
-//     legacyIcon.className = "legacy-icon";
-//     legacyIcon.src = "/assets/icons/legacy.png";
-//     legacyIcon.alt = "Legacy Icon";
-//     section.appendChild(legacyIcon)
-
-//     const message = document.createElement("p");
-
-//     if (legacyItem.GameFile === "Yes") {
-//         message.innerHTML = 'This item is no longer in the game'
-//     } else {
-//         message.innerHTML = 'This item can no longer be obtained through normal gameplay'
-//     }
-
-//     section.appendChild(message);
-
-//     return section;
-// }
-
 function createLegacySection(itemId, legacyData) {
     const legacyItem = legacyData[itemId];
     if (!legacyItem) return null;
@@ -863,6 +832,15 @@ function loadDataAndDisplay() {
         const iconTextWrapper = document.createElement("div");
         iconTextWrapper.className = "icon-text-wrapper";
 
+        const copyLinkButton = document.createElement("button"); 
+        copyLinkButton.className = "copy-link-button";
+        copyLinkButton.textContent = "Copy Link";
+
+        const copyConfirmation = document.createElement("p");
+        copyConfirmation.className = "copy-confirmation"; 
+        copyConfirmation.textContent = " Link Copied!"            
+        copyConfirmation.style.display = "none";
+
         const icon = document.createElement("img");
         icon.src = item.Icon_Filename.replace(/\.DDS$/, ".png").replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, dynamic) => `/TEXTURES/UI/FRONTEND/ICONS/${dynamic.toLowerCase()}`);
         icon.alt = item.Name_Text || item.Name;
@@ -921,11 +899,30 @@ function loadDataAndDisplay() {
             textBlock.appendChild(bonusWrapper);
         }
 
-        iconTextWrapper.appendChild(icon);
+        const iconWrapper = document.createElement("div");
+        iconWrapper.className = "icon-button-wrapper";
+        iconWrapper.appendChild(icon);
+        iconWrapper.appendChild(copyLinkButton);
+        iconWrapper.appendChild(copyConfirmation);
+
+        iconTextWrapper.appendChild(iconWrapper);
         iconTextWrapper.appendChild(textBlock);
 
         infoContainer.appendChild(iconTextWrapper);
         mainContainer.appendChild(infoContainer);
+
+        copyLinkButton.addEventListener("click", () => {
+        const url = `${window.location.origin}${window.location.pathname}?id=${id}&type=${type}`;
+
+        navigator.clipboard.writeText(url)
+            .then(() => {
+                copyConfirmation.style.display = "block";
+                setTimeout(() => {
+                    copyConfirmation.style.display = "none";
+                }, 2000);
+            })
+            .catch(err => console.error("Failed to copy:", err));
+        });
 
         // --- Bottom: Dynamic Sections ---
         const sectionContainer = document.createElement("div");

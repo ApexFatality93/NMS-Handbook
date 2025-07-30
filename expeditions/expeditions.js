@@ -3,6 +3,10 @@ const expeditionGrid = document.getElementById("expedition-grid");
 
 let expeditionData = {};
 
+function sanitizeText(text) {
+    return text.replace(/<[^>]*>/g, "").trim();
+}
+
 function createExpeditionCard(seasonNumber, seasonData) {
     const card = document.createElement("div");
     card.className = "product-card";
@@ -55,7 +59,7 @@ function displayExpeditionDetail(seasonNumber, seasonData) {
 
     // Description
     const description = document.createElement("h3");
-    description.textContent = seasonData.Description;
+    description.textContent = sanitizeText(seasonData.Description);
     container.appendChild(description);
 
     // Icon

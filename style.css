@@ -357,7 +357,7 @@ h1 {
 
 /* Nav Cards */
 .nav-cards {
-    padding: 3rem 2rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -368,18 +368,9 @@ h1 {
 }
 
 .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    padding: 0 1rem;
-    margin: 0 auto;
-    max-width: 1200px;
-    box-sizing: border-box;
-}
-
-.card-fish-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     padding: 0 1rem;
     margin: 0 auto;
@@ -389,20 +380,34 @@ h1 {
 
 .fishing-cards {
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.card-fish-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
 }
 
 .nav-card {
     background-color: var(--color-bg);
-    padding: 0.5rem;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     text-decoration: none;
     color: white;
     transition: transform 0.2s ease, background-color 0.2s ease;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .nav-card:hover {
@@ -500,7 +505,7 @@ h1 {
   background-color: #111;
   min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 999;
 }
 
 .dropdown-content a {
@@ -724,25 +729,23 @@ h1 {
 .recipe-section {
     margin-top: 2rem;
     padding: 0rem 1rem 1rem 1rem;
-    /* background-color: var(--color-bg);
-    border-radius: 8px;
-    border: 2px solid var(--color-accent); */
 }
 
 .recipe-section h2 {
-    /* background-color: #00131a;
-    border: 2px solid var(--color-accent);
-    border-radius: 8px; */
     border-bottom: 5px solid white;
     padding: 1rem;
 }
 
 .recipe-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
 }
 
 .recipe-card {
@@ -955,6 +958,17 @@ h1 {
 
 /* ---------------------------------------------------------------------- */
 
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
 .lore-page-wrapper {
     border: 1px solid var(--color-primary);
     margin-bottom: 10px;
@@ -1020,12 +1034,17 @@ h1 {
 @media (max-width: 768px) {
     .toggle-label {
         display: none;
-
     }
     .toggle-icon {
         padding-left: 0.5rem;
     }
+}
 
+@media (max-width: 359px) {
+
+    span.page-title {
+        font-size: 0.8rem;
+    }
 }
 
 /* ---------------------------------------------------------------------- */
@@ -1148,34 +1167,41 @@ h1 {
     .nav-cards h2 {
         font-size: 1.4rem;
     }
+
+    .card-grid {
+        gap: 1rem;
+        padding: 0 0.5rem;
+    }
     
-    .nav-cards,
-    .fishing-cards {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 1rem;
+    .card-fish-grid,
+    #product-grid,
+    #search-results-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1rem;
     }
 
-    .card-grid,
-    .product-grid,
-    .card-fish-grid,
-    .grip-container,
-    .recipe-section,
-    .recipe-grid,
-    #product-grid,
-    #cooking-grid,
-    #search-results-grid {
-        grid-template-columns: 1fr !important;
-        gap: 1rem;
+    .bonus-stat-box .tooltip-icon {
+        display: none;
+    }
+
+    .bonus-stat-box p {
+        font-size: 0.7rem;
+    }
+
+    .product-info h3 {
+        font-size: 0.8rem !important;
     }
 
     .product-card {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
 
+    .product-card h4 {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
     
     .detail-icon,
@@ -1299,5 +1325,11 @@ h1 {
     .ingredient .ingredient-icon {
         width: 30px !important;
         height: 30px !important;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .site-title {
+        font-size: 1.0rem;
     }
 }

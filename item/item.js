@@ -260,7 +260,7 @@ function createRefiningRecipeSection(recipeItem, recipes) {
         // Input label
         const inputLabel = document.createElement("div");
         inputLabel.className = "ingredient-text";
-        inputLabel.textContent = "Ingredients:";
+        inputLabel.textContent = "Refiner Inputs:";
         card.appendChild(inputLabel);
 
         // Ingredient list
@@ -373,7 +373,7 @@ function createRefiningUsedInSection(itemId, refiningData) {
 
                 const ingredientText = document.createElement("div");
                 ingredientText.className = "ingredient-text";
-                ingredientText.textContent = "Ingredients:";
+                ingredientText.textContent = "Refiner Inputs:";
                 card.appendChild(ingredientText)
 
                 const ingredientGrid = document.createElement("div");
@@ -474,6 +474,12 @@ function createCraftingSection(craftingItem) {
     outputIcon.style.backgroundColor = rgba;
     card.appendChild(outputIcon);
 
+    // Ingredients Required Text
+    const ingredientText = document.createElement("div");
+    ingredientText.className = "ingredient-text";
+    ingredientText.textContent = "Required Parts:";
+    card.appendChild(ingredientText);
+
     // Ingredient list
     const ingredientGrid = document.createElement("div");
     ingredientGrid.className = "ingredient-grid";
@@ -553,7 +559,7 @@ function createUsedInCraftingSection(itemId, craftingData) {
             // Ingredient grid
             const ingredientText = document.createElement("div");
             ingredientText.className = "ingredient-text";
-            ingredientText.textContent = "Ingredients:";
+            ingredientText.textContent = "Required Parts:";
             card.appendChild(ingredientText);
 
             const ingredientGrid = document.createElement("div");

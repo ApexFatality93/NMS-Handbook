@@ -669,6 +669,47 @@ h1 {
     margin: 2px;
 }
 
+.stellar-text {
+    color: rgb(247,228,124);
+}
+
+.commodity-text {
+    color: rgb(161,136,3);
+}
+
+.technology-text {
+    color: #8aabf8;
+}
+
+.earth-text {
+    color: #94b2f7
+}
+
+.fuel-text {
+    color: rgb(234,3,3);
+}
+
+.warning-text {
+    color: rgb(253,67,67);
+}
+
+.val-on-text {
+    font-weight: bold;
+}
+
+.unmapped-tag {
+    color: var(--color-accent);
+}
+
+.inline-icon {                  
+    height: 32px !important;
+    width: 32px !important;
+    vertical-align: middle;
+    position: relative;
+    top: 6px;
+    margin: 0;
+}
+
 .item-info-section .product-icon {
     border-radius: 8px;
     flex-shrink: 0;

@@ -1,5 +1,43 @@
+// function sanitizeText(text) {
+//     return text.replace(/<[^>]*>/g, "").trim();
+// }
+
 function sanitizeText(text) {
-    return text.replace(/<[^>]*>/g, "").trim();
+    if (!text) return "";
+
+    const textColorMap = {
+    STELLAR: "stellar-text",       // pale yellow
+    COMMODITY: "commodity-text",   // gold
+    TECHNOLOGY: "technology-text", // light blue
+    EARTH: "earth-text",           // slightly less blue
+    FUEL: "fuel-text",             // bright red
+    WARNING: "warning-text",       // pale red
+    VAL_ON: "val-on-text",         // bold?
+    };
+
+    // TODO
+    const imgIconMap = {
+        // QUICK_MENU: "/assets/icons/letter-x.png"
+    };
+
+    // Replace image/icon references: <IMG>KEY<>
+    text = text.replace(/<IMG>([^<>]+)<>/g, (match, key) => {
+        const src = imgIconMap[key];
+        return src ? `<img src="${src}" alt="${key}" class="inline-icon">` : key;
+    });
+
+    // Replace tagged color text: <TAG>Text<>
+    text = text.replace(/<([A-Z_]+)>([^<>]+)<>/g, (match, tag, content) => {
+        if (textColorMap[tag]) {
+            return `<span class="${textColorMap[tag]}">${content}</span>`;
+        } else {
+        return `<span class="unmapped-tag">${content}</span>`;
+        }
+    });
+
+    text = text.replace(/\s?\([A-Z_]+\)/g, "");
+
+    return text.trim();
 }
 
 function getQueryParams() {
@@ -935,7 +973,7 @@ function loadDataAndDisplay() {
         subtitle.textContent = item.Subtitle_Text || item.Subtitle;
 
         const desc = document.createElement("p");
-        desc.textContent = sanitizeText(item.Description_Text || item.Description);
+        desc.innerHTML = sanitizeText(item.Description_Text || item.Description);
 
         // --- Value Section ---
         const valueWrapper = document.createElement("div");

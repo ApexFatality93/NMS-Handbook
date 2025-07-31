@@ -931,6 +931,27 @@ h1 {
     text-decoration: underline;
 }
 
+.special-reward-description,
+.reward-table-intro {
+    margin-bottom: 1.5em;
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: left;
+    
+}
+
+.reward-type-table {
+    border-collapse: collapse;
+    margin-top: 0.5em;
+}
+
+.reward-type-table th,
+.reward-type-table td {
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    text-align: center;
+}
+
 /* ---------------------------------------------------------------------- */
 
 .about-container {

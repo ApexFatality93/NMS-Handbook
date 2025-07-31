@@ -768,6 +768,134 @@ function createFishSection(itemId, fishData) {
     return section;
 }
 
+// function createSpecialRewardsSection(itemId, rewardData) {
+//     const rewardItem = rewardData[itemId];
+//     if (!rewardItem) return null;
+
+//     const section = document.createElement("div");
+//     section.className = "recipe-section";
+
+//     const title = document.createElement("h2");
+//     title.textContent = "Special Rewards";
+//     section.appendChild(title);
+
+//     const card = document.createElement("div");
+//     card.className = "recipe-card";
+
+//     // Add more code here
+
+
+
+//     //////////////////////
+
+//     section.appendChild(card);
+//     return section;
+// }
+
+// function createSpecialRewardsSection(itemId, rewardData) {
+//     const rewardItem = rewardData[itemId];
+//     if (!rewardItem) return null;
+
+//     const section = document.createElement("div");
+//     section.className = "recipe-section";
+
+//     const title = document.createElement("h2");
+//     title.textContent = "Obtainment";
+//     section.appendChild(title);
+
+//     const card = document.createElement("div");
+//     card.className = "recipe-card";
+
+//     // --- Reward Name
+//     const nameElement = document.createElement("h3");
+//     nameElement.textContent = rewardItem.RewardName || rewardItem.ID;
+//     nameElement.className = "reward-name";
+//     card.appendChild(nameElement);
+
+//     // --- Reward Type(s)
+//     const typeElement = document.createElement("p");
+//     const types = Array.isArray(rewardItem.RewardType)
+//         ? rewardItem.RewardType.join(", ")
+//         : rewardItem.RewardType;
+//     typeElement.textContent = `Type: ${types}`;
+//     typeElement.className = "reward-type";
+//     card.appendChild(typeElement);
+
+//     section.appendChild(card);
+
+//     // Hide the value section if it exists
+//     const valueSection = document.querySelector(".item-value-wrapper");
+//     if (valueSection) {
+//         valueSection.style.display = "none";
+//     }
+
+//     return section;
+// }
+
+function createSpecialRewardsSection(itemId, rewardData) {
+    const rewardItem = rewardData[itemId];
+    if (!rewardItem) return null;
+
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "How to obtain:";
+    section.appendChild(title);
+
+    // --- Description
+    const description = document.createElement("p");
+    description.className = "special-reward-description";
+    description.textContent = "This item was previously rewarded through a limited-time event and is not currently obtainable unless it was already unlocked on one of your save files. However, Hello Games often re-runs Expeditions at the end of each year, which may offer another chance to earn it.";
+    section.appendChild(description);
+
+    // --- Table Intro Sentence
+    const tableIntro = document.createElement("p");
+    tableIntro.className = "reward-table-intro";
+    tableIntro.textContent = "The table below shows which events this item was originally available through.";
+    section.appendChild(tableIntro);
+
+    // --- Reward Type Table
+    const table = document.createElement("table");
+    table.className = "reward-type-table";
+
+    const headerRow = document.createElement("tr");
+    const headerExpedition = document.createElement("th");
+    headerExpedition.textContent = "Expedition Reward";
+    const headerTwitch = document.createElement("th");
+    headerTwitch.textContent = "Twitch Drop";
+    headerRow.appendChild(headerExpedition);
+    headerRow.appendChild(headerTwitch);
+    table.appendChild(headerRow);
+
+    const dataRow = document.createElement("tr");
+    const cellExpedition = document.createElement("td");
+    const cellTwitch = document.createElement("td");
+
+    const rewardTypes = Array.isArray(rewardItem.RewardType) ? rewardItem.RewardType : [rewardItem.RewardType];
+    const hasExpedition = rewardTypes.includes("Expedition");
+    const hasTwitch = rewardTypes.includes("Twitch");
+
+    cellExpedition.textContent = hasExpedition ? "✅" : "❌";
+    cellTwitch.textContent = hasTwitch ? "✅" : "❌";
+
+    dataRow.appendChild(cellExpedition);
+    dataRow.appendChild(cellTwitch);
+    table.appendChild(dataRow);
+
+    section.appendChild(table);
+
+    // Hide the value section if it exists
+    const valueSection = document.querySelector(".item-value-wrapper");
+    if (valueSection) {
+        valueSection.style.display = "none";
+    }
+
+    return section;
+}
+
+
+
 function loadDataAndDisplay() {
     const { id, type } = getQueryParams();
 
@@ -975,8 +1103,9 @@ function loadDataAndDisplay() {
             fetch("/JSON_Files/Crafting_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Cooking_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Bait_Table.json").then(res => res.json()),
-            fetch("/JSON_Files/Fish_Table.json").then(res => res.json())
-        ]).then(([legacyData, refiningData, craftingData, cookingData, baitData, fishData]) => {
+            fetch("/JSON_Files/Fish_Table.json").then(res => res.json()),
+            fetch("/JSON_Files/Special_Rewards_Table.json").then(res => res.json())
+        ]).then(([legacyData, refiningData, craftingData, cookingData, baitData, fishData, specialRewardsData]) => {
 
             // === Legacy Item Section ===
             if (legacyData[id]) {
@@ -1052,6 +1181,14 @@ function loadDataAndDisplay() {
                 const fishSection = createFishSection(id, fishData);
                 if (fishSection) {
                     sectionContainer.appendChild(fishSection);
+                }
+            }
+
+            // == Special Rewards Section ===
+            if (specialRewardsData[id]) {
+                const specialRewardsSection = createSpecialRewardsSection(id, specialRewardsData);
+                if (specialRewardsSection) {
+                    sectionContainer.appendChild(specialRewardsSection);
                 }
             }
 

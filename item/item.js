@@ -792,14 +792,16 @@ function loadDataAndDisplay() {
     const fossilFile = "/JSON_Files/Fossil_Table.json";
     const shipPartsFile = "/JSON_Files/Ship_Part_Table.json";
     const technologyFile = "/JSON_Files/Technology_Table.json";
+    const specialPurchaseFile = "/JSON_Files/Special_Purchase_Table.json";
 
     Promise.all([
         fetch(productFile).then(res => res.json()),
         fetch(substanceFile).then(res => res.json()),
         fetch(fossilFile).then(res => res.json()),
         fetch(shipPartsFile).then(res => res.json()),
-        fetch(technologyFile).then(res => res.json())
-    ]).then(([productData, substanceData, fossilData, shipPartsData, technologyData]) => {
+        fetch(technologyFile).then(res => res.json()),
+        fetch(specialPurchaseFile).then(res => res.json())
+    ]).then(([productData, substanceData, fossilData, shipPartsData, technologyData, specialPurchaseData]) => {
         let data;
         if (type === "product") {
             data = productData;
@@ -876,11 +878,13 @@ function loadDataAndDisplay() {
         const numericValue = Number(item.BaseValue);
         if (!isNaN(numericValue)) {
             formattedValue = numericValue.toLocaleString();
-            const valueText = document.createElement("span");
-            valueText.textContent = `Value: ${formattedValue} `;
             const unitsIcon = document.createElement("img");
-            unitsIcon.src = "/assets/icons/units.png";
-            unitsIcon.alt = "Units";
+            const isSpecial = specialPurchaseData.hasOwnProperty(id);
+            const label = isSpecial ? "Cost" : "Value";
+            const valueText = document.createElement("span");
+            valueText.textContent = `${label}: ${formattedValue} `;
+            unitsIcon.src = isSpecial ? "/assets/icons/quicksilver.png" : "/assets/icons/units.png";
+            unitsIcon.alt = "Currency";
             unitsIcon.className = "units-icon";
             valueWrapper.appendChild(valueText);
             valueWrapper.appendChild(unitsIcon);

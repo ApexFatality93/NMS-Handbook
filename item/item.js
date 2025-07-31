@@ -787,38 +787,40 @@ function loadDataAndDisplay() {
         return;
     }
 
-    const productFile = "/JSON_Files/Product_Table.json";
-    const substanceFile = "/JSON_Files/Substance_Table.json";
-    const fossilFile = "/JSON_Files/Fossil_Table.json";
-    const shipPartsFile = "/JSON_Files/Ship_Part_Table.json";
-    const technologyFile = "/JSON_Files/Technology_Table.json";
-    const specialPurchaseFile = "/JSON_Files/Special_Purchase_Table.json";
+    // Map type to its corresponding file path
+    const typeToFile = {
+        product: "/JSON_Files/Product_Table.json",
+        substance: "/JSON_Files/Substance_Table.json",
+        fossil: "/JSON_Files/Fossil_Table.json",
+        fabrication: "/JSON_Files/Ship_Part_Table.json",
+        technology: "/JSON_Files/Technology_Table.json",
+        construction: "/JSON_Files/Building_Parts_Table.json"
+    };
 
+    const dataFile = typeToFile[type];
+
+    if (!dataFile) {
+        // Unknown type
+        document.getElementById("item-details").innerHTML = `
+            <div class="fallback-message">
+                <h2>Invalid Item Type</h2>
+                <p>The item type specified in the URL is not recognized.</p>
+                <p>Click one of the buttons below to continue browsing:</p>
+                <a href="/items" class="button">Browse All Items</a>
+                <a href="/crafting" class="button">Crafting Products</a>
+                <a href="/cooking" class="button">Cooking Recipes</a>
+                <a href="/refining" class="button">Refining Products</a>
+            </div>
+        `;
+        return;
+    }
+
+    // Always fetch Special_Purchase since it's used conditionally
     Promise.all([
-        fetch(productFile).then(res => res.json()),
-        fetch(substanceFile).then(res => res.json()),
-        fetch(fossilFile).then(res => res.json()),
-        fetch(shipPartsFile).then(res => res.json()),
-        fetch(technologyFile).then(res => res.json()),
-        fetch(specialPurchaseFile).then(res => res.json())
-    ]).then(([productData, substanceData, fossilData, shipPartsData, technologyData, specialPurchaseData]) => {
-        let data;
-        if (type === "product") {
-            data = productData;
-        } else if (type === "substance") {
-            data = substanceData;
-        } else if (type === "fossil") {
-            data = fossilData;
-        } else if (type === "fabrication") {
-            data = shipPartsData;
-        } else if (type === "technology") {
-            data = technologyData;
-        } else {
-            data = null;
-        }
-
-        const item = data ? data[id] : null;
-
+        fetch(dataFile).then(res => res.json()),
+        fetch("/JSON_Files/Special_Purchase_Table.json").then(res => res.json())
+    ]).then(([data, specialPurchaseData]) => {
+        const item = data[id];
         if (!item) {
             document.getElementById("item-details").innerHTML = `
                 <div class="fallback-message">
@@ -1037,4 +1039,3 @@ function loadDataAndDisplay() {
 }
 
 loadDataAndDisplay();
-

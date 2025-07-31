@@ -12,13 +12,15 @@ Promise.all([
     fetch("/JSON_Files/Fish_Table.json").then(res => res.json()),
     fetch("/JSON_Files/Fossil_Table.json").then(res => res.json()),
     fetch("/JSON_Files/Ship_Part_Table.json").then(res => res.json()),
-    fetch("/JSON_Files/Technology_Table.json").then(res => res.json())
-]).then(([products, substances, fish, fossils, shipParts, technology]) => {
+    fetch("/JSON_Files/Technology_Table.json").then(res => res.json()),
+    fetch("/JSON_Files/Building_Parts_Table.json").then(res => res.json())
+]).then(([products, substances, fish, fossils, shipParts, technology, construction]) => {
     productData = products;
     substanceData = substances;
     fossilData = fossils;
     shipPartData = shipParts;
     technologyData = technology;
+    constructionData = construction;
 
     // De-dupe fish by Name
     const uniqueFishMap = new Map();
@@ -115,6 +117,16 @@ function renderSearchResults(query) {
             icon: item.Icon_Filename,
             rgba: [item.Colour_R, item.Colour_G, item.Colour_B, item.Colour_A],
             type: "technology"
+        });
+    }
+
+    for (const [id, item] of Object.entries(constructionData)) {
+        allItems.push({
+            id,
+            name: item.NameLower_Text,
+            icon: item.Icon_Filename,
+            rgba: [item.Colour_R, item.Colour_G, item.Colour_B, item.Colour_A],
+            type: "construction"
         });
     }
 

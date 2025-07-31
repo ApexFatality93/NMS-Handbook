@@ -791,13 +791,15 @@ function loadDataAndDisplay() {
     const substanceFile = "/JSON_Files/Substance_Table.json";
     const fossilFile = "/JSON_Files/Fossil_Table.json";
     const shipPartsFile = "/JSON_Files/Ship_Part_Table.json";
+    const technologyFile = "/JSON_Files/Technology_Table.json";
 
     Promise.all([
         fetch(productFile).then(res => res.json()),
         fetch(substanceFile).then(res => res.json()),
         fetch(fossilFile).then(res => res.json()),
-        fetch(shipPartsFile).then(res => res.json())
-    ]).then(([productData, substanceData, fossilData, shipPartsData]) => {
+        fetch(shipPartsFile).then(res => res.json()),
+        fetch(technologyFile).then(res => res.json())
+    ]).then(([productData, substanceData, fossilData, shipPartsData, technologyData]) => {
         let data;
         if (type === "product") {
             data = productData;
@@ -807,6 +809,8 @@ function loadDataAndDisplay() {
             data = fossilData;
         } else if (type === "fabrication") {
             data = shipPartsData;
+        } else if (type === "technology") {
+            data = technologyData;
         } else {
             data = null;
         }
@@ -872,21 +876,23 @@ function loadDataAndDisplay() {
         const numericValue = Number(item.BaseValue);
         if (!isNaN(numericValue)) {
             formattedValue = numericValue.toLocaleString();
+            const valueText = document.createElement("span");
+            valueText.textContent = `Value: ${formattedValue} `;
+            const unitsIcon = document.createElement("img");
+            unitsIcon.src = "/assets/icons/units.png";
+            unitsIcon.alt = "Units";
+            unitsIcon.className = "units-icon";
+            valueWrapper.appendChild(valueText);
+            valueWrapper.appendChild(unitsIcon);
         }
-        const valueText = document.createElement("span");
-        valueText.textContent = `Value: ${formattedValue} `;
-        const unitsIcon = document.createElement("img");
-        unitsIcon.src = "/assets/icons/units.png";
-        unitsIcon.alt = "Units";
-        unitsIcon.className = "units-icon";
-        valueWrapper.appendChild(valueText);
-        valueWrapper.appendChild(unitsIcon);
 
         textBlock.appendChild(title);
         textBlock.appendChild(subtitle);
         textBlock.appendChild(desc);
-        textBlock.appendChild(valueWrapper);
-
+        if (!isNaN(numericValue)) {   
+            textBlock.appendChild(valueWrapper);
+        }
+        
         // --- Exosuit Nutrient Ingestor Effect Section (if any) ---
         if (item.FoodBonusStatTypeText && 
             item.FoodBonusStatTypeText.trim() !== "" &&

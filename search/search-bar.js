@@ -7,9 +7,10 @@ Promise.all([
     fetch('/JSON_Files/Substance_Table.json').then(res => res.json()),
     fetch('/JSON_Files/Fish_Table.json').then(res => res.json()),
     fetch('/JSON_Files/Fossil_Table.json').then(res => res.json()),
-    fetch('/JSON_Files/Ship_Part_Table.json').then(res => res.json())
+    fetch('/JSON_Files/Ship_Part_Table.json').then(res => res.json()),
+    fetch('/JSON_Files/Technology_Table.json').then(res => res.json())
 ])
-.then(([products, substances, fish, fossils, shipParts]) => {
+.then(([products, substances, fish, fossils, shipParts, technology]) => {
     allItems = [
         ...Object.entries(products).map(([id, item]) => ({
             id,
@@ -35,6 +36,11 @@ Promise.all([
             id,
             name: item.NameLower_Text,
             type: 'fabrication'
+        })),
+        ...Object.entries(technology).map(([id, item]) => ({
+            id,
+            name: item.NameLower_Text,
+            type: 'technology'
         }))
     ];
 

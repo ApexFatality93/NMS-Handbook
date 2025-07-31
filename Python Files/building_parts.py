@@ -61,7 +61,7 @@ for product in root.findall('.//Property[@value="GcProductData"]'):
             'Subtitle_Text': lang_lookup.get(subtitle_id, ''),
             'Description': description_id,
             'Description_Text': lang_lookup.get(description_id, ''),
-            # 'BaseValue': data.get('BaseValue', ''),
+            'BaseValue': data.get('BaseValue', ''),
             'Icon_Filename': data.get('Icon', {}).get('Filename', ''),
             'Colour_R': data.get('Colour', {}).get('R', ''),
             'Colour_G': data.get('Colour', {}).get('G', ''),

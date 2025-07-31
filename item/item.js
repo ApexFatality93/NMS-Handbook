@@ -876,18 +876,40 @@ function loadDataAndDisplay() {
         // --- Value Section ---
         const valueWrapper = document.createElement("div");
         valueWrapper.className = "item-value-wrapper";
+
         let formattedValue = "N/A";
-        const numericValue = Number(item.BaseValue);
+        let numericValue;
+        let label = "Value";
+        let iconSrc = "/assets/icons/units.png";
+        const isSpecial = specialPurchaseData.hasOwnProperty(id);
+
+        // Determine which value to use based on type
+        if (type === "technology") {
+            numericValue = Number(item.FragmentCost);
+            label = "Cost";
+            iconSrc = "/assets/icons/nanites.png";
+        } else {
+            numericValue = Number(item.BaseValue);
+            if (type === "construction") {
+                label = "Cost";
+                iconSrc = "/assets/icons/salvageData.png";
+            } else if (isSpecial) {
+                label = "Cost";
+                iconSrc = "/assets/icons/quicksilver.png";
+            }
+        }
+
         if (!isNaN(numericValue)) {
             formattedValue = numericValue.toLocaleString();
-            const unitsIcon = document.createElement("img");
-            const isSpecial = specialPurchaseData.hasOwnProperty(id);
-            const label = isSpecial ? "Cost" : "Value";
+
             const valueText = document.createElement("span");
             valueText.textContent = `${label}: ${formattedValue} `;
-            unitsIcon.src = isSpecial ? "/assets/icons/quicksilver.png" : "/assets/icons/units.png";
+
+            const unitsIcon = document.createElement("img");
+            unitsIcon.src = iconSrc;
             unitsIcon.alt = "Currency";
             unitsIcon.className = "units-icon";
+
             valueWrapper.appendChild(valueText);
             valueWrapper.appendChild(unitsIcon);
         }

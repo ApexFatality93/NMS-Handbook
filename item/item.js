@@ -806,7 +806,7 @@ function createFishSection(itemId, fishData) {
     return section;
 }
 
-function createSpecialRewardsSection(itemId, rewardData) {
+function createSpecialRewardsSection(itemId, rewardData, purchaseData) {
     const rewardItem = rewardData[itemId];
     if (!rewardItem) return null;
 
@@ -817,58 +817,246 @@ function createSpecialRewardsSection(itemId, rewardData) {
     title.textContent = "How to obtain:";
     section.appendChild(title);
 
+    const isPurchasable = purchaseData.hasOwnProperty(itemId);
+
     // --- Description
     const description = document.createElement("p");
     description.className = "special-reward-description";
-    description.textContent = "This item was previously rewarded through a limited-time event and is not currently obtainable unless it was already unlocked on one of your save files. However, Hello Games often re-runs Expeditions at the end of each year, which may offer another chance to earn it.";
+
+    if (isPurchasable) {
+        description.textContent = "This item is available for purchase at the Quicksilver Synthesis Companion aboard the Space Anomaly.";
+    } else {
+        description.textContent = "This item was previously rewarded through a limited-time event and is not currently obtainable unless it was already unlocked on one of your save files. However, Hello Games often re-runs Expeditions at the end of each year, which may offer another chance to earn it.";
+    }
+
     section.appendChild(description);
 
-    // --- Table Intro Sentence
-    const tableIntro = document.createElement("p");
-    tableIntro.className = "reward-table-intro";
-    tableIntro.textContent = "The table below shows which events this item was originally available through.";
-    section.appendChild(tableIntro);
+    // Only show the table if it's not purchasable
+    if (!isPurchasable) {
+        const tableIntro = document.createElement("p");
+        tableIntro.className = "reward-table-intro";
+        tableIntro.textContent = "The table below shows which events this item was originally available through.";
+        section.appendChild(tableIntro);
 
-    // --- Reward Type Table
-    const table = document.createElement("table");
-    table.className = "reward-type-table";
+        const table = document.createElement("table");
+        table.className = "reward-type-table";
 
-    const headerRow = document.createElement("tr");
-    const headerExpedition = document.createElement("th");
-    headerExpedition.textContent = "Expedition Reward";
-    const headerTwitch = document.createElement("th");
-    headerTwitch.textContent = "Twitch Drop";
-    headerRow.appendChild(headerExpedition);
-    headerRow.appendChild(headerTwitch);
-    table.appendChild(headerRow);
+        const headerRow = document.createElement("tr");
+        const headerExpedition = document.createElement("th");
+        headerExpedition.textContent = "Expedition Reward";
+        const headerTwitch = document.createElement("th");
+        headerTwitch.textContent = "Twitch Drop";
+        headerRow.appendChild(headerExpedition);
+        headerRow.appendChild(headerTwitch);
+        table.appendChild(headerRow);
 
-    const dataRow = document.createElement("tr");
-    const cellExpedition = document.createElement("td");
-    const cellTwitch = document.createElement("td");
+        const dataRow = document.createElement("tr");
+        const cellExpedition = document.createElement("td");
+        const cellTwitch = document.createElement("td");
 
-    const rewardTypes = Array.isArray(rewardItem.RewardType) ? rewardItem.RewardType : [rewardItem.RewardType];
-    const hasExpedition = rewardTypes.includes("Expedition");
-    const hasTwitch = rewardTypes.includes("Twitch");
+        const rewardTypes = Array.isArray(rewardItem.RewardType)
+            ? rewardItem.RewardType
+            : [rewardItem.RewardType];
 
-    cellExpedition.textContent = hasExpedition ? "✅" : "❌";
-    cellTwitch.textContent = hasTwitch ? "✅" : "❌";
+        const hasExpedition = rewardTypes.includes("Expedition");
+        const hasTwitch = rewardTypes.includes("Twitch");
 
-    dataRow.appendChild(cellExpedition);
-    dataRow.appendChild(cellTwitch);
-    table.appendChild(dataRow);
+        cellExpedition.textContent = hasExpedition ? "✅" : "❌";
+        cellTwitch.textContent = hasTwitch ? "✅" : "❌";
 
-    section.appendChild(table);
+        dataRow.appendChild(cellExpedition);
+        dataRow.appendChild(cellTwitch);
+        table.appendChild(dataRow);
 
-    // Hide the value section if it exists
-    const valueSection = document.querySelector(".item-value-wrapper");
-    if (valueSection) {
-        valueSection.style.display = "none";
+        section.appendChild(table);
+    }
+
+    // Hide the value section only if the item is NOT purchasable
+    if (!isPurchasable) {
+        const valueSection = document.querySelector(".item-value-wrapper");
+        if (valueSection) {
+            valueSection.style.display = "none";
+        }
     }
 
     return section;
 }
 
+function createTechnologyRechargeSection(itemId, item) {
+    if (!item.ChargeBy || item.ChargeBy.length === 0) return null;
 
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "Recharge this item with:";
+    section.appendChild(title);
+
+    const list = document.createElement("ul");
+    list.className = "charge-list"; 
+
+    item.ChargeBy.forEach(chargeItem => {
+        const listItem = document.createElement("li");
+        listItem.className = "charge-item";
+
+        // Make item clickable
+        listItem.addEventListener("click", () => {
+            window.location.href = `/item/?id=${chargeItem.Id}&type=${chargeItem.Type}`;
+        });
+
+        const icon = document.createElement("img");
+        icon.src = chargeItem.Icon_Filename
+            .replace(/\.DDS$/i, ".png")
+            .replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, path) => `/TEXTURES/UI/FRONTEND/ICONS/${path.toLowerCase()}`);
+        icon.alt = chargeItem.NameLower_Text || chargeItem.Id;
+        icon.className = "charge-icon";
+        const rgba = `rgba(${chargeItem.Colour_R * 255}, ${chargeItem.Colour_G * 255}, ${chargeItem.Colour_B * 255}, ${chargeItem.Colour_A})`;
+        icon.style.backgroundColor = rgba;
+
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = chargeItem.NameLower_Text || chargeItem.Id;
+
+        listItem.appendChild(icon);
+        listItem.appendChild(nameSpan);
+        list.appendChild(listItem);
+    });
+
+    section.appendChild(list);
+    return section;
+}
+
+function createTechnologyRequirementsSection(itemId, item) {
+    if (!item.Requirements || item.Requirements.length === 0) return null;
+
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "Crafting Requirements:";
+    section.appendChild(title);
+
+    const list = document.createElement("ul");
+    list.className = "charge-list"; // reuse for styling
+
+    item.Requirements.forEach(requirement => {
+        const listItem = document.createElement("li");
+        listItem.className = "charge-item";
+
+        // Make item clickable
+        listItem.addEventListener("click", () => {
+            window.location.href = `/item/?id=${requirement.Id}&type=${requirement.Type}`;
+        });
+
+        const icon = document.createElement("img");
+        icon.src = requirement.Icon_Filename
+            .replace(/\.DDS$/i, ".png")
+            .replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, path) => `/TEXTURES/UI/FRONTEND/ICONS/${path.toLowerCase()}`);
+        icon.alt = requirement.NameLower_Text || requirement.Id;
+        icon.className = "charge-icon";
+
+        const rgba = `rgba(${requirement.Colour_R * 255}, ${requirement.Colour_G * 255}, ${requirement.Colour_B * 255}, ${requirement.Colour_A})`;
+        icon.style.backgroundColor = rgba;
+
+        const textWrapper = document.createElement("div");
+        textWrapper.className = "requirement-text-wrapper";
+
+        const nameSpan = document.createElement("span");
+        nameSpan.className = "requirement-name";
+        nameSpan.textContent = requirement.NameLower_Text || requirement.Id;
+
+        const amountLine = document.createElement("span");
+        amountLine.className = "requirement-amount";
+        amountLine.textContent = `(x${requirement.Amount || 1})`;
+
+        textWrapper.appendChild(nameSpan);
+        textWrapper.appendChild(amountLine);
+
+        listItem.appendChild(icon);
+        listItem.appendChild(textWrapper);
+        list.appendChild(listItem);
+    });
+
+    section.appendChild(list);
+    return section;
+}
+
+function createTechnologyStatsSection(itemId, item) {
+    if (!item.StatBonuses || item.StatBonuses.length === 0) return null;
+
+    const filteredStats = item.StatBonuses.filter(stat => stat.StatsTypeText && stat.StatsTypeText.trim() !== "");
+    if (filteredStats.length === 0) return null;
+
+    const statIconMap = {
+        "Boost": "upgradecat.energy.png",
+        "Pulse Drive Fuel Efficiency": "upgradecat.energy.png",
+        "Flight Assist Reduction": "buildcatagory.device.png",
+        "Maneuverability": "upgradecat.accuracy.png",
+        "Pulse Drive Power": "upgradecat.generic.png",
+        "Instant Hyperdrive Scramble": "upgradecat.accuracy.png",
+        "Launch Cost": "upgradecat.generic.png",
+        "Shield Strength": "upgradecat.protection.png",
+        "Heat Dispersion": "upgradecat.time.png",
+        "Total Cannon Count:": "upgradecat.clip.png",
+        "Accuracy": "upgradecat.accuracy.png",
+        "Range": "upgradecat.range.png",
+        "Shield recharge on impact": "terrain.undo.png",
+        "Heat Recovery": "upgradecat.clip.png",
+        "Automatic Recharging": "upgradecat.energy.png",
+        "Life Support Tanks": "upgradecat.energy.png",
+        "Words Translated": "upgradecat.mine.png",
+        "Advanced Jump System": "tech.suit.utilities.png",
+        "Jetpack Tanks": "tech.weapon.jetpack.png",
+        "Sprint Distance": "upgradecat.speed.png",
+        "Recharge Rate": "upgradecat.speed.png",
+        "Sprint Recovery Time": "upgradecat.energy.png",
+        "Oxygen Rerouting": "upgradecat.protection.png",
+        "Hazard Protection Battery": "upgradecat.protection.png",
+        "Breathing Efficiency": "upgradecat.protection.png",
+        "Radiation Resistance": "upgradecat.protection.png",
+        "Toxic Resistance": "upgradecat.protection.png",
+        "Cold Resistance": "upgradecat.protection.png",
+        "Heat Resistance": "upgradecat.protection.png",
+        // TODO: Add MT and exocraft, find missing ship and exosuit
+    };
+
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "Stat Bonuses:";
+    section.appendChild(title);
+
+    const list = document.createElement("ul");
+    list.className = "charge-list";
+
+    filteredStats.forEach(stat => {
+        const listItem = document.createElement("li");
+        listItem.className = "charge-item";
+
+        const icon = document.createElement("img");
+        const iconFilename = statIconMap[stat.StatsTypeText] || "generic.png";
+        icon.src = `/assets/icons/stats/${iconFilename}`;
+        icon.alt = stat.StatsTypeText || "Stat Icon";
+        icon.className = "charge-icon";
+        icon.style.backgroundColor = "rgba(88, 136, 255, 0.2)";
+
+        const textWrapper = document.createElement("div");
+        textWrapper.className = "requirement-text-wrapper";
+
+        const nameSpan = document.createElement("span");
+        nameSpan.className = "requirement-name";
+        nameSpan.textContent = stat.StatsTypeText;
+
+        textWrapper.appendChild(nameSpan);
+
+        listItem.appendChild(icon);
+        listItem.appendChild(textWrapper);
+        list.appendChild(listItem);
+    });
+
+    section.appendChild(list);
+    return section;
+}
 
 function loadDataAndDisplay() {
     const { id, type } = getQueryParams();
@@ -1001,7 +1189,7 @@ function loadDataAndDisplay() {
             }
         }
 
-        if (!isNaN(numericValue)) {
+        if (!isNaN(numericValue) && numericValue > 1) {
             formattedValue = numericValue.toLocaleString();
 
             const valueText = document.createElement("span");
@@ -1019,7 +1207,7 @@ function loadDataAndDisplay() {
         textBlock.appendChild(title);
         textBlock.appendChild(subtitle);
         textBlock.appendChild(desc);
-        if (!isNaN(numericValue)) {   
+        if (!isNaN(numericValue) && numericValue > 1) {   
             textBlock.appendChild(valueWrapper);
         }
         
@@ -1160,12 +1348,37 @@ function loadDataAndDisplay() {
 
             // == Special Rewards Section ===
             if (specialRewardsData[id]) {
-                const specialRewardsSection = createSpecialRewardsSection(id, specialRewardsData);
+                const specialRewardsSection = createSpecialRewardsSection(id, specialRewardsData, specialPurchaseData);
                 if (specialRewardsSection) {
                     sectionContainer.appendChild(specialRewardsSection);
                 }
             }
 
+            // == Technology Recharge Section ===
+            if (type === "technology" && item.Chargeable === "true") {
+                const technologyRechargeSection = createTechnologyRechargeSection(id, item);
+                if (technologyRechargeSection) {
+                    sectionContainer.appendChild(technologyRechargeSection);
+                }
+            }
+
+            // == Technology Requirements Section ===
+            if (type === "technology" && Array.isArray(item.Requirements) && item.Requirements.length > 0) {
+                const technologyRequirementsSection = createTechnologyRequirementsSection(id, item);
+                if (technologyRequirementsSection) {
+                    sectionContainer.appendChild(technologyRequirementsSection);
+                }
+            }
+
+            // == Technology Stat Bonus Section ===
+            if (type === "technology" && Array.isArray(item.StatBonuses) && item.StatBonuses.length > 0) {
+                const statBonusSection = createTechnologyStatsSection(id, item);
+                if (statBonusSection) {
+                    sectionContainer.appendChild(statBonusSection);
+                }
+            }
+
+            // Append bottom section of page
             mainContainer.appendChild(sectionContainer);
         });
     });

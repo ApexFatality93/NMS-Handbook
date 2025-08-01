@@ -225,11 +225,11 @@ h1 {
     text-align: center;
 }
 
-.item-details-page img {
-    width: 100px;
-    height: 100px;
+/* .item-details-page img { */
+.item-details-page > .item-info-section img.product-icon {
+    width: 150px;
+    height: 150px;
     border-radius: 8px;
-    padding: 0.5rem;
     margin-bottom: 1rem;
 }
 
@@ -744,7 +744,7 @@ h1 {
 .units-icon {
     width: 25px !important;
     height: 25px !important;
-    margin-top: 1.1rem;
+    margin: 0.3rem;
 }
 
 .bonus-stat-box {
@@ -773,6 +773,56 @@ h1 {
     cursor: pointer; 
 }
 
+.charge-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.charge-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-bg);
+    padding-right: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.05);
+    min-width: 200px;
+}
+
+.charge-item:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 0 0 12px var(--color-accent);
+}
+
+.charge-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: contain;
+    margin-right: 0.75rem;
+}
+
+.charge-item span {
+    color: #ddd;
+    font-size: 1.1rem;
+}
+
+.requirement-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.requirement-amount {
+    margin-top: 0.2rem;
+    text-align: left;
+}
+
 @media (max-width: 768px) {
     
     .icon-text-wrapper {
@@ -797,7 +847,7 @@ h1 {
     .units-icon {
         width: 25px !important;
         height: 25px !important;
-        margin-top: 1.0rem;
+        margin: 0.3rem;
     }
 }
 
@@ -836,6 +886,14 @@ h1 {
     margin-right: auto;
 }
 
+.recipe-card > .ingredient-icon {
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
 .ingredient-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -848,8 +906,8 @@ h1 {
     align-items: center;
     gap: 1.5rem;
     background: rgba(255, 255, 255, 0.03);
-    padding-top: 1rem;
-    padding-left: 1rem;
+    padding-top: 0rem;
+    padding-left: 0rem;
     padding-right: 10px;
     border-radius: 8px;
 }
@@ -879,6 +937,10 @@ h1 {
 
 .ingredient-qty {
     color: #aaa;
+}
+
+.ingredient-info .ingredient-qty {
+    text-align: left;
 }
 
 .recipe-toggle-btn {
@@ -1303,7 +1365,7 @@ h1 {
     .detail-icon,
     .product-icon {
         max-width: 100px;
-        height: auto;
+        max-height: 100px;
     }
 
     .product-info {

@@ -1,6 +1,7 @@
 
 import xml.etree.ElementTree as ET
 import json
+import re
 
 # --- CONFIG ---
 mxml_file = './Game Files/NMS_REALITY_GCTECHNOLOGYTABLE.MXML'
@@ -34,6 +35,26 @@ def extract_data(property_node):
         else:
             data[name] = value
     return data
+
+def fuzzy_lang_lookup(key, lookup_dict):
+    key_upper = key.upper()
+
+    # Step 1: Exact match
+    if key_upper in lookup_dict:
+        return lookup_dict[key_upper]
+
+    # Step 2: Truncation-safe prefix fallback
+    matches = [
+        k for k in lookup_dict
+        if key_upper.startswith(k) and len(k) >= 31  # Exclude generic short matches like 'SHIP'
+    ]
+
+    if matches:
+        # Return the longest matching truncated prefix
+        best_match = max(matches, key=len)
+        return lookup_dict[best_match]
+    
+    return ''
 
 # --- PARSE MXML ---
 tree = ET.parse(mxml_file)
@@ -202,7 +223,8 @@ for technology in root.findall('.//Property[@value="GcTechnology"]'):
 
                 stat_bonuses_list.append({
                     'StatsType': stat_type,
-                    'StatsTypeText': lang_lookup.get(stat_type.upper(), ''),
+                    # 'StatsTypeText': lang_lookup.get(stat_type.upper(), ''),
+                    'StatsTypeText': fuzzy_lang_lookup(stat_type, lang_lookup),
                     'Bonus': bonus,
                     'Level': level
                 })

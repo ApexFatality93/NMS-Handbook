@@ -3334,7 +3334,7 @@
             },
             {
                 "StatsType": "Ship_PulseDrive_MiniJumpFuelSpending",
-                "StatsTypeText": "",
+                "StatsTypeText": "Pulse Drive Fuel Efficiency",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -3454,7 +3454,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Ship_PulseDrive_MiniJumpFuelSpending",
-                "StatsTypeText": "",
+                "StatsTypeText": "Pulse Drive Fuel Efficiency",
                 "Bonus": "0.660000",
                 "Level": "3"
             }
@@ -3742,7 +3742,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Ship_PulseDrive_MiniJumpFuelSpending",
-                "StatsTypeText": "",
+                "StatsTypeText": "Pulse Drive Fuel Efficiency",
                 "Bonus": "0.850000",
                 "Level": "3"
             },
@@ -5220,7 +5220,7 @@
             },
             {
                 "StatsType": "Ship_Weapons_Guns_BulletsPerShot",
-                "StatsTypeText": "",
+                "StatsTypeText": "Total Cannon Count:",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -5436,7 +5436,7 @@
             },
             {
                 "StatsType": "Ship_Weapons_Guns_BulletsPerShot",
-                "StatsTypeText": "",
+                "StatsTypeText": "Total Cannon Count:",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -6024,7 +6024,7 @@
             },
             {
                 "StatsType": "Ship_Weapons_Guns_BulletsPerShot",
-                "StatsTypeText": "",
+                "StatsTypeText": "Total Cannon Count:",
                 "Bonus": "14.000000",
                 "Level": "1"
             },
@@ -6246,7 +6246,7 @@
             },
             {
                 "StatsType": "Ship_Weapons_Guns_BulletsPerShot",
-                "StatsTypeText": "",
+                "StatsTypeText": "Total Cannon Count:",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -6378,7 +6378,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Ship_Weapons_Guns_BulletsPerShot",
-                "StatsTypeText": "",
+                "StatsTypeText": "Total Cannon Count:",
                 "Bonus": "3.000000",
                 "Level": "2"
             }
@@ -6474,7 +6474,7 @@
             },
             {
                 "StatsType": "Ship_Weapons_Guns_BulletsPerShot",
-                "StatsTypeText": "",
+                "StatsTypeText": "Total Cannon Count:",
                 "Bonus": "2.000000",
                 "Level": "1"
             },
@@ -6719,13 +6719,13 @@
             },
             {
                 "StatsType": "Freighter_Hyperdrive_JumpDistance",
-                "StatsTypeText": "",
+                "StatsTypeText": "Hyperdrive Range",
                 "Bonus": "100.000000",
                 "Level": "1"
             },
             {
                 "StatsType": "Freighter_Hyperdrive_JumpsPerCell",
-                "StatsTypeText": "",
+                "StatsTypeText": "Warp Cell Efficiency",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -6827,7 +6827,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Freighter_Hyperdrive_JumpDistance",
-                "StatsTypeText": "",
+                "StatsTypeText": "Hyperdrive Range",
                 "Bonus": "200.000000",
                 "Level": "1"
             }
@@ -6923,7 +6923,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Freighter_Hyperdrive_JumpDistance",
-                "StatsTypeText": "",
+                "StatsTypeText": "Hyperdrive Range",
                 "Bonus": "300.000000",
                 "Level": "2"
             }
@@ -7019,7 +7019,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Freighter_Hyperdrive_JumpDistance",
-                "StatsTypeText": "",
+                "StatsTypeText": "Hyperdrive Range",
                 "Bonus": "800.000000",
                 "Level": "3"
             }
@@ -7115,7 +7115,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Freighter_Hyperdrive_JumpDistance",
-                "StatsTypeText": "",
+                "StatsTypeText": "Hyperdrive Range",
                 "Bonus": "50.000000",
                 "Level": "1"
             }
@@ -7211,7 +7211,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Freighter_Hyperdrive_JumpDistance",
-                "StatsTypeText": "",
+                "StatsTypeText": "Hyperdrive Range",
                 "Bonus": "50.000000",
                 "Level": "2"
             }
@@ -7307,7 +7307,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Freighter_Hyperdrive_JumpDistance",
-                "StatsTypeText": "",
+                "StatsTypeText": "Hyperdrive Range",
                 "Bonus": "50.000000",
                 "Level": "3"
             }
@@ -7403,7 +7403,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Freighter_Hyperdrive_JumpDistance",
-                "StatsTypeText": "",
+                "StatsTypeText": "Hyperdrive Range",
                 "Bonus": "50.000000",
                 "Level": "6"
             }
@@ -9101,7 +9101,7 @@
             },
             {
                 "StatsType": "Ship_PulseDrive_MiniJumpFuelSpending",
-                "StatsTypeText": "",
+                "StatsTypeText": "Pulse Drive Fuel Efficiency",
                 "Bonus": "0.500000",
                 "Level": "1"
             },
@@ -9593,7 +9593,7 @@
             },
             {
                 "StatsType": "Ship_Weapons_Guns_BulletsPerShot",
-                "StatsTypeText": "",
+                "StatsTypeText": "Total Cannon Count:",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -11391,7 +11391,7 @@
             },
             {
                 "StatsType": "Ship_PulseDrive_MiniJumpFuelSpending",
-                "StatsTypeText": "",
+                "StatsTypeText": "Pulse Drive Fuel Efficiency",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -11743,7 +11743,7 @@
         "StatBonuses": [
             {
                 "StatsType": "Ship_PulseDrive_MiniJumpFuelSpending",
-                "StatsTypeText": "",
+                "StatsTypeText": "Pulse Drive Fuel Efficiency",
                 "Bonus": "0.200000",
                 "Level": "4"
             },
@@ -12069,7 +12069,7 @@
             },
             {
                 "StatsType": "Ship_PulseDrive_MiniJumpFuelSpending",
-                "StatsTypeText": "",
+                "StatsTypeText": "Pulse Drive Fuel Efficiency",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -12443,7 +12443,7 @@
             },
             {
                 "StatsType": "Ship_Weapons_Guns_BulletsPerShot",
-                "StatsTypeText": "",
+                "StatsTypeText": "Total Cannon Count:",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -16433,7 +16433,7 @@
             },
             {
                 "StatsType": "Weapon_ChargedProjectile_ChargeTime",
-                "StatsTypeText": "",
+                "StatsTypeText": "Charging Speed",
                 "Bonus": "1.000000",
                 "Level": "1"
             },
@@ -16445,7 +16445,7 @@
             },
             {
                 "StatsType": "Weapon_ChargedProjectile_ExtraSpeed",
-                "StatsTypeText": "",
+                "StatsTypeText": "Ion Sphere Speed",
                 "Bonus": "180.000000",
                 "Level": "1"
             },
@@ -16559,13 +16559,13 @@
             },
             {
                 "StatsType": "Weapon_ChargedProjectile_ExtraSpeed",
-                "StatsTypeText": "",
+                "StatsTypeText": "Ion Sphere Speed",
                 "Bonus": "50.000000",
                 "Level": "1"
             },
             {
                 "StatsType": "Weapon_ChargedProjectile_ChargeTime",
-                "StatsTypeText": "",
+                "StatsTypeText": "Charging Speed",
                 "Bonus": "0.900000",
                 "Level": "1"
             }

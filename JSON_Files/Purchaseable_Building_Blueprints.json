@@ -1,0 +1,870 @@
+{
+    "BUILD_REFINER1": {
+        "ProductId": "BUILD_REFINER1",
+        "NameLower_Text": "Portable Refiner"
+    },
+    "BUILDSIGNAL": {
+        "ProductId": "BUILDSIGNAL",
+        "NameLower_Text": "Signal Booster"
+    },
+    "BUILDSAVE": {
+        "ProductId": "BUILDSAVE",
+        "NameLower_Text": "Save Point"
+    },
+    "TELEPORTER": {
+        "ProductId": "TELEPORTER",
+        "NameLower_Text": "Base Teleport Module"
+    },
+    "W_WALL": {
+        "ProductId": "W_WALL",
+        "NameLower_Text": "Wooden Wall"
+    },
+    "W_WALL_WINDOW": {
+        "ProductId": "W_WALL_WINDOW",
+        "NameLower_Text": "Wooden Window Panel"
+    },
+    "W_DOOR": {
+        "ProductId": "W_DOOR",
+        "NameLower_Text": "Wooden Door Frame"
+    },
+    "HEALTHSTATION": {
+        "ProductId": "HEALTHSTATION",
+        "NameLower_Text": "Health Station"
+    },
+    "W_DOOR_H": {
+        "ProductId": "W_DOOR_H",
+        "NameLower_Text": "Wooden Doorway"
+    },
+    "SHIELDSTATION": {
+        "ProductId": "SHIELDSTATION",
+        "NameLower_Text": "Hazard Protection Unit"
+    },
+    "W_DOORWINDOW": {
+        "ProductId": "W_DOORWINDOW",
+        "NameLower_Text": "Wooden Frontage"
+    },
+    "MESSAGEMODULE": {
+        "ProductId": "MESSAGEMODULE",
+        "NameLower_Text": "Message Module"
+    },
+    "W_FLOOR": {
+        "ProductId": "W_FLOOR",
+        "NameLower_Text": "Wood Floor Panel"
+    },
+    "MESSAGE": {
+        "ProductId": "MESSAGE",
+        "NameLower_Text": "Communications Station"
+    },
+    "W_GFLOOR": {
+        "ProductId": "W_GFLOOR",
+        "NameLower_Text": "Wood-Framed Glass Panel"
+    },
+    "W_RAMP": {
+        "ProductId": "W_RAMP",
+        "NameLower_Text": "Wooden Ramp"
+    },
+    "W_ROOF": {
+        "ProductId": "W_ROOF",
+        "NameLower_Text": "Wooden Roof"
+    },
+    "W_ARCH": {
+        "ProductId": "W_ARCH",
+        "NameLower_Text": "Wooden Arch"
+    },
+    "FOUNDATION": {
+        "ProductId": "FOUNDATION",
+        "NameLower_Text": "Foundation"
+    },
+    "MAINROOM": {
+        "ProductId": "MAINROOM",
+        "NameLower_Text": "Cylindrical Room"
+    },
+    "CORRIDOR": {
+        "ProductId": "CORRIDOR",
+        "NameLower_Text": "Straight Corridor"
+    },
+    "BUILDDOOR": {
+        "ProductId": "BUILDDOOR",
+        "NameLower_Text": "Door"
+    },
+    "BUILDLADDER": {
+        "ProductId": "BUILDLADDER",
+        "NameLower_Text": "Ladder"
+    },
+    "BUILDWINDOW": {
+        "ProductId": "BUILDWINDOW",
+        "NameLower_Text": "Angled Window"
+    },
+    "MAINROOMFRAME": {
+        "ProductId": "MAINROOMFRAME",
+        "NameLower_Text": "Cylindrical Room Frame"
+    },
+    "CORRIDORL": {
+        "ProductId": "CORRIDORL",
+        "NameLower_Text": "L-Shaped Corridor"
+    },
+    "MAINROOMCUBE": {
+        "ProductId": "MAINROOMCUBE",
+        "NameLower_Text": "Square Room"
+    },
+    "CORRIDORT": {
+        "ProductId": "CORRIDORT",
+        "NameLower_Text": "T-Shaped Corridor"
+    },
+    "MAINROOMCUBEF": {
+        "ProductId": "MAINROOMCUBEF",
+        "NameLower_Text": "Square Room"
+    },
+    "CORRIDORX": {
+        "ProductId": "CORRIDORX",
+        "NameLower_Text": "X-Shaped Corridor"
+    },
+    "GLASSCORRIDOR": {
+        "ProductId": "GLASSCORRIDOR",
+        "NameLower_Text": "Glass Roofed Corridor"
+    },
+    "BIOROOM": {
+        "ProductId": "BIOROOM",
+        "NameLower_Text": "Bio-Dome"
+    },
+    "CORRIDORC": {
+        "ProductId": "CORRIDORC",
+        "NameLower_Text": "Curved Corridor"
+    },
+    "FOUNDLEG4": {
+        "ProductId": "FOUNDLEG4",
+        "NameLower_Text": "Foundation Strut Quad"
+    },
+    "DOOR2": {
+        "ProductId": "DOOR2",
+        "NameLower_Text": "Holo-Door"
+    },
+    "VIEWSPHERE": {
+        "ProductId": "VIEWSPHERE",
+        "NameLower_Text": "Viewing Sphere"
+    },
+    "FOUNDLEG": {
+        "ProductId": "FOUNDLEG",
+        "NameLower_Text": "Foundation Strut"
+    },
+    "CUBEWINDOW": {
+        "ProductId": "CUBEWINDOW",
+        "NameLower_Text": "Large Window"
+    },
+    "CUBEROOM": {
+        "ProductId": "CUBEROOM",
+        "NameLower_Text": "Cuboid Room"
+    },
+    "CUBEFOUND": {
+        "ProductId": "CUBEFOUND",
+        "NameLower_Text": "Cuboid Room Foundation Strut"
+    },
+    "CUBEFOUND4": {
+        "ProductId": "CUBEFOUND4",
+        "NameLower_Text": "Cuboid Room Foundation Strut Quad"
+    },
+    "CUBEFLOOR": {
+        "ProductId": "CUBEFLOOR",
+        "NameLower_Text": "Cuboid Room Flooring"
+    },
+    "CURVEDCUBEROOF": {
+        "ProductId": "CURVEDCUBEROOF",
+        "NameLower_Text": "Curved Cuboid Roof"
+    },
+    "CUBEROOMCURVED": {
+        "ProductId": "CUBEROOMCURVED",
+        "NameLower_Text": "Curved Cuboid Wall"
+    },
+    "CUBEGLASS": {
+        "ProductId": "CUBEGLASS",
+        "NameLower_Text": "Glass Cuboid Room"
+    },
+    "CUBEFRAME": {
+        "ProductId": "CUBEFRAME",
+        "NameLower_Text": "Cuboid Room Frame"
+    },
+    "CUBEINNERDOOR": {
+        "ProductId": "CUBEINNERDOOR",
+        "NameLower_Text": "Cuboid Inner Door"
+    },
+    "CUBEWALL": {
+        "ProductId": "CUBEWALL",
+        "NameLower_Text": "Cuboid Inner Wall"
+    },
+    "CUBEROOF": {
+        "ProductId": "CUBEROOF",
+        "NameLower_Text": "Cuboid Roof Cap"
+    },
+    "CUBESTAIRS": {
+        "ProductId": "CUBESTAIRS",
+        "NameLower_Text": "Interior Stairs"
+    },
+    "CUBEWINDOWOVAL": {
+        "ProductId": "CUBEWINDOWOVAL",
+        "NameLower_Text": "Circle Window"
+    },
+    "CUBEWINDOWSMALL": {
+        "ProductId": "CUBEWINDOWSMALL",
+        "NameLower_Text": "Small Window"
+    },
+    "PLANTERMEGA": {
+        "ProductId": "PLANTERMEGA",
+        "NameLower_Text": "Large Hydroponic Tray"
+    },
+    "M_WALL": {
+        "ProductId": "M_WALL",
+        "NameLower_Text": "Metal Wall"
+    },
+    "C_WALL": {
+        "ProductId": "C_WALL",
+        "NameLower_Text": "Concrete Wall"
+    },
+    "W_WALL_H": {
+        "ProductId": "W_WALL_H",
+        "NameLower_Text": "Thin Wooden Wall"
+    },
+    "M_WALL_WINDOW": {
+        "ProductId": "M_WALL_WINDOW",
+        "NameLower_Text": "Metal Window Panel"
+    },
+    "C_WALL_WINDOW": {
+        "ProductId": "C_WALL_WINDOW",
+        "NameLower_Text": "Concrete Window Panel"
+    },
+    "W_WALL_Q": {
+        "ProductId": "W_WALL_Q",
+        "NameLower_Text": "Small Wooden Wall"
+    },
+    "M_DOOR": {
+        "ProductId": "M_DOOR",
+        "NameLower_Text": "Metal Door Frame"
+    },
+    "C_DOOR": {
+        "ProductId": "C_DOOR",
+        "NameLower_Text": "Concrete Door Frame"
+    },
+    "W_WALL_Q_H": {
+        "ProductId": "W_WALL_Q_H",
+        "NameLower_Text": "Short Wooden Wall"
+    },
+    "C_ARCH": {
+        "ProductId": "C_ARCH",
+        "NameLower_Text": "Concrete Arch"
+    },
+    "W_WALLDIAGONAL": {
+        "ProductId": "W_WALLDIAGONAL",
+        "NameLower_Text": "Sloping Wood Panel"
+    },
+    "M_FLOOR": {
+        "ProductId": "M_FLOOR",
+        "NameLower_Text": "Metal Floor Panel"
+    },
+    "W_FLOOR_Q": {
+        "ProductId": "W_FLOOR_Q",
+        "NameLower_Text": "Small Wood Panel"
+    },
+    "C_DOOR_H": {
+        "ProductId": "C_DOOR_H",
+        "NameLower_Text": "Concrete Doorway"
+    },
+    "M_RAMP": {
+        "ProductId": "M_RAMP",
+        "NameLower_Text": "Metal Ramp"
+    },
+    "W_RAMP_H": {
+        "ProductId": "W_RAMP_H",
+        "NameLower_Text": "Wooden Half Ramp"
+    },
+    "C_DOORWINDOW": {
+        "ProductId": "C_DOORWINDOW",
+        "NameLower_Text": "Concrete Frontage"
+    },
+    "M_GFLOOR": {
+        "ProductId": "M_GFLOOR",
+        "NameLower_Text": "Metal-Framed Glass Panel"
+    },
+    "W_ROOF_M": {
+        "ProductId": "W_ROOF_M",
+        "NameLower_Text": "Wooden Roof Panel"
+    },
+    "C_FLOOR": {
+        "ProductId": "C_FLOOR",
+        "NameLower_Text": "Concrete Floor Panel"
+    },
+    "M_DOORWINDOW": {
+        "ProductId": "M_DOORWINDOW",
+        "NameLower_Text": "Metal Frontage"
+    },
+    "W_ROOF_C": {
+        "ProductId": "W_ROOF_C",
+        "NameLower_Text": "Wooden Roof Corner"
+    },
+    "C_GFLOOR": {
+        "ProductId": "C_GFLOOR",
+        "NameLower_Text": "Concrete-Framed Glass Panel"
+    },
+    "M_ROOF": {
+        "ProductId": "M_ROOF",
+        "NameLower_Text": "Metal Roof"
+    },
+    "W_ARCH_H": {
+        "ProductId": "W_ARCH_H",
+        "NameLower_Text": "Wooden Half Arch"
+    },
+    "C_RAMP": {
+        "ProductId": "C_RAMP",
+        "NameLower_Text": "Concrete Ramp"
+    },
+    "M_ARCH": {
+        "ProductId": "M_ARCH",
+        "NameLower_Text": "Metal Arch"
+    },
+    "C_ROOF": {
+        "ProductId": "C_ROOF",
+        "NameLower_Text": "Concrete Roof"
+    },
+    "M_WALL_H": {
+        "ProductId": "M_WALL_H",
+        "NameLower_Text": "Thin Metal Wall"
+    },
+    "C_WALL_H": {
+        "ProductId": "C_WALL_H",
+        "NameLower_Text": "Thin Concrete Wall"
+    },
+    "M_WALL_Q": {
+        "ProductId": "M_WALL_Q",
+        "NameLower_Text": "Small Metal Wall"
+    },
+    "M_WALL_Q_H": {
+        "ProductId": "M_WALL_Q_H",
+        "NameLower_Text": "Short Metal Wall"
+    },
+    "C_WALL_Q": {
+        "ProductId": "C_WALL_Q",
+        "NameLower_Text": "Small Concrete Wall"
+    },
+    "M_WALLDIAGONAL": {
+        "ProductId": "M_WALLDIAGONAL",
+        "NameLower_Text": "Sloping Metal Panel"
+    },
+    "C_WALL_Q_H": {
+        "ProductId": "C_WALL_Q_H",
+        "NameLower_Text": "Short Concrete Wall"
+    },
+    "M_DOOR_H": {
+        "ProductId": "M_DOOR_H",
+        "NameLower_Text": "Metal Doorway"
+    },
+    "C_WALLDIAGONAL": {
+        "ProductId": "C_WALLDIAGONAL",
+        "NameLower_Text": "Sloping Concrete Panel"
+    },
+    "M_FLOOR_Q": {
+        "ProductId": "M_FLOOR_Q",
+        "NameLower_Text": "Small Metal Panel"
+    },
+    "C_FLOOR_Q": {
+        "ProductId": "C_FLOOR_Q",
+        "NameLower_Text": "Small Concrete Panel"
+    },
+    "M_RAMP_H": {
+        "ProductId": "M_RAMP_H",
+        "NameLower_Text": "Metal Half Ramp"
+    },
+    "C_RAMP_H": {
+        "ProductId": "C_RAMP_H",
+        "NameLower_Text": "Concrete Half Ramp"
+    },
+    "M_ROOF_M": {
+        "ProductId": "M_ROOF_M",
+        "NameLower_Text": "Metal Roof Panel"
+    },
+    "C_ROOF_M": {
+        "ProductId": "C_ROOF_M",
+        "NameLower_Text": "Concrete Roof Panel"
+    },
+    "M_ROOF_C": {
+        "ProductId": "M_ROOF_C",
+        "NameLower_Text": "Metal Roof Corner"
+    },
+    "C_ROOF_C": {
+        "ProductId": "C_ROOF_C",
+        "NameLower_Text": "Concrete Roof Corner"
+    },
+    "M_ARCH_H": {
+        "ProductId": "M_ARCH_H",
+        "NameLower_Text": "Metal Half Arch"
+    },
+    "C_ARCH_H": {
+        "ProductId": "C_ARCH_H",
+        "NameLower_Text": "Concrete Half Arch"
+    },
+    "BUILDPAVING": {
+        "ProductId": "BUILDPAVING",
+        "NameLower_Text": "Small Paving"
+    },
+    "BUILDPAVING_BIG": {
+        "ProductId": "BUILDPAVING_BIG",
+        "NameLower_Text": "Paving"
+    },
+    "BUILDPAVINGTALL": {
+        "ProductId": "BUILDPAVINGTALL",
+        "NameLower_Text": "Raised Small Paving"
+    },
+    "WALLFLOORLADDER": {
+        "ProductId": "WALLFLOORLADDER",
+        "NameLower_Text": "Infrastructure Ladder"
+    },
+    "WEDGESHAPE": {
+        "ProductId": "WEDGESHAPE",
+        "NameLower_Text": "Large Wedge"
+    },
+    "SPHERESHAPE": {
+        "ProductId": "SPHERESHAPE",
+        "NameLower_Text": "Sphere"
+    },
+    "CUBESHAPE": {
+        "ProductId": "CUBESHAPE",
+        "NameLower_Text": "Cube"
+    },
+    "WEDGESMALLSHAPE": {
+        "ProductId": "WEDGESMALLSHAPE",
+        "NameLower_Text": "Small Wedge"
+    },
+    "PYRAMIDSHAPE": {
+        "ProductId": "PYRAMIDSHAPE",
+        "NameLower_Text": "Pyramid"
+    },
+    "CURVEPIPESHAPE": {
+        "ProductId": "CURVEPIPESHAPE",
+        "NameLower_Text": "Curved Pipe"
+    },
+    "PIPESHAPE": {
+        "ProductId": "PIPESHAPE",
+        "NameLower_Text": "Pipe"
+    },
+    "CUBESOLID": {
+        "ProductId": "CUBESOLID",
+        "NameLower_Text": "Solid Cube"
+    },
+    "BUILDRAMP": {
+        "ProductId": "BUILDRAMP",
+        "NameLower_Text": "Access Ramp"
+    },
+    "CYLINDERSHAPE": {
+        "ProductId": "CYLINDERSHAPE",
+        "NameLower_Text": "Cylinder"
+    },
+    "BUILDLIGHT": {
+        "ProductId": "BUILDLIGHT",
+        "NameLower_Text": "Squared Standing Light"
+    },
+    "SMALLLIGHT": {
+        "ProductId": "SMALLLIGHT",
+        "NameLower_Text": "Lantern"
+    },
+    "WALLLIGHTWHITE": {
+        "ProductId": "WALLLIGHTWHITE",
+        "NameLower_Text": "White Light"
+    },
+    "BUILDLIGHT2": {
+        "ProductId": "BUILDLIGHT2",
+        "NameLower_Text": "Rounded Standing Light"
+    },
+    "WALLLIGHTRED": {
+        "ProductId": "WALLLIGHTRED",
+        "NameLower_Text": "Red Light"
+    },
+    "BUILDLIGHT3": {
+        "ProductId": "BUILDLIGHT3",
+        "NameLower_Text": "Capped Standing Light"
+    },
+    "WALLLIGHTPINK": {
+        "ProductId": "WALLLIGHTPINK",
+        "NameLower_Text": "Pink Light"
+    },
+    "WALLLIGHTYELLOW": {
+        "ProductId": "WALLLIGHTYELLOW",
+        "NameLower_Text": "Yellow Light"
+    },
+    "WALLLIGHTBLUE": {
+        "ProductId": "WALLLIGHTBLUE",
+        "NameLower_Text": "Blue Light"
+    },
+    "WALLLIGHTGREEN": {
+        "ProductId": "WALLLIGHTGREEN",
+        "NameLower_Text": "Green Light"
+    },
+    "BUILDDECAL": {
+        "ProductId": "BUILDDECAL",
+        "NameLower_Text": "White Design Decal"
+    },
+    "BUILDDECAL2": {
+        "ProductId": "BUILDDECAL2",
+        "NameLower_Text": "White Border Decal"
+    },
+    "BUILDDECALNMS": {
+        "ProductId": "BUILDDECALNMS",
+        "NameLower_Text": "Atlas Decal"
+    },
+    "BUILDDECALVIS1": {
+        "ProductId": "BUILDDECALVIS1",
+        "NameLower_Text": "Vy'keen Decal"
+    },
+    "BUILDDECALVIS2": {
+        "ProductId": "BUILDDECALVIS2",
+        "NameLower_Text": "Gek Decal"
+    },
+    "BUILDDECALVIS3": {
+        "ProductId": "BUILDDECALVIS3",
+        "NameLower_Text": "Korvax Decal"
+    },
+    "BUILDDECALVIS4": {
+        "ProductId": "BUILDDECALVIS4",
+        "NameLower_Text": "Blob Decal"
+    },
+    "BUILDDECALVIS5": {
+        "ProductId": "BUILDDECALVIS5",
+        "NameLower_Text": "Curious Fauna Decal"
+    },
+    "BUILDDECALSIMP1": {
+        "ProductId": "BUILDDECALSIMP1",
+        "NameLower_Text": "Blue Design Decal"
+    },
+    "BUILDDECALSIMP2": {
+        "ProductId": "BUILDDECALSIMP2",
+        "NameLower_Text": "Green Design Decal"
+    },
+    "BUILDDECALSIMP3": {
+        "ProductId": "BUILDDECALSIMP3",
+        "NameLower_Text": "Red Design Decal"
+    },
+    "BUILDDECALSIMP4": {
+        "ProductId": "BUILDDECALSIMP4",
+        "NameLower_Text": "Black Design Decal"
+    },
+    "BUILDDECALNUM0": {
+        "ProductId": "BUILDDECALNUM0",
+        "NameLower_Text": "'0' Decal"
+    },
+    "BUILDDECALNUM1": {
+        "ProductId": "BUILDDECALNUM1",
+        "NameLower_Text": "'1' Decal"
+    },
+    "BUILDDECALNUM2": {
+        "ProductId": "BUILDDECALNUM2",
+        "NameLower_Text": "'2' Decal"
+    },
+    "BUILDDECALNUM3": {
+        "ProductId": "BUILDDECALNUM3",
+        "NameLower_Text": "'3' Decal"
+    },
+    "BUILDDECALNUM4": {
+        "ProductId": "BUILDDECALNUM4",
+        "NameLower_Text": "'4' Decal"
+    },
+    "BUILDDECALNUM5": {
+        "ProductId": "BUILDDECALNUM5",
+        "NameLower_Text": "'5' Decal"
+    },
+    "BUILDDECALNUM6": {
+        "ProductId": "BUILDDECALNUM6",
+        "NameLower_Text": "'6' Decal"
+    },
+    "BUILDDECALNUM7": {
+        "ProductId": "BUILDDECALNUM7",
+        "NameLower_Text": "'7' Decal"
+    },
+    "BUILDDECALNUM8": {
+        "ProductId": "BUILDDECALNUM8",
+        "NameLower_Text": "'8' Decal"
+    },
+    "BUILDDECALNUM9": {
+        "ProductId": "BUILDDECALNUM9",
+        "NameLower_Text": "'9' Decal"
+    },
+    "BUILDBED": {
+        "ProductId": "BUILDBED",
+        "NameLower_Text": "Bed"
+    },
+    "PLANTPOT": {
+        "ProductId": "PLANTPOT",
+        "NameLower_Text": "Potted Plant"
+    },
+    "BUILDCHAIR": {
+        "ProductId": "BUILDCHAIR",
+        "NameLower_Text": "Desk Chair"
+    },
+    "COOKER": {
+        "ProductId": "COOKER",
+        "NameLower_Text": "Nutrient Processor"
+    },
+    "BUILDANTIMATTER": {
+        "ProductId": "BUILDANTIMATTER",
+        "NameLower_Text": "Antimatter Reactor"
+    },
+    "SUMMON_GARAGE": {
+        "ProductId": "SUMMON_GARAGE",
+        "NameLower_Text": "Exocraft Summoning Station"
+    },
+    "GARAGE_B": {
+        "ProductId": "GARAGE_B",
+        "NameLower_Text": "Pilgrim Geobay"
+    },
+    "RACE_START": {
+        "ProductId": "RACE_START",
+        "NameLower_Text": "Race Initiator"
+    },
+    "RACE_BOOSTER": {
+        "ProductId": "RACE_BOOSTER",
+        "NameLower_Text": "Race Force Amplifier"
+    },
+    "RACE_RAMP": {
+        "ProductId": "RACE_RAMP",
+        "NameLower_Text": "Race Obstacle"
+    },
+    "FLAG1": {
+        "ProductId": "FLAG1",
+        "NameLower_Text": "Flag 1"
+    },
+    "FLAG2": {
+        "ProductId": "FLAG2",
+        "NameLower_Text": "Flag 2"
+    },
+    "WALLSCREEN": {
+        "ProductId": "WALLSCREEN",
+        "NameLower_Text": "Wall Screen"
+    },
+    "BUILDTABLE": {
+        "ProductId": "BUILDTABLE",
+        "NameLower_Text": "Round Table"
+    },
+    "BUILDTABLE2": {
+        "ProductId": "BUILDTABLE2",
+        "NameLower_Text": "Hexagonal Table"
+    },
+    "FLAG3": {
+        "ProductId": "FLAG3",
+        "NameLower_Text": "Flag 3"
+    },
+    "LARGEDESK": {
+        "ProductId": "LARGEDESK",
+        "NameLower_Text": "Large Monitor Station"
+    },
+    "FLAG4": {
+        "ProductId": "FLAG4",
+        "NameLower_Text": "Flag 4"
+    },
+    "PLANTPOT1": {
+        "ProductId": "PLANTPOT1",
+        "NameLower_Text": "Flora Containment 1"
+    },
+    "WALLFLAG1": {
+        "ProductId": "WALLFLAG1",
+        "NameLower_Text": "Wall Flag 1"
+    },
+    "WEAPONRACK": {
+        "ProductId": "WEAPONRACK",
+        "NameLower_Text": "Weapon Rack"
+    },
+    "CURVEDDESK": {
+        "ProductId": "CURVEDDESK",
+        "NameLower_Text": "Curved Desk"
+    },
+    "STORAGEPANEL": {
+        "ProductId": "STORAGEPANEL",
+        "NameLower_Text": "Storage Panel"
+    },
+    "WALLFLAG3": {
+        "ProductId": "WALLFLAG3",
+        "NameLower_Text": "Wall Flag 3"
+    },
+    "DRAWS": {
+        "ProductId": "DRAWS",
+        "NameLower_Text": "Drawers"
+    },
+    "SERVERSTACK": {
+        "ProductId": "SERVERSTACK",
+        "NameLower_Text": "Server"
+    },
+    "FLOORMAT1": {
+        "ProductId": "FLOORMAT1",
+        "NameLower_Text": "Floor Mat"
+    },
+    "ROOFMONITOR": {
+        "ProductId": "ROOFMONITOR",
+        "NameLower_Text": "Ceiling Panel"
+    },
+    "CEILINGLIGHT": {
+        "ProductId": "CEILINGLIGHT",
+        "NameLower_Text": "Ceiling Light"
+    },
+    "MONITORDESK": {
+        "ProductId": "MONITORDESK",
+        "NameLower_Text": "Monitor Station"
+    },
+    "WALLFLAG2": {
+        "ProductId": "WALLFLAG2",
+        "NameLower_Text": "Wall Flag 2"
+    },
+    "BLDWALLUNIT": {
+        "ProductId": "BLDWALLUNIT",
+        "NameLower_Text": "Wall Unit"
+    },
+    "BUILDCHAIR2": {
+        "ProductId": "BUILDCHAIR2",
+        "NameLower_Text": "Armchair"
+    },
+    "TECHPANEL": {
+        "ProductId": "TECHPANEL",
+        "NameLower_Text": "Tech Panel"
+    },
+    "WALLFAN": {
+        "ProductId": "WALLFAN",
+        "NameLower_Text": "Wall Fan"
+    },
+    "BUILDCHAIR3": {
+        "ProductId": "BUILDCHAIR3",
+        "NameLower_Text": "Adjustable Chair"
+    },
+    "CHEST": {
+        "ProductId": "CHEST",
+        "NameLower_Text": "Storage Container"
+    },
+    "PLANTPOT2": {
+        "ProductId": "PLANTPOT2",
+        "NameLower_Text": "Flora Containment 2"
+    },
+    "PLANTPOT3": {
+        "ProductId": "PLANTPOT3",
+        "NameLower_Text": "Flora Containment 3"
+    },
+    "BUILDSIMPLEDESK": {
+        "ProductId": "BUILDSIMPLEDESK",
+        "NameLower_Text": "Simple Desk"
+    },
+    "BUILDSOFA": {
+        "ProductId": "BUILDSOFA",
+        "NameLower_Text": "Sofa"
+    },
+    "BUILDSOFA2L": {
+        "ProductId": "BUILDSOFA2L",
+        "NameLower_Text": "Corner Sofa"
+    },
+    "BUILDSOFA2": {
+        "ProductId": "BUILDSOFA2",
+        "NameLower_Text": "Swept Sofa"
+    },
+    "SHELFPANEL": {
+        "ProductId": "SHELFPANEL",
+        "NameLower_Text": "Shelf Panel"
+    },
+    "BUILDLOCKER": {
+        "ProductId": "BUILDLOCKER",
+        "NameLower_Text": "Locker"
+    },
+    "BUILDLIGHTTABLE": {
+        "ProductId": "BUILDLIGHTTABLE",
+        "NameLower_Text": "Light Table"
+    },
+    "BUILDHCABINET": {
+        "ProductId": "BUILDHCABINET",
+        "NameLower_Text": "Tall Cabinet"
+    },
+    "BUILDSIDEPANEL": {
+        "ProductId": "BUILDSIDEPANEL",
+        "NameLower_Text": "Side Panel"
+    },
+    "BUILDCANRACK": {
+        "ProductId": "BUILDCANRACK",
+        "NameLower_Text": "Canister Rack"
+    },
+    "BUILDLABLAMP": {
+        "ProductId": "BUILDLABLAMP",
+        "NameLower_Text": "Lab Lamp"
+    },
+    "BUILDFLATPANEL": {
+        "ProductId": "BUILDFLATPANEL",
+        "NameLower_Text": "Flat Panel"
+    },
+    "ROBOTICARM": {
+        "ProductId": "ROBOTICARM",
+        "NameLower_Text": "Robotic Arm"
+    },
+    "OCTACABINET": {
+        "ProductId": "OCTACABINET",
+        "NameLower_Text": "Octa-Cabinet"
+    },
+    "BUILDLCRATE": {
+        "ProductId": "BUILDLCRATE",
+        "NameLower_Text": "Locked Crate"
+    },
+    "BUILDAMCRATE": {
+        "ProductId": "BUILDAMCRATE",
+        "NameLower_Text": "Small Crate"
+    },
+    "BOXEDSCREEN": {
+        "ProductId": "BOXEDSCREEN",
+        "NameLower_Text": "Oscilloscope"
+    },
+    "WALLSCREENB": {
+        "ProductId": "WALLSCREENB",
+        "NameLower_Text": "Green Wall Screen"
+    },
+    "WALLSCREENB2": {
+        "ProductId": "WALLSCREENB2",
+        "NameLower_Text": "Orange Wall Screen"
+    },
+    "BUILDWORKTOP": {
+        "ProductId": "BUILDWORKTOP",
+        "NameLower_Text": "Worktop"
+    },
+    "CRATELRARE": {
+        "ProductId": "CRATELRARE",
+        "NameLower_Text": "Crate Fabricator"
+    },
+    "CRATELCYLINDER": {
+        "ProductId": "CRATELCYLINDER",
+        "NameLower_Text": "Barrel Fabricator"
+    },
+    "GARAGE_SUB": {
+        "ProductId": "GARAGE_SUB",
+        "NameLower_Text": "Nautilon Chamber"
+    },
+    "CORRIDOR_WATER": {
+        "ProductId": "CORRIDOR_WATER",
+        "NameLower_Text": "Glass Tunnel"
+    },
+    "CORRIDORL_WATER": {
+        "ProductId": "CORRIDORL_WATER",
+        "NameLower_Text": "L-Shaped Glass Tunnel"
+    },
+    "CORRIDORT_WATER": {
+        "ProductId": "CORRIDORT_WATER",
+        "NameLower_Text": "T-Shaped Glass Tunnel"
+    },
+    "CORRIDORX_WATER": {
+        "ProductId": "CORRIDORX_WATER",
+        "NameLower_Text": "X-Shaped Glass Tunnel"
+    },
+    "CORRIDORV_WATER": {
+        "ProductId": "CORRIDORV_WATER",
+        "NameLower_Text": "Vertical Glass Tunnel"
+    },
+    "PANEL_GLASS": {
+        "ProductId": "PANEL_GLASS",
+        "NameLower_Text": "Large Glass Panel"
+    },
+    "WATERBUBBLE": {
+        "ProductId": "WATERBUBBLE",
+        "NameLower_Text": "Marine Shelter"
+    },
+    "MOONPOOL": {
+        "ProductId": "MOONPOOL",
+        "NameLower_Text": "Moon Pool Floor"
+    },
+    "BUILDDOOR_WATER": {
+        "ProductId": "BUILDDOOR_WATER",
+        "NameLower_Text": "Watertight Door"
+    }
+}

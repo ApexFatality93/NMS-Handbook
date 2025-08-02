@@ -1058,6 +1058,77 @@ function createTechnologyStatsSection(itemId, item) {
     return section;
 }
 
+function createConstructionRequirementsSection(itemId, item) {
+    if (!item.Requirements || item.Requirements.length === 0) return null;
+
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "Construction Requirements:";
+    section.appendChild(title);
+
+    const list = document.createElement("ul");
+    list.className = "charge-list"; // reuse for styling
+
+    item.Requirements.forEach(requirement => {
+        const listItem = document.createElement("li");
+        listItem.className = "charge-item";
+
+        // Make item clickable
+        listItem.addEventListener("click", () => {
+            window.location.href = `/item/?id=${requirement.Id}&type=${requirement.Type}`;
+        });
+
+        const icon = document.createElement("img");
+        icon.src = requirement.Icon_Filename
+            .replace(/\.DDS$/i, ".png")
+            .replace(/^TEXTURES\/UI\/FRONTEND\/ICONS\/(.+)$/, (_, path) => `/TEXTURES/UI/FRONTEND/ICONS/${path.toLowerCase()}`);
+        icon.alt = requirement.NameLower_Text || requirement.Id;
+        icon.className = "charge-icon";
+
+        const rgba = `rgba(${requirement.Colour_R * 255}, ${requirement.Colour_G * 255}, ${requirement.Colour_B * 255}, ${requirement.Colour_A})`;
+        icon.style.backgroundColor = rgba;
+
+        const textWrapper = document.createElement("div");
+        textWrapper.className = "requirement-text-wrapper";
+
+        const nameSpan = document.createElement("span");
+        nameSpan.className = "requirement-name";
+        nameSpan.textContent = requirement.NameLower_Text || requirement.Id;
+
+        const amountLine = document.createElement("span");
+        amountLine.className = "requirement-amount";
+        amountLine.textContent = `(x${requirement.Amount || 1})`;
+
+        textWrapper.appendChild(nameSpan);
+        textWrapper.appendChild(amountLine);
+
+        listItem.appendChild(icon);
+        listItem.appendChild(textWrapper);
+        list.appendChild(listItem);
+    });
+
+    section.appendChild(list);
+    return section;
+}
+
+function createConstructionObtainmentSection(itemId, item) {
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "How to Obtain:";
+    section.appendChild(title);
+
+    const paragraph = document.createElement("p");
+    paragraph.className = "construction-obtainment-text";
+    paragraph.textContent = "The blueprint for this item can be purchased from the Construction Research Station aboard the Space Anomaly.";
+    section.appendChild(paragraph);
+
+    return section;
+}
+
 function loadDataAndDisplay() {
     const { id, type } = getQueryParams();
 
@@ -1189,7 +1260,7 @@ function loadDataAndDisplay() {
             }
         }
 
-        if (!isNaN(numericValue) && numericValue > 1) {
+        if (!isNaN(numericValue) && numericValue > 0) {
             formattedValue = numericValue.toLocaleString();
 
             const valueText = document.createElement("span");
@@ -1207,10 +1278,22 @@ function loadDataAndDisplay() {
         textBlock.appendChild(title);
         textBlock.appendChild(subtitle);
         textBlock.appendChild(desc);
-        if (!isNaN(numericValue) && numericValue > 1) {   
+        if (!isNaN(numericValue) && numericValue > 0) {   
             textBlock.appendChild(valueWrapper);
         }
-        
+
+        // // Hide value for base parts whose blueprints can't be purchased
+        // // TODO: freighter parts - bought with frigate modules - how to identify freighter parts?
+        // if (type === "construction") {
+        //     fetch("/JSON_Files/Purchaseable_Building_Blueprints.json")
+        //         .then(res => res.json())
+        //         .then(constructionPurchaseData => {
+        //             if (!constructionPurchaseData[id] && valueWrapper.parentElement) {
+        //                 valueWrapper.style.display = "none";
+        //             }
+        //         });
+        // }
+                
         // --- Exosuit Nutrient Ingestor Effect Section (if any) ---
         if (item.FoodBonusStatTypeText && 
             item.FoodBonusStatTypeText.trim() !== "" &&
@@ -1259,7 +1342,17 @@ function loadDataAndDisplay() {
         sectionContainer.className = "item-sections-container";
 
         // Loads all JSON files before appending sections in fixed order
-        Promise.all([
+        // Promise.all([
+        //     fetch("/JSON_Files/Legacy_Item_Table.json").then(res => res.json()),
+        //     fetch("/JSON_Files/Refining_Table.json").then(res => res.json()),
+        //     fetch("/JSON_Files/Crafting_Table.json").then(res => res.json()),
+        //     fetch("/JSON_Files/Cooking_Table.json").then(res => res.json()),
+        //     fetch("/JSON_Files/Bait_Table.json").then(res => res.json()),
+        //     fetch("/JSON_Files/Fish_Table.json").then(res => res.json()),
+        //     fetch("/JSON_Files/Special_Rewards_Table.json").then(res => res.json())
+        // ]).then(([legacyData, refiningData, craftingData, cookingData, baitData, fishData, specialRewardsData]) => {
+
+        const dynamicFetches = [
             fetch("/JSON_Files/Legacy_Item_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Refining_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Crafting_Table.json").then(res => res.json()),
@@ -1267,7 +1360,25 @@ function loadDataAndDisplay() {
             fetch("/JSON_Files/Bait_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Fish_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Special_Rewards_Table.json").then(res => res.json())
-        ]).then(([legacyData, refiningData, craftingData, cookingData, baitData, fishData, specialRewardsData]) => {
+        ];
+
+        if (type === "construction") {
+            dynamicFetches.push(
+                fetch("/JSON_Files/Purchaseable_Building_Blueprints.json").then(res => res.json())
+            );
+        }
+
+        Promise.all(dynamicFetches).then(dataArray => {
+            const [
+                legacyData,
+                refiningData,
+                craftingData,
+                cookingData,
+                baitData,
+                fishData,
+                specialRewardsData,
+                constructionPurchaseData = null // will be null if not fetched
+            ] = dataArray;
 
             // === Legacy Item Section ===
             if (legacyData[id]) {
@@ -1375,6 +1486,29 @@ function loadDataAndDisplay() {
                 const statBonusSection = createTechnologyStatsSection(id, item);
                 if (statBonusSection) {
                     sectionContainer.appendChild(statBonusSection);
+                }
+            }
+
+            // Hide value for base parts whose blueprints can't be purchased at space anomaly 
+            if (type === "construction" && constructionPurchaseData) {
+                if (!constructionPurchaseData[id] && valueWrapper.parentElement) {
+                    valueWrapper.style.display = "none";
+                }
+            }
+
+            // == Base Part Obtainment Section ==
+            if (type === "construction" && constructionPurchaseData[id]) {
+                const constructionObtainmentSection = createConstructionObtainmentSection(id,item);
+                if (constructionObtainmentSection) {
+                    sectionContainer.appendChild(constructionObtainmentSection);
+                }
+            }
+
+            // == Base Part Requirements Section ===
+            if (type === "construction" && Array.isArray(item.Requirements) && item.Requirements.length > 0) {
+                const constructionRequirementsSection = createConstructionRequirementsSection(id, item);
+                if (constructionRequirementsSection) {
+                    sectionContainer.appendChild(constructionRequirementsSection);
                 }
             }
 

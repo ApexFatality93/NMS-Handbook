@@ -50,6 +50,7 @@ When No Man's Sky receives an update, follow these steps to refresh the site dat
    - `lang_files.py`
    - `products.py`
    - `substances.py`
+   - `building_parts.py`
    - Then run any of the remaining `.py` files in any order
 
 4. **Verify updates**:

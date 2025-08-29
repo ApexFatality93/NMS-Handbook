@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (5.73.0.5)-->
+<!--File created using MBINCompiler version (6.01.0.2)-->
 <Data template="cGcPurchaseableSpecials">
 	<Property name="Table">
 		<Property name="Table" value="GcPurchaseableSpecial" _id="DECAL_BONESOUP">
 			<Property name="ID" value="DECAL_BONESOUP" />
-			<Property name="ShopNumber" value="105" />
+			<Property name="ShopNumber" value="106" />
 			<Property name="MissionTier" value="5" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="DECAL_EXTINCT">
 			<Property name="ID" value="DECAL_EXTINCT" />
-			<Property name="ShopNumber" value="105" />
+			<Property name="ShopNumber" value="106" />
 			<Property name="MissionTier" value="4" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="DECAL_SCAN">
 			<Property name="ID" value="DECAL_SCAN" />
-			<Property name="ShopNumber" value="105" />
+			<Property name="ShopNumber" value="106" />
 			<Property name="MissionTier" value="3" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="DECAL_BONEJUDGE">
 			<Property name="ID" value="DECAL_BONEJUDGE" />
-			<Property name="ShopNumber" value="105" />
+			<Property name="ShopNumber" value="106" />
 			<Property name="MissionTier" value="2" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="DECAL_RUINMECH">
 			<Property name="ID" value="DECAL_RUINMECH" />
-			<Property name="ShopNumber" value="105" />
+			<Property name="ShopNumber" value="106" />
 			<Property name="MissionTier" value="1" />
 			<Property name="IsConsumable" value="false" />
 		</Property>

@@ -1,14 +1,15 @@
 
 import xml.etree.ElementTree as ET
 import json
+from path_utils import resolve_case_path
 
 # --- CONFIG ---
-expeditions_mxml = './Game Files/UNLOCKABLESEASONREWARDS.MXML'
-twitch_mxml = './Game Files/UNLOCKABLETWITCHREWARDS.MXML'
-lang_json_file = './JSON Files/All_Lang_Data.json'
-product_file = './JSON Files/Product_Table.json'
-substance_file = './JSON Files/Substance_Table.json'
-output_json_file = './JSON Files/Special_Rewards_Table.json'
+expeditions_mxml = resolve_case_path('./Game Files/UNLOCKABLESEASONREWARDS.MXML')
+twitch_mxml = resolve_case_path('./Game Files/UNLOCKABLETWITCHREWARDS.MXML')
+lang_json_file = './JSON_Files/All_Lang_Data.json'
+product_file = './JSON_Files/Product_Table.json'
+substance_file = './JSON_Files/Substance_Table.json'
+output_json_file = './JSON_Files/Special_Rewards_Table.json'
 
 # --- LOAD JSON FILES ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:

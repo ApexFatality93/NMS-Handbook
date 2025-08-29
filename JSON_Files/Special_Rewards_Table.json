@@ -1,4 +1,74 @@
 {
+    "EXPD_EGG_19": {
+        "ID": "EXPD_EGG_19",
+        "RewardName": "Mecha-Mouse Egg",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_TITLE19": {
+        "ID": "EXPD_TITLE19",
+        "RewardName": "Title: 'Shipwright'",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_BANNER19": {
+        "ID": "EXPD_BANNER19",
+        "RewardName": "Corvette Banner",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_DECAL19": {
+        "ID": "EXPD_DECAL19",
+        "RewardName": "Corvette Decal",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_TUR_B": {
+        "ID": "B_TUR_B",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SHIP_PLASMA": {
+        "ID": "SHIP_PLASMA",
+        "RewardName": "Plasma Starship Trail",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "JETS_RUIN": {
+        "ID": "JETS_RUIN",
+        "RewardName": "Vigilant Trail",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER19C": {
+        "ID": "EXPD_POSTER19C",
+        "RewardName": "Big Rig Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER19B": {
+        "ID": "EXPD_POSTER19B",
+        "RewardName": "\"Built to Last\" Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER19A": {
+        "ID": "EXPD_POSTER19A",
+        "RewardName": "Corvette Blueprint Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
     "STONE_HAT": {
         "ID": "STONE_HAT",
         "RewardName": "Living Stone Helmet",
@@ -888,7 +958,8 @@
         "ID": "BLD_HOLOGEK",
         "RewardName": "Holographic Friend",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_POSTER09C": {
@@ -1046,7 +1117,8 @@
         "ID": "EXPD_CAPE07",
         "RewardName": "Whalestalker Cloak",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "SHIP_ROGUE": {
@@ -1524,6 +1596,202 @@
         "RewardName": "Atlas Firework Pack",
         "RewardType": [
             "Expedition"
+        ]
+    },
+    "DECAL_CREPAWS": {
+        "ID": "DECAL_CREPAWS",
+        "RewardName": "Pawprints Decal",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "DECAL_FPLANET2": {
+        "ID": "DECAL_FPLANET2",
+        "RewardName": "Awakenings Decal",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "DECAL_TOSTARS": {
+        "ID": "DECAL_TOSTARS",
+        "RewardName": "To The Stars Decal",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BASE_GRASS5": {
+        "ID": "BASE_GRASS5",
+        "RewardName": "Ribbon Grass",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BASE_GRASS6": {
+        "ID": "BASE_GRASS6",
+        "RewardName": "Cloven Paw Grass",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW11A": {
+        "ID": "TWITCH_FIREW11A",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW11B": {
+        "ID": "TWITCH_FIREW11B",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW11C": {
+        "ID": "TWITCH_FIREW11C",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW11D": {
+        "ID": "TWITCH_FIREW11D",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW11E": {
+        "ID": "TWITCH_FIREW11E",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BLD_COVSILOS": {
+        "ID": "BLD_COVSILOS",
+        "RewardName": "Covered Silos",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BASE_GRASS4": {
+        "ID": "BASE_GRASS4",
+        "RewardName": "Looping Grass",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BASE_WPLANT6": {
+        "ID": "BASE_WPLANT6",
+        "RewardName": "Aquatic Colony",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "STATUE_ATLAS_I": {
+        "ID": "STATUE_ATLAS_I",
+        "RewardName": "Ice Atlas Statue",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BUILDCHAIR4": {
+        "ID": "BUILDCHAIR4",
+        "RewardName": "Classic Chair",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "SPEC_EMOTE14": {
+        "ID": "SPEC_EMOTE14",
+        "RewardName": "Hologram: Multi-Tool",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "SPEC_EMOTE15": {
+        "ID": "SPEC_EMOTE15",
+        "RewardName": "Hologram: System",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "JETS_CONFETTI": {
+        "ID": "JETS_CONFETTI",
+        "RewardName": "Festive Jetpack Trail",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN25": {
+        "ID": "TWITCH_GUN25",
+        "RewardName": "Kalimskyv's Raycast Analyser",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN26": {
+        "ID": "TWITCH_GUN26",
+        "RewardName": "Negative Ion Puncher",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_PET23": {
+        "ID": "TWITCH_PET23",
+        "RewardName": "G. Lyconatae Egg",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN27": {
+        "ID": "TWITCH_GUN27",
+        "RewardName": "Gleaming Light Injector",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_PET24": {
+        "ID": "TWITCH_PET24",
+        "RewardName": "A. Chilinjosa Egg",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP51": {
+        "ID": "TWITCH_SHIP51",
+        "RewardName": "Sword of the Ribetsus",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP52": {
+        "ID": "TWITCH_SHIP52",
+        "RewardName": "Bukaidor Prospector XII",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP53": {
+        "ID": "TWITCH_SHIP53",
+        "RewardName": "Magnificent Omen T09",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP54": {
+        "ID": "TWITCH_SHIP54",
+        "RewardName": "Oomoribe's Halcyon War-Spear",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP55": {
+        "ID": "TWITCH_SHIP55",
+        "RewardName": "Speedy Noichir V",
+        "RewardType": [
+            "Twitch"
         ]
     },
     "DECAL_PIRATESYS": {

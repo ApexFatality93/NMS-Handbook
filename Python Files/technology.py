@@ -2,20 +2,21 @@
 import xml.etree.ElementTree as ET
 import json
 import re
+from path_utils import resolve_case_path
 
 # --- CONFIG ---
-mxml_file = './Game Files/NMS_REALITY_GCTECHNOLOGYTABLE.MXML'
-lang_json_file = './JSON Files/All_Lang_Data.json'
-output_json_file = './JSON Files/Technology_Table.json'
+mxml_file = resolve_case_path('./Game Files/NMS_REALITY_GCTECHNOLOGYTABLE.MXML')
+lang_json_file = './JSON_Files/All_Lang_Data.json'
+output_json_file = './JSON_Files/Technology_Table.json'
 
 # --- LOAD JSON FILES ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:
     lang_entries = json.load(f)
 
-with open('./JSON Files/Product_Table.json', 'r', encoding='utf-8') as f:
+with open('./JSON_Files/Product_Table.json', 'r', encoding='utf-8') as f:
     product_table = json.load(f)
 
-with open('./JSON Files/Substance_Table.json', 'r', encoding='utf-8') as f:
+with open('./JSON_Files/Substance_Table.json', 'r', encoding='utf-8') as f:
     substance_table = json.load(f)
 
 product_lookup = {key: value for key, value in product_table.items()}

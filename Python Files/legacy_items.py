@@ -1,20 +1,21 @@
 
 import xml.etree.ElementTree as ET
 import json
+from path_utils import resolve_case_path
 
 # --- CONFIG ---
-mxml_file = './Game Files/LEGACYITEMTABLE.MXML'
-lang_json_file = './JSON Files/All_Lang_Data.json'
-output_json_file = './JSON Files/Legacy_Item_Table.json'
+mxml_file = resolve_case_path('./Game Files/LEGACYITEMTABLE.MXML')
+lang_json_file = './JSON_Files/All_Lang_Data.json'
+output_json_file = './JSON_Files/Legacy_Item_Table.json'
 
 # --- LOAD JSON FILES ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:
     lang_entries = json.load(f)
 
-with open('./JSON Files/Product_Table.json', 'r', encoding='utf-8') as f:
+with open('./JSON_Files/Product_Table.json', 'r', encoding='utf-8') as f:
     product_table = json.load(f)
 
-with open('./JSON Files/Substance_Table.json', 'r', encoding='utf-8') as f:
+with open('./JSON_Files/Substance_Table.json', 'r', encoding='utf-8') as f:
     substance_table = json.load(f)
 
 product_lookup = {key: value for key, value in product_table.items()}
@@ -51,6 +52,7 @@ for product in root.findall('.//Property[@value="GcLegacyItem"]'):
             name_text = lang_lookup.get(name_id, '')
             name_lower_id = product_info['NameLower']
             name_lower_text = lang_lookup.get(name_lower_id, '')
+            print(name_lower_text)
             subtitle_id = product_info['Subtitle']
             subtitle_text = lang_lookup.get(subtitle_id, '')
             description_id = product_info['Description']

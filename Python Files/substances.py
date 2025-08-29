@@ -1,11 +1,12 @@
 import xml.etree.ElementTree as ET
 import json
-import os
+from path_utils import resolve_case_path
+
 
 # --- CONFIG ---
-mxml_file = './Game Files/NMS_Reality_GCSUBSTANCETABLE.MXML'
-lang_json_file = './JSON Files/All_Lang_Data.json'
-output_json_file = './JSON Files/Substance_Table.json'
+mxml_file = resolve_case_path('./Game Files/NMS_Reality_GCSUBSTANCETABLE.MXML')
+lang_json_file = './JSON_Files/All_Lang_Data.json'
+output_json_file = './JSON_Files/Substance_Table.json'
 
 # --- LOAD LANG JSON ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:

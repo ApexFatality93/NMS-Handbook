@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (5.61.0.1)-->
+<!--File created using MBINCompiler version (6.01.0.2)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UPDATE14_TITLE">
@@ -28565,6 +28565,26 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PP_HARVEST_MSG5">
 			<Property name="Id" value="UI_PP_HARVEST_MSG5" />
 			<Property name="English" value="Harvest %ITEM%: &lt;STELLAR&gt;%CURRENT%/%AMOUNT%&lt;&gt;&#xA;Scan planets from starship (&lt;IMG&gt;SCAN&lt;&gt;) to view harvestable flora" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_PP_HARVEST_MSG6">
+			<Property name="Id" value="UI_PP_HARVEST_MSG6" />
+			<Property name="English" value="The client requires you to return to their local system&#xA;Return to the &lt;STELLAR&gt;%SYSTEM% system&lt;&gt; to locate wild flora" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -143265,6 +143285,26 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PP_BUI_LOCAL_MSG5">
 			<Property name="Id" value="UI_PP_BUI_LOCAL_MSG5" />
 			<Property name="English" value="Mine %ITEM%: &lt;STELLAR&gt;%CURRENT%/%AMOUNT%&lt;&gt;&#xA;Scan planets from starship (&lt;IMG&gt;SCAN&lt;&gt;) to view mineable resources" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_PP_BUI_LOCAL_MSG6">
+			<Property name="Id" value="UI_PP_BUI_LOCAL_MSG6" />
+			<Property name="English" value="The client requires you to return to their local system&#xA;Return to the &lt;STELLAR&gt;%SYSTEM% system&lt;&gt; to locate deposits" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

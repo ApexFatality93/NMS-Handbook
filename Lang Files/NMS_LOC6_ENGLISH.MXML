@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (5.61.0.1)-->
+<!--File created using MBINCompiler version (6.01.0.2)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UPDATE6_TITLE">
@@ -6605,6 +6605,106 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_FRIEND_REMOVE_SUCCESS_ALT">
 			<Property name="Id" value="UI_FRIEND_REMOVE_SUCCESS_ALT" />
 			<Property name="English" value="NO MAN'S SKY FRIEND REMOVED" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_FRIEND_ADD_FAILED_ALT_L">
+			<Property name="Id" value="UI_FRIEND_ADD_FAILED_ALT_L" />
+			<Property name="English" value="No Man's Sky Friend &lt;FUEL&gt;failed&lt;&gt; to add." />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_FRIEND_ADD_FAILED_ALT_2_L">
+			<Property name="Id" value="UI_FRIEND_ADD_FAILED_ALT_2_L" />
+			<Property name="English" value="No Man's Sky Friend &lt;STELLAR&gt;already added&lt;&gt;." />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_FRIEND_ADD_SUCCESS_ALT_L">
+			<Property name="Id" value="UI_FRIEND_ADD_SUCCESS_ALT_L" />
+			<Property name="English" value="No Man's Sky Friend &lt;TRADEABLE&gt;added&lt;&gt;!" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_FRIEND_REMOVE_FAILED_ALT_L">
+			<Property name="Id" value="UI_FRIEND_REMOVE_FAILED_ALT_L" />
+			<Property name="English" value="No Man's Sky Friend &lt;FUEL&gt;failed&lt;&gt; to be removed." />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_FRIEND_REMOVE_SUCCESS_ALT_L">
+			<Property name="Id" value="UI_FRIEND_REMOVE_SUCCESS_ALT_L" />
+			<Property name="English" value="No Man's Sky Friend &lt;TRADEABLE&gt;removed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -90624,7 +90724,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_FLYER_MSG">
 			<Property name="Id" value="UI_EXPED_FLYER_MSG" />
-			<Property name="English" value="Fly your ship: %CURRENT%u/%AMOUNT%u&#xA;Use the &lt;TECHNOLOGY&gt;Scanner&lt;&gt; (&lt;IMG&gt;SHIPSCAN&lt;&gt;) to find points of interest&#xA;Use the boost (&lt;IMG&gt;BOOST&lt;&gt;) to fly faster" />
+			<Property name="English" value="Manually pilot your ship: %CURRENT%u/%AMOUNT%u&#xA;Use the &lt;TECHNOLOGY&gt;Scanner&lt;&gt; (&lt;IMG&gt;SHIPSCAN&lt;&gt;) to find points of interest&#xA;Engage thrusters with &lt;IMG&gt;THRUST&lt;&gt; or use the boost (&lt;IMG&gt;BOOST&lt;&gt;) to fly faster" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -90664,7 +90764,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_FLYER_OBJ_TIP">
 			<Property name="Id" value="UI_EXPED_FLYER_OBJ_TIP" />
-			<Property name="English" value="Use the &lt;TECHNOLOGY&gt;Scanner&lt;&gt; (&lt;IMG&gt;SHIPSCAN&lt;&gt;) to find points of interest&#xA;Use the boost (&lt;IMG&gt;BOOST&lt;&gt;) to fly faster&#xA;Purchase Starship engine upgrades from a &lt;TECHNOLOGY&gt;technology merchant&lt;&gt; on the space station." />
+			<Property name="English" value="Manually pilot the starship using &lt;IMG&gt;THRUST&lt;&gt;, or use the boost (&lt;IMG&gt;BOOST&lt;&gt;) to fly faster.&#xA;Use the &lt;TECHNOLOGY&gt;Scanner&lt;&gt; (&lt;IMG&gt;SHIPSCAN&lt;&gt;) to find points of interest.&#xA;Purchase Starship engine upgrades from a &lt;TECHNOLOGY&gt;technology merchant&lt;&gt; on the space station." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -90804,7 +90904,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_BIOME_OBJ_TIP">
 			<Property name="Id" value="UI_EXPED_BIOME_OBJ_TIP" />
-			<Property name="English" value="&lt;TECHNOLOGY&gt;Scan&lt;&gt; (&lt;IMG&gt;SHPSCAN&lt;&gt;) planets from space to gather climate information.&#xA;&#xA;Purchase Hazard Protection upgrades from a space station &lt;TECHNOLOGY&gt;technology merchant&lt;&gt;. Acquire new Hazard Protection technologies from &lt;STELLAR&gt;Selene&lt;&gt; on the &lt;SPECIAL&gt;Space Anomaly&lt;&gt;.&#xA;&#xA;Use the &lt;TECHNOLOGY&gt;Analysis Visor&lt;&gt; (&lt;IMG&gt;AIM&lt;&gt;), &lt;TECHNOLOGY&gt;Scanner&lt;&gt; (&lt;IMG&gt;SCAN&lt;&gt;) and &lt;TECHNOLOGY&gt;Compass&lt;&gt; to find points of interest while exploring." />
+			<Property name="English" value="&lt;TECHNOLOGY&gt;Scan&lt;&gt; (&lt;IMG&gt;SHIPSCAN&lt;&gt;) planets from space to gather climate information.&#xA;&#xA;Purchase Hazard Protection upgrades from a space station &lt;TECHNOLOGY&gt;technology merchant&lt;&gt;. Acquire new Hazard Protection technologies from &lt;STELLAR&gt;Selene&lt;&gt; on the &lt;SPECIAL&gt;Space Anomaly&lt;&gt;.&#xA;&#xA;Use the &lt;TECHNOLOGY&gt;Analysis Visor&lt;&gt; (&lt;IMG&gt;AIM&lt;&gt;), &lt;TECHNOLOGY&gt;Scanner&lt;&gt; (&lt;IMG&gt;SCAN&lt;&gt;) and &lt;TECHNOLOGY&gt;Compass&lt;&gt; to find points of interest while exploring." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -95664,7 +95764,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_ACROBAT_DESC">
 			<Property name="Id" value="UI_EXPED_ACROBAT_DESC" />
-			<Property name="English" value="Perform low-flight maneuvers" />
+			<Property name="English" value="Perform low-flight manoeuvres" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -95704,7 +95804,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_ACROBAT_MSG1">
 			<Property name="Id" value="UI_EXPED_ACROBAT_MSG1" />
-			<Property name="English" value="Return to your ship to begin &lt;STELLAR&gt;low-flight maneuvers&lt;&gt;&#xA;Time spent in maneuvers: %CURRENT%/%AMOUNT%s" />
+			<Property name="English" value="Return to your ship to begin &lt;STELLAR&gt;low-flight manoeuvres&lt;&gt;&#xA;Time spent in manoeuvres: %CURRENT%/%AMOUNT%s" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -95724,7 +95824,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_ACROBAT_MSG2">
 			<Property name="Id" value="UI_EXPED_ACROBAT_MSG2" />
-			<Property name="English" value="Enter low planetary orbit to begin &lt;STELLAR&gt;low-flight maneuvers&lt;&gt;&#xA;Time spent in maneuvers: %CURRENT%/%AMOUNT%s" />
+			<Property name="English" value="Enter low planetary orbit to begin &lt;STELLAR&gt;low-flight manoeuvres&lt;&gt;&#xA;Time spent in manoeuvres: %CURRENT%/%AMOUNT%s" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -95744,7 +95844,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_ACROBAT_MSG3">
 			<Property name="Id" value="UI_EXPED_ACROBAT_MSG3" />
-			<Property name="English" value="Reach and maintain a &lt;STELLAR&gt;lower altitude&lt;&gt; to begin&#xA;Time spent in maneuvers: %CURRENT%/%AMOUNT%s" />
+			<Property name="English" value="Reach and maintain a &lt;STELLAR&gt;lower altitude&lt;&gt; to begin&#xA;Time spent in manoeuvres: %CURRENT%/%AMOUNT%s" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -95764,7 +95864,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_ACROBAT_MSG4">
 			<Property name="Id" value="UI_EXPED_ACROBAT_MSG4" />
-			<Property name="English" value="&lt;STELLAR&gt;Invert&lt;&gt; your starship while maintaining &lt;STELLAR&gt;low-flight status&lt;&gt;&#xA;Time spent in maneuvers: %CURRENT%/%AMOUNT%s" />
+			<Property name="English" value="&lt;STELLAR&gt;Invert&lt;&gt; your starship while maintaining &lt;STELLAR&gt;low-flight status&lt;&gt;&#xA;Time spent in manoeuvres: %CURRENT%/%AMOUNT%s" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -95784,7 +95884,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_ACROBAT_MSG5">
 			<Property name="Id" value="UI_EXPED_ACROBAT_MSG5" />
-			<Property name="English" value="Activate &lt;STELLAR&gt;boost&lt;&gt; (&lt;IMG&gt;BOOST&lt;&gt;) while maintaining &lt;STELLAR&gt;low-flight status&lt;&gt;&#xA;Time spent in maneuvers: %CURRENT%/%AMOUNT%s" />
+			<Property name="English" value="Activate &lt;STELLAR&gt;boost&lt;&gt; (&lt;IMG&gt;BOOST&lt;&gt;) while maintaining &lt;STELLAR&gt;low-flight status&lt;&gt;&#xA;Time spent in manoeuvres: %CURRENT%/%AMOUNT%s" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -95804,7 +95904,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_ACROBAT_OBJ">
 			<Property name="Id" value="UI_EXPED_ACROBAT_OBJ" />
-			<Property name="English" value="Perform continuous low-flight maneuvers: %CURRENT%/%AMOUNT%s" />
+			<Property name="English" value="Perform continuous low-flight manoeuvres: %CURRENT%/%AMOUNT%s" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -127844,7 +127944,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UP_PULSE_X_DESC">
 			<Property name="Id" value="UP_PULSE_X_DESC" />
-			<Property name="English" value="A &lt;SPECIAL&gt;black-market modification&lt;&gt; for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="A &lt;SPECIAL&gt;black-market modification&lt;&gt; for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -142484,7 +142584,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FREIGHTER_FLEET_COMBAT">
 			<Property name="Id" value="FREIGHTER_FLEET_COMBAT" />
-			<Property name="English" value="Expedition Defenses" />
+			<Property name="English" value="Expedition Defences" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -142564,7 +142664,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_HYP_NAME">
 			<Property name="Id" value="UT_FR_HYP_NAME" />
-			<Property name="English" value="Freighter Hyperdrive" />
+			<Property name="English" value="FREIGHTER HYPERDRIVE" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -142584,7 +142684,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_SPEED_NAME">
 			<Property name="Id" value="UT_FR_SPEED_NAME" />
-			<Property name="English" value="Expedition Speed Control" />
+			<Property name="English" value="EXPEDITION SPEED CONTROL" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -142604,7 +142704,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_FUEL_NAME">
 			<Property name="Id" value="UT_FR_FUEL_NAME" />
-			<Property name="English" value="Expedition Efficiency Control" />
+			<Property name="English" value="EXPEDITION EFFICIENCY CONTROL" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -142624,7 +142724,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_COM_NAME">
 			<Property name="Id" value="UT_FR_COM_NAME" />
-			<Property name="English" value="Expedition Defenses Control" />
+			<Property name="English" value="EXPEDITION DEFENCES CONTROL" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -142644,7 +142744,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_TRADE_NAME">
 			<Property name="Id" value="UT_FR_TRADE_NAME" />
-			<Property name="English" value="Expedition Trade Control" />
+			<Property name="English" value="EXPEDITION TRADE CONTROL" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -142664,7 +142764,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_EXP_NAME">
 			<Property name="Id" value="UT_FR_EXP_NAME" />
-			<Property name="English" value="Expedition Scientific Control" />
+			<Property name="English" value="EXPEDITION SCIENTIFIC CONTROL" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -142684,6 +142784,146 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_MINE_NAME">
 			<Property name="Id" value="UT_FR_MINE_NAME" />
+			<Property name="English" value="EXPEDITION MINING CONTROL" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_HYP_NAME_L">
+			<Property name="Id" value="UT_FR_HYP_NAME_L" />
+			<Property name="English" value="Freighter Hyperdrive" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_SPEED_NAME_L">
+			<Property name="Id" value="UT_FR_SPEED_NAME_L" />
+			<Property name="English" value="Expedition Speed Control" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_FUEL_NAME_L">
+			<Property name="Id" value="UT_FR_FUEL_NAME_L" />
+			<Property name="English" value="Expedition Efficiency Control" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_COM_NAME_L">
+			<Property name="Id" value="UT_FR_COM_NAME_L" />
+			<Property name="English" value="Expedition Defences Control" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_TRADE_NAME_L">
+			<Property name="Id" value="UT_FR_TRADE_NAME_L" />
+			<Property name="English" value="Expedition Trade Control" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_EXP_NAME_L">
+			<Property name="Id" value="UT_FR_EXP_NAME_L" />
+			<Property name="English" value="Expedition Scientific Control" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UT_FR_MINE_NAME_L">
+			<Property name="Id" value="UT_FR_MINE_NAME_L" />
 			<Property name="English" value="Expedition Mining Control" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -143622,9 +143862,29 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_DESC_SHORT">
+			<Property name="Id" value="UI_ABAND_END_DESC_SHORT" />
+			<Property name="English" value="Fabrication pathway accessed. Awaiting user selection..." />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_OPTA">
 			<Property name="Id" value="UI_ABAND_END_OPTA" />
-			<Property name="English" value="Fabricate Technology Upgrade" />
+			<Property name="English" value="Fabricate Items" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -143644,6 +143904,46 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_OPTB">
 			<Property name="Id" value="UI_ABAND_END_OPTB" />
+			<Property name="English" value="Extract Nanites" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_ITEMS_OPTA">
+			<Property name="Id" value="UI_ABAND_END_ITEMS_OPTA" />
+			<Property name="English" value="Fabricate Technology Upgrade" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_ITEMS_OPTB">
+			<Property name="Id" value="UI_ABAND_END_ITEMS_OPTB" />
 			<Property name="English" value="Fabricate Freighter Bulkhead" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -143662,9 +143962,9 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_OPTC">
-			<Property name="Id" value="UI_ABAND_END_OPTC" />
-			<Property name="English" value="Extract Nanites" />
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_ITEMS_OPTC">
+			<Property name="Id" value="UI_ABAND_END_ITEMS_OPTC" />
+			<Property name="English" value="Fabricate Corvette Modules" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -143725,6 +144025,26 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_RESC">
 			<Property name="Id" value="UI_ABAND_END_RESC" />
 			<Property name="English" value="Nanite fabrication initiated &lt;IMG&gt;SLASH&lt;&gt; Foam charging... &lt;DELAY&gt;1&lt;&gt;&lt;STELLAR&gt;COMPLETE&lt;&gt; &lt;IMG&gt;SLASH&lt;&gt; Swarm agency neutralisation... &lt;DELAY&gt;1&lt;&gt;&lt;STELLAR&gt;COMPLETE&lt;&gt; &lt;IMG&gt;SLASH&lt;&gt; Nanite foam ready for extraction." />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_ABAND_END_RESD">
+			<Property name="Id" value="UI_ABAND_END_RESD" />
+			<Property name="English" value="Corvette module replication initiated &lt;IMG&gt;SLASH&lt;&gt; Cargo removal... &lt;DELAY&gt;1&lt;&gt;&lt;STELLAR&gt;COMPLETE&lt;&gt; &lt;IMG&gt;SLASH&lt;&gt; Nanocompression... &lt;DELAY&gt;1&lt;&gt;&lt;STELLAR&gt;COMPLETE&lt;&gt; &lt;IMG&gt;SLASH&lt;&gt; Portable storage unit ready for collection." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -177564,7 +177884,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_TIP_HEAD_GTOP_TEX2">
 			<Property name="Id" value="UI_TIP_HEAD_GTOP_TEX2" />
-			<Property name="English" value="Eye Tatoos" />
+			<Property name="English" value="Eye Tattoos" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -177584,7 +177904,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_TIP_HEAD_GTOP_TEX3">
 			<Property name="Id" value="UI_TIP_HEAD_GTOP_TEX3" />
-			<Property name="English" value="Muzzle Tatoos" />
+			<Property name="English" value="Muzzle Tattoos" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -198664,7 +198984,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="BIO_PROD_PULSE1_DESC">
 			<Property name="Id" value="BIO_PROD_PULSE1_DESC" />
-			<Property name="English" value="A &lt;TRADEABLE&gt;moderate&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Pulsing Heart&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to trigger node growth and begin the &lt;VAL_ON&gt;grafting process&lt;&gt;.&#xA;&#xA;Each node is genetically unique, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="A &lt;TRADEABLE&gt;moderate&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Pulsing Heart&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to trigger node growth and begin the &lt;VAL_ON&gt;grafting process&lt;&gt;.&#xA;&#xA;Each node is genetically unique, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -198704,7 +199024,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="BIO_PROD_PULSE2_DESC">
 			<Property name="Id" value="BIO_PROD_PULSE2_DESC" />
-			<Property name="English" value="A &lt;TECHNOLOGY&gt;significant&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Pulsing Heart&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to trigger node growth and begin the &lt;VAL_ON&gt;grafting process&lt;&gt;.&#xA;&#xA;Each node is genetically unique, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="A &lt;TECHNOLOGY&gt;significant&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Pulsing Heart&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to trigger node growth and begin the &lt;VAL_ON&gt;grafting process&lt;&gt;.&#xA;&#xA;Each node is genetically unique, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -198744,7 +199064,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="BIO_PROD_PULSE3_DESC">
 			<Property name="Id" value="BIO_PROD_PULSE3_DESC" />
-			<Property name="English" value="An &lt;SPECIAL&gt;extremely powerful&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Pulsing Heart&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to trigger node growth and begin the &lt;VAL_ON&gt;grafting process&lt;&gt;.&#xA;&#xA;Each node is genetically unique, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="An &lt;SPECIAL&gt;extremely powerful&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Pulsing Heart&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to trigger node growth and begin the &lt;VAL_ON&gt;grafting process&lt;&gt;.&#xA;&#xA;Each node is genetically unique, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -198784,7 +199104,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="BIO_PROD_PULSE4_DESC">
 			<Property name="Id" value="BIO_PROD_PULSE4_DESC" />
-			<Property name="English" value="A &lt;COMMODITY&gt;supremely powerful&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Pulsing Heart&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to trigger node growth and begin the &lt;VAL_ON&gt;grafting process&lt;&gt;.&#xA;&#xA;Each node is genetically unique, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="A &lt;COMMODITY&gt;supremely powerful&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Pulsing Heart&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to trigger node growth and begin the &lt;VAL_ON&gt;grafting process&lt;&gt;.&#xA;&#xA;Each node is genetically unique, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

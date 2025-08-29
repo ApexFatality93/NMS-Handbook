@@ -1,8 +1,9 @@
 import xml.etree.ElementTree as ET
 import json
+from path_utils import resolve_case_path
 
 # --- CONFIG ---
-mxml_file = './Game Files/FISHDATATABLE.MXML'
+mxml_file = resolve_case_path('./Game Files/FISHDATATABLE.MXML')
 lang_json_file = './JSON_Files/All_Lang_Data.json'
 output_json_file = './JSON_Files/Fish_Table.json'
 

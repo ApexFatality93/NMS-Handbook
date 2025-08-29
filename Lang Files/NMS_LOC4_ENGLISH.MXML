@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (5.61.0.1)-->
+<!--File created using MBINCompiler version (6.01.0.2)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_GUIDE_TITLE">
@@ -128104,7 +128104,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UP_PULSE1_DESC">
 			<Property name="Id" value="UP_PULSE1_DESC" />
-			<Property name="English" value="A &lt;TRADEABLE&gt;moderate&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="A &lt;TRADEABLE&gt;moderate&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -128184,7 +128184,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UP_PULSE2_DESC">
 			<Property name="Id" value="UP_PULSE2_DESC" />
-			<Property name="English" value="A &lt;TECHNOLOGY&gt;significant&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="A &lt;TECHNOLOGY&gt;significant&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -128264,7 +128264,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UP_PULSE3_DESC">
 			<Property name="Id" value="UP_PULSE3_DESC" />
-			<Property name="English" value="An &lt;SPECIAL&gt;extremely powerful&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="An &lt;SPECIAL&gt;extremely powerful&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -128344,7 +128344,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UP_PULSE4_DESC">
 			<Property name="Id" value="UP_PULSE4_DESC" />
-			<Property name="English" value="A &lt;COMMODITY&gt;supremely powerful&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship maneuverability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
+			<Property name="English" value="A &lt;COMMODITY&gt;supremely powerful&lt;&gt; upgrade for the &lt;TECHNOLOGY&gt;Starship Pulse Engine&lt;&gt;. Use &lt;VAL_ON&gt;&lt;IMG&gt;FE_ALT1&lt;&gt;&lt;&gt; to begin upgrade &lt;VAL_ON&gt;installation process&lt;&gt;.&#xA;&#xA;The module is flexible, and exact upgrade statistics are &lt;SPECIAL&gt;unknown&lt;&gt; until installation is complete.&#xA;&#xA;Potential improvements include: &lt;STELLAR&gt;starship manoeuvrability&lt;&gt; and &lt;STELLAR&gt;speed&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -155664,7 +155664,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_SHIP_NOTE_19">
 			<Property name="Id" value="FLEET_SHIP_NOTE_19" />
-			<Property name="English" value="Highly Maneuverable" />
+			<Property name="English" value="Highly Manoeuvrable" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -158804,7 +158804,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_COMBAT_T1_27">
 			<Property name="Id" value="FLEET_COMBAT_T1_27" />
-			<Property name="English" value="Forward scouts ambushed by hostile vessels. Performed evasive maneuvers. Enemy starships successfully lured back into range of fleet cannons." />
+			<Property name="English" value="Forward scouts ambushed by hostile vessels. Performed evasive manoeuvres. Enemy starships successfully lured back into range of fleet cannons." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -159924,7 +159924,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_COMBAT_T3_23">
 			<Property name="Id" value="FLEET_COMBAT_T3_23" />
-			<Property name="English" value="Pirate installation detected on long-range scanner. Entered planetary orbit. Crew utilised new maneuver to execute coordinated weapons battery volley. Maneuver executed successfully. Pirate installation eliminated." />
+			<Property name="English" value="Pirate installation detected on long-range scanner. Entered planetary orbit. Crew utilised new manoeuvre to execute coordinated weapons battery volley. Manoeuvre executed successfully. Pirate installation eliminated." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -159944,7 +159944,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_COMBAT_T3_24">
 			<Property name="Id" value="FLEET_COMBAT_T3_24" />
-			<Property name="English" value="Tracked pirates in the %SYSTEM% System. Fighters deployed. Squadron executed new group combat tactics. Hostile pilots were of a poor standard, unable to properly evaluate maneuver. All targets destroyed." />
+			<Property name="English" value="Tracked pirates in the %SYSTEM% System. Fighters deployed. Squadron executed new group combat tactics. Hostile pilots were of a poor standard, unable to properly evaluate manoeuvre. All targets destroyed." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -160144,7 +160144,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_COMBAT_SEC_4">
 			<Property name="Id" value="FLEET_COMBAT_SEC_4" />
-			<Property name="English" value="In orbit around planet %PLANET% when ambushed by pirate vessels. Maneuvered into cloudbank, causing hostile starships to become disorientated and crash. Scanned wreckage, discovered pirates were wanted by local authorities." />
+			<Property name="English" value="In orbit around planet %PLANET% when ambushed by pirate vessels. Manoeuvred into cloudbank, causing hostile starships to become disorientated and crash. Scanned wreckage, discovered pirates were wanted by local authorities." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -160424,7 +160424,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_COMBAT_SEC_18">
 			<Property name="Id" value="FLEET_COMBAT_SEC_18" />
-			<Property name="English" value="Scanned asteroids in orbit around planet %PLANET%. Pirates launched surprise attack. Raised shields and used asteroids as cover. Outmaneuvered hostile vessels. Pirates destroyed, bounty claimed." />
+			<Property name="English" value="Scanned asteroids in orbit around planet %PLANET%. Pirates launched surprise attack. Raised shields and used asteroids as cover. Outmanoeuvred hostile vessels. Pirates destroyed, bounty claimed." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -161464,7 +161464,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_COMBAT_FAIL_26">
 			<Property name="Id" value="FLEET_COMBAT_FAIL_26" />
-			<Property name="English" value="Pursued pirates across several sectors, but unable to maneuver into effective weapons range." />
+			<Property name="English" value="Pursued pirates across several sectors, but unable to manoeuvre into effective weapons range." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -161844,7 +161844,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_COMBAT_DAMAGE_15">
 			<Property name="Id" value="FLEET_COMBAT_DAMAGE_15" />
-			<Property name="English" value="Cornered by pirate fleet. Used pulse drive to ram blockading frigates and escape to warp. Maneuver successful, but severe hull damage taken." />
+			<Property name="English" value="Cornered by pirate fleet. Used pulse drive to ram blockading frigates and escape to warp. Manoeuvre successful, but severe hull damage taken." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -173164,7 +173164,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="FLEET_EXPLORE_FAIL_10">
 			<Property name="Id" value="FLEET_EXPLORE_FAIL_10" />
-			<Property name="English" value="Flightpath distorted by gravity well of nearby black hole. Performed emergency course-correct maneuver. Escaped without damage." />
+			<Property name="English" value="Flightpath distorted by gravity well of nearby black hole. Performed emergency course-correct manoeuvre. Escaped without damage." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

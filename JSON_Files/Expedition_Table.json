@@ -3798,5 +3798,189 @@
                 }
             ]
         }
+    },
+    "19": {
+        "SeasonName": "Corvette",
+        "SeasonNumber": "38",
+        "RemixNumber": "0",
+        "DisplayNumber": "19",
+        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.EXPEDITION.19.DDS",
+        "Description": "Design, assemble and upgrade a habitable starship: your home in the stars and your refuge from the Sentinel horde.",
+        "FinalReward": "",
+        "UnlockedTitle": "Shipwright %NAME%",
+        "Rewards": {
+            "-1": [
+                {
+                    "ID": "EXPD_EGG_19",
+                    "RewardName": "Mecha-Mouse Egg",
+                    "RewardSubtitle": "Robotic Spawn Capsule",
+                    "RewardDescription": "A metal 'egg' capsule, <TRADEABLE>ready to hatch!<>\n\nA muffled squeaking can be heard from the synthetic creature inside the capsule.\n\nScans indicate the being within is programmed to be intelligent and loving, through prone to gnawing on electronics.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.ROBOTRODENT.DDS",
+                    "Colour_R": "0.301960796",
+                    "Colour_G": "0.160784319",
+                    "Colour_B": "0.529411793",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "-1",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "5": [
+                {
+                    "ID": "EXPD_TITLE19",
+                    "RewardName": "Title: 'Shipwright'",
+                    "RewardSubtitle": "Bespoke Personal Identification",
+                    "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Corvette<> expedition, and the design and assembly of your own habitable starship.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.TITLE.DDS",
+                    "Colour_R": "0.000000",
+                    "Colour_G": "0.474509805",
+                    "Colour_B": "0.31764707",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "5",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "EXPD_BANNER19",
+                    "RewardName": "Corvette Banner",
+                    "RewardSubtitle": "Bespoke Personal Identification",
+                    "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Corvette<> expedition, and the design and assembly of your own habitable starship.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.BANNER.DDS",
+                    "Colour_R": "0.000000",
+                    "Colour_G": "0.474509805",
+                    "Colour_B": "0.31764707",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "5",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "EXPD_DECAL19",
+                    "RewardName": "Corvette Decal",
+                    "RewardSubtitle": "Decoration",
+                    "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Corvette<> expedition, and the design and assembly of your own habitable starship.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.DECAL.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "5",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "4": [
+                {
+                    "ID": "B_TUR_B",
+                    "RewardName": "",
+                    "RewardSubtitle": "",
+                    "RewardDescription": "",
+                    "Icon_Filename": "",
+                    "Colour_R": "",
+                    "Colour_G": "",
+                    "Colour_B": "",
+                    "Colour_A": "",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "4",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "3": [
+                {
+                    "ID": "SHIP_PLASMA",
+                    "RewardName": "Plasma Starship Trail",
+                    "RewardSubtitle": "Starship Exhaust Override",
+                    "RewardDescription": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA visual enhancement for the starship, replacing traditional exhaust jets with a plasma thruster and generating a dramatic exhaust plume of ionised matter.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.SHIPTRAIL.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "3",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "2": [
+                {
+                    "ID": "JETS_RUIN",
+                    "RewardName": "Vigilant Trail",
+                    "RewardSubtitle": "Jetpack Exhaust Override",
+                    "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA Jetpack trail emitting the light of living stone; plucked from a slumbering guardian; focused and consolidated through a series of lenses.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.JETS.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "2",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "1": [
+                {
+                    "ID": "EXPD_POSTER19C",
+                    "RewardName": "Big Rig Poster",
+                    "RewardSubtitle": "Decoration",
+                    "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster by an unknown artist playfully references the oversized frames of Corvette starships.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.POSTERC.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "1",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "EXPD_POSTER19B",
+                    "RewardName": "\"Built to Last\" Poster",
+                    "RewardSubtitle": "Decoration",
+                    "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nCommissioned by the Intergalactic Corvette Union, this poster advertises a patented starship design.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.POSTERB.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "1",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "EXPD_POSTER19A",
+                    "RewardName": "Corvette Blueprint Poster",
+                    "RewardSubtitle": "Decoration",
+                    "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts a classic Corvette design, outfitted with high-capacity habitation modules and immense engines.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.POSTERA.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "1",
+                    "SpecificMilestoneLoc": ""
+                }
+            ]
+        }
     }
 }

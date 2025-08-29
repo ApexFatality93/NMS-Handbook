@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (5.61.0.1)-->
+<!--File created using MBINCompiler version (6.01.0.2)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UPDATE9_TITLE">
@@ -4664,7 +4664,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="SHIP_MANEUVERABILITY_U">
 			<Property name="Id" value="SHIP_MANEUVERABILITY_U" />
-			<Property name="English" value="MANEUVERABILITY" />
+			<Property name="English" value="MANOEUVRABILITY" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -42542,6 +42542,26 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_SETTLEMENT_MISS_MSG7F">
+			<Property name="Id" value="UI_SETTLEMENT_MISS_MSG7F" />
+			<Property name="English" value="A &lt;STELLAR&gt;settlement building&lt;&gt; is under construction&#xA;Return to your settlement to view progress" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SETTLEMENT_MISS_MSG8">
 			<Property name="Id" value="UI_SETTLEMENT_MISS_MSG8" />
 			<Property name="English" value="Settlement status: &lt;STELLAR&gt;running smoothly&lt;&gt;&#xA;The Overseer is free to explore the universe&#xA;The &lt;TECHNOLOGY&gt;Administration Terminal&lt;&gt; will alert you when required" />
@@ -68204,7 +68224,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_BLACKHOLE_DRIVE_OBJ2_TIP">
 			<Property name="Id" value="UI_BLACKHOLE_DRIVE_OBJ2_TIP" />
-			<Property name="English" value="The freighter's &lt;SPECIAL&gt;Singularity Engine&lt;&gt; must be activated from the bridge. Speak to the freighter's commanding officer to activate the drive and perform a &lt;TECHNOLOGY&gt;wormhole maneuver&lt;&gt;." />
+			<Property name="English" value="The freighter's &lt;SPECIAL&gt;Singularity Engine&lt;&gt; must be activated from the bridge. Speak to the freighter's commanding officer to activate the drive and perform a &lt;TECHNOLOGY&gt;wormhole manoeuvre&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -68304,7 +68324,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_BLACKHOLE_DRIVE_MSG5">
 			<Property name="Id" value="UI_BLACKHOLE_DRIVE_MSG5" />
-			<Property name="English" value="Activate the &lt;SPECIAL&gt;Singularity Engine&lt;&gt;&#xA;Return to your capital ship to perform extreme gravity maneuvers" />
+			<Property name="English" value="Activate the &lt;SPECIAL&gt;Singularity Engine&lt;&gt;&#xA;Return to your capital ship to perform extreme gravity manoeuvres" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -68324,7 +68344,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_BLACKHOLE_DRIVE_MSG6">
 			<Property name="Id" value="UI_BLACKHOLE_DRIVE_MSG6" />
-			<Property name="English" value="Activate the &lt;SPECIAL&gt;Singularity Engine&lt;&gt;&#xA;Speak with the freighter commander to begin maneuvers&#xA;Standby for frameshift inversion..." />
+			<Property name="English" value="Activate the &lt;SPECIAL&gt;Singularity Engine&lt;&gt;&#xA;Speak with the freighter commander to begin manoeuvres&#xA;Standby for frameshift inversion..." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -127744,7 +127764,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_STEALTH_DESC">
 			<Property name="Id" value="UI_STEALTH_DESC" />
-			<Property name="English" value="On activation, this module draws power from &lt;VAL_ON&gt;Exosuit Life Support&lt;&gt; systems to manipulate the gravitational field around the user, refracting the light and creating an &lt;STELLAR&gt;active camouflage effect&lt;&gt;.&#xA;&#xA;This &lt;STELLAR&gt;temporary&lt;&gt; effect can be used to escape unwanted hostile attention. WARNING: active camouflage will be aborted upon dramatic Exosuit maneuvers such as jetpack activation, or by activating Multi-Tool weapons systems." />
+			<Property name="English" value="On activation, this module draws power from &lt;VAL_ON&gt;Exosuit Life Support&lt;&gt; systems to manipulate the gravitational field around the user, refracting the light and creating an &lt;STELLAR&gt;active camouflage effect&lt;&gt;.&#xA;&#xA;This &lt;STELLAR&gt;temporary&lt;&gt; effect can be used to escape unwanted hostile attention. WARNING: active camouflage will be aborted upon dramatic Exosuit manoeuvres such as jetpack activation, or by activating Multi-Tool weapons systems." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -132784,7 +132804,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SETTLEMENT_STAT_POP_POS_FMT">
 			<Property name="Id" value="UI_SETTLEMENT_STAT_POP_POS_FMT" />
-			<Property name="English" value="&lt;TRADEABLE&gt;+%NUM%&lt;&gt; population growth" />
+			<Property name="English" value="&lt;TRADEABLE&gt;+%NUM%&lt;&gt; population" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -132805,6 +132825,46 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SETTLEMENT_STAT_POP_NEG_FMT">
 			<Property name="Id" value="UI_SETTLEMENT_STAT_POP_NEG_FMT" />
 			<Property name="English" value="&lt;FUEL&gt;-%NUM%&lt;&gt; population" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_SETTLEMENT_STAT_MAX_POS_FMT">
+			<Property name="Id" value="UI_SETTLEMENT_STAT_MAX_POS_FMT" />
+			<Property name="English" value="&lt;TRADEABLE&gt;+%NUM%&lt;&gt; population capacity" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_SETTLEMENT_STAT_MAX_NEG_FMT">
+			<Property name="Id" value="UI_SETTLEMENT_STAT_MAX_NEG_FMT" />
+			<Property name="English" value="&lt;FUEL&gt;-%NUM%&lt;&gt; population capacity" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170944,7 +171004,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_JUDGEMENT_POLICY4_DETAIL3">
 			<Property name="Id" value="UI_JUDGEMENT_POLICY4_DETAIL3" />
-			<Property name="English" value="We could be %OPTION1%, though there is a faction who strongly believes in %OPTION2%" />
+			<Property name="English" value="We could be %OPTION1%, though there is a faction who strongly believes in %OPTION2%." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

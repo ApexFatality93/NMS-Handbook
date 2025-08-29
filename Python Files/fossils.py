@@ -1,11 +1,12 @@
 
 import xml.etree.ElementTree as ET
 import json
+from path_utils import resolve_case_path
 
 # --- CONFIG ---
-mxml_file = './Game Files/NMS_MODULARCUSTOMISATIONPRODUCTS.MXML'
-lang_json_file = './JSON Files/All_Lang_Data.json'
-output_json_file = './JSON Files/Fossil_Table.json'
+mxml_file = resolve_case_path('./Game Files/NMS_MODULARCUSTOMISATIONPRODUCTS.MXML')
+lang_json_file = './JSON_Files/All_Lang_Data.json'
+output_json_file = './JSON_Files/Fossil_Table.json'
 
 # --- LOAD JSON FILES ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:
@@ -91,7 +92,8 @@ for product in root.findall('.//Property[@value="GcProductData"]'):
         }
 
     else:
-        print(product_id,product_category)
+        # print(product_id,product_category)
+        continue
 
 # --- WRITE TO JSON ---
 with open(output_json_file, 'w', encoding='utf-8') as json_out:

@@ -1,17 +1,18 @@
 
 import xml.etree.ElementTree as ET
 import json
+from path_utils import resolve_case_path
 
 # --- CONFIG ---
-mxml_file = './Game Files/PURCHASEABLEBUILDINGBLUEPRINTS.MXML'
-lang_json_file = './JSON Files/All_Lang_Data.json'
-output_json_file = './JSON Files/Purchaseable_Building_Blueprints.json'
+mxml_file = resolve_case_path('./Game Files/PURCHASEABLEBUILDINGBLUEPRINTS.MXML')
+lang_json_file = './JSON_Files/All_Lang_Data.json'
+output_json_file = './JSON_Files/Purchaseable_Building_Blueprints.json'
 
 # --- LOAD JSON FILES ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:
     lang_entries = json.load(f)
 
-with open('./JSON Files/Building_Parts_Table.json', 'r', encoding='utf-8') as f:
+with open('./JSON_Files/Building_Parts_Table.json', 'r', encoding='utf-8') as f:
     building_table = json.load(f)
 
 product_lookup = {key: value for key, value in building_table.items()}

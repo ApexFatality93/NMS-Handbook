@@ -12,6 +12,7 @@
             "-1": [
                 {
                     "ID": "EXPD_SHIP01",
+                    "Type": "product",
                     "RewardName": "Golden Vector",
                     "RewardSubtitle": "Exclusive Spacecraft",
                     "RewardDescription": "An exclusive golden edition of the iconic <STELLAR>Alpha Vector Starship<>, commemorating completion of the inaugural <STELLAR>Expedition<>, 'Pioneers'.\n\nThis highly-manoeuvrable spacecraft is constructed from a durable and precious alloy, and coated in a tough layer of fibrous insulation to endure many lifetimes' worth of rigorous space exploration.\n\n<STELLAR>Claim<> this ship to add it to your collection, or <STELLAR>Exchange<> it with your current ship. While on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>).",
@@ -30,6 +31,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER01",
+                    "Type": "product",
                     "RewardName": "Pioneers Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the inaugural <STELLAR>Expedition<>, 'Pioneers'.\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -46,6 +48,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL01",
+                    "Type": "product",
                     "RewardName": "Pioneers Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\nThis decal features the golden edition of the iconic Alpha Vector Starship, and commemorates completion of the inaugural <STELLAR>Expedition<>, 'Pioneers'.",
@@ -62,6 +65,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE01",
+                    "Type": "product",
                     "RewardName": "Title: 'Pioneer'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the inaugural <STELLAR>Expedition<>, 'Pioneers'.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -80,6 +84,7 @@
             "4": [
                 {
                     "ID": "EXPD_BACKPACK01",
+                    "Type": "product",
                     "RewardName": "Streamlined Jetpack Unit",
                     "RewardSubtitle": "Exosuit Visual Enhancement",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA streamlined and lightweight backpack unit, featuring an elegant single-thruster design. This exclusive exosuit augmentation commemorates completion of the inaugural <STELLAR>Expedition<>, 'Pioneers'.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -98,6 +103,7 @@
             "3": [
                 {
                     "ID": "EXPD_HELMET01",
+                    "Type": "product",
                     "RewardName": "Golden First Spawn Battle Mask",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An aggressive <STELLAR>Exosuit Appearance Override<>, modeled on the war helmets of the ancient Gek. This special edition is cast in a durable and precious alloy.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -116,6 +122,7 @@
             "2": [
                 {
                     "ID": "BLD_EXPD_BASE01",
+                    "Type": "product",
                     "RewardName": "Pioneers Expedition Flag",
                     "RewardSubtitle": "Unlockable Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\nThis elaborate, <STELLAR>gold-fringed flag<> features a rendition of the iconic Alpha Vector Starship. Plant in a habitable base to commemorate completion of the inaugural <STELLAR>Expedition<>, 'Pioneers'.",
@@ -134,6 +141,7 @@
             "1": [
                 {
                     "ID": "EXPD_FIREPACK01",
+                    "Type": "product",
                     "RewardName": "Atlas Firework Pack",
                     "RewardSubtitle": "Pyrotechnics Multi-Pack",
                     "RewardDescription": "A three-variety pack of luxury fireworks. These stunning pyrotechnics render the likeness of an Atlas Interface, in bursts of <TECHNOLOGY>indium<>, <COMMODITY>gold<> and <FUEL>cadmium<>. Ignite to create glittering displays in the sky.\n\nPlace launch tube via the <VAL_ON>Build Menu<> (<IMG>BUILD_MENU<>). <FUEL>Warning<>: Aim away from living creatures. Not recommended for indoor use.",
@@ -164,6 +172,7 @@
             "-1": [
                 {
                     "ID": "EXPD_SPEC02",
+                    "Type": "product",
                     "RewardName": "SSV Normandy SR1",
                     "RewardSubtitle": "Exclusive Frigate",
                     "RewardDescription": "The <TECHNOLOGY>SSV Normandy SR1<> is a one-of-a-kind 'deep scout' frigate. This legendary ship represents peace and cooperation between races, and commemorates completion of the 'Beachhead' <STELLAR>Expedition<>.\n\nRecruiting this frigate will add it to your fleet. Manage your frigate fleet from a <TECHNOLOGY>Fleet Command Room<> aboard your freighter, and consult your <TECHNOLOGY>Navigator<> to deploy frigates on lucrative expeditions.",
@@ -180,6 +189,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE02A",
+                    "Type": "product",
                     "RewardName": "Title: 'Renegade'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the 'Beachhead' <STELLAR>Expedition<>, and your success in tracking the <SPECIAL>renegade historical echo<>.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -196,6 +206,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE02B",
+                    "Type": "product",
                     "RewardName": "Title: 'Paragon'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the 'Beachhead' <STELLAR>Expedition<>, and your success in tracking the <SPECIAL>renegade historical echo<>.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -214,6 +225,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER02",
+                    "Type": "product",
                     "RewardName": "Beachhead Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the 'Beachhead' <STELLAR>Expedition<>, and your success in tracking the <SPECIAL>renegade historical echo<>.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -230,6 +242,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL02",
+                    "Type": "product",
                     "RewardName": "Beachhead Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates the collective effort of the Travellers in mapping the <SPECIAL>Histiographical Flux<> and tracking the renegade echo during the <STELLAR>Beachhead<> Expedition.",
@@ -246,6 +259,7 @@
                 },
                 {
                     "ID": "MYSTERY_TRACKER",
+                    "Type": "product",
                     "RewardName": "Historiographical Dosimeter",
                     "RewardSubtitle": "Personal Reality Flux Monitor",
                     "RewardDescription": "Nada has detected a new pattern emerging in the stories of the <TRANS_TRA>Gek<>, <TRANS_EXP>Korvax<>, and <TRANS_WAR>Vy'keen<>.\n\nThe dosimeter measures exposure to <SPECIAL>historiographical flux<> around key artifact sites. Recordings of unusual historical shifts will enable Nada to trace the signal.\n\nAssist Nada and Polo in their research by using this device to <STELLAR>transmit historial data<> from alien artifact sites.",
@@ -276,6 +290,7 @@
             "-1": [
                 {
                     "ID": "EXPD_EGG_03",
+                    "Type": "product",
                     "RewardName": "Whispering Companion Egg",
                     "RewardSubtitle": "Horrific Spawn",
                     "RewardDescription": "A living, fertile egg, <TRADEABLE>ready to hatch!<>\n\nA shadow writhes beneath the egg's protective membrane.\n\nScans indicate the being within has the genetic potential to be <FUEL>nightmarish<> and <FUEL>soul-consuming<>.",
@@ -294,6 +309,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER03",
+                    "Type": "product",
                     "RewardName": "Cartographers Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the 'Cartographers' <STELLAR>Expedition<>, and your success in documenting and then escaping from the expedition planet.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -310,6 +326,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL03",
+                    "Type": "product",
                     "RewardName": "Cartographers Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates your success in documenting and then escaping from the expedition planet.",
@@ -326,6 +343,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE03",
+                    "Type": "product",
                     "RewardName": "Title: 'Globemaster'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the 'Cartographers' <STELLAR>Expedition<>, and your success in documenting and then escaping from the expedition planet.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -344,6 +362,7 @@
             "4": [
                 {
                     "ID": "BASE_CAVE1",
+                    "Type": "product",
                     "RewardName": "Saucer Fungus",
                     "RewardSubtitle": "Organic Decoration",
                     "RewardDescription": "This fungal growth, identifiable by its wide, smooth cap and luminescent pores, is native to a variety of cave biomes. Saucer Fungi enjoy a symbiotic relationship with many species of burrowing creatures.",
@@ -360,6 +379,7 @@
                 },
                 {
                     "ID": "BASE_CAVE2",
+                    "Type": "product",
                     "RewardName": "Cave Creeper",
                     "RewardSubtitle": "Organic Decoration",
                     "RewardDescription": "A hardy variety of lampenflora. This creeping vine occurs naturally in damp, subterranean environments, but will thrive as a free-standing shrub in any biome type.",
@@ -376,6 +396,7 @@
                 },
                 {
                     "ID": "BASE_CAVE3",
+                    "Type": "product",
                     "RewardName": "Troglotulip",
                     "RewardSubtitle": "Organic Decoration",
                     "RewardDescription": "This attractive glowing flower is remarkable for its scent, reminiscent of freshly tilled soil. Due to the plant's mineral-rich diet, the stamens often contain traces of cobalt.",
@@ -392,6 +413,7 @@
                 },
                 {
                     "ID": "BASE_CAVE4",
+                    "Type": "product",
                     "RewardName": "Veined Flat Caps",
                     "RewardSubtitle": "Organic Decoration",
                     "RewardDescription": "Clusters of these large mushrooms can be found growing in underground caves. The surface 'veins' form part of an unusual gill structure, releasing spores from both above and below the fungus's cap.",
@@ -408,6 +430,7 @@
                 },
                 {
                     "ID": "BASE_CAVE5",
+                    "Type": "product",
                     "RewardName": "Fingery Deposit",
                     "RewardSubtitle": "Organic Decoration",
                     "RewardDescription": "This stalagmite was formed by the dripping of cobalt-rich moisture over several millennia. It is eternally cold to the touch, as though the rock recalls the temperature of its home cave.",
@@ -426,6 +449,7 @@
             "3": [
                 {
                     "ID": "BLD_FLYJAR",
+                    "Type": "product",
                     "RewardName": "Bio-Lantern",
                     "RewardSubtitle": "Organic Lighting",
                     "RewardDescription": "A secure biological containment vessel, complete with its own purified internal atmosphere.\n\nPre-installed bioluminescent insects provide a soft, flickering light, perfect for those seeking natural lighting for their base.",
@@ -444,6 +468,7 @@
             "2": [
                 {
                     "ID": "BLD_PLANET_HOLO",
+                    "Type": "product",
                     "RewardName": "Holographic Chart Projector",
                     "RewardSubtitle": "System Simulation Device",
                     "RewardDescription": "A decorative model of a star system, complete with holographic representations of various stellar objects.\n\nA small, self-contained, perpetual motion device generates the small amount of power required to continue the projection.",
@@ -462,6 +487,7 @@
             "1": [
                 {
                     "ID": "JETS_BUBBLE",
+                    "Type": "product",
                     "RewardName": "Jetpack Bubble Trail",
                     "RewardSubtitle": "Jetpack Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nSpecially conditioned oil is added to the jetpack's exhaust jets, creating a stream of pearlescent bubbles as it operates.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -492,6 +518,7 @@
             "-1": [
                 {
                     "ID": "EXPD_EGG_04",
+                    "Type": "product",
                     "RewardName": "Sandworm Egg",
                     "RewardSubtitle": "Titanic Spawn",
                     "RewardDescription": "A living, fertile egg, <TRADEABLE>ready to hatch!<>\n\nCurled within the shell is a hungry wormlet, its coils rippling restlessly.\n\nScans indicate the being within has the genetic potential to be <FUEL>cursed<> and <FUEL>insatiable<>.",
@@ -510,6 +537,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER04",
+                    "Type": "product",
                     "RewardName": "Emergence Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Emergence<> expedition.\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -526,6 +554,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL04",
+                    "Type": "product",
                     "RewardName": "Emergence Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Emergence<> expedition.",
@@ -542,6 +571,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE04",
+                    "Type": "product",
                     "RewardName": "Title: 'Worm Lord'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Emergence<> expedition.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -560,6 +590,7 @@
             "4": [
                 {
                     "ID": "EXPD_WORMHAT",
+                    "Type": "product",
                     "RewardName": "Feasting Casque",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nRedistribute your facial organs and alarm other explorers by assuming the appearance of a sandworm cultist. This bio-silicone helmet is sealed against all known planetary hazards, but may feel slightly clammy to the wearer.\n\nRitualistically transform the head of your <STELLAR>Vy'keen<> appearance at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -578,6 +609,7 @@
             "3": [
                 {
                     "ID": "BLD_SKULL",
+                    "Type": "product",
                     "RewardName": "Titanic Trophy",
                     "RewardSubtitle": "Ornamental Skull",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThis many-toothed skull once belonged to a large legless vertebrate, cousin to the titan sandworm. The powerful jaws can exert enough force to crush a Multi-Tool, and the bones of most creatures.",
@@ -596,6 +628,7 @@
             "2": [
                 {
                     "ID": "JETS_WORM",
+                    "Type": "product",
                     "RewardName": "Ghastly Trail",
                     "RewardSubtitle": "Jetpack Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nAttaches an active bio-chamber to the Jetpack's exhaust nozzles. During flight, the thrusters warm and expel the slimy juice contained within.\n<STELLAR>Note<>: Contains living worms. Ejected worms may infest local ecosystems.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -614,6 +647,7 @@
             "1": [
                 {
                     "ID": "EXPD_FIREPACK04",
+                    "Type": "product",
                     "RewardName": "Flesh Launcher Pack",
                     "RewardSubtitle": "Pyrotechnics Multi-Pack",
                     "RewardDescription": "A pack of luxury fireworks. These organic pyrotechnics rocket into the sky and explode in a splatter of slime, mucus, and wormlets. Ignite to create disgusting displays in the sky.\n\nPlace launch tube via the <VAL_ON>Build Menu<> (<IMG>BUILD_MENU<>). <FUEL>Warning<>: Aim away from living creatures. Not recommended for indoor use.",
@@ -644,6 +678,7 @@
             "-1": [
                 {
                     "ID": "EXPD_EGG_05",
+                    "Type": "product",
                     "RewardName": "Quad Egg",
                     "RewardSubtitle": "Sentinel Spawn Capsule",
                     "RewardDescription": "A metal 'egg' capsule, <TRADEABLE>ready to hatch!<>\n\nThe shell crackles with an electronic energy.\n\nScans indicate the being within is programmed to be <SPECIAL>tireless<> and <SPECIAL>watchful<>.",
@@ -662,6 +697,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER05",
+                    "Type": "product",
                     "RewardName": "Exobiology Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the 'Exobiology' <STELLAR>Expedition<>, and your explorations into the diverse wildlife inhabiting the universe.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -678,6 +714,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL05",
+                    "Type": "product",
                     "RewardName": "Exobiology Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Exobiology<> expedition, and celebrates the peaceful co-existence of Travellers with the countless species of wildlife inhabiting the universe.",
@@ -694,6 +731,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE05",
+                    "Type": "product",
                     "RewardName": "Title: 'Exobiologist'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Exobiology<> expedition.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -712,6 +750,7 @@
             "4": [
                 {
                     "ID": "EXPD_BACKPACK05",
+                    "Type": "product",
                     "RewardName": "Exotic Wingpack",
                     "RewardSubtitle": "Exosuit Visual Enhancement",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nAn elegant wing-assisted jetpack, inspired by the design philosophy of exotic starships. This exclusive exosuit augmentation commemorates completion of the 'Exobiology' <STELLAR>Expedition<>.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -730,6 +769,7 @@
             "3": [
                 {
                     "ID": "EXPD_PETCUST05",
+                    "Type": "product",
                     "RewardName": "Exotic Armour",
                     "RewardSubtitle": "Unlockable Companion Accessory",
                     "RewardDescription": "An exclusive <STELLAR>Companion Appearance Enhancement<>. Ideal for fierce-tempered companions, this stylish plate armour protects vital organs against laser and projectile fire. Ultra-soft breathable padding reduces the likelihood of companions wriggling out of the accessory.\n\nEarn the trust of wild animals to adopt companions. Interact with companions to customise their appearance.",
@@ -748,6 +788,7 @@
             "2": [
                 {
                     "ID": "EXPD_POSTER05C",
+                    "Type": "product",
                     "RewardName": "Territories Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis adrenaline-fueled poster depicts two noble herd leaders clashing over territory.",
@@ -764,6 +805,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER05B",
+                    "Type": "product",
                     "RewardName": "Abyssal Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nA reminder of what lurks in the depths below.",
@@ -780,6 +822,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER05A",
+                    "Type": "product",
                     "RewardName": "Solstice Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis golden poster evokes the of nostalgia of long summer days.",
@@ -798,6 +841,7 @@
             "1": [
                 {
                     "ID": "JETS_SENT",
+                    "Type": "product",
                     "RewardName": "Reality Glitch Trail",
                     "RewardSubtitle": "Jetpack Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nThe jetpack exhaust is fitted with a high-concentrate pugneum dispenser. When the jets are activated, the resulting reaction carves miniature distortions in reality, and creates an interesting visual effect.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -828,6 +872,7 @@
             "-1": [
                 {
                     "ID": "EXPD_CAPE06",
+                    "Type": "product",
                     "RewardName": "Outlaw Cape",
                     "RewardSubtitle": "Unlockable Cape",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA battle-worn cape, stolen from notorious pirate faction <SPECIAL>The Blight<>. Woven from chemically-dipped nano-fibres, the fabric is completely impervious to the heat produced by jetpack exhaust.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -846,6 +891,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER06",
+                    "Type": "product",
                     "RewardName": "Blighted Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the 'Blighted' <STELLAR>Expedition<>, the glorious retrieval of ill-gotten lucre, and the discovery of a pirate secret.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -862,6 +908,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL06",
+                    "Type": "product",
                     "RewardName": "Blighted Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Blighted<> expedition, the glorious retrieval of ill-gotten lucre, and the discovery of a pirate secret.",
@@ -878,6 +925,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE06",
+                    "Type": "product",
                     "RewardName": "Title: 'Hunter of the Blight'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Blighted<> expedition, the glorious retrieval of ill-gotten lucre, and the discovery of a pirate secret.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -896,6 +944,7 @@
             "4": [
                 {
                     "ID": "EXPD_CUBE_06",
+                    "Type": "product",
                     "RewardName": "Wayward Cube",
                     "RewardSubtitle": "Floating Primitive",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThis cubic lifeform drifted into an orbital station from another reality, where it was captured by a travelling merchant. Provides placid companionship when rehomed in a habitable base.",
@@ -912,6 +961,7 @@
                 },
                 {
                     "ID": "EXPD_ODD_EGG",
+                    "Type": "product",
                     "RewardName": "Void Egg",
                     "RewardSubtitle": "Living Curiosity",
                     "RewardDescription": "An anomalous egg. The shell is tough and leathery, and twitches when touched.\n\nA faint tapping can be heard coming from within. From time to time, it appears to sing.",
@@ -930,6 +980,7 @@
             "3": [
                 {
                     "ID": "EXPD_FLAG_06E",
+                    "Type": "product",
                     "RewardName": "Viridian Flag",
                     "RewardSubtitle": "Exclusive Flag",
                     "RewardDescription": "A contrasting green and purple design, this flag was inspired by those searching for verdant galaxies.\n\nAn exclusive buildable base ornament.",
@@ -946,6 +997,7 @@
                 },
                 {
                     "ID": "EXPD_FLAG_06D",
+                    "Type": "product",
                     "RewardName": "Orbital Flag",
                     "RewardSubtitle": "Exclusive Flag",
                     "RewardDescription": "An abstract representation of planetary orbits under a watchful eye, sewn from striking crimson and grey fabrics.\n\nAn exclusive buildable base ornament.",
@@ -962,6 +1014,7 @@
                 },
                 {
                     "ID": "EXPD_FLAG_06C",
+                    "Type": "product",
                     "RewardName": "Heraldry Flag",
                     "RewardSubtitle": "Exclusive Flag",
                     "RewardDescription": "This flag's delicate golden embroidery instantly adds elegance and refinement to any habitable base.\n\nAn exclusive buildable base ornament.",
@@ -978,6 +1031,7 @@
                 },
                 {
                     "ID": "EXPD_FLAG_06B",
+                    "Type": "product",
                     "RewardName": "Unity Flag",
                     "RewardSubtitle": "Exclusive Flag",
                     "RewardDescription": "A collaboratively designed standard, resulting from the cooperation between several intergalactic guilds.\n\nAn exclusive buildable base ornament.",
@@ -994,6 +1048,7 @@
                 },
                 {
                     "ID": "EXPD_FLAG_06A",
+                    "Type": "product",
                     "RewardName": "Piracy Flag",
                     "RewardSubtitle": "Exclusive Flag",
                     "RewardDescription": "The bright red skull emblazoned on this velvety flag serves as a warning to hostile parties.\n\nAn exclusive buildable base ornament.",
@@ -1012,6 +1067,7 @@
             "2": [
                 {
                     "ID": "EXPD_POSTER06C",
+                    "Type": "product",
                     "RewardName": "Resbur XIII Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis anarchistic poster depicts a notorious pirate-occupied planet.",
@@ -1028,6 +1084,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER06B",
+                    "Type": "product",
                     "RewardName": "Outlaw Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nA rebellious tribute to pirates, fugitives, and resistance to Sentinel law.",
@@ -1044,6 +1101,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER06A",
+                    "Type": "product",
                     "RewardName": "Dread Captain Fahng Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nFew Vy'keen would be unfamiliar with Dread Captain Fahng and their bone-chilling exploits - though it is not known for certain whether they are a real historical figure, or simply a story made up to frighten disobedient cubs.",
@@ -1062,6 +1120,7 @@
             "1": [
                 {
                     "ID": "SHIP_PIRATE",
+                    "Type": "product",
                     "RewardName": "Sputtering Starship Trail",
                     "RewardSubtitle": "Starship Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA ramshackle ship exhaust nozzle, hand-assembled in an emergency by an outlaw. Has an occasional propensity to explode, but with no adverse effect on flight handling.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
@@ -1092,6 +1151,7 @@
             "-1": [
                 {
                     "ID": "EXPD_BIOFRIG",
+                    "Type": "product",
                     "RewardName": "Organic Frigate",
                     "RewardSubtitle": "Cosmic Leviathan",
                     "RewardDescription": "This peaceful space giant is a mutation of organism and starcraft, and can be tamed to swim through the stars alongside a fleet of frigates.\n\nRecruiting this creature will add it to your frigate fleet. Manage your fleet from a <TECHNOLOGY>Fleet Command Room<> aboard your freighter, and consult your <TECHNOLOGY>Navigator<> to deploy frigates on lucrative expeditions.",
@@ -1110,6 +1170,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER07",
+                    "Type": "product",
                     "RewardName": "Leviathan Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the 'Leviathan' <STELLAR>Expedition<>, and the lifting of a generation-spanning curse.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1126,6 +1187,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL07",
+                    "Type": "product",
                     "RewardName": "Leviathan Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Leviathan<> expedition, and the lifting of a generation-spanning curse.",
@@ -1142,6 +1204,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE07",
+                    "Type": "product",
                     "RewardName": "Title: 'Looper'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Leviathan<> expedition, and the lifting of a generation-spanning curse.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1160,6 +1223,7 @@
             "4": [
                 {
                     "ID": "BLD_MINI_BIOFRI",
+                    "Type": "product",
                     "RewardName": "Organic Frigate Calf",
                     "RewardSubtitle": "Ornamental Base Companion",
                     "RewardDescription": "A juvenile cosmic leviathan, suitable for rehoming in a habitable base.\n\nThis mysterious creature is enclosed in a chrono-preservation field to ensure it remains eternally young, playful, and a manageable size.",
@@ -1178,6 +1242,7 @@
             "3": [
                 {
                     "ID": "EXPD_CAPE07",
+                    "Type": "product",
                     "RewardName": "Whalestalker Cloak",
                     "RewardSubtitle": "Unlockable Cape",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nThis sweeping cloak was once worn by an ill-fated Traveller - obsessed with their quest to capture a cosmic leviathan, and doomed to repeat the chase for all eternity.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1196,6 +1261,7 @@
             "2": [
                 {
                     "ID": "SHIP_ROGUE",
+                    "Type": "product",
                     "RewardName": "Temporal Starship Trail",
                     "RewardSubtitle": "Starship Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA cosmic resonance chamber interacts with starship exhaust, modifying propulsion energy to leave a streak of temporal disturbances.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
@@ -1214,6 +1280,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER07C",
+                    "Type": "product",
                     "RewardName": "Timesplice Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis poster is a reminder of the non-linear nature of reality.",
@@ -1230,6 +1297,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER07B",
+                    "Type": "product",
                     "RewardName": "The Loop Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis poster represents the reiterative nature of time.",
@@ -1246,6 +1314,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER07A",
+                    "Type": "product",
                     "RewardName": "Leviathan Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis poster depicts a pod of biological frigates gliding serenely through the cosmos.",
@@ -1276,6 +1345,7 @@
             "-1": [
                 {
                     "ID": "EXPD_EGG_08",
+                    "Type": "product",
                     "RewardName": "Helios Egg",
                     "RewardSubtitle": "Captured Space Protozoa",
                     "RewardDescription": "A living, fertile egg, <TRADEABLE>ready to hatch!<>\n\nFloating within the shell is a haunting glow, a beacon both beautiful and cursed.\n\nScans indicate the being within has the genetic potential to be <SPECIAL>gelatinous<> and <TECHNOLOGY>spectral<>.",
@@ -1294,6 +1364,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER08",
+                    "Type": "product",
                     "RewardName": "Polestar Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the 'Polestar' <STELLAR>Expedition<>, and the completion of a long cruise aboard a capital ship.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1310,6 +1381,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL08",
+                    "Type": "product",
                     "RewardName": "Polestar Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Polestar<> expedition, and the completion of a long cruise aboard a capital ship.",
@@ -1326,6 +1398,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE08",
+                    "Type": "product",
                     "RewardName": "Title: 'The Seeker'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Polestar<> expedition, and the completion of a long cruise aboard a capital ship.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1344,6 +1417,7 @@
             "4": [
                 {
                     "ID": "EXPD_CAPE08",
+                    "Type": "product",
                     "RewardName": "Fleet Commander's Cape",
                     "RewardSubtitle": "Unlockable Cape",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nMaster, commander, voyager of the stars. Don your cloak and prepare to take the helm.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1362,6 +1436,7 @@
             "3": [
                 {
                     "ID": "BLD_DATASIGN",
+                    "Type": "product",
                     "RewardName": "Data Display Unit",
                     "RewardSubtitle": "Dynamic Signpost",
                     "RewardDescription": "A arrangement of dynamic glass panels, each filled with undoubtedly useful and valuable information.\n\nThis display unit also functions as a source of illumination.",
@@ -1378,6 +1453,7 @@
                 },
                 {
                     "ID": "BLD_FIREPIT",
+                    "Type": "product",
                     "RewardName": "Flaming Barrel",
                     "RewardSubtitle": "Inefficient Heat Source",
                     "RewardDescription": "A low-tech heating device, ideal for generating light and heat without access to high-energy power sources.\n\nUser is advised to keep arms and legs outside of the barrel at all times.",
@@ -1394,6 +1470,7 @@
                 },
                 {
                     "ID": "BLD_MAPTUBE",
+                    "Type": "product",
                     "RewardName": "Navigation Archive",
                     "RewardSubtitle": "Secure Map Containment",
                     "RewardDescription": "A secure containment vessel, designed to provide a near-indestructible chamber for the storage of vital navigation charts.\n\nResilient and designed to last thousands of years, this archive is entirely free of electronic components.",
@@ -1412,6 +1489,7 @@
             "2": [
                 {
                     "ID": "FREI_TRAIL_GRAV",
+                    "Type": "product",
                     "RewardName": "High-Gravity Freighter Trail",
                     "RewardSubtitle": "Freighter Engine Flare Override",
                     "RewardDescription": "An exclusive <STELLAR>Freighter Engine Flare Modifier<>.\n\nHigh-energy exhaust gases rapid condense as they exit the freighter's colossal engines, collapsing into micro-singularities.\n\nTransform the appearance of your freighter at the <TECHNOLOGY>Upgrade Control Terminal<> on the <VAL_ON>bridge<>.",
@@ -1430,6 +1508,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER08C",
+                    "Type": "product",
                     "RewardName": "Heavy Shipping Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster is dedicated to the hard-working freighter crews who keep the universe fuelled and fed.",
@@ -1446,6 +1525,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER08B",
+                    "Type": "product",
                     "RewardName": "Polestar Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster is dedicated to explorers and navigators who boldly seek out new horizons.",
@@ -1462,6 +1542,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER08A",
+                    "Type": "product",
                     "RewardName": "Pilgrim Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster is dedicated to brave spacefarers who forge new paths across the galaxy.",
@@ -1492,6 +1573,7 @@
             "-1": [
                 {
                     "ID": "EXPD_SHIP09",
+                    "Type": "product",
                     "RewardName": "Utopia Speeder",
                     "RewardSubtitle": "Exclusive Spacecraft",
                     "RewardDescription": "A unique and exclusive <STELLAR>starship<>, commemorating completion of the <STELLAR>Utopia<> expedition, and contributions to the Utopia Foundation communal habitation project.\n\nThis versatile craft is plated with radiation-resistant armour, and engineered with an aerodynamic profile for agility during atmospheric flight.\n\n<STELLAR>Claim<> this ship to add it to your collection, or <STELLAR>Exchange<> it with your current ship. While on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>).",
@@ -1510,6 +1592,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER09",
+                    "Type": "product",
                     "RewardName": "Utopia Expedition Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Utopia<> expedition, and contributions to the Utopia Foundation communal habitation project.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1526,6 +1609,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL09",
+                    "Type": "product",
                     "RewardName": "Utopia Expedition Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Utopia<> expedition, and contributions to the Utopia Foundation communal habitation project.",
@@ -1542,6 +1626,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE09",
+                    "Type": "product",
                     "RewardName": "Title: 'Utopia Dignitary'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Utopia<> expedition, and contributions to the Utopia Foundation communal habitation project.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1560,6 +1645,7 @@
             "4": [
                 {
                     "ID": "EXPD_EGG_09",
+                    "Type": "product",
                     "RewardName": "Robo-Warden Egg",
                     "RewardSubtitle": "Robotic Spawn Capsule",
                     "RewardDescription": "A metal 'egg' capsule, <TRADEABLE>ready to hatch!<>\n\nA regular electronic beeping can be heard from within the egg, soft and somehow reassuring.\n\nScans indicate the being within is programmed to be <SPECIAL>meticulous<> and <SPECIAL>dependable<>.",
@@ -1578,6 +1664,7 @@
             "3": [
                 {
                     "ID": "SPEC_BUCKETHELM",
+                    "Type": "product",
                     "RewardName": "Fearsome Visor",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nStrike dread into the hearts of your foes with this oxide-strengthened helmet.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1596,6 +1683,7 @@
             "2": [
                 {
                     "ID": "BLD_HOLOGEK",
+                    "Type": "product",
                     "RewardName": "Holographic Friend",
                     "RewardSubtitle": "Simulated Trader Lifeform",
                     "RewardDescription": "An exclusive buildable base ornament. This holographic Gek attendant provides eternal friendship to even the loneliest of habitable bases.",
@@ -1614,6 +1702,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER09C",
+                    "Type": "product",
                     "RewardName": "Planetary Base Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis poster captures a towering skyline within the Utopia Foundation communal habitation project.",
@@ -1630,6 +1719,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER09B",
+                    "Type": "product",
                     "RewardName": "Night Squad Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis poster depicts an inter-species friendship between three explorers of the universe.",
@@ -1646,6 +1736,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER09A",
+                    "Type": "product",
                     "RewardName": "Factions Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\nThis poster echoes the ongoing tensions between the galaxies' dominant lifeforms.",
@@ -1676,6 +1767,7 @@
             "-1": [
                 {
                     "ID": "S10_PART1A",
+                    "Type": "product",
                     "RewardName": "Construct Head: Atlantid",
                     "RewardSubtitle": "Unlockable Head",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nThe circuit cage and primary control sensors for a <TECHNOLOGY>primitive automaton<>. Plans for a unit of this design were extracted from an <STELLAR>autophage<> left at an abandoned junker's camp, before being infused with <SPECIAL>Atlantideum<>.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1692,6 +1784,7 @@
                 },
                 {
                     "ID": "S10_PART1B",
+                    "Type": "product",
                     "RewardName": "Construct Head: Crimson",
                     "RewardSubtitle": "Unlockable Head",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nThe circuit cage and primary control sensors for a <TECHNOLOGY>primitive automaton<>. Plans for a unit of this design were extracted from an <STELLAR>autophage<> left at an abandoned junker's camp, before being infused with an <FUEL>Atlas Seed<>.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1708,6 +1801,7 @@
                 },
                 {
                     "ID": "S10_PART2",
+                    "Type": "product",
                     "RewardName": "Construct Hands",
                     "RewardSubtitle": "Autophage Appearance Modification",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA set of complex hydraulic tubes and various gripping surfaces that form a pair of usable arms for a <TECHNOLOGY>primitive automaton<>. Plans for a unit of this design were extracted from an <STELLAR>autophage<> left at an abandoned junker's camp.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1724,6 +1818,7 @@
                 },
                 {
                     "ID": "S10_PART3",
+                    "Type": "product",
                     "RewardName": "Construct Chest",
                     "RewardSubtitle": "Autophage Appearance Modification",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nThe principal metallic carapace for a <TECHNOLOGY>primitive automaton<>. Plans for a unit of this design were extracted from an <STELLAR>autophage<> left at an abandoned junker's camp.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1740,6 +1835,7 @@
                 },
                 {
                     "ID": "S10_PART4",
+                    "Type": "product",
                     "RewardName": "Construct Feet",
                     "RewardSubtitle": "Autophage Appearance Modification",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA pair of fleshless feet for a <TECHNOLOGY>primitive automaton<>. Plans for a unit of this design were extracted from an <STELLAR>autophage<> left at an abandoned junker's camp.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1756,6 +1852,7 @@
                 },
                 {
                     "ID": "S10_PART5",
+                    "Type": "product",
                     "RewardName": "Construct Legs",
                     "RewardSubtitle": "Autophage Appearance Modification",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA bipedal movement platform for a <TECHNOLOGY>primitive automaton<>. Plans for a unit of this design were extracted from an <STELLAR>autophage<> left at an abandoned junker's camp.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1774,6 +1871,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER10",
+                    "Type": "product",
                     "RewardName": "Singularity Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Singularity<> expedition, and the forging of the mysterious Construct.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1790,6 +1888,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL10",
+                    "Type": "product",
                     "RewardName": "Singularity Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Singularity<> expedition, and the forging of the mysterious Construct.",
@@ -1806,6 +1905,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE10",
+                    "Type": "product",
                     "RewardName": "Title: 'The Construct'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Singularity<> expedition, and the forging of the mysterious Construct.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1824,6 +1924,7 @@
             "4": [
                 {
                     "ID": "SPEC_ROCKETHAT",
+                    "Type": "product",
                     "RewardName": "Wayfarer's Helm",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nDespite its aerodynamic appearance and advanced solar design, reliance on helmet-exclusive propulsion is not advised. For maximum safety, ensure all body parts are propelled equally.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1842,6 +1943,7 @@
             "3": [
                 {
                     "ID": "BLD_CRYS_DRONE",
+                    "Type": "product",
                     "RewardName": "Crystallised Drone",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThis is a detailed replica of the Living Fragments that litter discordant worlds, the prismatic grains that thrust from the earth in a struggle for freedom from their geological prison.",
@@ -1860,6 +1962,7 @@
             "2": [
                 {
                     "ID": "JETS_CORRUPT",
+                    "Type": "product",
                     "RewardName": "Discordant Trail",
                     "RewardSubtitle": "Jetpack Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nThe jetpack exhaust is augmented with an atlantideum filter. When activated, its discordant effect is spilled across the landscape, a trail of dissonant reverberations that echo on an unknowable frequency.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1876,6 +1979,7 @@
                 },
                 {
                     "ID": "FREI_TRAIL_RED",
+                    "Type": "product",
                     "RewardName": "Crimson Freighter Trail",
                     "RewardSubtitle": "Freighter Engine Flare Override",
                     "RewardDescription": "An exclusive <STELLAR>Freighter Engine Flare Modifier<>.\n\nA harmonic generation device converts the output of the freighter engines to <FUEL>A T L A S<> frequencies, radiating a painfully crimson trail.\n\nTransform the appearance of your freighter at the <TECHNOLOGY>Upgrade Control Terminal<> on the <VAL_ON>bridge<>.",
@@ -1894,6 +1998,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER10C",
+                    "Type": "product",
                     "RewardName": "Construct Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts a possible schematic for the mysterious <TECHNOLOGY>Construct<> unearthed during the Singularity expedition.",
@@ -1910,6 +2015,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER10B",
+                    "Type": "product",
                     "RewardName": "Atlantid Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts the ethereal substance that spills from the bodies of <SPECIAL>corrupted Sentinels<> as they fall.",
@@ -1926,6 +2032,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER10A",
+                    "Type": "product",
                     "RewardName": "Atlas Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster glows with a <FUEL>crimson<> so intense, it lingers when you close your eyes.",
@@ -1956,6 +2063,7 @@
             "-1": [
                 {
                     "ID": "EXPD_EGG_11",
+                    "Type": "product",
                     "RewardName": "Construct 'Egg'",
                     "RewardSubtitle": "Robotic Spawn Capsule",
                     "RewardDescription": "A metal 'egg' capsule, <TRADEABLE>ready to deploy!<>\n\nA low hum resonates from deep within the capsule, its dissonant frequency turning the air around it a faint purple.\n\nScans indicate the being within is programmed to be <SPECIAL>free-spirited<> and <SPECIAL>defiant<>.",
@@ -1974,6 +2082,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER11",
+                    "Type": "product",
                     "RewardName": "Voyagers Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Voyagers<> expedition, and the discoveries made along the way.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -1990,6 +2099,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE11",
+                    "Type": "product",
                     "RewardName": "Title: 'The Intrepid'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Voyagers<> expedition, and the discoveries made along the way.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2006,6 +2116,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL11",
+                    "Type": "product",
                     "RewardName": "Voyagers Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Voyagers<> expedition, and the discoveries made along the way.",
@@ -2024,6 +2135,7 @@
             "4": [
                 {
                     "ID": "BLD_BUI_HEAD",
+                    "Type": "product",
                     "RewardName": "Construct 'Skull'",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThis is a detailed replica of an Autophage facial cage. The unit is inoperable and contains no trace of Autophage entity inhabitation...",
@@ -2040,6 +2152,7 @@
                 },
                 {
                     "ID": "BLD_BUI_HAND",
+                    "Type": "product",
                     "RewardName": "Construct Digits",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nA partially assembled robotic hand, as seen on mechanical lifeforms across the galaxy. The unit is severly damaged and appears to contain no trace of Autophage entity inhabitation...",
@@ -2056,6 +2169,7 @@
                 },
                 {
                     "ID": "BLD_BUI_TENT",
+                    "Type": "product",
                     "RewardName": "Ragged Tent",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nA makeshift planetary shelter, assembled out of rudimentary and salvaged materials.",
@@ -2074,6 +2188,7 @@
             "3": [
                 {
                     "ID": "EXPD_PETCUST11",
+                    "Type": "product",
                     "RewardName": "Mechanical Paw",
                     "RewardSubtitle": "Unlockable Companion Accessory",
                     "RewardDescription": "An exclusive <STELLAR>Companion Appearance Enhancement<>. This biomechanical remnant is a constant reminder of the many and diverse forms that existence can take.\n\nEarn the trust of wild animals to adopt companions. Interact with companions to customise their appearance.",
@@ -2092,6 +2207,7 @@
             "2": [
                 {
                     "ID": "EXPD_POSTER11C",
+                    "Type": "product",
                     "RewardName": "Open Horizons Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster celebrates those in search of the next discovery, the next wonder, and the next unknown sky...",
@@ -2108,6 +2224,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER11B",
+                    "Type": "product",
                     "RewardName": "Anomalous Wonder Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts one of the universe's great mysteries, the anomaly of existence itself.",
@@ -2124,6 +2241,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER11A",
+                    "Type": "product",
                     "RewardName": "Navigators Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster celebrates those who plot new routes into the unknown, always pushing at the boundaries of reality.",
@@ -2142,6 +2260,7 @@
             "1": [
                 {
                     "ID": "JETS_ELECTRIC",
+                    "Type": "product",
                     "RewardName": "Electric Jetpack Trail",
                     "RewardSubtitle": "Jetpack Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nHumidifiers discharge a highly salinated mist from the rocket nozzles, conducting a dramatic streak of electricity during Jetpack operation.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2172,6 +2291,7 @@
             "5": [
                 {
                     "ID": "EXPD_BANNER12",
+                    "Type": "product",
                     "RewardName": "Omega Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Omega<> expedition, and the memories gleaned from within the Atlas.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2188,6 +2308,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE12",
+                    "Type": "product",
                     "RewardName": "Title: 'Starborn'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Omega<> expedition, and the memories gleaned from within the Atlas.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2204,6 +2325,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL12",
+                    "Type": "product",
                     "RewardName": "Omega Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Omega<> expedition, and the memories gleaned from within the Atlas.",
@@ -2222,6 +2344,7 @@
             "-1": [
                 {
                     "ID": "EXPD_SHIP12",
+                    "Type": "product",
                     "RewardName": "Starborn Runner",
                     "RewardSubtitle": "Exclusive Spacecraft",
                     "RewardDescription": "A unique and exclusive <STELLAR>starship<>, commemorating completion of the <STELLAR>Omega<> expedition.\n\nThis unusual starship is optimised for effortless gliding during flight, while a localised vector field allows the craft to hover above solid planes.\n\n<STELLAR>Claim<> this ship to add it to your collection, or <STELLAR>Exchange<> it with your current ship. While on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>).",
@@ -2240,6 +2363,7 @@
             "4": [
                 {
                     "ID": "EXPD_ATLASPACK",
+                    "Type": "product",
                     "RewardName": "Atlas Flightpack",
                     "RewardSubtitle": "Exosuit Visual Enhancement",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA lightweight jetpack, welded from stellar alloys around a fiery crimson core.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2258,6 +2382,7 @@
             "3": [
                 {
                     "ID": "EXPD_ATLASSTAFF",
+                    "Type": "product",
                     "RewardName": "Atlas Sceptre",
                     "RewardSubtitle": "Unique Korvax Technology?",
                     "RewardDescription": "An exclusive <STELLAR>Multi-Tool<>.\n\nThis unusual ceremonial staff was hand-forged by a Korvax Priest Entity in tribute to the Atlas.\n\n<STELLAR>Take<> this Multi-Tool to add it to your collection, or <STELLAR>Exchange<> it with your current Multi-Tool. Swap between active Multi-Tools from the Utilities section of the Quick Menu (<IMG>QUICK_MENU<>).",
@@ -2276,6 +2401,7 @@
             "2": [
                 {
                     "ID": "EXPD_ATLASHELM",
+                    "Type": "product",
                     "RewardName": "Atlas Headshield",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA soft but immutable heartbeat resonates through your skull when you wear this helmet. <FUEL>A T L A S<>.\nThe pulse is strangely soothing.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2294,6 +2420,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER12C",
+                    "Type": "product",
                     "RewardName": "Starborn Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThe Traveller approaches, delicately piloting their tiny ship through the stars.\nThe Atlas, infinite, waits.",
@@ -2310,6 +2437,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER12B",
+                    "Type": "product",
                     "RewardName": "Interface Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts an infinite array of Atlas Interfaces, crimson eyes staring tirelessly into the dark.",
@@ -2326,6 +2454,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER12A",
+                    "Type": "product",
                     "RewardName": "Remembrance Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster holds the seeds of what was, what is, what could be.",
@@ -2356,6 +2485,7 @@
             "5": [
                 {
                     "ID": "EXPD_TITLE13",
+                    "Type": "product",
                     "RewardName": "Title: 'Drifter'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Adrift<> expedition, and to finding peace in a lonely universe.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2372,6 +2502,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL13",
+                    "Type": "product",
                     "RewardName": "Adrift Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Adrift<> expedition, and to finding peace in a lonely universe.",
@@ -2388,6 +2519,7 @@
                 },
                 {
                     "ID": "EXPD_BANNER13",
+                    "Type": "product",
                     "RewardName": "Adrift Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Adrift<> expedition, and to finding peace in a lonely universe.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2406,6 +2538,7 @@
             "-1": [
                 {
                     "ID": "EXPD_SHIP13",
+                    "Type": "product",
                     "RewardName": "Iron Vulture",
                     "RewardSubtitle": "Exclusive Spacecraft",
                     "RewardDescription": "A unique and exclusive <STELLAR>starship<>, commemorating completion of the <STELLAR>Adrift<> expedition.\n\n<STELLAR>Claim<> this ship to add it to your collection, or <STELLAR>Exchange<> it with your current ship. While on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>).",
@@ -2422,6 +2555,7 @@
                 },
                 {
                     "ID": "EXPD_SHIP_METAL",
+                    "Type": "product",
                     "RewardName": "Iron Panels",
                     "RewardSubtitle": "Starship Customisation Option",
                     "RewardDescription": "An exclusive starship customisation option, creating a unique well-worn appearance for <STELLAR>Fighter<> and <STELLAR>Hauler<> class starships.\n\nAcquire starship components by breaking down existing ships at the <TECHNOLOGY>Starship Outfitting<> unit aboard any space station. Visit the <TECHNOLOGY>Starship Fabricator<> to design and assemble a new vessel.",
@@ -2440,6 +2574,7 @@
             "4": [
                 {
                     "ID": "EXPD_GHOSTFRIG",
+                    "Type": "product",
                     "RewardName": "Ship of the Damned",
                     "RewardSubtitle": "Cursed Frigate",
                     "RewardDescription": "The remains of a long-abandoned <STELLAR>frigate<>. Despite its ruined condition, it sails on through the stars...\n\nRecruiting this vessel will add it to your frigate fleet. Manage your fleet from a <TECHNOLOGY>Fleet Command Room<> aboard your freighter, and consult your <TECHNOLOGY>Navigator<> to deploy frigates on lucrative expeditions.",
@@ -2458,6 +2593,7 @@
             "3": [
                 {
                     "ID": "EXPD_EGG_13",
+                    "Type": "product",
                     "RewardName": "Appalling Egg",
                     "RewardSubtitle": "Spawning Sac",
                     "RewardDescription": "A living, fertile egg, <TRADEABLE>ready to hatch!<>\n\nA shadow writhes beneath the egg's protective membrane.\n\nScans indicate the being within has the genetic potential to be <FUEL>nightmarish<> and <FUEL>soul-consuming<>.",
@@ -2476,6 +2612,7 @@
             "1": [
                 {
                     "ID": "EXPD_SHIPMAT13",
+                    "Type": "product",
                     "RewardName": "Stealth Paint",
                     "RewardSubtitle": "Starship Customisation Option",
                     "RewardDescription": "An exclusive starship customisation option, creating a unique low-radar-signature look for <STELLAR>Fighter<> and <STELLAR>Hauler<> class starships.\n\nAcquire starship components by breaking down existing ships at the <TECHNOLOGY>Starship Outfitting<> unit aboard any space station. Visit the <TECHNOLOGY>Starship Fabricator<> to design and assemble a new vessel.",
@@ -2492,6 +2629,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER13C",
+                    "Type": "product",
                     "RewardName": "Isolation Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster is for those who face the black expanse alone.",
@@ -2508,6 +2646,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER13B",
+                    "Type": "product",
                     "RewardName": "Alone in the Dark Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster stands a reminder of how impossibly small every Traveller is when compared to the infinite void that surrounds us.",
@@ -2524,6 +2663,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER13A",
+                    "Type": "product",
                     "RewardName": "Meditation Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nA poster to contemplate as your mind soars through the empty endless void of space...",
@@ -2542,6 +2682,7 @@
             "2": [
                 {
                     "ID": "BLD_SHIPBREAK1",
+                    "Type": "product",
                     "RewardName": "Ruined Starship",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe shattered remains of a crashed starship, this shell of a ship has rotted beyond the point of any useful salvage.",
@@ -2558,6 +2699,7 @@
                 },
                 {
                     "ID": "BLD_SHIPBREAK2",
+                    "Type": "product",
                     "RewardName": "Unsalvageable Wreck",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe shattered remains of a crashed starship, this shell of a ship has rotted beyond the point of any useful salvage.",
@@ -2574,6 +2716,7 @@
                 },
                 {
                     "ID": "BLD_SHIPBREAK3",
+                    "Type": "product",
                     "RewardName": "Broken Vessel",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe shattered remains of a crashed starship, this shell of a ship has rotted beyond the point of any useful salvage.",
@@ -2590,6 +2733,7 @@
                 },
                 {
                     "ID": "BLD_SHIPBREAK4",
+                    "Type": "product",
                     "RewardName": "Damaged Starship",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe shattered remains of a crashed starship, this shell of a ship has rotted beyond the point of any useful salvage.",
@@ -2606,6 +2750,7 @@
                 },
                 {
                     "ID": "BLD_SHIPBREAK5",
+                    "Type": "product",
                     "RewardName": "Starship Remnants",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe shattered remains of a crashed starship, this shell of a ship has rotted beyond the point of any useful salvage.",
@@ -2636,6 +2781,7 @@
             "5": [
                 {
                     "ID": "EXPD_EGG_14",
+                    "Type": "product",
                     "RewardName": "Grub Cocoon",
                     "RewardSubtitle": "Vile Larval Sac",
                     "RewardDescription": "A writhing cocoon, the spawning sac of a grub of the <TRADEABLE>vile brood<>.\n\nScans indicate the being within has <SPECIAL>anomalous<> genetic material, an <FUEL>unstable<> binding of several independent strands.",
@@ -2652,6 +2798,7 @@
                 },
                 {
                     "ID": "EXPD_TITLE14",
+                    "Type": "product",
                     "RewardName": "Title: 'Broodling'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating the glorious triumph <STELLAR>Liquidators<> expedition, and the victory over the endless swarm.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2668,6 +2815,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL14",
+                    "Type": "product",
                     "RewardName": "Liquidator Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates the glorious triumph <STELLAR>Liquidators<> expedition, and the victory over the endless swarm.",
@@ -2684,6 +2832,7 @@
                 },
                 {
                     "ID": "EXPD_BANNER14",
+                    "Type": "product",
                     "RewardName": "Liquidator Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the glorious triumph <STELLAR>Liquidators<> expedition!\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2702,6 +2851,7 @@
             "-1": [
                 {
                     "ID": "EXPED_BUG_PACK",
+                    "Type": "product",
                     "RewardName": "Chitin Flight Pack",
                     "RewardSubtitle": "Unlockable Jetpack",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA fusion of advanced technology and resinous organic secretions, this jetpack replacement represents the apex of bio-organic engineering.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2720,6 +2870,7 @@
             "4": [
                 {
                     "ID": "EXPED_BUG_ARMOR",
+                    "Type": "product",
                     "RewardName": "Chitin Exoskeleton",
                     "RewardSubtitle": "Unlockable Armour",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA fusion of advanced technology and resinous organic secretions, this hardened carapace represents the apex of bio-organic engineering.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2736,6 +2887,7 @@
                 },
                 {
                     "ID": "EXPED_BUG_HAT",
+                    "Type": "product",
                     "RewardName": "Chitin Mandibles",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA fusion of advanced technology and resinous organic secretions, this insectoid helmet represents the apex of bio-organic engineering.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2754,6 +2906,7 @@
             "3": [
                 {
                     "ID": "EXPED_BUG_GLOVE",
+                    "Type": "product",
                     "RewardName": "Chitin Gauntlets",
                     "RewardSubtitle": "Unlockable Gloves",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA fusion of advanced technology and resinous organic secretions, these protective claws represent the apex of bio-organic engineering.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2770,6 +2923,7 @@
                 },
                 {
                     "ID": "EXPED_BUG_BOOTS",
+                    "Type": "product",
                     "RewardName": "Chitin Spurs",
                     "RewardSubtitle": "Unlockable Boots",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA fusion of advanced technology and resinous organic secretions, these feet-replacements represent the apex of bio-organic engineering.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2788,6 +2942,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER14A",
+                    "Type": "product",
                     "RewardName": "Swarmsong Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster resonates with the busy hum of the hive, a binding music that keeps the brood as one...",
@@ -2804,6 +2959,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER14B",
+                    "Type": "product",
                     "RewardName": "Brood Mother Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThe vile queen looms from this poster, a warning to all those who would disturb her brood...",
@@ -2820,6 +2976,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER14C",
+                    "Type": "product",
                     "RewardName": "Bug Hunt Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nAn educational poster, useful for all those who seek to identify insects, for good or for ill...",
@@ -2838,6 +2995,7 @@
             "2": [
                 {
                     "ID": "BLD_BUGHEAD1",
+                    "Type": "product",
                     "RewardName": "Monstrous Trophy",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe mounted head of a colossal insect, this is a trophy from the glorious work of the Liquidators.",
@@ -2854,6 +3012,7 @@
                 },
                 {
                     "ID": "BLD_BUGHEAD2",
+                    "Type": "product",
                     "RewardName": "Mounted Mandibles",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe mounted head of a colossal insect, this is a trophy from the glorious work of the Liquidators.",
@@ -2870,6 +3029,7 @@
                 },
                 {
                     "ID": "BLD_BUGHEAD3",
+                    "Type": "product",
                     "RewardName": "Broodling Trophy",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe mounted head of a colossal insect, this is a trophy from the glorious work of the Liquidators.",
@@ -2886,6 +3046,7 @@
                 },
                 {
                     "ID": "BLD_BUGHEAD4",
+                    "Type": "product",
                     "RewardName": "Vile Taxidermy",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe mounted head of a colossal insect, this is a trophy from the glorious work of the Liquidators.",
@@ -2902,6 +3063,7 @@
                 },
                 {
                     "ID": "BLD_BUGHEAD5",
+                    "Type": "product",
                     "RewardName": "Prized Exoskeleton",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive buildable base ornament.\n\nThe mounted head of a colossal insect, this is a trophy from the glorious work of the Liquidators.",
@@ -2932,6 +3094,7 @@
             "-1": [
                 {
                     "ID": "EXPD_FISH_PACK",
+                    "Type": "product",
                     "RewardName": "Aquarius Flight Pack",
                     "RewardSubtitle": "Unlockable Jetpack",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nHardened against the extreme conditions found beneath the waves, this jetpack replacement allows for smooth and stylish passage through the murky abyss.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2950,6 +3113,7 @@
             "4": [
                 {
                     "ID": "EXPD_S15_LASER",
+                    "Type": "product",
                     "RewardName": "Lost Angler's Rig",
                     "RewardSubtitle": "Unique Angling Device",
                     "RewardDescription": "A versatile piece of <TECHNOLOGY>angling equipment<>, enabling the user to <STELLAR>fish<> in a variety of water conditions. This rig was once owned by the legendary <STELLAR>Lost Angler<>.\n\nAccess the fishing rig by pressing <IMG>CYCLEWEAPON<> and cast your line into a body of water with <IMG>ATTACK<>. With a fish hooked, press and hold <IMG>ATTACK<> to haul in your catch.",
@@ -2968,6 +3132,7 @@
             "3": [
                 {
                     "ID": "EXPD_S15_ARMOUR",
+                    "Type": "product",
                     "RewardName": "Deep-Sea Armour",
                     "RewardSubtitle": "Unlockable Armour",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nHardened against the extreme conditions found beneath the waves, this diving suit component is the perfect choice for both deep-water exploration and an afternoon's fishing.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -2984,6 +3149,7 @@
                 },
                 {
                     "ID": "EXPD_S15_HAT",
+                    "Type": "product",
                     "RewardName": "Deep-Sea Helmet",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nHardened against the extreme conditions found beneath the waves, this diving suit component is the perfect choice for both deep-water exploration and an afternoon's fishing.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3002,6 +3168,7 @@
             "2": [
                 {
                     "ID": "EXPD_S15_LEGS",
+                    "Type": "product",
                     "RewardName": "Deep-Sea Leggings",
                     "RewardSubtitle": "Unlockable Leg Customisation",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nHardened against the extreme conditions found beneath the waves, this diving suit component is the perfect choice for both deep-water exploration and an afternoon's fishing.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3018,6 +3185,7 @@
                 },
                 {
                     "ID": "EXPD_S15_BOOTS",
+                    "Type": "product",
                     "RewardName": "Deep-Sea Flippers",
                     "RewardSubtitle": "Unlockable Boots",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nHardened against the extreme conditions found beneath the waves, this diving suit component is the perfect choice for both deep-water exploration and an afternoon's fishing.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3036,6 +3204,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER15A",
+                    "Type": "product",
                     "RewardName": "Gone Fishin' Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster celebrates the need to get away from distractions and spend some time on and/or in the water.",
@@ -3052,6 +3221,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER15B",
+                    "Type": "product",
                     "RewardName": "Sea Chart Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nA poster to help sailors navigate treacherous depths and shifting sands...",
@@ -3068,6 +3238,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER15C",
+                    "Type": "product",
                     "RewardName": "Bounty of the Sea Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nAn educational poster, useful for all those who seek to identify the teeming bounty of the ocean.",
@@ -3086,6 +3257,7 @@
             "5": [
                 {
                     "ID": "EXPD_TITLE15",
+                    "Type": "product",
                     "RewardName": "Title: 'The Fisher'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating the catches, the stories, and the ones that got away while on the <STELLAR>Aquarius<> expedition.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3102,6 +3274,7 @@
                 },
                 {
                     "ID": "EXPD_BANNER15",
+                    "Type": "product",
                     "RewardName": "Aquarius Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Aquarius<> expedition.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3118,6 +3291,7 @@
                 },
                 {
                     "ID": "BOBBLE_OCTO",
+                    "Type": "product",
                     "RewardName": "Tentacled Figurine",
                     "RewardSubtitle": "Starship Interior Adornment",
                     "RewardDescription": "A synthetic polymer companion for your starship's cockpit, fashioned in the likeness of a sea creature.\n\nInstall to an <TECHNOLOGY>Inventory Slot<> to decorate your ship's interior.",
@@ -3134,6 +3308,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL15",
+                    "Type": "product",
                     "RewardName": "Aquarius Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates the catches, the stories, and the ones that got away while on the <STELLAR>Aquarius<> expedition.",
@@ -3164,6 +3339,7 @@
             "-1": [
                 {
                     "ID": "EXPD_SHIP16",
+                    "Type": "product",
                     "RewardName": "Boundary Herald",
                     "RewardSubtitle": "Exclusive Spacecraft",
                     "RewardDescription": "An exclusive <STELLAR>starship<>, retrieved while escaping the reality collapse that occurred during the <SPECIAL>Cursed Expedition<>.\n\n<STELLAR>Claim<> this ship to add it to your collection, or <STELLAR>Exchange<> it with your current ship. While on a planet, summon ships from the Quick Menu\n(<IMG>QUICK_MENU<>).",
@@ -3182,6 +3358,7 @@
             "4": [
                 {
                     "ID": "EXPD_EGG_16",
+                    "Type": "product",
                     "RewardName": "Glowing Egg",
                     "RewardSubtitle": "Bioluminescent Spawning Sac",
                     "RewardDescription": "A living, fertile egg, <TRADEABLE>ready to hatch!<>\n\nA living fire burns within the egg, the haunting pale glow of a lifeform that must provide its own light.\n\nScans indicate the being within has the genetic potential to be <SPECIAL>gelatinous<> and <STELLAR>luminescent<>.",
@@ -3200,6 +3377,7 @@
             "3": [
                 {
                     "ID": "EXPD_S16_HAT",
+                    "Type": "product",
                     "RewardName": "Boundary Horror Mandibles",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nTransform your appearance into that of a <SPECIAL>Boundary Horror<>, a fragment of what dwells beyond the tunnels of the portal network...\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3218,6 +3396,7 @@
             "2": [
                 {
                     "ID": "S16_HEATER",
+                    "Type": "product",
                     "RewardName": "Anomaly Seal",
                     "RewardSubtitle": "Boundary Integrity Totem",
                     "RewardDescription": "As the boundaries of reality begin to weaken, the risk of <SPECIAL>catastrophic breach anomalies<> increases.\n\nThis ancient artifact radiates with a spectral energy, increasing the <SPECIAL>boundary strength<> within the local area and guarding against reality continuity errors.\n\nMust be constructed within the boundaries of a <STELLAR>habitable base<>.",
@@ -3234,6 +3413,7 @@
                 },
                 {
                     "ID": "JETS_SQUID",
+                    "Type": "product",
                     "RewardName": "Ink-Stained Trail",
                     "RewardSubtitle": "Jetpack Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA localised anomaly within the jetpack's core allows the spectral afterglow of the <SPECIAL>boundary horrors<> to leak across into this reality.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3252,6 +3432,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER16A",
+                    "Type": "product",
                     "RewardName": "Boundary Anomaly Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster serves as a warning to all those who would venture into the tunnels of portal network...",
@@ -3268,6 +3449,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER16B",
+                    "Type": "product",
                     "RewardName": "Portal Breach Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nBeware what lurks beyond the boundary wall...",
@@ -3284,6 +3466,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER16C",
+                    "Type": "product",
                     "RewardName": "Glyph Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nA poster for those who wish to study the ancient runes etched into the cold grey stone of the <SPECIAL>portals<>.",
@@ -3302,6 +3485,7 @@
             "5": [
                 {
                     "ID": "EXPD_TITLE16",
+                    "Type": "product",
                     "RewardName": "Title: 'The Haunted'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, marking the escape from the boundary failure that occurred during the <SPECIAL>Cursed<> expedition.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3318,6 +3502,7 @@
                 },
                 {
                     "ID": "EXPD_BANNER16",
+                    "Type": "product",
                     "RewardName": "Cursed Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Cursed<> expedition.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3334,6 +3519,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL16",
+                    "Type": "product",
                     "RewardName": "Cursed Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal marks the escape from the boundary failure that occurred during the <SPECIAL>Cursed<> expedition...",
@@ -3364,6 +3550,7 @@
             "-1": [
                 {
                     "ID": "EXPD_SHIP17",
+                    "Type": "product",
                     "RewardName": "The Wraith",
                     "RewardSubtitle": "Exclusive Spacecraft",
                     "RewardDescription": "An exclusive <STELLAR>starship<>, earned for surveying a host of new worlds during the <STELLAR>Titan Expedition<>.\n\n<STELLAR>Claim<> this ship to add it to your collection, or <STELLAR>Exchange<> it with your current ship. While on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>).",
@@ -3382,6 +3569,7 @@
             "5": [
                 {
                     "ID": "EXPD_TITLE17",
+                    "Type": "product",
                     "RewardName": "Title: 'Surveyor of Worlds'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, marking the <STELLAR>Titan<> expedition's voyage through new stars and new worlds.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3398,6 +3586,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL17",
+                    "Type": "product",
                     "RewardName": "Titan Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal marks the <STELLAR>Titan<> expedition's voyage through new stars and new worlds.",
@@ -3414,6 +3603,7 @@
                 },
                 {
                     "ID": "EXPD_BANNER17",
+                    "Type": "product",
                     "RewardName": "Titan Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Titan<> expedition.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3432,6 +3622,7 @@
             "4": [
                 {
                     "ID": "EXPD_STAFF_17",
+                    "Type": "product",
                     "RewardName": "Pillar of Titan",
                     "RewardSubtitle": "Unique Korvax Technology?",
                     "RewardDescription": "An exclusive <STELLAR>Multi-Tool<>.\n\nThis sturdy staff is hewn from polished stone, and yet floats in the hand as if it were no weight at all. It is a perfect companion to those who seek to make long trips across the wilderness.\n\n<STELLAR>Take<> this Multi-Tool to add it to your collection, or <STELLAR>Exchange<> it with your current Multi-Tool. Swap between active Multi-Tools from the Utilities section of the Quick Menu (<IMG>QUICK_MENU<>).",
@@ -3450,6 +3641,7 @@
             "3": [
                 {
                     "ID": "EXPD_CAPE17",
+                    "Type": "product",
                     "RewardName": "Surveyor's Cape",
                     "RewardSubtitle": "Unlockable Cape",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA robust and well-made covering: waterproof, windproof and designed to keep the wearer protected against anything they may encounter while exploring unmapped worlds.\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3468,6 +3660,7 @@
             "2": [
                 {
                     "ID": "EXPD_SHIPMAT17",
+                    "Type": "product",
                     "RewardName": "Titan Stripes",
                     "RewardSubtitle": "Starship Customisation Option",
                     "RewardDescription": "An exclusive starship customisation option, creating a vibrant and eye-catching appearance for <STELLAR>Fighter<> and <STELLAR>Hauler<> class starships.\n\nAcquire starship components by breaking down existing ships at the <TECHNOLOGY>Starship Outfitting<> unit aboard any space station. Visit the <TECHNOLOGY>Starship Fabricator<> to design and assemble a new vessel.",
@@ -3486,6 +3679,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER17A",
+                    "Type": "product",
                     "RewardName": "Gas Giant Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster shows the titanic form of a <SPECIAL>gas giant<> and its surrounding moons.",
@@ -3502,6 +3696,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER17B",
+                    "Type": "product",
                     "RewardName": "Depth Warning Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster serves as a warning to all those who venture in the deepest of oceans...",
@@ -3518,6 +3713,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER17C",
+                    "Type": "product",
                     "RewardName": "Cartographer's Chart",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nA planetary map, designed to show the detailed survey results gathered during the exploration of unmapped worlds.",
@@ -3548,6 +3744,7 @@
             "-1": [
                 {
                     "ID": "STONE_HAT",
+                    "Type": "product",
                     "RewardName": "Living Stone Helmet",
                     "RewardSubtitle": "Unlockable Helmet",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA powerful magnetic field runs through this ancient stone, turning lumpen rock into something almost alive. The carver of this effigy is unknown.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3564,6 +3761,7 @@
                 },
                 {
                     "ID": "STONE_TORSO",
+                    "Type": "product",
                     "RewardName": "Living Stone Chestpiece",
                     "RewardSubtitle": "Unlockable Torso Customisation",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA powerful magnetic field runs through this ancient stone, turning lumpen rock into something almost alive. The carver of this effigy is unknown.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3580,6 +3778,7 @@
                 },
                 {
                     "ID": "STONE_ARMOUR",
+                    "Type": "product",
                     "RewardName": "Living Stone Armour",
                     "RewardSubtitle": "Unlockable Armour",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA powerful magnetic field runs through this ancient stone, turning lumpen rock into something almost alive. The carver of this effigy is unknown.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3596,6 +3795,7 @@
                 },
                 {
                     "ID": "STONE_GLOVES",
+                    "Type": "product",
                     "RewardName": "Living Stone Gloves",
                     "RewardSubtitle": "Unlockable Gloves",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA powerful magnetic field runs through this ancient stone, turning lumpen rock into something almost alive. The carver of this effigy is unknown.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3612,6 +3812,7 @@
                 },
                 {
                     "ID": "STONE_LEGS",
+                    "Type": "product",
                     "RewardName": "Living Stone Legplates",
                     "RewardSubtitle": "Unlockable Leg Customisation",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA powerful magnetic field runs through this ancient stone, turning lumpen rock into something almost alive. The carver of this effigy is unknown.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3628,6 +3829,7 @@
                 },
                 {
                     "ID": "STONE_BOOTS",
+                    "Type": "product",
                     "RewardName": "Living Stone Boots",
                     "RewardSubtitle": "Unlockable Boots",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA powerful magnetic field runs through this ancient stone, turning lumpen rock into something almost alive. The carver of this effigy is unknown.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3646,6 +3848,7 @@
             "5": [
                 {
                     "ID": "EXPD_TITLE18",
+                    "Type": "product",
                     "RewardName": "TITLE: 'Excavator'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, marking the <STELLAR>Relics<> expedition's voyage through new stars and new worlds.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3662,6 +3865,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL18",
+                    "Type": "product",
                     "RewardName": "Relics Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal marks the <STELLAR>Relics<> expedition's voyage of discovery and the recreation of the lost beasts of the past.",
@@ -3678,6 +3882,7 @@
                 },
                 {
                     "ID": "EXPD_BANNER18",
+                    "Type": "product",
                     "RewardName": "Relics Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Relics<> expedition.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3696,6 +3901,7 @@
             "4": [
                 {
                     "ID": "EXPD_STONE_PACK",
+                    "Type": "product",
                     "RewardName": "Living Stone Hardpack",
                     "RewardSubtitle": "Unlockable Jetpack",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nAn unusual alternative to the traditional jetpack, this flight device is sculpted from the remains of sentient rock. Magmatic gases provide the hardpack's thrust, while an anti-gravity field supports the weight of the stone, ensuring ergonomic safety for the user.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3714,6 +3920,7 @@
             "3": [
                 {
                     "ID": "EXPD_STAFF_18",
+                    "Type": "product",
                     "RewardName": "Basilisk Crown",
                     "RewardSubtitle": "Unique Korvax Technology?",
                     "RewardDescription": "An exclusive <STELLAR>Multi-Tool<>.\n\nThe skull of an ancient beast sits atop this fused pillar of bone and circuitry. Beware its gaze...\n\n<STELLAR>Take<> this Multi-Tool to add it to your collection, or <STELLAR>Exchange<> it with your current Multi-Tool. Swap between active Multi-Tools from the Utilities section of the Quick Menu (<IMG>QUICK_MENU<>).",
@@ -3732,6 +3939,7 @@
             "2": [
                 {
                     "ID": "EXPD_EGG_18",
+                    "Type": "product",
                     "RewardName": "Fossilised Egg",
                     "RewardSubtitle": "Bone Cradle",
                     "RewardDescription": "A living, fertile egg, <TRADEABLE>ready to hatch!<>\n\nA foetal creature of bone grows inside, its delicate body suspended in vitellus. Its fleshless limbs are comprised of soft cartilage, which will harden and densify as it grows. \n\nScans indicate the being within has the genetic potential to be <SPECIAL>skeletal<> and <STELLAR>elephantine<>.",
@@ -3750,6 +3958,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER18C",
+                    "Type": "product",
                     "RewardName": "Spirals Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nShow off the simplicity of nature with these attractive shells.",
@@ -3766,6 +3975,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER18B",
+                    "Type": "product",
                     "RewardName": "Taxonomy Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nA lovely catalogue of different skulls, in case you need a reference.",
@@ -3782,6 +3992,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER18A",
+                    "Type": "product",
                     "RewardName": "Fluid Dynamics Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nA poster for those that want to celebrate creatures not bound to solid ground.",
@@ -3812,6 +4023,7 @@
             "-1": [
                 {
                     "ID": "EXPD_EGG_19",
+                    "Type": "product",
                     "RewardName": "Mecha-Mouse Egg",
                     "RewardSubtitle": "Robotic Spawn Capsule",
                     "RewardDescription": "A metal 'egg' capsule, <TRADEABLE>ready to hatch!<>\n\nA muffled squeaking can be heard from the synthetic creature inside the capsule.\n\nScans indicate the being within is programmed to be intelligent and loving, through prone to gnawing on electronics.",
@@ -3830,6 +4042,7 @@
             "5": [
                 {
                     "ID": "EXPD_TITLE19",
+                    "Type": "product",
                     "RewardName": "Title: 'Shipwright'",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Corvette<> expedition, and the design and assembly of your own habitable starship.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3846,6 +4059,7 @@
                 },
                 {
                     "ID": "EXPD_BANNER19",
+                    "Type": "product",
                     "RewardName": "Corvette Banner",
                     "RewardSubtitle": "Bespoke Personal Identification",
                     "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Corvette<> expedition, and the design and assembly of your own habitable starship.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3862,6 +4076,7 @@
                 },
                 {
                     "ID": "EXPD_DECAL19",
+                    "Type": "product",
                     "RewardName": "Corvette Decal",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Corvette<> expedition, and the design and assembly of your own habitable starship.",
@@ -3880,14 +4095,15 @@
             "4": [
                 {
                     "ID": "B_TUR_B",
-                    "RewardName": "",
-                    "RewardSubtitle": "",
-                    "RewardDescription": "",
-                    "Icon_Filename": "",
-                    "Colour_R": "",
-                    "Colour_G": "",
-                    "Colour_B": "",
-                    "Colour_A": "",
+                    "Type": "construction",
+                    "RewardName": "Deadeye Cannon",
+                    "RewardSubtitle": "Corvette Weapon System",
+                    "RewardDescription": "This unique <TECHNOLOGY>Corvette ordnance module<> features a single rifled barrel, engineered for precision in deep-space combat.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_TUR1X1_B.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
                     "MustBeUnlocked": "false",
                     "UniqueInventoryItem": "false",
                     "SwitchExclusive": "false",
@@ -3898,9 +4114,10 @@
             "3": [
                 {
                     "ID": "SHIP_PLASMA",
+                    "Type": "product",
                     "RewardName": "Plasma Starship Trail",
                     "RewardSubtitle": "Starship Exhaust Override",
-                    "RewardDescription": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA visual enhancement for the starship, replacing traditional exhaust jets with a plasma thruster and generating a dramatic exhaust plume of ionised matter.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
+                    "RewardDescription": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA visual enhancement for the starship, replacing traditional exhaust jets with a plasma thruster and generating a dramatic plume of ionised matter.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
                     "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.SHIPTRAIL.DDS",
                     "Colour_R": "0.172549024",
                     "Colour_G": "0.486274511",
@@ -3916,6 +4133,7 @@
             "2": [
                 {
                     "ID": "JETS_RUIN",
+                    "Type": "product",
                     "RewardName": "Vigilant Trail",
                     "RewardSubtitle": "Jetpack Exhaust Override",
                     "RewardDescription": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA Jetpack trail emitting the light of living stone; plucked from a slumbering guardian; focused and consolidated through a series of lenses.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>.",
@@ -3934,6 +4152,7 @@
             "1": [
                 {
                     "ID": "EXPD_POSTER19C",
+                    "Type": "product",
                     "RewardName": "Big Rig Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster by an unknown artist playfully references the oversized frames of Corvette starships.",
@@ -3950,6 +4169,7 @@
                 },
                 {
                     "ID": "EXPD_POSTER19B",
+                    "Type": "product",
                     "RewardName": "\"Built to Last\" Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nCommissioned by the Intergalactic Corvette Union, this poster advertises a patented starship design.",
@@ -3966,10 +4186,307 @@
                 },
                 {
                     "ID": "EXPD_POSTER19A",
+                    "Type": "product",
                     "RewardName": "Corvette Blueprint Poster",
                     "RewardSubtitle": "Decoration",
                     "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts a classic Corvette design, outfitted with high-capacity habitation modules and immense engines.",
                     "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.POSTERA.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "1",
+                    "SpecificMilestoneLoc": ""
+                }
+            ]
+        }
+    },
+    "20": {
+        "SeasonName": "Breach",
+        "SeasonNumber": "39",
+        "RemixNumber": "0",
+        "DisplayNumber": "20",
+        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.EXPEDITION.20.DDS",
+        "Description": "Sail through the stars, confronting both the awe and the horror that lurks in deep space...",
+        "FinalReward": "",
+        "UnlockedTitle": "%NAME%, the Celestial",
+        "Rewards": {
+            "-1": [
+                {
+                    "ID": "B_WNG_P",
+                    "Type": "construction",
+                    "RewardName": "Aeron Drive",
+                    "RewardSubtitle": "Corvette Main Engine",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis main engine can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_WNG1X2_P.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "-1",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "B_WNG_R",
+                    "Type": "construction",
+                    "RewardName": "Aeron Blade",
+                    "RewardSubtitle": "Corvette Flight Stabliser",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis wing module can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_WNG1X2_R.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "-1",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "B_STR_AA_N",
+                    "Type": "construction",
+                    "RewardName": "Aeron Winglet",
+                    "RewardSubtitle": "Corvette External Plating",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis piece of hull cowling can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_STR1X1_AA_N.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "-1",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "5": [
+                {
+                    "ID": "EXPD_TITLE20",
+                    "Type": "product",
+                    "RewardName": "Title: 'The Celestial'",
+                    "RewardSubtitle": "Bespoke Personal Identification",
+                    "RewardDescription": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Breach<> expedition and the mystery of the Fireship Arcadia.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.TITLE.DDS",
+                    "Colour_R": "0.000000",
+                    "Colour_G": "0.474509805",
+                    "Colour_B": "0.31764707",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "5",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "EXPD_DECAL20",
+                    "Type": "product",
+                    "RewardName": "Breach Decal",
+                    "RewardSubtitle": "Decoration",
+                    "RewardDescription": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Breach<> expedition and the mystery of the Fireship Arcadia.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S20.DECAL.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "5",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "EXPD_BANNER20",
+                    "Type": "product",
+                    "RewardName": "Breach Banner",
+                    "RewardSubtitle": "Bespoke Personal Identification",
+                    "RewardDescription": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Breach<> expedition and the mystery of the Fireship Arcadia.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S20.BANNER.DDS",
+                    "Colour_R": "0.000000",
+                    "Colour_G": "0.474509805",
+                    "Colour_B": "0.31764707",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "5",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "4": [
+                {
+                    "ID": "B_WNG_Q",
+                    "Type": "construction",
+                    "RewardName": "Wings of Aeron",
+                    "RewardSubtitle": "Corvette Flight Stabliser",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis wing module can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_WNG1X2_Q.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "4",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "B_DECO_S",
+                    "Type": "construction",
+                    "RewardName": "Aeron Pillar",
+                    "RewardSubtitle": "Corvette Hull Attachment",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis piece of hull cowling can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_DECO1X1_S.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "4",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "B_DECO_T",
+                    "Type": "construction",
+                    "RewardName": "Aeron Pyramid",
+                    "RewardSubtitle": "Corvette Hull Attachment",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis piece of hull cowling can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_DECO1X1_T.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "4",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "3": [
+                {
+                    "ID": "B_SHL_E",
+                    "Type": "construction",
+                    "RewardName": "Aeron Powershield",
+                    "RewardSubtitle": "Corvette Shield Generator",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis shield generator can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_SHL1X1_E.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "3",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "B_DECO_R",
+                    "Type": "construction",
+                    "RewardName": "Aeron Cowling",
+                    "RewardSubtitle": "Corvette Hull Attachment",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis piece of hull cowling can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_DECO1X1_R.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "3",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "B_DECO_Q_0",
+                    "Type": "construction",
+                    "RewardName": "Aeron Diffuser",
+                    "RewardSubtitle": "Corvette Hull Attachment",
+                    "RewardDescription": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis piece of hull cowling can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BIGGS/BIG_DECO1X1_Q.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "3",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "2": [
+                {
+                    "ID": "SHIP_ATLAS",
+                    "Type": "product",
+                    "RewardName": "Aeron Starship Trail",
+                    "RewardSubtitle": "Starship Exhaust Override",
+                    "RewardDescription": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nThis engine modification injects the Starship exhaust trail with an arterial streak of crimson.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S20.SHIPTRAIL.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "2",
+                    "SpecificMilestoneLoc": ""
+                }
+            ],
+            "1": [
+                {
+                    "ID": "EXPD_POSTER20C",
+                    "Type": "product",
+                    "RewardName": "Event Horizon Poster",
+                    "RewardSubtitle": "Decoration",
+                    "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts the intense heat and strange gravitational anomalies that warp space around a black hole.",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S20.POSTERC.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "1",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "EXPD_POSTER20B",
+                    "Type": "product",
+                    "RewardName": "Eternal Serpents Poster",
+                    "RewardSubtitle": "Decoration",
+                    "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nTime is an eternal serpent, forever turning in upon itself, forever shedding and regrowing and reforming...",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S20.POSTERB.DDS",
+                    "Colour_R": "0.172549024",
+                    "Colour_G": "0.486274511",
+                    "Colour_B": "0.623529434",
+                    "Colour_A": "1.000000",
+                    "MustBeUnlocked": "false",
+                    "UniqueInventoryItem": "false",
+                    "SwitchExclusive": "false",
+                    "StageIds": "1",
+                    "SpecificMilestoneLoc": ""
+                },
+                {
+                    "ID": "EXPD_POSTER20A",
+                    "Type": "product",
+                    "RewardName": "Siren of the Stars Poster",
+                    "RewardSubtitle": "Decoration",
+                    "RewardDescription": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts a betentacled siren, its alluring tendrils poised to begin their mucal embrace...",
+                    "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S20.POSTERA.DDS",
                     "Colour_R": "0.172549024",
                     "Colour_G": "0.486274511",
                     "Colour_B": "0.623529434",

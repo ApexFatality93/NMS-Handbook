@@ -1,5 +1,6 @@
 {
     "FOS_HEAD_AN": {
+        "FossilID": "FOS_HEAD_AN",
         "Name": "UI_FOS_HEAD_AN_NAME",
         "Name_Text": "PREDATOR SKULL",
         "NameLower": "UI_FOS_HEAD_AN_NAME_L",
@@ -35,6 +36,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_AA": {
+        "FossilID": "FOS_HEAD_AA",
         "Name": "UI_FOS_HEAD_AA_NAME",
         "Name_Text": "MONO-HORN PREDATOR SKULL",
         "NameLower": "UI_FOS_HEAD_AA_NAME_L",
@@ -70,6 +72,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_AB": {
+        "FossilID": "FOS_HEAD_AB",
         "Name": "UI_FOS_HEAD_AB_NAME",
         "Name_Text": "HORNED PREDATOR SKULL",
         "NameLower": "UI_FOS_HEAD_AB_NAME_L",
@@ -105,6 +108,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_AC": {
+        "FossilID": "FOS_HEAD_AC",
         "Name": "UI_FOS_HEAD_AC_NAME",
         "Name_Text": "DIABOLIC SKULL",
         "NameLower": "UI_FOS_HEAD_AC_NAME_L",
@@ -140,6 +144,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_AD": {
+        "FossilID": "FOS_HEAD_AD",
         "Name": "UI_FOS_HEAD_AD_NAME",
         "Name_Text": "VICIOUS PREDATOR SKULL",
         "NameLower": "UI_FOS_HEAD_AD_NAME_L",
@@ -175,6 +180,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BN": {
+        "FossilID": "FOS_HEAD_BN",
         "Name": "UI_FOS_HEAD_BNN_NAME",
         "Name_Text": "HERBIVORE SKULL",
         "NameLower": "UI_FOS_HEAD_BNN_NAME_L",
@@ -210,6 +216,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BA": {
+        "FossilID": "FOS_HEAD_BA",
         "Name": "UI_FOS_HEAD_BDN_NAME",
         "Name_Text": "FOREST WARRIOR SKULL",
         "NameLower": "UI_FOS_HEAD_BDN_NAME_L",
@@ -245,6 +252,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BB": {
+        "FossilID": "FOS_HEAD_BB",
         "Name": "UI_FOS_HEAD_BBN_NAME",
         "Name_Text": "SKULL OF THE CURSED DOE",
         "NameLower": "UI_FOS_HEAD_BBN_NAME_L",
@@ -280,6 +288,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BC": {
+        "FossilID": "FOS_HEAD_BC",
         "Name": "UI_FOS_HEAD_BCN_NAME",
         "Name_Text": "PACHYOVINE SKULL",
         "NameLower": "UI_FOS_HEAD_BCN_NAME_L",
@@ -315,6 +324,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BD": {
+        "FossilID": "FOS_HEAD_BD",
         "Name": "UI_FOS_HEAD_BDA_NAME",
         "Name_Text": "ARMOURED OVINE SKULL",
         "NameLower": "UI_FOS_HEAD_BDA_NAME_L",
@@ -350,6 +360,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BE": {
+        "FossilID": "FOS_HEAD_BE",
         "Name": "UI_FOS_HEAD_BNA_NAME",
         "Name_Text": "OVINE SKULL",
         "NameLower": "UI_FOS_HEAD_BNA_NAME_L",
@@ -385,6 +396,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BF": {
+        "FossilID": "FOS_HEAD_BF",
         "Name": "UI_FOS_HEAD_BDC_NAME",
         "Name_Text": "SKULL OF THE GOLDEN HART",
         "NameLower": "UI_FOS_HEAD_BDC_NAME_L",
@@ -420,6 +432,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BG": {
+        "FossilID": "FOS_HEAD_BG",
         "Name": "UI_FOS_HEAD_BNC_NAME",
         "Name_Text": "CROWN OF BONES",
         "NameLower": "UI_FOS_HEAD_BNC_NAME_L",
@@ -455,6 +468,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BH": {
+        "FossilID": "FOS_HEAD_BH",
         "Name": "UI_FOS_HEAD_BNB_NAME",
         "Name_Text": "LONGHORN SKULL",
         "NameLower": "UI_FOS_HEAD_BNB_NAME_L",
@@ -490,6 +504,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BI": {
+        "FossilID": "FOS_HEAD_BI",
         "Name": "UI_FOS_HEAD_BNE_NAME",
         "Name_Text": "GRAZER SKULL",
         "NameLower": "UI_FOS_HEAD_BNE_NAME_L",
@@ -525,6 +540,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_BJ": {
+        "FossilID": "FOS_HEAD_BJ",
         "Name": "UI_FOS_HEAD_BAN_NAME",
         "Name_Text": "SKULL OF THE WATCHER",
         "NameLower": "UI_FOS_HEAD_BAN_NAME_L",
@@ -560,6 +576,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CN": {
+        "FossilID": "FOS_HEAD_CN",
         "Name": "UI_FOS_HEAD_CN_NAME",
         "Name_Text": "RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CN_NAME_L",
@@ -595,6 +612,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CA": {
+        "FossilID": "FOS_HEAD_CA",
         "Name": "UI_FOS_HEAD_CA_NAME",
         "Name_Text": "SPIKED RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CA_NAME_L",
@@ -630,6 +648,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CB": {
+        "FossilID": "FOS_HEAD_CB",
         "Name": "UI_FOS_HEAD_CB_NAME",
         "Name_Text": "GNARLED RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CB_NAME_L",
@@ -665,6 +684,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CC": {
+        "FossilID": "FOS_HEAD_CC",
         "Name": "UI_FOS_HEAD_CC_NAME",
         "Name_Text": "FLARED RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CC_NAME_L",
@@ -700,6 +720,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CD": {
+        "FossilID": "FOS_HEAD_CD",
         "Name": "UI_FOS_HEAD_CD_NAME",
         "Name_Text": "ARMOURED RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CD_NAME_L",
@@ -735,6 +756,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CE": {
+        "FossilID": "FOS_HEAD_CE",
         "Name": "UI_FOS_HEAD_CE_NAME",
         "Name_Text": "MAGNIFICENT RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CE_NAME_L",
@@ -770,6 +792,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CF": {
+        "FossilID": "FOS_HEAD_CF",
         "Name": "UI_FOS_HEAD_CF_NAME",
         "Name_Text": "STATUESQUE RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CF_NAME_L",
@@ -805,6 +828,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CG": {
+        "FossilID": "FOS_HEAD_CG",
         "Name": "UI_FOS_HEAD_CG_NAME",
         "Name_Text": "MIDNIGHT NIBBLER SKULL",
         "NameLower": "UI_FOS_HEAD_CG_NAME_L",
@@ -840,6 +864,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CH": {
+        "FossilID": "FOS_HEAD_CH",
         "Name": "UI_FOS_HEAD_CH_NAME",
         "Name_Text": "SKULL OF THE FOREST KING",
         "NameLower": "UI_FOS_HEAD_CH_NAME_L",
@@ -875,6 +900,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CI": {
+        "FossilID": "FOS_HEAD_CI",
         "Name": "UI_FOS_HEAD_CI_NAME",
         "Name_Text": "LONGHORN RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CI_NAME_L",
@@ -910,6 +936,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_CJ": {
+        "FossilID": "FOS_HEAD_CJ",
         "Name": "UI_FOS_HEAD_CJ_NAME",
         "Name_Text": "GLORIOUS RODENT SKULL",
         "NameLower": "UI_FOS_HEAD_CJ_NAME_L",
@@ -945,6 +972,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DN": {
+        "FossilID": "FOS_HEAD_DN",
         "Name": "UI_FOS_HEAD_DN_NAME",
         "Name_Text": "BOAR SKULL",
         "NameLower": "UI_FOS_HEAD_DN_NAME_L",
@@ -980,6 +1008,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DA": {
+        "FossilID": "FOS_HEAD_DA",
         "Name": "UI_FOS_HEAD_DA_NAME",
         "Name_Text": "WATTLEHOG SKULL",
         "NameLower": "UI_FOS_HEAD_DA_NAME_L",
@@ -1015,6 +1044,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DB": {
+        "FossilID": "FOS_HEAD_DB",
         "Name": "UI_FOS_HEAD_DB_NAME",
         "Name_Text": "SADDLEBACK SKULL",
         "NameLower": "UI_FOS_HEAD_DB_NAME_L",
@@ -1050,6 +1080,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DC": {
+        "FossilID": "FOS_HEAD_DC",
         "Name": "UI_FOS_HEAD_DC_NAME",
         "Name_Text": "BULLHOG SKULL",
         "NameLower": "UI_FOS_HEAD_DC_NAME_L",
@@ -1085,6 +1116,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DD": {
+        "FossilID": "FOS_HEAD_DD",
         "Name": "UI_FOS_HEAD_DD_NAME",
         "Name_Text": "WARTHOG SKULL",
         "NameLower": "UI_FOS_HEAD_DD_NAME_L",
@@ -1120,6 +1152,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DE": {
+        "FossilID": "FOS_HEAD_DE",
         "Name": "UI_FOS_HEAD_DE_NAME",
         "Name_Text": "SWINEHORN SKULL",
         "NameLower": "UI_FOS_HEAD_DE_NAME_L",
@@ -1155,6 +1188,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DF": {
+        "FossilID": "FOS_HEAD_DF",
         "Name": "UI_FOS_HEAD_DF_NAME",
         "Name_Text": "HORNBOARE SKULL",
         "NameLower": "UI_FOS_HEAD_DF_NAME_L",
@@ -1190,6 +1224,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DG": {
+        "FossilID": "FOS_HEAD_DG",
         "Name": "UI_FOS_HEAD_DG_NAME",
         "Name_Text": "HAMMERHEAD SKULL",
         "NameLower": "UI_FOS_HEAD_DG_NAME_L",
@@ -1225,6 +1260,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DH": {
+        "FossilID": "FOS_HEAD_DH",
         "Name": "UI_FOS_HEAD_DH_NAME",
         "Name_Text": "CHARGER SKULL",
         "NameLower": "UI_FOS_HEAD_DH_NAME_L",
@@ -1260,6 +1296,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DI": {
+        "FossilID": "FOS_HEAD_DI",
         "Name": "UI_FOS_HEAD_DI_NAME",
         "Name_Text": "FLATHEAD SKULL",
         "NameLower": "UI_FOS_HEAD_DI_NAME_L",
@@ -1295,6 +1332,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_DJ": {
+        "FossilID": "FOS_HEAD_DJ",
         "Name": "UI_FOS_HEAD_DJ_NAME",
         "Name_Text": "MOUSTACHIOED SKULL",
         "NameLower": "UI_FOS_HEAD_DJ_NAME_L",
@@ -1330,6 +1368,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EN": {
+        "FossilID": "FOS_HEAD_EN",
         "Name": "UI_FOS_HEAD_EN_NAME",
         "Name_Text": "CANINE SKULL",
         "NameLower": "UI_FOS_HEAD_EN_NAME_L",
@@ -1365,6 +1404,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EA": {
+        "FossilID": "FOS_HEAD_EA",
         "Name": "UI_FOS_HEAD_EA_NAME",
         "Name_Text": "WARHOUND SKULL",
         "NameLower": "UI_FOS_HEAD_EA_NAME_L",
@@ -1400,6 +1440,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EB": {
+        "FossilID": "FOS_HEAD_EB",
         "Name": "UI_FOS_HEAD_EB_NAME",
         "Name_Text": "FEARSOME CANINE SKULL",
         "NameLower": "UI_FOS_HEAD_EB_NAME_L",
@@ -1435,6 +1476,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EC": {
+        "FossilID": "FOS_HEAD_EC",
         "Name": "UI_FOS_HEAD_EC_NAME",
         "Name_Text": "ARMOURED CANINE SKULL",
         "NameLower": "UI_FOS_HEAD_EC_NAME_L",
@@ -1470,6 +1512,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_ED": {
+        "FossilID": "FOS_HEAD_ED",
         "Name": "UI_FOS_HEAD_ED_NAME",
         "Name_Text": "SCAVENGER SKULL",
         "NameLower": "UI_FOS_HEAD_ED_NAME_L",
@@ -1505,6 +1548,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EE": {
+        "FossilID": "FOS_HEAD_EE",
         "Name": "UI_FOS_HEAD_EE_NAME",
         "Name_Text": "SKULL OF THE BONE THIEF",
         "NameLower": "UI_FOS_HEAD_EE_NAME_L",
@@ -1540,6 +1584,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EF": {
+        "FossilID": "FOS_HEAD_EF",
         "Name": "UI_FOS_HEAD_EF_NAME",
         "Name_Text": "CARBUNCLE SKULL",
         "NameLower": "UI_FOS_HEAD_EF_NAME_L",
@@ -1575,6 +1620,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EG": {
+        "FossilID": "FOS_HEAD_EG",
         "Name": "UI_FOS_HEAD_EG_NAME",
         "Name_Text": "INFERNAL SKULL",
         "NameLower": "UI_FOS_HEAD_EG_NAME_L",
@@ -1610,6 +1656,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EH": {
+        "FossilID": "FOS_HEAD_EH",
         "Name": "UI_FOS_HEAD_EH_NAME",
         "Name_Text": "MALEVOLENT SKULL",
         "NameLower": "UI_FOS_HEAD_EH_NAME_L",
@@ -1645,6 +1692,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EI": {
+        "FossilID": "FOS_HEAD_EI",
         "Name": "UI_FOS_HEAD_EI_NAME",
         "Name_Text": "SKULL OF THE WILD HUNTER",
         "NameLower": "UI_FOS_HEAD_EI_NAME_L",
@@ -1680,6 +1728,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_EJ": {
+        "FossilID": "FOS_HEAD_EJ",
         "Name": "UI_FOS_HEAD_EJ_NAME",
         "Name_Text": "HAUNTED SKULL",
         "NameLower": "UI_FOS_HEAD_EJ_NAME_L",
@@ -1715,6 +1764,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FN": {
+        "FossilID": "FOS_HEAD_FN",
         "Name": "UI_FOS_HEAD_FN_NAME",
         "Name_Text": "MEGAFAUNA SKULL",
         "NameLower": "UI_FOS_HEAD_FN_NAME_L",
@@ -1750,6 +1800,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FA": {
+        "FossilID": "FOS_HEAD_FA",
         "Name": "UI_FOS_HEAD_FA_NAME",
         "Name_Text": "SKULL OF THE GORING WALL",
         "NameLower": "UI_FOS_HEAD_FA_NAME_L",
@@ -1785,6 +1836,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FB": {
+        "FossilID": "FOS_HEAD_FB",
         "Name": "UI_FOS_HEAD_FB_NAME",
         "Name_Text": "COLOSSAL SKULL",
         "NameLower": "UI_FOS_HEAD_FB_NAME_L",
@@ -1820,6 +1872,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FC": {
+        "FossilID": "FOS_HEAD_FC",
         "Name": "UI_FOS_HEAD_FC_NAME",
         "Name_Text": "MAMMOTH SKULL",
         "NameLower": "UI_FOS_HEAD_FC_NAME_L",
@@ -1855,6 +1908,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FD": {
+        "FossilID": "FOS_HEAD_FD",
         "Name": "UI_FOS_HEAD_FD_NAME",
         "Name_Text": "BEHEMOTH SKULL",
         "NameLower": "UI_FOS_HEAD_FD_NAME_L",
@@ -1890,6 +1944,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FE": {
+        "FossilID": "FOS_HEAD_FE",
         "Name": "UI_FOS_HEAD_FE_NAME",
         "Name_Text": "STYRAX SKULL",
         "NameLower": "UI_FOS_HEAD_FE_NAME_L",
@@ -1925,6 +1980,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FF": {
+        "FossilID": "FOS_HEAD_FF",
         "Name": "UI_FOS_HEAD_FF_NAME",
         "Name_Text": "\"DRAGON\" SKULL",
         "NameLower": "UI_FOS_HEAD_FF_NAME_L",
@@ -1960,6 +2016,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FG": {
+        "FossilID": "FOS_HEAD_FG",
         "Name": "UI_FOS_HEAD_FG_NAME",
         "Name_Text": "MONSTROUS SKULL",
         "NameLower": "UI_FOS_HEAD_FG_NAME_L",
@@ -1995,6 +2052,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FH": {
+        "FossilID": "FOS_HEAD_FH",
         "Name": "UI_FOS_HEAD_FH_NAME",
         "Name_Text": "OCEANID SKULL",
         "NameLower": "UI_FOS_HEAD_FH_NAME_L",
@@ -2030,6 +2088,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FI": {
+        "FossilID": "FOS_HEAD_FI",
         "Name": "UI_FOS_HEAD_FI_NAME",
         "Name_Text": "VY'KEEN SPIRIT SKULL",
         "NameLower": "UI_FOS_HEAD_FI_NAME_L",
@@ -2065,6 +2124,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FJ": {
+        "FossilID": "FOS_HEAD_FJ",
         "Name": "UI_FOS_HEAD_FJ_NAME",
         "Name_Text": "GIGANTO-SKULL",
         "NameLower": "UI_FOS_HEAD_FJ_NAME_L",
@@ -2100,6 +2160,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FK": {
+        "FossilID": "FOS_HEAD_FK",
         "Name": "UI_FOS_HEAD_FK_NAME",
         "Name_Text": "ELEPHANTINE SKULL",
         "NameLower": "UI_FOS_HEAD_FK_NAME_L",
@@ -2135,6 +2196,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FL": {
+        "FossilID": "FOS_HEAD_FL",
         "Name": "UI_FOS_HEAD_FL_NAME",
         "Name_Text": "CYCLOPEAN SKULL",
         "NameLower": "UI_FOS_HEAD_FL_NAME_L",
@@ -2170,6 +2232,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_FM": {
+        "FossilID": "FOS_HEAD_FM",
         "Name": "UI_FOS_HEAD_FM_NAME",
         "Name_Text": "GARGANTUAN SKULL",
         "NameLower": "UI_FOS_HEAD_FM_NAME_L",
@@ -2205,6 +2268,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_GN": {
+        "FossilID": "FOS_HEAD_GN",
         "Name": "UI_FOS_HEAD_GN_NAME",
         "Name_Text": "PROTOFORM SKULL",
         "NameLower": "UI_FOS_HEAD_GN_NAME_L",
@@ -2240,6 +2304,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_GA": {
+        "FossilID": "FOS_HEAD_GA",
         "Name": "UI_FOS_HEAD_GA_NAME",
         "Name_Text": "MASKED SKULL",
         "NameLower": "UI_FOS_HEAD_GA_NAME_L",
@@ -2275,6 +2340,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_GB": {
+        "FossilID": "FOS_HEAD_GB",
         "Name": "UI_FOS_HEAD_GB_NAME",
         "Name_Text": "WARRIOR SKULL",
         "NameLower": "UI_FOS_HEAD_GB_NAME_L",
@@ -2310,6 +2376,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_GC": {
+        "FossilID": "FOS_HEAD_GC",
         "Name": "UI_FOS_HEAD_GC_NAME",
         "Name_Text": "BONEHAIR SKULL",
         "NameLower": "UI_FOS_HEAD_GC_NAME_L",
@@ -2345,6 +2412,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_GD": {
+        "FossilID": "FOS_HEAD_GD",
         "Name": "UI_FOS_HEAD_GD_NAME",
         "Name_Text": "UNNAMEABLE SKULL",
         "NameLower": "UI_FOS_HEAD_GD_NAME_L",
@@ -2380,6 +2448,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_GE": {
+        "FossilID": "FOS_HEAD_GE",
         "Name": "UI_FOS_HEAD_GE_NAME",
         "Name_Text": "NIGHTMARE SKULL",
         "NameLower": "UI_FOS_HEAD_GE_NAME_L",
@@ -2415,6 +2484,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_GF": {
+        "FossilID": "FOS_HEAD_GF",
         "Name": "UI_FOS_HEAD_GF_NAME",
         "Name_Text": "SKULL OF THE MIDNIGHT VISITOR",
         "NameLower": "UI_FOS_HEAD_GF_NAME_L",
@@ -2450,6 +2520,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_HN": {
+        "FossilID": "FOS_HEAD_HN",
         "Name": "UI_FOS_HEAD_HN_NAME",
         "Name_Text": "SKULL OF THE OCEAN KING",
         "NameLower": "UI_FOS_HEAD_HN_NAME_L",
@@ -2485,6 +2556,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_HA": {
+        "FossilID": "FOS_HEAD_HA",
         "Name": "UI_FOS_HEAD_HA_NAME",
         "Name_Text": "LEVIATHAN SKULL",
         "NameLower": "UI_FOS_HEAD_HA_NAME_L",
@@ -2520,6 +2592,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_HB": {
+        "FossilID": "FOS_HEAD_HB",
         "Name": "UI_FOS_HEAD_HB_NAME",
         "Name_Text": "WORM LORD SKULL",
         "NameLower": "UI_FOS_HEAD_HB_NAME_L",
@@ -2555,6 +2628,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_HC": {
+        "FossilID": "FOS_HEAD_HC",
         "Name": "UI_FOS_HEAD_HC_NAME",
         "Name_Text": "TITANWORM SKULL",
         "NameLower": "UI_FOS_HEAD_HC_NAME_L",
@@ -2590,6 +2664,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_HD": {
+        "FossilID": "FOS_HEAD_HD",
         "Name": "UI_FOS_HEAD_HD_NAME",
         "Name_Text": "SKULL OF THE CONSUMER",
         "NameLower": "UI_FOS_HEAD_HD_NAME_L",
@@ -2625,6 +2700,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_HE": {
+        "FossilID": "FOS_HEAD_HE",
         "Name": "UI_FOS_HEAD_HE_NAME",
         "Name_Text": "FEASTING SKULL",
         "NameLower": "UI_FOS_HEAD_HE_NAME_L",
@@ -2660,6 +2736,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_HF": {
+        "FossilID": "FOS_HEAD_HF",
         "Name": "UI_FOS_HEAD_HF_NAME",
         "Name_Text": "CETENID SKULL",
         "NameLower": "UI_FOS_HEAD_HF_NAME_L",
@@ -2695,6 +2772,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_HG": {
+        "FossilID": "FOS_HEAD_HG",
         "Name": "UI_FOS_HEAD_HG_NAME",
         "Name_Text": "SKULL OF THE MASTER",
         "NameLower": "UI_FOS_HEAD_HG_NAME_L",
@@ -2730,6 +2808,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_IN": {
+        "FossilID": "FOS_HEAD_IN",
         "Name": "UI_FOS_HEAD_IN_NAME",
         "Name_Text": "BLUNTED SKULL",
         "NameLower": "UI_FOS_HEAD_IN_NAME_L",
@@ -2765,6 +2844,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_IA": {
+        "FossilID": "FOS_HEAD_IA",
         "Name": "UI_FOS_HEAD_IA_NAME",
         "Name_Text": "FLESHRIPPER SKULL",
         "NameLower": "UI_FOS_HEAD_IA_NAME_L",
@@ -2800,6 +2880,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_IB": {
+        "FossilID": "FOS_HEAD_IB",
         "Name": "UI_FOS_HEAD_IB_NAME",
         "Name_Text": "AVIAN SKULL",
         "NameLower": "UI_FOS_HEAD_IB_NAME_L",
@@ -2835,6 +2916,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_IC": {
+        "FossilID": "FOS_HEAD_IC",
         "Name": "UI_FOS_HEAD_IC_NAME",
         "Name_Text": "DIVEWING SKULL",
         "NameLower": "UI_FOS_HEAD_IC_NAME_L",
@@ -2870,6 +2952,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_ID": {
+        "FossilID": "FOS_HEAD_ID",
         "Name": "UI_FOS_HEAD_ID_NAME",
         "Name_Text": "PTEROSAUR SKULL",
         "NameLower": "UI_FOS_HEAD_ID_NAME_L",
@@ -2905,6 +2988,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_IE": {
+        "FossilID": "FOS_HEAD_IE",
         "Name": "UI_FOS_HEAD_IE_NAME",
         "Name_Text": "HOOKBEAK SKULL",
         "NameLower": "UI_FOS_HEAD_IE_NAME_L",
@@ -2940,6 +3024,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_IF": {
+        "FossilID": "FOS_HEAD_IF",
         "Name": "UI_FOS_HEAD_IF_NAME",
         "Name_Text": "PROTO-PARROT SKULL",
         "NameLower": "UI_FOS_HEAD_IF_NAME_L",
@@ -2975,6 +3060,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_IG": {
+        "FossilID": "FOS_HEAD_IG",
         "Name": "UI_FOS_HEAD_IG_NAME",
         "Name_Text": "SNAPBEAK SKULL",
         "NameLower": "UI_FOS_HEAD_IG_NAME_L",
@@ -3010,6 +3096,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JN": {
+        "FossilID": "FOS_HEAD_JN",
         "Name": "UI_FOS_HEAD_JN_NAME",
         "Name_Text": "CROCODILIAN SKULL",
         "NameLower": "UI_FOS_HEAD_JN_NAME_L",
@@ -3045,6 +3132,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JA": {
+        "FossilID": "FOS_HEAD_JA",
         "Name": "UI_FOS_HEAD_JA_NAME",
         "Name_Text": "SWAMP DWELLER SKULL",
         "NameLower": "UI_FOS_HEAD_JA_NAME_L",
@@ -3080,6 +3168,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JB": {
+        "FossilID": "FOS_HEAD_JB",
         "Name": "UI_FOS_HEAD_JB_NAME",
         "Name_Text": "MEGA-NEWT SKULL",
         "NameLower": "UI_FOS_HEAD_JB_NAME_L",
@@ -3115,6 +3204,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JC": {
+        "FossilID": "FOS_HEAD_JC",
         "Name": "UI_FOS_HEAD_JC_NAME",
         "Name_Text": "POND BEAST SKULL",
         "NameLower": "UI_FOS_HEAD_JC_NAME_L",
@@ -3150,6 +3240,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JD": {
+        "FossilID": "FOS_HEAD_JD",
         "Name": "UI_FOS_HEAD_JD_NAME",
         "Name_Text": "BOGSNAPPER SKULL",
         "NameLower": "UI_FOS_HEAD_JD_NAME_L",
@@ -3185,6 +3276,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JE": {
+        "FossilID": "FOS_HEAD_JE",
         "Name": "UI_FOS_HEAD_JE_NAME",
         "Name_Text": "MARSHDIPPER SKULL",
         "NameLower": "UI_FOS_HEAD_JE_NAME_L",
@@ -3220,6 +3312,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JF": {
+        "FossilID": "FOS_HEAD_JF",
         "Name": "UI_FOS_HEAD_JF_NAME",
         "Name_Text": "MUDSKIPPER SKULL",
         "NameLower": "UI_FOS_HEAD_JF_NAME_L",
@@ -3255,6 +3348,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JG": {
+        "FossilID": "FOS_HEAD_JG",
         "Name": "UI_FOS_HEAD_JG_NAME",
         "Name_Text": "SARCO-SKULL",
         "NameLower": "UI_FOS_HEAD_JG_NAME_L",
@@ -3290,6 +3384,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JH": {
+        "FossilID": "FOS_HEAD_JH",
         "Name": "UI_FOS_HEAD_JH_NAME",
         "Name_Text": "SAWTOOTH SKULL",
         "NameLower": "UI_FOS_HEAD_JH_NAME_L",
@@ -3325,6 +3420,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JI": {
+        "FossilID": "FOS_HEAD_JI",
         "Name": "UI_FOS_HEAD_JI_NAME",
         "Name_Text": "REPTILE SKULL",
         "NameLower": "UI_FOS_HEAD_JI_NAME_L",
@@ -3360,6 +3456,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_JJ": {
+        "FossilID": "FOS_HEAD_JJ",
         "Name": "UI_FOS_HEAD_JJ_NAME",
         "Name_Text": "SKULL OF THE LEGSNAPPER",
         "NameLower": "UI_FOS_HEAD_JJ_NAME_L",
@@ -3395,6 +3492,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KN": {
+        "FossilID": "FOS_HEAD_KN",
         "Name": "UI_FOS_HEAD_KN_NAME",
         "Name_Text": "EQUULEUS SKULL",
         "NameLower": "UI_FOS_HEAD_KN_NAME_L",
@@ -3430,6 +3528,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KA": {
+        "FossilID": "FOS_HEAD_KA",
         "Name": "UI_FOS_HEAD_KA_NAME",
         "Name_Text": "PINCER SKULL",
         "NameLower": "UI_FOS_HEAD_KA_NAME_L",
@@ -3465,6 +3564,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KB": {
+        "FossilID": "FOS_HEAD_KB",
         "Name": "UI_FOS_HEAD_KB_NAME",
         "Name_Text": "MONOCEROS SKULL",
         "NameLower": "UI_FOS_HEAD_KB_NAME_L",
@@ -3500,6 +3600,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KC": {
+        "FossilID": "FOS_HEAD_KC",
         "Name": "UI_FOS_HEAD_KC_NAME",
         "Name_Text": "DIREHORN SKULL",
         "NameLower": "UI_FOS_HEAD_KC_NAME_L",
@@ -3535,6 +3636,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KD": {
+        "FossilID": "FOS_HEAD_KD",
         "Name": "UI_FOS_HEAD_KD_NAME",
         "Name_Text": "BROADBORE SKULL",
         "NameLower": "UI_FOS_HEAD_KD_NAME_L",
@@ -3570,6 +3672,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KE": {
+        "FossilID": "FOS_HEAD_KE",
         "Name": "UI_FOS_HEAD_KE_NAME",
         "Name_Text": "SKULL OF THE PLAINS MENACE",
         "NameLower": "UI_FOS_HEAD_KE_NAME_L",
@@ -3605,6 +3708,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KF": {
+        "FossilID": "FOS_HEAD_KF",
         "Name": "UI_FOS_HEAD_KF_NAME",
         "Name_Text": "SKULL OF THE UNTAMEABLE",
         "NameLower": "UI_FOS_HEAD_KF_NAME_L",
@@ -3640,6 +3744,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KG": {
+        "FossilID": "FOS_HEAD_KG",
         "Name": "UI_FOS_HEAD_KG_NAME",
         "Name_Text": "SKULL OF THE UNBROKEN",
         "NameLower": "UI_FOS_HEAD_KG_NAME_L",
@@ -3675,6 +3780,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KH": {
+        "FossilID": "FOS_HEAD_KH",
         "Name": "UI_FOS_HEAD_KH_NAME",
         "Name_Text": "GNAWING SKULL",
         "NameLower": "UI_FOS_HEAD_KH_NAME_L",
@@ -3710,6 +3816,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KI": {
+        "FossilID": "FOS_HEAD_KI",
         "Name": "UI_FOS_HEAD_KI_NAME",
         "Name_Text": "PEGASUS SKULL",
         "NameLower": "UI_FOS_HEAD_KI_NAME_L",
@@ -3745,6 +3852,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KJ": {
+        "FossilID": "FOS_HEAD_KJ",
         "Name": "UI_FOS_HEAD_KJ_NAME",
         "Name_Text": "LONGTOOTH SKULL",
         "NameLower": "UI_FOS_HEAD_KJ_NAME_L",
@@ -3780,6 +3888,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KK": {
+        "FossilID": "FOS_HEAD_KK",
         "Name": "UI_FOS_HEAD_KK_NAME",
         "Name_Text": "HORNED BOUNDER SKULL",
         "NameLower": "UI_FOS_HEAD_KK_NAME_L",
@@ -3815,6 +3924,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_HEAD_KL": {
+        "FossilID": "FOS_HEAD_KL",
         "Name": "UI_FOS_HEAD_KL_NAME",
         "Name_Text": "DRAYFLARE SKULL",
         "NameLower": "UI_FOS_HEAD_KL_NAME_L",
@@ -3850,6 +3960,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_A": {
+        "FossilID": "FOS_LIMBS_A",
         "Name": "UI_FOS_LIMBS_A_NAME",
         "Name_Text": "HUNTER'S FOREARMS",
         "NameLower": "UI_FOS_LIMBS_A_NAME_L",
@@ -3885,6 +3996,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_B": {
+        "FossilID": "FOS_LIMBS_B",
         "Name": "UI_FOS_LIMBS_B_NAME",
         "Name_Text": "UNGULATE FOSSIL",
         "NameLower": "UI_FOS_LIMBS_B_NAME_L",
@@ -3920,6 +4032,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_C": {
+        "FossilID": "FOS_LIMBS_C",
         "Name": "UI_FOS_LIMBS_C_NAME",
         "Name_Text": "DANGLING FOREARMS",
         "NameLower": "UI_FOS_LIMBS_C_NAME_L",
@@ -3955,6 +4068,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_D": {
+        "FossilID": "FOS_LIMBS_D",
         "Name": "UI_FOS_LIMBS_D_NAME",
         "Name_Text": "GRASPING FOREARMS",
         "NameLower": "UI_FOS_LIMBS_D_NAME_L",
@@ -3990,6 +4104,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_E": {
+        "FossilID": "FOS_LIMBS_E",
         "Name": "UI_FOS_LIMBS_E_NAME",
         "Name_Text": "STALKING LEG BONES",
         "NameLower": "UI_FOS_LIMBS_E_NAME_L",
@@ -4025,6 +4140,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_F": {
+        "FossilID": "FOS_LIMBS_F",
         "Name": "UI_FOS_LIMBS_F_NAME",
         "Name_Text": "FOSSILISED BIPED LEGS",
         "NameLower": "UI_FOS_LIMBS_F_NAME_L",
@@ -4060,6 +4176,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_G": {
+        "FossilID": "FOS_LIMBS_G",
         "Name": "UI_FOS_LIMBS_G_NAME",
         "Name_Text": "SWIFT LEG BONES",
         "NameLower": "UI_FOS_LIMBS_G_NAME_L",
@@ -4095,6 +4212,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_H": {
+        "FossilID": "FOS_LIMBS_H",
         "Name": "UI_FOS_LIMBS_H_NAME",
         "Name_Text": "FOSSILISED FLIPPERS",
         "NameLower": "UI_FOS_LIMBS_H_NAME_L",
@@ -4130,6 +4248,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_I": {
+        "FossilID": "FOS_LIMBS_I",
         "Name": "UI_FOS_LIMBS_I_NAME",
         "Name_Text": "FOSSILISED FINS",
         "NameLower": "UI_FOS_LIMBS_I_NAME_L",
@@ -4165,6 +4284,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_LIMBS_J": {
+        "FossilID": "FOS_LIMBS_J",
         "Name": "UI_FOS_LIMBS_J_NAME",
         "Name_Text": "FOSSILISED WING STUBS",
         "NameLower": "UI_FOS_LIMBS_J_NAME_L",
@@ -4200,6 +4320,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_AN": {
+        "FossilID": "FOS_BI_BODY_AN",
         "Name": "UI_FOS_BI_BODY_AN_NAME",
         "Name_Text": "LENGTHY RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_AN_NAME_L",
@@ -4235,6 +4356,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_AA": {
+        "FossilID": "FOS_BI_BODY_AA",
         "Name": "UI_FOS_BI_BODY_AA_NAME",
         "Name_Text": "LENGTHY PLATED RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_AA_NAME_L",
@@ -4270,6 +4392,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_AB": {
+        "FossilID": "FOS_BI_BODY_AB",
         "Name": "UI_FOS_BI_BODY_AB_NAME",
         "Name_Text": "GARGANTUAN RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_AB_NAME_L",
@@ -4305,6 +4428,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_AC": {
+        "FossilID": "FOS_BI_BODY_AC",
         "Name": "UI_FOS_BI_BODY_AC_NAME",
         "Name_Text": "MIGHTY RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_AC_NAME_L",
@@ -4340,6 +4464,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_AD": {
+        "FossilID": "FOS_BI_BODY_AD",
         "Name": "UI_FOS_BI_BODY_AD_NAME",
         "Name_Text": "LENGTHY FLARED RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_AD_NAME_L",
@@ -4375,6 +4500,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_AE": {
+        "FossilID": "FOS_BI_BODY_AE",
         "Name": "UI_FOS_BI_BODY_AE_NAME",
         "Name_Text": "LENGTHY FINNED RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_AE_NAME_L",
@@ -4410,6 +4536,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_BN": {
+        "FossilID": "FOS_BI_BODY_BN",
         "Name": "UI_FOS_BI_BODY_BN_NAME",
         "Name_Text": "ANCIENT RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_BN_NAME_L",
@@ -4445,6 +4572,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_BA": {
+        "FossilID": "FOS_BI_BODY_BA",
         "Name": "UI_FOS_BI_BODY_BA_NAME",
         "Name_Text": "PLATED RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_BA_NAME_L",
@@ -4480,6 +4608,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_BB": {
+        "FossilID": "FOS_BI_BODY_BB",
         "Name": "UI_FOS_BI_BODY_BB_NAME",
         "Name_Text": "SPIKED RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_BB_NAME_L",
@@ -4515,6 +4644,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_BC": {
+        "FossilID": "FOS_BI_BODY_BC",
         "Name": "UI_FOS_BI_BODY_BC_NAME",
         "Name_Text": "ARMOURED RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_BC_NAME_L",
@@ -4550,6 +4680,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_BD": {
+        "FossilID": "FOS_BI_BODY_BD",
         "Name": "UI_FOS_BI_BODY_BD_NAME",
         "Name_Text": "FLARED RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_BD_NAME_L",
@@ -4585,6 +4716,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_BODY_BE": {
+        "FossilID": "FOS_BI_BODY_BE",
         "Name": "UI_FOS_BI_BODY_BE_NAME",
         "Name_Text": "FINNED RIBCAGE",
         "NameLower": "UI_FOS_BI_BODY_BE_NAME_L",
@@ -4620,6 +4752,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_AN": {
+        "FossilID": "FOS_BI_TAIL_AN",
         "Name": "UI_FOS_BI_TAIL_AN_NAME",
         "Name_Text": "ANCIENT TAILBONE",
         "NameLower": "UI_FOS_BI_TAIL_AN_NAME_L",
@@ -4655,6 +4788,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_AA": {
+        "FossilID": "FOS_BI_TAIL_AA",
         "Name": "UI_FOS_BI_TAIL_AA_NAME",
         "Name_Text": "FEARSOME LASHBONE",
         "NameLower": "UI_FOS_BI_TAIL_AA_NAME_L",
@@ -4690,6 +4824,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_BN": {
+        "FossilID": "FOS_BI_TAIL_BN",
         "Name": "UI_FOS_BI_TAIL_BN_NAME",
         "Name_Text": "MACE-LIKE TAILBONE",
         "NameLower": "UI_FOS_BI_TAIL_BN_NAME_L",
@@ -4725,6 +4860,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_BA": {
+        "FossilID": "FOS_BI_TAIL_BA",
         "Name": "UI_FOS_BI_TAIL_BA_NAME",
         "Name_Text": "FLAILING TAILBONE",
         "NameLower": "UI_FOS_BI_TAIL_BA_NAME_L",
@@ -4760,6 +4896,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_CN": {
+        "FossilID": "FOS_BI_TAIL_CN",
         "Name": "UI_FOS_BI_TAIL_CN_NAME",
         "Name_Text": "LENGTHY TAILBONE",
         "NameLower": "UI_FOS_BI_TAIL_CN_NAME_L",
@@ -4795,6 +4932,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_CA": {
+        "FossilID": "FOS_BI_TAIL_CA",
         "Name": "UI_FOS_BI_TAIL_CA_NAME",
         "Name_Text": "PLATED TAILBONE",
         "NameLower": "UI_FOS_BI_TAIL_CA_NAME_L",
@@ -4830,6 +4968,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_DN": {
+        "FossilID": "FOS_BI_TAIL_DN",
         "Name": "UI_FOS_BI_TAIL_DN_NAME",
         "Name_Text": "COILED TAILBONE",
         "NameLower": "UI_FOS_BI_TAIL_DN_NAME_L",
@@ -4865,6 +5004,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_DA": {
+        "FossilID": "FOS_BI_TAIL_DA",
         "Name": "UI_FOS_BI_TAIL_DA_NAME",
         "Name_Text": "SLASHING SPRINGTAIL",
         "NameLower": "UI_FOS_BI_TAIL_DA_NAME_L",
@@ -4900,6 +5040,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_E": {
+        "FossilID": "FOS_BI_TAIL_E",
         "Name": "UI_FOS_BI_TAIL_E_NAME",
         "Name_Text": "UPTURNED TAILFAN",
         "NameLower": "UI_FOS_BI_TAIL_E_NAME_L",
@@ -4935,6 +5076,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_F": {
+        "FossilID": "FOS_BI_TAIL_F",
         "Name": "UI_FOS_BI_TAIL_F_NAME",
         "Name_Text": "DOWNTURNED TAILFAN",
         "NameLower": "UI_FOS_BI_TAIL_F_NAME_L",
@@ -4970,6 +5112,7 @@
         "CanSendToOtherPlayers": "true"
     },
     "FOS_BI_TAIL_G": {
+        "FossilID": "FOS_BI_TAIL_G",
         "Name": "UI_FOS_BI_TAIL_G_NAME",
         "Name_Text": "STUBTAIL",
         "NameLower": "UI_FOS_BI_TAIL_G_NAME_L",

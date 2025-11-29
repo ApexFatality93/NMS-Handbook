@@ -26,6 +26,33 @@
             "All"
         ]
     },
+    "F_BOSS_JELLY": {
+        "ProductID": "F_BOSS_JELLY",
+        "Name": "UI_FISH_BOSS_JELLY_NAME",
+        "Name_Text": "SPAWN OF ARCADIA",
+        "NameLower": "UI_FISH_BOSS_JELLY_NAME_L",
+        "NameLower_Text": "Spawn of Arcadia",
+        "Subtitle": "UI_FISH_BOSS_JELLY_SUB",
+        "Subtitle_Text": "Fragile Medusoid",
+        "Description": "UI_FISH_BOSS_JELLY_DESC",
+        "Description_Text": "A glassy jellyfish, lights pulsing beneath its skin. Its thin tentacles pluck at the air, their vibrations manipulating the space around its body.\n\nAs it writhes, a faint music drifts from its tendrils, worming its way into your ears. The melody seems to never end, worming its way into your ears, never ending, worming its way into your ears, never ending, never...",
+        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/FISH/PRODUCT4.FISH.JELLY.DDS",
+        "Colour_R": "0.129411772",
+        "Colour_G": "0.466666669",
+        "Colour_B": "0.784313738",
+        "Colour_A": "1.000000",
+        "Quality": "Legendary",
+        "Size": "Small",
+        "Time": "Both",
+        "NeedsStorm": "false",
+        "RequiresMissionActive": "KILL_JELLYBOSS",
+        "MissionSeed": "46",
+        "MissionMustAlsoBeSelected": "true",
+        "MissionCatchChanceOverride": "0.330000",
+        "Biomes": [
+            "All"
+        ]
+    },
     "S15_FISH": {
         "ProductID": "S15_FISH",
         "Name": "UI_S15_FISH_NAME",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.01.0.2)-->
+<!--File created using MBINCompiler version (6.17.0.2)-->
 <Data template="cGcStoriesTable">
 	<Property name="Table">
 		<Property name="Traders" value="GcStoryCategory">
@@ -7,15 +7,9 @@
 			<Property name="CategoryIDUpper" value="UI_GUIDE_TRA_NAME_U" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.GEK.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.GEK.OFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages">
 				<Property name="Pages" value="GcStoryPage" _id="UI_PORTAL_TRA_PLAQUE_TITLE">
@@ -26,9 +20,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUNE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_TRA_PLAQUE_TITLE" />
 					<Property name="Entries">
@@ -346,9 +337,6 @@
 					<Property name="StatIsBitmask" value="true" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.LIBRARY.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_TRA_LIB_TITLE" />
 					<Property name="Entries">
@@ -466,9 +454,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUNE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_TRA_MONO_TITLE" />
 					<Property name="Entries">
@@ -686,9 +671,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PORTAL/PORTAL.STORIES.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_WIKI_WORDS_TRA_TITLE" />
 					<Property name="Entries" />
@@ -704,15 +686,9 @@
 			<Property name="CategoryIDUpper" value="UI_GUIDE_WAR_NAME_U" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.VYKEEN.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.VYKEEN.OFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages">
 				<Property name="Pages" value="GcStoryPage" _id="UI_PORTAL_WAR_PLAQUE_TITLE">
@@ -723,9 +699,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUNE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_WAR_PLAQUE_TITLE" />
 					<Property name="Entries">
@@ -1043,9 +1016,6 @@
 					<Property name="StatIsBitmask" value="true" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.LIBRARY.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_WAR_LIB_TITLE" />
 					<Property name="Entries">
@@ -1163,9 +1133,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUNE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_WAR_MONO_TITLE" />
 					<Property name="Entries">
@@ -1383,9 +1350,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PORTAL/PORTAL.STORIES.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_WIKI_WORDS_WAR_TITLE" />
 					<Property name="Entries" />
@@ -1401,15 +1365,9 @@
 			<Property name="CategoryIDUpper" value="UI_GUIDE_EXP_NAME_U" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.KORVAX.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.KORVAX.OFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages">
 				<Property name="Pages" value="GcStoryPage" _id="UI_PORTAL_EXP_PLAQUE_TITLE">
@@ -1420,9 +1378,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUNE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_EXP_PLAQUE_TITLE" />
 					<Property name="Entries">
@@ -1770,9 +1725,6 @@
 					<Property name="StatIsBitmask" value="true" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.LIBRARY.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_EXP_LIB_TITLE" />
 					<Property name="Entries">
@@ -1890,9 +1842,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUNE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_EXP_MONO_TITLE" />
 					<Property name="Entries">
@@ -2100,9 +2049,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PORTAL/PORTAL.STORIES.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_WIKI_WORDS_EXP_TITLE" />
 					<Property name="Entries" />
@@ -2118,15 +2064,9 @@
 			<Property name="CategoryIDUpper" value="" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages" />
 		</Property>
@@ -2135,15 +2075,9 @@
 			<Property name="CategoryIDUpper" value="UI_GUIDE_ATLAS_NAME_U" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/JOURNEY.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/JOURNEY.OFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages">
 				<Property name="Pages" value="GcStoryPage" _id="INTRCT_ATLASSTATION">
@@ -2154,9 +2088,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDINGLARGE.ATLASSTATION.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="INTRCT_ATLASSTATION" />
 					<Property name="Entries">
@@ -2305,9 +2236,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PORTAL/PORTAL.STORIES.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_WIKI_WORDS_ATL_TITLE" />
 					<Property name="Entries" />
@@ -2324,9 +2252,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/WIKI/WIKI.PORTAL.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_GUIDE_HEADING_RUNES_CATA" />
 					<Property name="Entries" />
@@ -2342,15 +2267,9 @@
 			<Property name="CategoryIDUpper" value="UI_GUIDE_STORY_NAME_U" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.CORE.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.CORE.OFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages">
 				<Property name="Pages" value="GcStoryPage" _id="UI_PORTAL_CORE_NAME">
@@ -2361,9 +2280,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/JOURNEY.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_CORE_NAME" />
 					<Property name="Entries">
@@ -2955,9 +2871,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.BASECOMPUTER.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_BASELOG_TITLE" />
 					<Property name="Entries">
@@ -3185,9 +3098,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.BUILDERMISSION.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_OVERSEER_TITLE" />
 					<Property name="Entries">
@@ -3335,9 +3245,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.SCIENCEMISSIONS.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_SCIENTIST_TITLE" />
 					<Property name="Entries">
@@ -3495,9 +3402,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.GUN.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_WEAPGUY_TITLE" />
 					<Property name="Entries">
@@ -3595,9 +3499,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.WHEAT.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_FARMER_TITLE" />
 					<Property name="Entries">
@@ -3725,9 +3626,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.EXOCRAFT.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_EXOTUT_TITLE" />
 					<Property name="Entries">
@@ -3915,9 +3813,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.WATER.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_WATERMISSION_TITLE" />
 					<Property name="Entries">
@@ -4055,9 +3950,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.BIOSHIP.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_BIO_SHIP_MISSION_TITLE" />
 					<Property name="Entries">
@@ -4215,9 +4107,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.WORM.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_WORMLORE_TITLE" />
 					<Property name="Entries">
@@ -4295,9 +4184,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.BUGBUTT.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_SEASON_14_NAME" />
 					<Property name="Entries">
@@ -4375,9 +4261,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.ROBOTKILL.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_SENT_MISS_TITLE" />
 					<Property name="Entries">
@@ -4665,9 +4548,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.PIRATECORE.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PIRATESMISS_NAME" />
 					<Property name="Entries">
@@ -4786,15 +4666,9 @@
 			<Property name="CategoryIDUpper" value="" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages" />
 		</Property>
@@ -4803,15 +4677,9 @@
 			<Property name="CategoryIDUpper" value="UI_GUIDE_GEN_NAME_U" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.EXPLORERGUILD.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.EXPLORERGUILD.OFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages">
 				<Property name="Pages" value="GcStoryPage" _id="BUILDING_ABANDONED_L">
@@ -4822,9 +4690,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.ABANDONED.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="BUILDING_ABANDONED_L" />
 					<Property name="Entries">
@@ -5182,9 +5047,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.DISTRESSSIGNAL.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="BUILDING_FREIGHTER_ALT" />
 					<Property name="Entries">
@@ -5402,9 +5264,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.TRAVELLERGRAVE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="INTRCT_CAVEGRAVE" />
 					<Property name="Entries">
@@ -5582,9 +5441,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.STORY.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="BUILDING_GLITCHYSTORYBOX_L" />
 					<Property name="Entries">
@@ -5902,9 +5758,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDINGLARGE.DISTRESSSIGNAL.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_WATER_RELIC_NAME_L" />
 					<Property name="Entries">
@@ -6002,9 +5855,6 @@
 					<Property name="StatIsBitmask" value="true" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.POI.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_DERELICT1_LABEL" />
 					<Property name="Entries">
@@ -6212,9 +6062,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.DRONEHIVE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_SENTINEL_HIVE_NAME" />
 					<Property name="Entries">
@@ -6452,9 +6299,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.STORY.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_CORE_EPILOGUE_TITLE" />
 					<Property name="Entries">
@@ -6511,15 +6355,9 @@
 			<Property name="CategoryIDUpper" value="UI_GUIDE_BUI_NAME_U" />
 			<Property name="IconOn" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.BUILDER.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="IconOff" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.BUILDER.OFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Pages">
 				<Property name="Pages" value="GcStoryPage" _id="UI_PORTAL_BUI_MONO_TITLE">
@@ -6530,9 +6368,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.RUNE.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PORTAL_BUI_MONO_TITLE" />
 					<Property name="Entries">
@@ -6767,9 +6602,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PORTAL/PORTAL.STORIES.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_WIKI_WORDS_BUI_TITLE" />
 					<Property name="Entries" />
@@ -6786,9 +6618,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSIONS.BUILDER.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_ROBOMISS_TITLE" />
 					<Property name="Entries">
@@ -7052,9 +6881,6 @@
 					<Property name="StatIsBitmask" value="false" />
 					<Property name="Icon" value="TkTextureResource">
 						<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.PURPLE.ON.DDS" />
-						<Property name="ResHandle" value="GcResource">
-							<Property name="ResourceID" value="0" />
-						</Property>
 					</Property>
 					<Property name="ID" value="UI_PURPM_TITLE" />
 					<Property name="Entries">

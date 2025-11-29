@@ -1,4 +1,116 @@
 {
+    "B_WNG_P": {
+        "ID": "B_WNG_P",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_WNG_R": {
+        "ID": "B_WNG_R",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_STR_AA_N": {
+        "ID": "B_STR_AA_N",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_TITLE20": {
+        "ID": "EXPD_TITLE20",
+        "RewardName": "Title: 'The Celestial'",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_DECAL20": {
+        "ID": "EXPD_DECAL20",
+        "RewardName": "Breach Decal",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_BANNER20": {
+        "ID": "EXPD_BANNER20",
+        "RewardName": "Breach Banner",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_WNG_Q": {
+        "ID": "B_WNG_Q",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_DECO_S": {
+        "ID": "B_DECO_S",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_DECO_T": {
+        "ID": "B_DECO_T",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_SHL_E": {
+        "ID": "B_SHL_E",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_DECO_R": {
+        "ID": "B_DECO_R",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "B_DECO_Q_0": {
+        "ID": "B_DECO_Q_0",
+        "RewardName": "",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SHIP_ATLAS": {
+        "ID": "SHIP_ATLAS",
+        "RewardName": "Aeron Starship Trail",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER20C": {
+        "ID": "EXPD_POSTER20C",
+        "RewardName": "Event Horizon Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER20B": {
+        "ID": "EXPD_POSTER20B",
+        "RewardName": "Eternal Serpents Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER20A": {
+        "ID": "EXPD_POSTER20A",
+        "RewardName": "Siren of the Stars Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
     "EXPD_EGG_19": {
         "ID": "EXPD_EGG_19",
         "RewardName": "Mecha-Mouse Egg",

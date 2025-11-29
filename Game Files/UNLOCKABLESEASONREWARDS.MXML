@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.01.0.2)-->
+<!--File created using MBINCompiler version (6.17.0.2)-->
 <Data template="cGcUnlockableSeasonRewards">
 	<Property name="Table">
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_WNG_P">
+			<Property name="ID" value="B_WNG_P" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="-1" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_WNG_R">
+			<Property name="ID" value="B_WNG_R" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="-1" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_STR_AA_N">
+			<Property name="ID" value="B_STR_AA_N" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="-1" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="EXPD_TITLE20">
+			<Property name="ID" value="EXPD_TITLE20" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="5" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="EXPD_DECAL20">
+			<Property name="ID" value="EXPD_DECAL20" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="5" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="EXPD_BANNER20">
+			<Property name="ID" value="EXPD_BANNER20" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="5" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_WNG_Q">
+			<Property name="ID" value="B_WNG_Q" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="4" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_DECO_S">
+			<Property name="ID" value="B_DECO_S" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="4" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_DECO_T">
+			<Property name="ID" value="B_DECO_T" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="4" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_SHL_E">
+			<Property name="ID" value="B_SHL_E" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="3" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_DECO_R">
+			<Property name="ID" value="B_DECO_R" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="3" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="B_DECO_Q_0">
+			<Property name="ID" value="B_DECO_Q_0" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="3" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="SHIP_ATLAS">
+			<Property name="ID" value="SHIP_ATLAS" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="2" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="EXPD_POSTER20C">
+			<Property name="ID" value="EXPD_POSTER20C" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="1" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="EXPD_POSTER20B">
+			<Property name="ID" value="EXPD_POSTER20B" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="1" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
+		<Property name="Table" value="GcUnlockableSeasonReward" _id="EXPD_POSTER20A">
+			<Property name="ID" value="EXPD_POSTER20A" />
+			<Property name="MustBeUnlocked" value="false" />
+			<Property name="UniqueInventoryItem" value="false" />
+			<Property name="SwitchExclusive" value="false" />
+			<Property name="SeasonIds">
+				<Property name="SeasonIds" value="20" _index="0" />
+			</Property>
+			<Property name="StageIds">
+				<Property name="StageIds" value="1" _index="0" />
+			</Property>
+			<Property name="SpecificMilestoneLoc" value="" />
+		</Property>
 		<Property name="Table" value="GcUnlockableSeasonReward" _id="EXPD_EGG_19">
 			<Property name="ID" value="EXPD_EGG_19" />
 			<Property name="MustBeUnlocked" value="false" />

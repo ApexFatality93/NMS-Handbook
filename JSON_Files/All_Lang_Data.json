@@ -1712,6 +1712,10 @@
     "English": "Cannot pick up: Refiner not empty"
   },
   {
+    "Id": "REFINER_COOKER_CANNOT_PICK_UP",
+    "English": "Cannot pick up: Processor not empty"
+  },
+  {
     "Id": "UI_UNKNOWN_BUILDING",
     "English": "Unknown Building"
   },
@@ -92749,7 +92753,7 @@
   },
   {
     "Id": "UI_EXPED_COOK_BISCUIT_MSG6",
-    "English": "Source ingredients for your final recipe\nMany foods are be harvested from <TRADEABLE>plants<>, or sourced from nearby <TRADEABLE>creatures<>\nLocate creatures and plants with the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)\nUse <IMG>DECONSTRUCT<> to pick up your <TECHNOLOGY>Nutrient Processor<>"
+    "English": "Source ingredients for your final recipe\nMany foods are harvested from <TRADEABLE>plants<>, or sourced from nearby <TRADEABLE>creatures<>\nLocate creatures and plants with the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)\nUse <IMG>DECONSTRUCT<> to pick up your <TECHNOLOGY>Nutrient Processor<>"
   },
   {
     "Id": "UI_EXPED_COOK_BISCUIT_MSG7",
@@ -102356,6 +102360,1134 @@
     "English": "Improves image clarity on your PSVR2 using AI-enhanced resolution for ultra-high definition play with astonishing detail.\n\nDefault value is: <CATALYST>%DEFAULTVALUE%<>"
   },
   {
+    "Id": "UI_STATION_TELE_ERR_OSD",
+    "English": "Cannot activate uplink <IMG>SLASH<> No space station detected"
+  },
+  {
+    "Id": "UI_STATION_TELE_SHIP_ERR_OSD",
+    "English": "Cannot activate uplink <IMG>SLASH<> Starship interference detected"
+  },
+  {
+    "Id": "UI_SEASON_20_NAME",
+    "English": "Breach"
+  },
+  {
+    "Id": "UI_SEASON_20_NAME_U",
+    "English": "BREACH"
+  },
+  {
+    "Id": "UI_SEASON_20_MAIN_TITLE",
+    "English": "Expedition Twenty: Breach"
+  },
+  {
+    "Id": "TRADE_FILTER_SEASON_20",
+    "English": "Expedition 20"
+  },
+  {
+    "Id": "UI_SEASON_20_MAIN_MSG",
+    "English": "Select the <EXPED>Crew, Awaken<> milestone to start your journey\nPhase %NUM%: %CURRENT%/%AMOUNT% milestones complete\nFind milestones in the <STELLAR>Expedition<> tab (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED20_MAIN_DESC",
+    "English": "Sail through the stars, confronting both the awe and the horror that lurks in deep space..."
+  },
+  {
+    "Id": "UI_EXPED20_SUMMARY",
+    "English": "Sign up for Expedition 20: <SPECIAL>Breach<> to join the community as you sail through the stars, confronting the awe and the horror of deep space."
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_DESC",
+    "English": "Join the community as you sail through the stars, confronting the awe and the horror of deep space.\n\nComplete <TECHNOLOGY>Milestones<> to earn new equipment. Complete entire <COMMODITY>Phases<> for special, exclusive rewards."
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_LINE1A",
+    "English": "View progress in the <STELLAR>Expedition<> page (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_LINE1B",
+    "English": "View progress in the <STELLAR>Expedition<> page (<IMG>OPTIONS<>). Reach the <SPECIAL>Space Anomaly<> to retrieve your stored items."
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_LINE2A",
+    "English": "Earn <STELLAR>exclusive rewards<> by completing <TECHNOLOGY>Milestones<>. Complete milestones in <TRADEABLE>any order<>."
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_LINE2B",
+    "English": "Follow a path through the galaxy to each of the <SPECIAL>Rendezvous Points<> to earn large rewards."
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_LINE3A",
+    "English": "Follow a path through the galaxy to each of the <SPECIAL>Rendezvous Points<> to earn large rewards."
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_LINE3B",
+    "English": "Bases, discoveries, and other progress <TECHNOLOGY>will be shared or merged<> with your primary save."
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_LINE4A",
+    "English": "Exclusive expedition rewards can be accessed on <STELLAR>any save<>. This save will remain playable when the expedition ends."
+  },
+  {
+    "Id": "UI_EXPED20_DETAIL_LINE4B",
+    "English": "Switch back to your primary save at <STELLAR>any time<>. Exclusive expedition rewards can be accessed on <STELLAR>any save<>."
+  },
+  {
+    "Id": "UI_EXPD_TITLE_20_NAME",
+    "English": "TITLE: 'THE CELESTIAL'"
+  },
+  {
+    "Id": "UI_EXPD_TITLE_20_NAME_L",
+    "English": "Title: 'The Celestial'"
+  },
+  {
+    "Id": "UI_EXPD_TITLE_20_DESC",
+    "English": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Breach<> expedition and the mystery of the Fireship Arcadia.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>."
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_EXPD20",
+    "English": "%NAME%, the Celestial"
+  },
+  {
+    "Id": "BLD_DECAL_EXPD_20_NAME",
+    "English": "BREACH DECAL"
+  },
+  {
+    "Id": "BLD_DECAL_EXPD_20_NAME_L",
+    "English": "Breach Decal"
+  },
+  {
+    "Id": "BLD_DECAL_EXPD_20_DESCRIPTION",
+    "English": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Breach<> expedition and the mystery of the Fireship Arcadia."
+  },
+  {
+    "Id": "UI_BANNER_EXPD_20_NAME",
+    "English": "BREACH BANNER"
+  },
+  {
+    "Id": "UI_BANNER_EXPD_20_NAME_L",
+    "English": "Breach Banner"
+  },
+  {
+    "Id": "UI_BANNER_EXPD_20_DESC",
+    "English": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Breach<> expedition and the mystery of the Fireship Arcadia.\n\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>."
+  },
+  {
+    "Id": "UI_TIP_BANNER_EXPD_20",
+    "English": "Breach Expedition Banner"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20A_NAME",
+    "English": "SIREN OF THE STARS POSTER"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20A_NAME_L",
+    "English": "Siren of the Stars Poster"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20A_DESCRIPTION",
+    "English": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts a betentacled siren, its alluring tendrils poised to begin their mucal embrace..."
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20B_NAME",
+    "English": "ETERNAL SERPENTS POSTER"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20B_NAME_L",
+    "English": "Eternal Serpents Poster"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20B_DESCRIPTION",
+    "English": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nTime is an eternal serpent, forever turning in upon itself, forever shedding and regrowing and reforming..."
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20C_NAME",
+    "English": "EVENT HORIZON POSTER"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20C_NAME_L",
+    "English": "Event Horizon Poster"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER20C_DESCRIPTION",
+    "English": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster depicts the intense heat and strange gravitational anomalies that warp space around a black hole."
+  },
+  {
+    "Id": "UI_SHIPTRAIL_ATLAS_NAME",
+    "English": "AERON STARSHIP TRAIL"
+  },
+  {
+    "Id": "UI_SHIPTRAIL_ATLAS_NAME_L",
+    "English": "Aeron Starship Trail"
+  },
+  {
+    "Id": "UI_SHIPTRAIL_ATLAS_DESC",
+    "English": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nThis engine modification injects the Starship exhaust trail with an arterial streak of crimson.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails."
+  },
+  {
+    "Id": "BLD_BIG_S20_01A_NAME",
+    "English": "AERON BLADE"
+  },
+  {
+    "Id": "BLD_BIG_S20_01A_NAME_L",
+    "English": "Aeron Blade"
+  },
+  {
+    "Id": "BLD_BIG_S20_01B_NAME",
+    "English": "AERON DIFFUSER"
+  },
+  {
+    "Id": "BLD_BIG_S20_01B_NAME_L",
+    "English": "Aeron Diffuser"
+  },
+  {
+    "Id": "BLD_BIG_S20_01C_NAME",
+    "English": "AERON PILLAR"
+  },
+  {
+    "Id": "BLD_BIG_S20_01C_NAME_L",
+    "English": "Aeron Pillar"
+  },
+  {
+    "Id": "BLD_BIG_S20_01D_NAME",
+    "English": "AERON COWLING"
+  },
+  {
+    "Id": "BLD_BIG_S20_01D_NAME_L",
+    "English": "Aeron Cowling"
+  },
+  {
+    "Id": "BLD_BIG_S20_01E_NAME",
+    "English": "AERON PYRAMID"
+  },
+  {
+    "Id": "BLD_BIG_S20_01E_NAME_L",
+    "English": "Aeron Pyramid"
+  },
+  {
+    "Id": "BLD_BIG_STR_AA_STR_NAME",
+    "English": "AERON WINGLET"
+  },
+  {
+    "Id": "BLD_BIG_STR_AA_STR_NAME_L",
+    "English": "Aeron Winglet"
+  },
+  {
+    "Id": "BLD_BIG_S20_01B_DESC",
+    "English": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis piece of hull cowling can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station."
+  },
+  {
+    "Id": "BLD_BIG_S20_01B_DESC_ALT",
+    "English": "The geometry of this hull covering is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself."
+  },
+  {
+    "Id": "BLD_BIG_S20_02_NAME",
+    "English": "AERON DRIVE"
+  },
+  {
+    "Id": "BLD_BIG_S20_02_NAME_L",
+    "English": "Aeron Drive"
+  },
+  {
+    "Id": "BLD_BIG_S20_02_DESC",
+    "English": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis main engine can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station."
+  },
+  {
+    "Id": "BLD_BIG_S20_02_DESC_ALT",
+    "English": "The geometry of this main engine is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself."
+  },
+  {
+    "Id": "BLD_BIG_S20_03_NAME",
+    "English": "AERON POWERSHIELD"
+  },
+  {
+    "Id": "BLD_BIG_S20_03_NAME_L",
+    "English": "Aeron Powershield"
+  },
+  {
+    "Id": "BLD_BIG_S20_03_DESC",
+    "English": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis shield generator can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station."
+  },
+  {
+    "Id": "BLD_BIG_S20_03_DESC_ALT",
+    "English": "The geometry of this shield generator is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself."
+  },
+  {
+    "Id": "BLD_BIG_S20_04_NAME",
+    "English": "WINGS OF AERON"
+  },
+  {
+    "Id": "BLD_BIG_S20_04_NAME_L",
+    "English": "Wings of Aeron"
+  },
+  {
+    "Id": "BLD_BIG_S20_04_DESC",
+    "English": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis wing module can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station."
+  },
+  {
+    "Id": "BLD_BIG_S20_04_DESC_ALT",
+    "English": "The geometry of this wing module is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself."
+  },
+  {
+    "Id": "BLD_BIG_S20_05_NAME",
+    "English": "AERON CANNON"
+  },
+  {
+    "Id": "BLD_BIG_S20_05_NAME_L",
+    "English": "Aeron Cannon"
+  },
+  {
+    "Id": "BLD_BIG_S20_05_DESC",
+    "English": "The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself.\n\nThis weapon platform can be used to assemble a Corvette-class starship at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station."
+  },
+  {
+    "Id": "BLD_BIG_S20_05_DESC_ALT",
+    "English": "A dedicated weapon platform for a <STELLAR>Corvette<>-class starship. The geometry of this component is ancient and unmistakable, shaped by the crimson heartbeat of the universe itself."
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_NAME",
+    "English": "Forgotten Quarries"
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_NAME_U",
+    "English": "FORGOTTEN QUARRIES"
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_DESC",
+    "English": "Gather Polished Stone: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_DESC_D",
+    "English": "Gathered %NUM% Polished Stone"
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_OBJ",
+    "English": "Gather <SPECIAL>Polished Stone<> from <TECHNOLOGY>relic worlds<>: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_OBJ_TIP",
+    "English": "Gather <SPECIAL>Polished Stone<> from the dilapidated ruins of <TECHNOLOGY>relic worlds<>.\n\nUse the <TECHNOLOGY>Mining Laser<> to break down the <EARTH>Abandoned Fragments<> found on these worlds."
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_MSG1",
+    "English": "Gather <SPECIAL>Polished Stone<>: %CURRENT%/%AMOUNT%\nNo <TECHNOLOGY>relic worlds<> detected in the current system\nAccess the <TECHNOLOGY>Galaxy Map<> with the <IMG>QUICK_MENU<> while in the Starship"
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_MSG2",
+    "English": "Gather <SPECIAL>Polished Stone<>: %CURRENT%/%AMOUNT%\n<TECHNOLOGY>Relic world<> detected in the current system\nSurvey planet characteristics from space with <IMG>SHIPSCAN<>"
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_MSG3",
+    "English": "Gather <SPECIAL>Polished Stone<>: %CURRENT%/%AMOUNT%\n<TECHNOLOGY>Relic world<> detected in the current system\nReturn to space to survey planetary characteristics"
+  },
+  {
+    "Id": "UI_EXPED_GOT_RUINSUB_MSG4",
+    "English": "Gather <SPECIAL>Polished Stone<>: %CURRENT%/%AMOUNT%\nUse a <TECHNOLOGY>Mining Laser<> to gather polished stone from ruined structures"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_NAME",
+    "English": "Friends In Odd Places"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_NAME_U",
+    "English": "FRIENDS IN ODD PLACES"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_DESC",
+    "English": "Adopt an anomalous floating companion"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_DESC_D",
+    "English": "Adopted an anomalous floater"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_OBJ",
+    "English": "Adopt an anomalous floating companion"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_OBJ_TIP",
+    "English": "Find anomalous floating creatures in <SPECIAL>purple<> star systems. Find creatures on planets with the <TECHNOLOGY>Analysis Visor<>.\n\nTame wild creatures by feeding them crafted <TRADEABLE>Creature Pellets<>, which can be deployed from the Quick Menu (<IMG>QUICK_MENU<>).\nUnlock new companion slots from the <TECHNOLOGY>Companion Register<>(<IMG>QUICK_MENU<>)."
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_LABEL",
+    "English": "Anomalous Floating Fauna Detected"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_MSG1A",
+    "English": "Adopt an <SPECIAL>anomalous floating companion<>: 0/1\nLocate strange lifeforms in <SPECIAL>purple<> star systems\nComplete the <EXPED>%MILESTONE%<> milestone to learn appropriate warp upgrades\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_MSG1B",
+    "English": "Adopt an <SPECIAL>anomalous floating companion<>: 0/1\nLocate strange lifeforms in <SPECIAL>purple<> star systems\nInstall the <TECHNOLOGY>%ITEM%<> to enable advanced warp navigation\nPin (<IMG>PIN<>) blueprints for detailed assembly instructions"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_MSG2",
+    "English": "Adopt an <SPECIAL>anomalous floating companion<>: 0/1\nLocate strange lifeforms in <SPECIAL>purple<> star systems\nUse the <STELLAR>Galaxy Map<> to locate appropriate systems\nAccess the galaxy map with <IMG>QUICK_MENU<> while in the starship"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_MSG3",
+    "English": "Adopt an <SPECIAL>anomalous floating companion<>: 0/1\nNo matching lifesigns detected on current world\nReturn to space to survey other planets"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_MSG4",
+    "English": "Adopt an <SPECIAL>anomalous floating companion<>: 0/1\nViable lifesigns detected on nearby world"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_MSG5",
+    "English": "Adopt an <SPECIAL>anomalous floating companion<>: 0/1\nLocate creatures with the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)\nDeploy <TRADEABLE>Creature Pellets<> from the Quick Menu (<IMG>QUICK_MENU<>) to lure creatures"
+  },
+  {
+    "Id": "UI_EXPED_PET_PURP_WEIRD_MSG5A",
+    "English": "Adopt an <SPECIAL>anomalous floating companion<>: 0/1\nUnlock new companion slots from the <TECHNOLOGY>Companion Register<>(<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_S20_DISC_CRE_PP_NAME",
+    "English": "Alien Menagerie"
+  },
+  {
+    "Id": "UI_S20_DISC_CRE_PP_NAME_U",
+    "English": "ALIEN MENAGERIE"
+  },
+  {
+    "Id": "UI_S20_DISC_CRE_PP_DESC",
+    "English": "Discover creatures on the final world: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_S20_DISC_CRE_PP_DESC_D",
+    "English": "Discovered %NUM% creatures on the final world"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_NAME",
+    "English": "Jellyflesh"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_NAME_U",
+    "English": "JELLYFLESH"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_DESC",
+    "English": "Defeat the siren of the deep"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_DESC_D",
+    "English": "Defeated the Siren of the Deep"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_OBJ",
+    "English": "Defeat the siren of the deep"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_OBJ_TIP",
+    "English": "Catch and release the <SPECIAL>Spawn of Arcadia<> to summon the siren of the deep.\n\nWhen confronted by the guardian, do not flinch. Do not surrender. Do not succumb."
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_MSG0",
+    "English": "Some mysteries are yet to be revealed\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_MSG1",
+    "English": "Catch the <SPECIAL>Spawn of Arcadia<>\nIn the <TECHNOLOGY>Galaxy Map<>, search for a system with <TECHNOLOGY>water<>\nAccess the Galaxy Map with <IMG>QUICK_MENU<> while in the Starship"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_MSG2",
+    "English": "Catch the <SPECIAL>Spawn of Arcadia<>\n<TECHNOLOGY>Water planet<> detected in local system\nOceans are visible on a planet's surface from space"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_MSG3",
+    "English": "Catch the <SPECIAL>Spawn of Arcadia<>\nLocate a suitable body of water to begin fishing\nEquip the <TECHNOLOGY>Fishing Rig<> with <IMG>CYCLEWEAPON<>"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_MSG4",
+    "English": "Catch the <SPECIAL>Spawn of Arcadia<>\nLocate a suitable body of water and cast your line with <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_MSG5",
+    "English": "Catch the <SPECIAL>Spawn of Arcadia<>\nNo <TECHNOLOGY>Fishing Rig<> installed\nIn the Inventory (<IMG>INVENTORY<>), view blueprints with <IMG>TECHMENU<>\n<COMMODITY>Pin<> installation instructions with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_MSG6",
+    "English": "Release the <SPECIAL>Spawn of Arcadia<>\nLocate the Spawn of Arcadia in your Inventory (<IMG>INVENTORY<>)\nRelease the fish with <IMG>FE_ALT1<> while in water"
+  },
+  {
+    "Id": "UI_EXPED_KILL_JELLYBOSS_MSG7",
+    "English": "Defeat the <SPECIAL>siren of the deep<>\nDo not flinch. Do not surrender. Do not succumb"
+  },
+  {
+    "Id": "UI_DEEPGUARD_FAIL_OSD",
+    "English": "The siren sings no more"
+  },
+  {
+    "Id": "UI_DEEPGUARD_FAIL_WATER_OSD",
+    "English": "<IMG>SLASH<> to hear the song, first leave the water...<>"
+  },
+  {
+    "Id": "UI_FISH_BOSS_JELLY_NAME",
+    "English": "SPAWN OF ARCADIA"
+  },
+  {
+    "Id": "UI_FISH_BOSS_JELLY_NAME_L",
+    "English": "Spawn of Arcadia"
+  },
+  {
+    "Id": "UI_FISH_BOSS_JELLY_DESC",
+    "English": "A glassy jellyfish, lights pulsing beneath its skin. Its thin tentacles pluck at the air, their vibrations manipulating the space around its body.\n\nAs it writhes, a faint music drifts from its tendrils, worming its way into your ears. The melody seems to never end, worming its way into your ears, never ending, worming its way into your ears, never ending, never..."
+  },
+  {
+    "Id": "UI_FISH_BOSS_JELLY_SUB",
+    "English": "Fragile Medusoid"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_NAME",
+    "English": "Graverobber"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_NAME_U",
+    "English": "GRAVEROBBER"
+  },
+  {
+    "Id": "UI_EXPED_MAKE_SKELE_ANY_DESC",
+    "English": "Reassemble a complete skeleton"
+  },
+  {
+    "Id": "UI_EXPED_MAKE_SKELE_ANY_DESC_D",
+    "English": "Reassembled an ancient beast"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_NAME",
+    "English": "No Time For Caution"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_NAME_U",
+    "English": "NO TIME FOR CAUTION"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_DESC",
+    "English": "Spacewalk into a black hole"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_DESC_D",
+    "English": "Crossed the event horizon on foot"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_OBJ",
+    "English": "Dive into a black hole"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_OBJ_TIP",
+    "English": "From your ship in space, access the <TECHNOLOGY>Galaxy Map<> from the Quick Menu (<IMG>QUICK_MENU<>). Systems with <SPECIAL>gravitational anomalies<> are marked with a special icon. Use <IMG>GALAXY_NAV_L<> and <IMG>GALAXY_NAV_R<> to change the current galaxy map path to lead you towards the nearest system with an active black hole.\n\nWhile piloting a corvette, <STELLAR>leave the pilot seat<> from the Quick Menu (<IMG>QUICK_MENU<>). Operate the accessway with <IMG>INTERACT<> to exit the ship and begin spacewalking.\n\nTravelling through the heart of the black hole allows for rapid progress across the universe. A <COMMODITY>Space Station Teleporter<> can be used to return to the expedition route following significant gravitational displacement."
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_MSG1",
+    "English": "Locate a <SPECIAL>Black Hole<>\nReturn to space to access the <TECHNOLOGY>Galaxy Map<>"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_MSG1A",
+    "English": "Locate a <SPECIAL>Black Hole<> from a <TECHNOLOGY>Corvette starship<>\nWhile on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_MSG1B",
+    "English": "Locate a <SPECIAL>Black Hole<>\nFind <TRANS_TRA>Specialist Polo<> on the <SPECIAL>Space Anomaly<> for assistance"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_MSG2",
+    "English": "Locate a <SPECIAL>Black Hole<>\nAccess the <TECHNOLOGY>Galaxy Map<> from the Quick Menu (<IMG>QUICK_MENU<>)\nChange galaxy map paths with <IMG>GALAXY_NAV_L<><IMG>GALAXY_NAV_R<>"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_MSG3",
+    "English": "Approach the <SPECIAL>Black Hole<>\n<FUEL>CAUTION<>: Travel via gravitational anomaly is highly unpredictable"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_MSG3A",
+    "English": "Approach the <SPECIAL>Black Hole<> from a <TECHNOLOGY>Corvette starship<>\nWhile on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_BLACKHOLE_WALK_MSG3B",
+    "English": "Approach the <SPECIAL>Black Hole<> while spacewalking\nWhile piloting a corvette, <STELLAR>leave the pilot seat<> from the Quick Menu (<IMG>QUICK_MENU<>)\nOperate the accessway with <IMG>INTERACT<> to leave the ship and step into space"
+  },
+  {
+    "Id": "UI_BIGGS_DEBRIS_POI_LABEL",
+    "English": "The Fireship Arcadia"
+  },
+  {
+    "Id": "UI_EXPED_RANGEFINDER_NAME",
+    "English": "Debris Field"
+  },
+  {
+    "Id": "UI_EXPED_RANGEFINDER_NAME_U",
+    "English": "DEBRIS FIELD"
+  },
+  {
+    "Id": "UI_EXPED_RANGEFINDER_DESC",
+    "English": "Acquire a Debris Rangefinder"
+  },
+  {
+    "Id": "UI_EXPED_RANGEFINDER_DESC_D",
+    "English": "Crafted a Debris Rangefinder"
+  },
+  {
+    "Id": "UI_EXPED_RANGEFINDER_OBJ",
+    "English": "Craft a Debris Rangefinder"
+  },
+  {
+    "Id": "UI_EXPED_RANGEFINDER_OBJ_TIP",
+    "English": "Construct a <TECHNOLOGY>Debris Rangefinder<> to search deep-space for salvageable debris.\n\nIn the Inventory (<IMG>INVENTORY<>), view available blueprints with <IMG>TECHMENU<>. <COMMODITY>Pin<> installation instructions with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_RANGEFINDER_MSG1",
+    "English": "Construct a <TECHNOLOGY>%ITEM%<> to search for wrecks in space\nComplete the <EXPED>%MILESTONE%<> milestone to learn the blueprint\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_RANGEFINDER_MSG2",
+    "English": "Construct a <TECHNOLOGY>%ITEM%<> to search for salvageable debris\nIn the Inventory (<IMG>INVENTORY<>), view blueprints with <IMG>TECHMENU<>\n<COMMODITY>Pin<> installation instructions with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI1_NAME",
+    "English": "Shipbreaking"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI1_NAME_U",
+    "English": "SHIPBREAKING"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI2_NAME",
+    "English": "Lost In Time"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI2_NAME_U",
+    "English": "LOST IN TIME"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI3_NAME",
+    "English": "The Fate of the Stars"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI3_NAME_U",
+    "English": "THE FATE OF THE STARS"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI4_NAME",
+    "English": "Frail Bodies"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI4_NAME_U",
+    "English": "FRAIL BODIES"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI5_NAME",
+    "English": "Reborn in Song"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI5_NAME_U",
+    "English": "REBORN IN SONG"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_DESC",
+    "English": "Relocate the time-lost wreck of the Fireship Arcadia"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_ALT_DESC",
+    "English": "Search the wreckage of a lost corvette"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_DESC_D",
+    "English": "Recovered a log from the Fireship Arcadia"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ",
+    "English": "Search the wreckage of a lost corvette"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_ALT",
+    "English": "Follow the Fireship Arcadia"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_TIP",
+    "English": "A <TECHNOLOGY>Debris Rangefinder<> will allow your starship to locate wrecks in space.\n\nCraft and deploy a rangefinder to locate lost corvettes. Perform a spacewalk to search the wreck for valuable salvage."
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_TIP_ALT",
+    "English": "The <SPECIAL>Fireship Arcadia<> continues its cursed voyage beyond the bounds of normal time and space.\n\nUse <TECHNOLOGY>Debris Rangefinder<> to search for traces of the missing vessel. Perform a spacewalk to search the wreck for valuable salvage."
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_MSG_PP",
+    "English": "Current sector is devoid of signals\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_MSG0",
+    "English": "Construct a <TECHNOLOGY>%ITEM%<> to search for wrecks in space\nComplete the <EXPED>%MILESTONE%<> milestone to learn the blueprint\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_MSG1",
+    "English": "Construct a <TECHNOLOGY>%ITEM%<> to search for salvageable debris\nIn the Inventory (<IMG>INVENTORY<>), view blueprints with <IMG>TECHMENU<>\n<COMMODITY>Pin<> installation instructions with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_MSG1B",
+    "English": "Use a <TECHNOLOGY>Debris Rangefinder<> to search for wrecks in space\nLocate the rangefinder in your Inventory (<IMG>INVENTORY<>)\nSelect <STELLAR>Scan for Debris<> (<IMG>FE_ALT1<>) to begin the search"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_MSG1C",
+    "English": "Use a <TECHNOLOGY>Debris Rangefinder<> to search for wrecks in space\nA <TECHNOLOGY>Corvette<>-class starship is required for deep-space salvage operations\nWhile on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_MSG2",
+    "English": "Search deep-space for the wrecks of <TECHNOLOGY>lost corvettes<>\nAnomalies are encountered while between planets with the <TECHNOLOGY>Pulse Engine<>\nUse a <TECHNOLOGY>Debris Rangefinder<> to search for wrecks in space"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_MSG3",
+    "English": "<TECHNOLOGY>Lost corvette<> located\nWhile piloting a corvette, leave the pilot seat from the Quick Menu (<IMG>QUICK_MENU<>)\nOperate the accessway with <IMG>INTERACT<> to leave the ship and step into space"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_POI_OBJ_MSG4",
+    "English": "<TECHNOLOGY>Lost corvette<> located\nSearch the wreckage for log fragments and salvageable items\nActivate the <TECHNOLOGY>Scanner<> (<IMG>SCAN<>) to probe the wreckage"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_ALT_MSG_PP",
+    "English": "The <STELLAR>Fireship Arcadia<> has not yet reached this moment in time\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_ALT_OBJ_MSG0",
+    "English": "Construct a <TECHNOLOGY>%ITEM%<> to search for the <STELLAR>Fireship Arcadia<>\nComplete the <EXPED>%MILESTONE%<> milestone to learn the blueprint\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_ALT_OBJ_MSG1",
+    "English": "Construct a <TECHNOLOGY>%ITEM%<> to search for the <STELLAR>Fireship Arcadia<>\nIn the Inventory (<IMG>INVENTORY<>), view blueprints with <IMG>TECHMENU<>\n<COMMODITY>Pin<> installation instructions with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_ALT_OBJ_MSG1B",
+    "English": "Use a <TECHNOLOGY>Debris Rangefinder<> to search for the <STELLAR>Fireship Arcadia<>\nLocate the rangefinder in your Inventory (<IMG>INVENTORY<>)\nSelect <STELLAR>Scan for Debris<> (<IMG>FE_ALT1<>) to begin the search"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_ALT_OBJ_MSG1C",
+    "English": "Use a <TECHNOLOGY>Debris Rangefinder<> to search for the <STELLAR>Fireship Arcadia<>\nA <TECHNOLOGY>Corvette<>-class starship is required for deep-space salvage operations\nWhile on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_ALT_OBJ_MSG2",
+    "English": "The <STELLAR>Fireship Arcadia<> drifts through this region of time\nSpacetime is most flexible with the <TECHNOLOGY>Pulse Engine<> active\nUse a <TECHNOLOGY>Debris Rangefinder<> to search for signals"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_ALT_OBJ_MSG3",
+    "English": "The <STELLAR>Fireship Arcadia<> has manifested at this spacetime coordinate\nWhile piloting a corvette, leave the pilot seat from the Quick Menu (<IMG>QUICK_MENU<>)\nOperate the accessway with <IMG>INTERACT<> to leave the ship and step into space"
+  },
+  {
+    "Id": "UI_EXPED_BIGGS_ALT_OBJ_MSG4",
+    "English": "The <STELLAR>Fireship Arcadia<> has manifested at this spacetime coordinate\nSearch the wreckage for log fragments and salvageable items\nActivate the <TECHNOLOGY>Scanner<> (<IMG>SCAN<>) to probe the wreckage"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_LABEL",
+    "English": "Recover crew log"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_NAME",
+    "English": "LOG OF THE FIRESHIP ARCADIA"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_NAME_L",
+    "English": "Log of the Fireship Arcadia"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_SUB",
+    "English": "Time-Lost Log Entry"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_DESC1",
+    "English": "<IMG>SLASH<>LOG CORRUPT <IMG>CLOCK<> RECOVERING DAMAGED SECTORS<IMG>SLASH<>\n\n<VAL_ON>\"captain found a ::: on the last walk out\nsays it'll bring us luck\nwe'll need it, cruise has been a ::: waste so far\nall the asteroids just dust and ice\n::: nonsense but better than nothing\"<>"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_DESC2",
+    "English": "<IMG>SLASH<>LOG CORRUPT <IMG>CLOCK<> RECOVERING DAMAGED SECTORS<IMG>SLASH<>\n\n<VAL_ON>\"going from bad to worse\ncan't wait to get home\nnavigation ::: distorted ::: nothing but static\nwarping but ::: just empty systems\n::: lost in some abandoned sector?\"<>"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_DESC3",
+    "English": "<IMG>SLASH<>LOG CORRUPT <IMG>CLOCK<> RECOVERING DAMAGED SECTORS<IMG>SLASH<>\n\n<VAL_ON>\"the captain ::: gone\ntried to wake them for their watch\nno sign of them ::: nothing on the cameras\ndoor logs are normal, no kit missing\nwhere are they?\nwhere are we\"<>"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_DESC4",
+    "English": "<IMG>SLASH<>LOG CORRUPT <IMG>CLOCK<> RECOVERING DAMAGED SECTORS<IMG>SLASH<>\n\n<VAL_ON>\"we saw them\nthey ::: out the airlock\njust ::: floating there\ncould hear them ::: singing\n...\nget us home ::: please\"<>"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_DESC5",
+    "English": "<IMG>SLASH<>LOG CORRUPT <IMG>CLOCK<> RECOVERING DAMAGED SECTORS<IMG>SLASH<>\n\n<VAL_ON>\"they all followed ::: the music\none by one ::: the lights called them\nalone now\ni hear the song now too, even when i ::: sleep\ni'm so lonely ::: when will ::: when\nhelp\"<>"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_SUB1",
+    "English": ":: Datestamp 22516.01 ::"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_SUB2",
+    "English": ":: Datestamp 22518.24 ::"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_SUB3",
+    "English": ":: Datestamp 22522.31 ::"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_SUB4",
+    "English": ":: Datestamp 22594.16 ::"
+  },
+  {
+    "Id": "UI_S20_BIGGS_LOG_SUB5",
+    "English": ":: Datestamp 22512.64 ::"
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_NAME",
+    "English": "DEBRIS RANGEFINDER"
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_NAME_L",
+    "English": "Debris Rangefinder"
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_DESC",
+    "English": "A <STELLAR>single-use<> device for locating the wreckage of starships in deep space.\n\nSelect the Rangefinder and <STELLAR>Scan for Debris<> (<IMG>FE_ALT1<>) to begin the location process."
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_SUB",
+    "English": "Deep-Space Salvage Locator"
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_MSG_BIGGS",
+    "English": "<SPECIAL>Debris Rangefinder<> activated\nSearching for wreck sites in deep space\n<TECHNOLOGY>Corvette<>-class starship required for deep-space salvage operations\nWhile on a planet, summon ships from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_MSG0",
+    "English": "<SPECIAL>Debris Rangefinder<> jammed\nOversize object detected in near-space\nActivate the <TECHNOLOGY>Pulse Drive<> to search a different region"
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_MSG1",
+    "English": "<SPECIAL>Debris Rangefinder<> activated...\nSweeping for wreck sites...\nGenerating wavelength: %SIGNAL%..."
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_MSG2",
+    "English": "<SPECIAL>Debris Rangefinder<> activated\nReturn to your ship to begin sweeping for wreck sites"
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_MSG3",
+    "English": "<SPECIAL>Debris Rangefinder<> activated\nActivate the <TECHNOLOGY>Pulse Drive<> to extend search signal"
+  },
+  {
+    "Id": "UI_USE_BIGGS_POI_LOC",
+    "English": "SCAN FOR DEBRIS"
+  },
+  {
+    "Id": "UI_USE_BIGGS_POI_LOC_SUB",
+    "English": "Search for wrecked corvettes"
+  },
+  {
+    "Id": "UI_BIGGS_POI_REVEAL_OSD",
+    "English": "SWEEPING FOR WRECK SITES... SWEEPING..."
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_FAIL_OSD",
+    "English": "Rangefinder jammed <IMG>SLASH<> Corvette-class ship required for deep-space ops"
+  },
+  {
+    "Id": "UI_BIGGS_POI_LOC_FAIL_OSD_ALT",
+    "English": "Debris Rangefinder Jammed"
+  },
+  {
+    "Id": "UI_S20_VENTS_NAME",
+    "English": "Thermal Power"
+  },
+  {
+    "Id": "UI_S20_VENTS_NAME_U",
+    "English": "THERMAL POWER"
+  },
+  {
+    "Id": "UI_S20_PARTY_1_NAME",
+    "English": "Timestamp 1"
+  },
+  {
+    "Id": "UI_S20_PARTY_1_NAME_U",
+    "English": "TIMESTAMP 1"
+  },
+  {
+    "Id": "UI_S20_PARTY_2_NAME",
+    "English": "Timestamp 2"
+  },
+  {
+    "Id": "UI_S20_PARTY_2_NAME_U",
+    "English": "TIMESTAMP 2"
+  },
+  {
+    "Id": "UI_S20_PARTY_3_NAME",
+    "English": "Timestamp 3"
+  },
+  {
+    "Id": "UI_S20_PARTY_3_NAME_U",
+    "English": "TIMESTAMP 3"
+  },
+  {
+    "Id": "UI_S20_PARTY_4_NAME",
+    "English": "Timestamp 4"
+  },
+  {
+    "Id": "UI_S20_PARTY_4_NAME_U",
+    "English": "TIMESTAMP 4"
+  },
+  {
+    "Id": "UI_S20_PARTY_5_NAME",
+    "English": "Timestamp 5"
+  },
+  {
+    "Id": "UI_S20_PARTY_5_NAME_U",
+    "English": "TIMESTAMP 5"
+  },
+  {
+    "Id": "UI_S20_FIND_SHIP_NAME_U",
+    "English": "CREW, AWAKEN"
+  },
+  {
+    "Id": "UI_S20_FIND_SHIP_NAME",
+    "English": "Crew, Awaken"
+  },
+  {
+    "Id": "UI_S20_LEAVE_PLANET_NAME_U",
+    "English": "WINGS IN THE DARK"
+  },
+  {
+    "Id": "UI_S20_LEAVE_PLANET_NAME",
+    "English": "Wings in the Dark"
+  },
+  {
+    "Id": "UI_S20_LEAVE_SYSTEM_NAME_U",
+    "English": "BETWEEN THE STARS"
+  },
+  {
+    "Id": "UI_S20_LEAVE_SYSTEM_NAME",
+    "English": "Between the Stars"
+  },
+  {
+    "Id": "UI_S20_AQUA_LAND_NAME_U",
+    "English": "SURFACE TENSION"
+  },
+  {
+    "Id": "UI_S20_AQUA_LAND_NAME",
+    "English": "Surface Tension"
+  },
+  {
+    "Id": "UI_S20_BUILD_SUB_NAME_U",
+    "English": "OPERATING DEPTH"
+  },
+  {
+    "Id": "UI_S20_BUILD_SUB_NAME",
+    "English": "Operating Depth"
+  },
+  {
+    "Id": "UI_S20_DIVE_DEEP_NAME_U",
+    "English": "DESCENT"
+  },
+  {
+    "Id": "UI_S20_DIVE_DEEP_NAME",
+    "English": "Descent"
+  },
+  {
+    "Id": "UI_S20_EXPED_CRYSTALS_NAME_U",
+    "English": "TEMPTATION"
+  },
+  {
+    "Id": "UI_S20_EXPED_CRYSTALS_NAME",
+    "English": "Temptation"
+  },
+  {
+    "Id": "UI_S20_W_CRE_WATER_NAME_U",
+    "English": "GENTLE GIANTS"
+  },
+  {
+    "Id": "UI_S20_W_CRE_WATER_NAME",
+    "English": "Gentle Giants"
+  },
+  {
+    "Id": "UI_S20_FIEND_KILL_NAME_U",
+    "English": "THEY FEED"
+  },
+  {
+    "Id": "UI_S20_FIEND_KILL_NAME",
+    "English": "They Feed"
+  },
+  {
+    "Id": "UI_S20_MINIWORMS_NAME_U",
+    "English": "TENDRILS"
+  },
+  {
+    "Id": "UI_S20_MINIWORMS_NAME",
+    "English": "Tendrils"
+  },
+  {
+    "Id": "UI_S20_BIGGS_BUILD_NAME_U",
+    "English": "DOOR TO THE STARS"
+  },
+  {
+    "Id": "UI_S20_BIGGS_BUILD_NAME",
+    "English": "Door to the Stars"
+  },
+  {
+    "Id": "UI_S20_BIGGS_BUILD_DESC",
+    "English": "Assemble a Corvette-class starship"
+  },
+  {
+    "Id": "UI_S20_STORM_CRYSTAL_NAME_U",
+    "English": "SHARDS OF THE STORM"
+  },
+  {
+    "Id": "UI_S20_STORM_CRYSTAL_NAME",
+    "English": "Shards of the Storm"
+  },
+  {
+    "Id": "UI_S20_ALL_MOONS_NAME_U",
+    "English": "LUNAR CLUSTER"
+  },
+  {
+    "Id": "UI_S20_ALL_MOONS_NAME",
+    "English": "Lunar Cluster"
+  },
+  {
+    "Id": "UI_S20_CATCH_FISH_NAME_U",
+    "English": "HOOKED"
+  },
+  {
+    "Id": "UI_S20_CATCH_FISH_NAME",
+    "English": "Hooked"
+  },
+  {
+    "Id": "UI_EXPED_S20_ENCRYPTED_DESC",
+    "English": "\n... <STELLAR>kzzzktk<> ...\n"
+  },
+  {
+    "Id": "UI_FOSSIL_PACK_NAME",
+    "English": "<COMMODITY>Fossil Display Pack<>"
+  },
+  {
+    "Id": "UI_SPACEBIGGS_PART_NAME",
+    "English": "Component Housing"
+  },
+  {
+    "Id": "UI_S20_ASTEROIDS_NAME",
+    "English": "Starspawn"
+  },
+  {
+    "Id": "UI_S20_ASTEROIDS_NAME_U",
+    "English": "STARSPAWN"
+  },
+  {
+    "Id": "UI_S20_DRIVE_HINT_TITLE",
+    "English": "<TECHNOLOGY>Atlantid Drive<> Acquired!"
+  },
+  {
+    "Id": "UI_S20_DRIVE_HINT_MSG",
+    "English": "Specialised hyperdrive required to reach <EXPED>expedition rendezvous<>\nLocate the pre-packaged <TECHNOLOGY>Atlantid Drive<> in the Inventory (<IMG>INVENTORY<>)\nBegin installation with <IMG>FE_ALT1<>"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_DESC",
+    "English": "Collect a complete fossil"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_DESC_D",
+    "English": "Collected an entire skeleton"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_OBJ",
+    "English": "Exhume sufficient bones for a complete skeleton"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_OBJ_TIP",
+    "English": "Some worlds are rich in <STELLAR>fossil beds<>. Travellers can exhume the <STELLAR>ancient bones<> of long-extinct creatures for collection, preservation, and display.\nLocate a planet with viable fossil beds, and then pinpoint bones using the Analysis Visor's <TECHNOLOGY>Target Sweep<> (<IMG>AIM<>).\n\nSkulls: %CURRENT_HEADS%/%AMOUNT_HEADS% \nTails: %CURRENT_TAILS%/%AMOUNT_TAILS% \nLimbs: %CURRENT_LIMBS%/%AMOUNT_LIMBS% \nRibcages: %CURRENT_BODIES%/%AMOUNT_BODIES%"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_TIP_ALT",
+    "English": "Some worlds are rich in <STELLAR>fossil beds<>. Travellers can exhume the <STELLAR>ancient bones<> of long-extinct creatures for collection, preservation, and display.\nLocate a planet with viable fossil beds, and then pinpoint bones using the Analysis Visor's <TECHNOLOGY>Target Sweep<> (<IMG>AIM<>)."
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_MSG1",
+    "English": "Collect enough bones to design and assemble a <TECHNOLOGY>complete skeleton<>\nGather a <STELLAR>skull<> (%CURRENT_HEADS%/%AMOUNT_HEADS%), a <STELLAR>ribcage<> (%CURRENT_BODIES%/%AMOUNT_BODIES%), a <STELLAR>tail<> (%CURRENT_TAILS%/%AMOUNT_TAILS%), and <STELLAR>limbs<> (%CURRENT_LIMBS%/%AMOUNT_LIMBS%)\nSweep for <SPECIAL>Fossil Beds<> using the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)\nUse the <TECHNOLOGY>Terrain Manipulator<> to excavate ancient fossils"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_SURVEY",
+    "English": "Collect enough bones to design and assemble a <TECHNOLOGY>complete skeleton<>\nGather a <STELLAR>skull<> (%CURRENT_HEADS%/%AMOUNT_HEADS%), a <STELLAR>ribcage<> (%CURRENT_BODIES%/%AMOUNT_BODIES%), a <STELLAR>tail<> (%CURRENT_TAILS%/%AMOUNT_TAILS%), and <STELLAR>limbs<> (%CURRENT_LIMBS%/%AMOUNT_LIMBS%)\nThis <TECHNOLOGY>Target Sweep<> will pinpoint viable digsites\nUse the <TECHNOLOGY>Terrain Manipulator<> to exhume bones"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_MSG_OFF",
+    "English": "Collect enough bones to design and assemble a <TECHNOLOGY>complete skeleton<>\nGather a <STELLAR>skull<> (%CURRENT_HEADS%/%AMOUNT_HEADS%), a <STELLAR>ribcage<> (%CURRENT_BODIES%/%AMOUNT_BODIES%), a <STELLAR>tail<> (%CURRENT_TAILS%/%AMOUNT_TAILS%), and <STELLAR>limbs<> (%CURRENT_LIMBS%/%AMOUNT_LIMBS%)\nActivate a <STELLAR>Target Sweep<> from the Analysis Visor (<IMG>AIM<>) to locate fossil beds\nUse the <TECHNOLOGY>Terrain Manipulator<> (<IMG>ATTACK<>) to exhume bones"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_MSG_SWAP",
+    "English": "Collect enough bones to design and assemble a <TECHNOLOGY>complete skeleton<>\nGather a <STELLAR>skull<> (%CURRENT_HEADS%/%AMOUNT_HEADS%), a <STELLAR>ribcage<> (%CURRENT_BODIES%/%AMOUNT_BODIES%), a <STELLAR>tail<> (%CURRENT_TAILS%/%AMOUNT_TAILS%), and <STELLAR>limbs<> (%CURRENT_LIMBS%/%AMOUNT_LIMBS%)\nActivate a <TECHNOLOGY>Target Sweep<> with <IMG>SURVEYFILTERL<>/<IMG>SURVEYFILTERR<> to locate fossil beds\nUse the <TECHNOLOGY>Terrain Manipulator<> (<IMG>ATTACK<>) to exhume bones"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_MSG_CAR",
+    "English": "Collect enough bones to design and assemble a <TECHNOLOGY>complete skeleton<>\nGather a <STELLAR>skull<> (%CURRENT_HEADS%/%AMOUNT_HEADS%), a <STELLAR>ribcage<> (%CURRENT_BODIES%/%AMOUNT_BODIES%), a <STELLAR>tail<> (%CURRENT_TAILS%/%AMOUNT_TAILS%), and <STELLAR>limbs<> (%CURRENT_LIMBS%/%AMOUNT_LIMBS%)\nTo confirm target sweep directions, exit your vehicle\nUse the <TECHNOLOGY>Terrain Manipulator<> (<IMG>ATTACK<>) to exhume bones"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_MSG2",
+    "English": "Collect enough bones to design and assemble a <TECHNOLOGY>complete skeleton<>\n<COMMODITY>Ancient Bones<> detected in this system\nLand on a planet to continue your search"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_MSG3",
+    "English": "Collect enough bones to design and assemble a <TECHNOLOGY>complete skeleton<>\nNo <COMMODITY>Ancient Bones<> detected in this system\nAccess the Galaxy Map with <IMG>QUICK_MENU<> while in the Starship to travel to another system"
+  },
+  {
+    "Id": "UI_EXPED_BONE_HUNT_MSG4",
+    "English": "Collect enough bones to design and assemble a <TECHNOLOGY>complete skeleton<>\nNo <COMMODITY>Ancient Bones<> detected on this planet\nReturn to space to survey planetary characteristics"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_NAME",
+    "English": "Living Lanterns"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_NAME_U",
+    "English": "LIVING LANTERNS"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_DESC",
+    "English": "Discover %AMOUNT% bioluminescent bipeds"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_DESC_D",
+    "English": "Discovered %NUM% bioluminescent bipeds"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_OBJ_F",
+    "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_OBJ",
+    "English": "Discover bioluminescent bipeds"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_OBJ_T",
+    "English": "<TECHNOLOGY>bioluminescent bipeds<> are rare, and found only in <SPECIAL>Purple<>-class star systems.\n\nUse the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>) to scan creatures.\nScanning creatures earns <STELLAR>units<>. Rename and upload your discoveries to earn <STELLAR>nanites<>."
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_LABEL",
+    "English": "Bioluminescent Fauna Detected"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_MSG1A",
+    "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%\nLocate these glowing lifeforms in <SPECIAL>purple<> star systems\nComplete the <EXPED>%MILESTONE%<> milestone to learn appropriate warp upgrades\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_MSG1B",
+    "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%\nLocate these glowing lifeforms in <SPECIAL>purple<> star systems\nInstall the <TECHNOLOGY>%ITEM%<> to enable advanced warp navigation\nPin (<IMG>PIN<>) blueprints for detailed assembly instructions"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_MSG2",
+    "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%\nLocate these glowing lifeforms in <SPECIAL>purple<> star systems\nUse the <STELLAR>Galaxy Map<> to locate appropriate systems\nAccess the galaxy map with <IMG>QUICK_MENU<> while in the starship"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_MSG3",
+    "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%\nNo luminous lifesigns detected on current world\nReturn to space to survey other planets"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_MSG4",
+    "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%\nLuminous lifesigns detected on nearby world"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_MSG5",
+    "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%\nLuminous lifesigns detected on this planet\nHold <IMG>AIM<> to use the <TECHNOLOGY>Analysis Visor<>\nDiscover new species of creature with <IMG>BINOCSCAN<>"
+  },
+  {
+    "Id": "UI_EXPED_CRE_STRIDERGLOW_MSG5A",
+    "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%\nAll luminous lifeforms in this system have been discovered\nUse the <TECHNOLOGY>Galaxy Map<> to locate another viable world"
+  },
+  {
     "Id": "UPDATE_22_TITLE",
     "English": "No Man's Sky version 5.7: BEACON"
   },
@@ -105601,7 +106733,7 @@
   },
   {
     "Id": "UPDATE_23_BULLET2",
-    "English": "<IMG>BULLETPOINT<> Explore full creative choice over your Corvette's <STELLAR>configuration<> and <STELLAR>furnishings<>. Select and arrange every section of hull, every wing and peripheral, every internal corridor and bunk bed."
+    "English": "<IMG>BULLETPOINT<> Explore full creative choice over your Corvette's <STELLAR>configuration<> and <STELLAR>furnishings<>. Select and arrange every section of hull, peripheral, corridor, and bunk bed."
   },
   {
     "Id": "UPDATE_23_BULLET3",
@@ -105629,15 +106761,15 @@
   },
   {
     "Id": "UI_BIGGS_TUT_OBJ1_SEASON",
-    "English": "Claim <EXPED>%MILESTONE%<> rewards"
+    "English": "Complete <EXPED>%MILESTONE%<> for a full set of corvette parts"
   },
   {
     "Id": "UI_BIGGS_TUT_OBJ1_SEASON_TIP",
-    "English": "Acquire modules to design and assemble a <TECHNOLOGY>Corvette starship<>.\nComplete the <EXPED>%MILESTONE%<> milestone to earn basic Corvette modules."
+    "English": "Acquire modules to design and assemble a <TECHNOLOGY>Corvette starship<>.\nComplete the <EXPED>%MILESTONE%<> milestone to earn basic Corvette modules.\nSelect milestones from the Expedition log."
   },
   {
     "Id": "UI_BIGGS_TUT_MSG1_SEASON",
-    "English": "Acquire modules to design and assemble a <TECHNOLOGY>Corvette starship<>\nComplete the <EXPED>%MILESTONE%<> milestone to earn basic Corvette modules"
+    "English": "Acquire modules to design and assemble a <TECHNOLOGY>Corvette starship<>\nComplete the <EXPED>%MILESTONE%<> milestone to earn basic Corvette modules\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
   },
   {
     "Id": "UI_BIGGS_TUT_OBJ1",
@@ -106264,6 +107396,14 @@
     "English": "Confirm Modifications"
   },
   {
+    "Id": "UI_BUILD_APPLY_TO_BIGGS",
+    "English": "Apply to entire Corvette"
+  },
+  {
+    "Id": "UI_BUILD_INVERT_PALETTE",
+    "English": "Invert palette"
+  },
+  {
     "Id": "UI_BIGGS_UPGRADE_FMT",
     "English": "%DESC%\n\n%SENT1%"
   },
@@ -106617,11 +107757,11 @@
   },
   {
     "Id": "BLD_BIG_TUR_D_NAME",
-    "English": "CYCLOTRON DEFENSE CANNON"
+    "English": "CYCLOTRON DEFENCE CANNON"
   },
   {
     "Id": "BLD_BIG_TUR_D_NAME_L",
-    "English": "Cyclotron Defense Cannon"
+    "English": "Cyclotron Defence Cannon"
   },
   {
     "Id": "BLD_BIG_TUR_E_NAME",
@@ -106641,11 +107781,11 @@
   },
   {
     "Id": "BLD_BIG_TUR_GENERIC_B_NAME",
-    "English": "DEFENSE TURRET"
+    "English": "DEFENCE TURRET"
   },
   {
     "Id": "BLD_BIG_TUR_GENERIC_B_NAME_L",
-    "English": "Defense Turret"
+    "English": "Defence Turret"
   },
   {
     "Id": "BLD_BIG_LND_DESC",
@@ -106677,10 +107817,18 @@
   },
   {
     "Id": "BLD_BIG_LND_C_NAME",
-    "English": "THUNDERBIRD LANDING THRUSTERS"
+    "English": "HYDRAULIC LEGS"
   },
   {
     "Id": "BLD_BIG_LND_C_NAME_L",
+    "English": "Hydraulic Legs"
+  },
+  {
+    "Id": "BLD_BIG_WNG_B_NAME",
+    "English": "THUNDERBIRD LANDING THRUSTERS"
+  },
+  {
+    "Id": "BLD_BIG_WNG_B_NAME_L",
     "English": "Thunderbird Landing Thrusters"
   },
   {
@@ -106736,6 +107884,14 @@
     "English": "High-Energy Shield"
   },
   {
+    "Id": "BLD_BIG_SHL_D_NAME",
+    "English": "DEFENCE FIELD"
+  },
+  {
+    "Id": "BLD_BIG_SHL_D_NAME_L",
+    "English": "Defence Field"
+  },
+  {
     "Id": "BLD_BIG_TRU_A_NAME",
     "English": "TWIN ECHO JETS"
   },
@@ -106766,6 +107922,50 @@
   {
     "Id": "BLD_BIG_TRU_D_NAME_L",
     "English": "Pyrodrive Booster"
+  },
+  {
+    "Id": "BLD_BIG_TRU_E_NAME",
+    "English": "WIDEBODY THRUSTER"
+  },
+  {
+    "Id": "BLD_BIG_TRU_E_NAME_L",
+    "English": "Widebody Thruster"
+  },
+  {
+    "Id": "BLD_BIG_TRU_F_NAME",
+    "English": "TWIN SUBLIGHT JETS"
+  },
+  {
+    "Id": "BLD_BIG_TRU_F_NAME_L",
+    "English": "Twin Sublight Jets"
+  },
+  {
+    "Id": "BLD_BIG_TRU_G_NAME",
+    "English": "FIREBOX THRUSTER"
+  },
+  {
+    "Id": "BLD_BIG_TRU_G_NAME_L",
+    "English": "Firebox Thruster"
+  },
+  {
+    "Id": "BLD_BIG_TRU_H_NAME",
+    "English": "LONGSHORE THRUSTER"
+  },
+  {
+    "Id": "BLD_BIG_TRU_H_NAME_L",
+    "English": "Longshore Thruster"
+  },
+  {
+    "Id": "BLD_BIG_TRU_DESC",
+    "English": "A rear thruster for a <STELLAR>Corvette<>-class starship, delivering propulsion during atmospheric and deep-space flight.\n\nAssemble a corvette at the dedicated <TECHNOLOGY>Corvette Workshop<> aboard any Space Station."
+  },
+  {
+    "Id": "BLD_BIG_TRU_DESC_ALT",
+    "English": "A rear thruster for a <STELLAR>Corvette<>-class starship, delivering propulsion during atmospheric and deep-space flight."
+  },
+  {
+    "Id": "BLD_BIG_TRU_SUB",
+    "English": "Corvette Rear Thruster"
   },
   {
     "Id": "BLD_BIG_ALK_DESC",
@@ -107261,11 +108461,11 @@
   },
   {
     "Id": "BLD_BIG_STR_M_COR_NAME",
-    "English": "VESPER DIFFUSER"
+    "English": "VESPER AEROFOIL"
   },
   {
     "Id": "BLD_BIG_STR_M_COR_NAME_L",
-    "English": "Vesper Diffuser"
+    "English": "Vesper Aerofoil"
   },
   {
     "Id": "BLD_BIG_STR_M_STR_NAME",
@@ -107386,6 +108586,62 @@
   {
     "Id": "BLD_BIG_STR_T_STR_NAME_L",
     "English": "Positron Aerofoil"
+  },
+  {
+    "Id": "BLD_BIG_STR_T_NETB_NAME",
+    "English": "FUEL POD COVER RIM"
+  },
+  {
+    "Id": "BLD_BIG_STR_T_NETB_NAME_L",
+    "English": "Fuel Pod Cover Rim"
+  },
+  {
+    "Id": "BLD_BIG_STR_U_NETB_NAME",
+    "English": "ENGINE COVER RIM"
+  },
+  {
+    "Id": "BLD_BIG_STR_U_NETB_NAME_L",
+    "English": "Engine Cover Rim"
+  },
+  {
+    "Id": "BLD_BIG_STR_V_NETB_NAME",
+    "English": "HARDFRAME DIFFUSER RIM"
+  },
+  {
+    "Id": "BLD_BIG_STR_V_NETB_NAME_L",
+    "English": "Hardframe Diffuser Rim"
+  },
+  {
+    "Id": "BLD_BIG_STR_W_NETB_NAME",
+    "English": "VESPER DIFFUSER RIM"
+  },
+  {
+    "Id": "BLD_BIG_STR_W_NETB_NAME_L",
+    "English": "Vesper Diffuser Rim"
+  },
+  {
+    "Id": "BLD_BIG_STR_X_NETB_NAME",
+    "English": "SPEEDBIRD DOME RIM"
+  },
+  {
+    "Id": "BLD_BIG_STR_X_NETB_NAME_L",
+    "English": "Speedbird Dome Rim"
+  },
+  {
+    "Id": "BLD_BIG_STR_Y_NETB_NAME",
+    "English": "SPEEDBIRD NACELLE RIM"
+  },
+  {
+    "Id": "BLD_BIG_STR_Y_NETB_NAME_L",
+    "English": "Speedbird Nacelle Rim"
+  },
+  {
+    "Id": "BLD_BIG_STR_Z_NETB_NAME",
+    "English": "ARCADIA STABILISER RIM"
+  },
+  {
+    "Id": "BLD_BIG_STR_Z_NETB_NAME_L",
+    "English": "Arcadia Stabiliser Rim"
   },
   {
     "Id": "BLD_BIG_STR_INVERTED",
@@ -108172,6 +109428,10 @@
     "English": "Autopilot error: no space station detected"
   },
   {
+    "Id": "UI_BIGGS_ERR_AUTO_STA_PLANET",
+    "English": "Autopilot error: cannot plot course while in planet orbit"
+  },
+  {
     "Id": "UI_BIGGS_QUICK_MENU_AUTO_PLT",
     "English": "Autopilot request: planet %NAME%"
   },
@@ -108337,7 +109597,7 @@
   },
   {
     "Id": "BIGGS_LASER",
-    "English": "laser defense array"
+    "English": "laser defence array"
   },
   {
     "Id": "BIGGS_SHOTGUN",
@@ -108349,7 +109609,7 @@
   },
   {
     "Id": "BIGGS_BLOB",
-    "English": "Cyclotron defense array"
+    "English": "Cyclotron defence array"
   },
   {
     "Id": "BIGGS_ROC",
@@ -108389,7 +109649,7 @@
   },
   {
     "Id": "UI_BIGGS_STORE_BOX_TITLE",
-    "English": "Refunded Corvette Modules"
+    "English": "Corvette Module Storage"
   },
   {
     "Id": "UI_BIGGS_STORE_BOX_MSG",
@@ -108468,6 +109728,10 @@
     "English": "Beam aboard docked vessel"
   },
   {
+    "Id": "UI_BIGGS_TELEPORT_YOURS",
+    "English": "Beam aboard corvette"
+  },
+  {
     "Id": "UI_BIGGS_TELEPORT_ERR_OSD",
     "English": "Teleport error <IMG>SLASH<> No endpoint deployed"
   },
@@ -108529,7 +109793,7 @@
   },
   {
     "Id": "UI_BIGGS_DELETE_BLOCKED",
-    "English": "Cannot delete core infrastructure while in flight"
+    "English": "Core infrastructure can only be modified at Corvette Workshop"
   },
   {
     "Id": "UI_CV_PLANTKILL_DESC_1",
@@ -108722,6 +109986,10 @@
   {
     "Id": "UI_CV_GOT_POOP_MSG",
     "English": "Search dung samples: %CURRENT%/%AMOUNT%\nRecently fed creatures will produce dung samples\nCreatures appear in the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>) as <FUEL>red dots<> or <TRADEABLE>green pawprints<>"
+  },
+  {
+    "Id": "UI_CV_KILL_PLANTS_MSG",
+    "English": "Reach the surface of the marked planet to begin your search for <FUEL>Hazardous Plants<>."
   },
   {
     "Id": "UI_CV_COLLECT_OBJ",
@@ -108929,7 +110197,7 @@
   },
   {
     "Id": "UI_SHIPTRAIL_PLASMA_DESC",
-    "English": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA visual enhancement for the starship, replacing traditional exhaust jets with a plasma thruster and generating a dramatic exhaust plume of ionised matter.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails."
+    "English": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA visual enhancement for the starship, replacing traditional exhaust jets with a plasma thruster and generating a dramatic plume of ionised matter.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails."
   },
   {
     "Id": "BLD_BIG_S19_DESC",
@@ -110910,6 +112178,114 @@
   {
     "Id": "BLD_SUBZPLANT_8_DESCRIPTION",
     "English": "A hardy, slender-branched tree, native to subzero environs. The thickened venation in the foliage protects the plant against extreme cold.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_SUBZPLANT_9_NAME",
+    "English": "PERMAFROST TREE"
+  },
+  {
+    "Id": "BLD_SUBZPLANT_9_NAME_L",
+    "English": "Permafrost Tree"
+  },
+  {
+    "Id": "BLD_SUBZPLANT_9_DESCRIPTION",
+    "English": "The timber of this ancient tree has mineralised and frozen, forming a superhard, ice-bound sculpture.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_JUNGLE04_NAME",
+    "English": "PERENNIAL SNOWSTAR"
+  },
+  {
+    "Id": "BLD_JUNGLE04_NAME_L",
+    "English": "Perennial Snowstar"
+  },
+  {
+    "Id": "BLD_JUNGLE04_DESC",
+    "English": "The papery petals of this flowering bush can thrive in a range of climates, enduring anything from frozen subsoil to supersaturated humidity.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_WATERPLANT_8_NAME",
+    "English": "LANTERN KELP"
+  },
+  {
+    "Id": "BLD_WATERPLANT_8_NAME_L",
+    "English": "Lantern Kelp"
+  },
+  {
+    "Id": "BLD_WATERPLANT_8_DESCRIPTION",
+    "English": "Fleshy \"lanterns\" grow along these delicate kelp laces, producing a scent and glow irresistable to many species of aquatic pollinator.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_WATERPLANT_7_NAME",
+    "English": "SUCCULENT ALGAE TOWER"
+  },
+  {
+    "Id": "BLD_WATERPLANT_7_NAME_L",
+    "English": "Succulent Algae Tower"
+  },
+  {
+    "Id": "BLD_WATERPLANT_7_DESCRIPTION",
+    "English": "The broad surfaces of these algae leaves rapidly absorb and process huge volumes of salt water, storing the processed liquid as a powerful acid.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_TOXPLANT_4_NAME",
+    "English": "SPOREHIP TREE"
+  },
+  {
+    "Id": "BLD_TOXPLANT_4_NAME_L",
+    "English": "Sporehip Tree"
+  },
+  {
+    "Id": "BLD_TOXPLANT_4_DESCRIPTION",
+    "English": "This plant is characterised by its spherical floral organs. These cavernous spheres release masses of toxic spores in reflexive response to nearby movement, clinging to the fur of nearby fauna for distribution and propagation.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_RADPLANT_4_NAME",
+    "English": "NEUTRONIC BOULDER"
+  },
+  {
+    "Id": "BLD_RADPLANT_4_NAME_L",
+    "English": "Neutronic Boulder"
+  },
+  {
+    "Id": "BLD_RADPLANT_4_DESCRIPTION",
+    "English": "A large chunk of radioactive rock, lifted from the soil of an irradiated world at great expense to the quarry workers.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_HOTPLANT_4_NAME",
+    "English": "MAGMATIC ERUPTION"
+  },
+  {
+    "Id": "BLD_HOTPLANT_4_NAME_L",
+    "English": "Magmatic Eruption"
+  },
+  {
+    "Id": "BLD_HOTPLANT_4_DESCRIPTION",
+    "English": "This sculptural piece is a result of the anomalous geology on some superheated worlds. Molten lava burst forth from beneath the ground and then congealed rapidly, preserving what would otherwise be a moment of ephemeral beauty.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_HOTPLANT_5_NAME",
+    "English": "MAGMA SHARD"
+  },
+  {
+    "Id": "BLD_HOTPLANT_5_NAME_L",
+    "English": "Magma Shard"
+  },
+  {
+    "Id": "BLD_HOTPLANT_5_DESCRIPTION",
+    "English": "A solid chunk of igneous rock, shaped by thousands of heating and cooling cycles.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_HOTPLANT_6_NAME",
+    "English": "CARNELIAN BUSH"
+  },
+  {
+    "Id": "BLD_HOTPLANT_6_NAME_L",
+    "English": "Carnelian Bush"
+  },
+  {
+    "Id": "BLD_HOTPLANT_6_DESCRIPTION",
+    "English": "This sun-loving plant is an unusual hybrid of mineral and vegetation, giving it its dazzlingly beautiful glassy appearance.\n\nProvides decorative landscaping opportunities for bases."
   },
   {
     "Id": "BLD_DECAL_P_BONESOUP_NAME",
@@ -115137,7 +116513,7 @@
   },
   {
     "Id": "UI_CLOUD_DELETE_BODY_NO_LOCAL",
-    "English": "If you remove this save from cross-platform storage, it will no longer be available to download on your connected platforms.\n<FUEL>Warning:<> You do not have a copy of this save in local storage. Continuing may <FUEL>permenantly delete<> this save.\n\n<STELLAR>%SAVENAME%<>\n<SPECIAL>%SAVESUMMARY%<>\n<COMMODITY>Total Play Time<>: %TIME%\n<COMMODITY>Last Save<>: %SAVETIME%"
+    "English": "If you remove this save from cross-platform storage, it will no longer be available to download on your connected platforms.\n<FUEL>Warning:<> You do not have a copy of this save in local storage. Continuing may <FUEL>permanently delete<> this save.\n\n<STELLAR>%SAVENAME%<>\n<SPECIAL>%SAVESUMMARY%<>\n<COMMODITY>Total Play Time<>: %TIME%\n<COMMODITY>Last Save<>: %SAVETIME%"
   },
   {
     "Id": "UI_CLOUD_DELETE_BTN",
@@ -115770,6 +117146,18 @@
   {
     "Id": "NO_LOAD_INVALID_SAVE_CLOUD",
     "English": "Cross-Save Version Incompatible: Latest update not yet deployed on this platform"
+  },
+  {
+    "Id": "UI_CLOUD_UPLOAD_TIMEDOUT_TITLE",
+    "English": "UPLOAD TIMED OUT"
+  },
+  {
+    "Id": "UI_CLOUD_UPLOAD_TIMEDOUT_BODY",
+    "English": "Uploading this save to cross-platform storage has timed out.\nTimeout settings can be adjusted from the Options menu."
+  },
+  {
+    "Id": "UI_CLOUD_UPLOAD_BTN_HIDE",
+    "English": "Don't show again"
   },
   {
     "Id": "UI_SEASON_15_NAME",
@@ -121701,7 +123089,7 @@
   },
   {
     "Id": "UI_EXPED_MAKE_SKELE_MSG7",
-    "English": "Assemble a complete <TECHNOLOGY>fossil exhibit<>\nNo <COMMODITY>Ancient Bones<> detected on this planet.\nReturn to space and search for a planet featuring <COMMODITY>Ancient Bones<>"
+    "English": "Assemble a complete <TECHNOLOGY>fossil exhibit<>\nNo <COMMODITY>Ancient Bones<> detected on this planet\nReturn to space and search for a planet featuring <COMMODITY>Ancient Bones<>"
   },
   {
     "Id": "UI_EXPED_RUIN_LOOT_NAME",
@@ -127758,6 +129146,10 @@
   {
     "Id": "UI_PURPM3_MSG_RETURN",
     "English": "Return to the restored <SPECIAL>%SYSTEM%<> system\nIn space, open the Galaxy Map with <IMG>QUICK_MENU<>"
+  },
+  {
+    "Id": "UI_PURPM3_MSG_EMPTY",
+    "English": "<SPECIAL>Dissonant system<> coordinates <FUEL>lost<>\nUnable to locate from uncharted space\nIn space, open the Galaxy Map with <IMG>QUICK_MENU<> to return to an <COMMODITY>occupied system<>"
   },
   {
     "Id": "UI_PURPM3_OBJ1",
@@ -198976,6 +200368,10 @@
     "English": "Build a <TECHNOLOGY>Science Terminal<>\nUse <IMG>BUILD_MENU<> to build"
   },
   {
+    "Id": "UI_SCIENTIST1_MSG1A",
+    "English": "Build a <TECHNOLOGY>Science Terminal<>\nReturn to your base to continue construction"
+  },
+  {
     "Id": "UI_SCIENTIST1_OBJ2",
     "English": "UI_OVERSEER5_OBJ1"
   },
@@ -230236,6 +231632,10 @@
     "English": "Reach the first <STELLAR>rendezvous point<>\nReturn to space to access the <TECHNOLOGY>Galaxy Map<>"
   },
   {
+    "Id": "UI_EXPED_PARTY_PLANET1_MSG_TELE",
+    "English": "Reach the first rendezvous point\nUse a <TECHNOLOGY>Teleporter<> to return to the expedition route"
+  },
+  {
     "Id": "UI_PARTY_PLANET_SURVEY",
     "English": "Reach the expedition <STELLAR>rendezvous point<>\nUse the <TECHNOLOGY>Target Sweep<> to locate the rendezvous point"
   },
@@ -230304,6 +231704,10 @@
     "English": "Reach the second <STELLAR>rendezvous point<>\nReturn to space to access the <TECHNOLOGY>Galaxy Map<>"
   },
   {
+    "Id": "UI_EXPED_PARTY_PLANET2_MSG_TELE",
+    "English": "Reach the second rendezvous point\nUse a <TECHNOLOGY>Teleporter<> to return to the expedition route"
+  },
+  {
     "Id": "UI_EXPED_PARTY_PLANET2_OBJ",
     "English": "Reach the second rendezvous point"
   },
@@ -230334,6 +231738,10 @@
   {
     "Id": "UI_EXPED_PARTY_PLANET3_MSG_MAPA",
     "English": "Reach the third <STELLAR>rendezvous point<>\nReturn to space to access the <TECHNOLOGY>Galaxy Map<>"
+  },
+  {
+    "Id": "UI_EXPED_PARTY_PLANET3_MSG_TELE",
+    "English": "Reach the third rendezvous point\nUse a <TECHNOLOGY>Teleporter<> to return to the expedition route"
   },
   {
     "Id": "UI_EXPED_PARTY_PLANET3_OBJ",
@@ -230368,6 +231776,10 @@
     "English": "Reach the fourth <STELLAR>rendezvous point<>\nReturn to space to access the <TECHNOLOGY>Galaxy Map<>"
   },
   {
+    "Id": "UI_EXPED_PARTY_PLANET4_MSG_TELE",
+    "English": "Reach the fourth rendezvous point\nUse a <TECHNOLOGY>Teleporter<> to return to the expedition route"
+  },
+  {
     "Id": "UI_EXPED_PARTY_PLANET4_OBJ",
     "English": "Reach the fourth rendezvous point"
   },
@@ -230398,6 +231810,10 @@
   {
     "Id": "UI_EXPED_PARTY_PLANET5_MSG_MAPA",
     "English": "Reach the final <STELLAR>rendezvous point<>\nReturn to space to access the <TECHNOLOGY>Galaxy Map<>"
+  },
+  {
+    "Id": "UI_EXPED_PARTY_PLANET5_MSG_TELE",
+    "English": "Reach the final rendezvous\nUse a <TECHNOLOGY>Teleporter<> to return to the expedition route"
   },
   {
     "Id": "UI_EXPED_PARTY_PLANET5_OBJ",
@@ -232286,6 +233702,10 @@
   {
     "Id": "UI_SEASON_2A_MAIN_MSG",
     "English": "Phase %NUM%: %CURRENT%/%AMOUNT% milestones complete\nFind new milestones in the <STELLAR>Expedition<> tab (<IMG>OPTIONS<>)\nSelect <EXPED>Planetary Nomad<> to pin it as your active mission\nThis milestone will assist in reaching your <STELLAR>starship<>"
+  },
+  {
+    "Id": "UI_SEASON_2B_MAIN_MSG",
+    "English": "Phase %NUM%: %CURRENT%/%AMOUNT% milestones complete\nFind new milestones in the <STELLAR>Expedition<> tab (<IMG>OPTIONS<>)\nSelect <EXPED>All Hands on Deck<> to pin it as your active mission\nThis milestone will assist in reaching your <STELLAR>starship<>"
   },
   {
     "Id": "TRADE_FILTER_SEASON_2",

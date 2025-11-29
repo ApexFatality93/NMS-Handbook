@@ -93,7 +93,7 @@ function displayExpeditionDetail(seasonNumber, seasonData) {
 
                 // Make item clickable
                 listItem.addEventListener("click", () => {
-                    window.location.href = `/item/?id=${reward.ID}&type=product`;
+                    window.location.href = `/item/?id=${reward.ID}&type=${reward.Type}`;
                 });
 
                 const rewardIcon = document.createElement("img");

@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.01.0.2)-->
+<!--File created using MBINCompiler version (6.17.0.2)-->
 <Data template="cGcPurchaseableSpecials">
 	<Property name="Table">
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_HOTPLANT04">
+			<Property name="ID" value="BASE_HOTPLANT04" />
+			<Property name="ShopNumber" value="111" />
+			<Property name="MissionTier" value="3" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_HOTPLANT06">
+			<Property name="ID" value="BASE_HOTPLANT06" />
+			<Property name="ShopNumber" value="111" />
+			<Property name="MissionTier" value="2" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_HOTPLANT05">
+			<Property name="ID" value="BASE_HOTPLANT05" />
+			<Property name="ShopNumber" value="111" />
+			<Property name="MissionTier" value="1" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_JUNGLE04">
+			<Property name="ID" value="BASE_JUNGLE04" />
+			<Property name="ShopNumber" value="110" />
+			<Property name="MissionTier" value="4" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_SUBZPLANT9">
+			<Property name="ID" value="BASE_SUBZPLANT9" />
+			<Property name="ShopNumber" value="110" />
+			<Property name="MissionTier" value="3" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_RADPLANT04">
+			<Property name="ID" value="BASE_RADPLANT04" />
+			<Property name="ShopNumber" value="110" />
+			<Property name="MissionTier" value="3" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_TOXPLANT04">
+			<Property name="ID" value="BASE_TOXPLANT04" />
+			<Property name="ShopNumber" value="110" />
+			<Property name="MissionTier" value="1" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_WPLANT8">
+			<Property name="ID" value="BASE_WPLANT8" />
+			<Property name="ShopNumber" value="108" />
+			<Property name="MissionTier" value="2" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_WPLANT7">
+			<Property name="ID" value="BASE_WPLANT7" />
+			<Property name="ShopNumber" value="108" />
+			<Property name="MissionTier" value="1" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="DECAL_BONESOUP">
 			<Property name="ID" value="DECAL_BONESOUP" />
 			<Property name="ShopNumber" value="106" />
@@ -922,7 +976,7 @@
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="MYSTERY_BEACON">
 			<Property name="ID" value="MYSTERY_BEACON" />
-			<Property name="ShopNumber" value="47" />
+			<Property name="ShopNumber" value="107" />
 			<Property name="MissionTier" value="1" />
 			<Property name="IsConsumable" value="true" />
 		</Property>

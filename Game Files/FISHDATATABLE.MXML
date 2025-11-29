@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.01.0.2)-->
+<!--File created using MBINCompiler version (6.17.0.2)-->
 <Data template="cGcFishTable">
 	<Property name="Fish">
 		<Property name="Fish" value="GcFishData" _index="0">
@@ -40,6 +40,43 @@
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
 		<Property name="Fish" value="GcFishData" _index="1">
+			<Property name="ProductID" value="F_BOSS_JELLY" />
+			<Property name="Quality" value="GcItemQuality">
+				<Property name="ItemQuality" value="Legendary" />
+			</Property>
+			<Property name="Size" value="GcFishSize">
+				<Property name="FishSize" value="Small" />
+			</Property>
+			<Property name="Time" value="GcFishingTime">
+				<Property name="FishingTime" value="Both" />
+			</Property>
+			<Property name="Biome">
+				<Property name="Lush" value="false" />
+				<Property name="Toxic" value="false" />
+				<Property name="Scorched" value="false" />
+				<Property name="Radioactive" value="false" />
+				<Property name="Frozen" value="false" />
+				<Property name="Barren" value="false" />
+				<Property name="Dead" value="false" />
+				<Property name="Weird" value="false" />
+				<Property name="Red" value="false" />
+				<Property name="Green" value="false" />
+				<Property name="Blue" value="false" />
+				<Property name="Test" value="false" />
+				<Property name="Swamp" value="false" />
+				<Property name="Lava" value="false" />
+				<Property name="Waterworld" value="false" />
+				<Property name="GasGiant" value="false" />
+				<Property name="All" value="true" />
+			</Property>
+			<Property name="NeedsStorm" value="false" />
+			<Property name="RequiresMissionActive" value="KILL_JELLYBOSS" />
+			<Property name="MissionSeed" value="46" />
+			<Property name="MissionMustAlsoBeSelected" value="true" />
+			<Property name="MissionCatchChanceOverride" value="0.330000" />
+			<Property name="CatchIncrementsStat" value="" />
+		</Property>
+		<Property name="Fish" value="GcFishData" _index="2">
 			<Property name="ProductID" value="S15_FISH" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -76,7 +113,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.150000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="2">
+		<Property name="Fish" value="GcFishData" _index="3">
 			<Property name="ProductID" value="S15_BOT_1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -113,7 +150,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.250000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="3">
+		<Property name="Fish" value="GcFishData" _index="4">
 			<Property name="ProductID" value="S15_BOT_2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -150,7 +187,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.250000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="4">
+		<Property name="Fish" value="GcFishData" _index="5">
 			<Property name="ProductID" value="S15_BOT_3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -187,7 +224,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.330000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="5">
+		<Property name="Fish" value="GcFishData" _index="6">
 			<Property name="ProductID" value="S15_BOT_4" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -224,7 +261,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.250000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="6">
+		<Property name="Fish" value="GcFishData" _index="7">
 			<Property name="ProductID" value="F_ALL_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -261,7 +298,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="7">
+		<Property name="Fish" value="GcFishData" _index="8">
 			<Property name="ProductID" value="F_ALL_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -298,7 +335,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="8">
+		<Property name="Fish" value="GcFishData" _index="9">
 			<Property name="ProductID" value="F_ALL_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -335,7 +372,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="9">
+		<Property name="Fish" value="GcFishData" _index="10">
 			<Property name="ProductID" value="F_ALL_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -372,7 +409,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="10">
+		<Property name="Fish" value="GcFishData" _index="11">
 			<Property name="ProductID" value="F_ALL_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -409,7 +446,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="11">
+		<Property name="Fish" value="GcFishData" _index="12">
 			<Property name="ProductID" value="F_ALL_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -446,7 +483,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="12">
+		<Property name="Fish" value="GcFishData" _index="13">
 			<Property name="ProductID" value="F_ALL_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -483,7 +520,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="13">
+		<Property name="Fish" value="GcFishData" _index="14">
 			<Property name="ProductID" value="F_ALL_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -520,7 +557,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="14">
+		<Property name="Fish" value="GcFishData" _index="15">
 			<Property name="ProductID" value="F_ALL_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -557,7 +594,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="15">
+		<Property name="Fish" value="GcFishData" _index="16">
 			<Property name="ProductID" value="F_ALL_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -594,7 +631,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="16">
+		<Property name="Fish" value="GcFishData" _index="17">
 			<Property name="ProductID" value="F_ALL_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -631,7 +668,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="17">
+		<Property name="Fish" value="GcFishData" _index="18">
 			<Property name="ProductID" value="F_ALL_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -668,7 +705,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="18">
+		<Property name="Fish" value="GcFishData" _index="19">
 			<Property name="ProductID" value="F_ALL_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -705,7 +742,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="19">
+		<Property name="Fish" value="GcFishData" _index="20">
 			<Property name="ProductID" value="F_ALL_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -742,7 +779,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="20">
+		<Property name="Fish" value="GcFishData" _index="21">
 			<Property name="ProductID" value="F_ALL_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -779,7 +816,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="21">
+		<Property name="Fish" value="GcFishData" _index="22">
 			<Property name="ProductID" value="F_ALL_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -816,7 +853,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="22">
+		<Property name="Fish" value="GcFishData" _index="23">
 			<Property name="ProductID" value="F_ALL_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -853,7 +890,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="23">
+		<Property name="Fish" value="GcFishData" _index="24">
 			<Property name="ProductID" value="F_ALL_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -890,7 +927,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="24">
+		<Property name="Fish" value="GcFishData" _index="25">
 			<Property name="ProductID" value="F_ALL_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -927,7 +964,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="25">
+		<Property name="Fish" value="GcFishData" _index="26">
 			<Property name="ProductID" value="F_ALL_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -964,7 +1001,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="26">
+		<Property name="Fish" value="GcFishData" _index="27">
 			<Property name="ProductID" value="F_ALL_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -1001,7 +1038,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="27">
+		<Property name="Fish" value="GcFishData" _index="28">
 			<Property name="ProductID" value="F_TOX_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1038,7 +1075,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="28">
+		<Property name="Fish" value="GcFishData" _index="29">
 			<Property name="ProductID" value="F_TOX_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1075,7 +1112,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="29">
+		<Property name="Fish" value="GcFishData" _index="30">
 			<Property name="ProductID" value="F_TOX_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1112,7 +1149,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="30">
+		<Property name="Fish" value="GcFishData" _index="31">
 			<Property name="ProductID" value="F_TOX_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1149,7 +1186,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="31">
+		<Property name="Fish" value="GcFishData" _index="32">
 			<Property name="ProductID" value="F_TOX_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1186,7 +1223,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="32">
+		<Property name="Fish" value="GcFishData" _index="33">
 			<Property name="ProductID" value="F_TOX_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1223,7 +1260,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="33">
+		<Property name="Fish" value="GcFishData" _index="34">
 			<Property name="ProductID" value="F_TOX_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1260,7 +1297,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="34">
+		<Property name="Fish" value="GcFishData" _index="35">
 			<Property name="ProductID" value="F_TOX_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -1297,7 +1334,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="35">
+		<Property name="Fish" value="GcFishData" _index="36">
 			<Property name="ProductID" value="F_TOX_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -1334,7 +1371,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="36">
+		<Property name="Fish" value="GcFishData" _index="37">
 			<Property name="ProductID" value="F_TOX_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -1371,7 +1408,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="37">
+		<Property name="Fish" value="GcFishData" _index="38">
 			<Property name="ProductID" value="F_TOX_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -1408,7 +1445,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="38">
+		<Property name="Fish" value="GcFishData" _index="39">
 			<Property name="ProductID" value="F_TOX_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -1445,7 +1482,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="39">
+		<Property name="Fish" value="GcFishData" _index="40">
 			<Property name="ProductID" value="F_TOX_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -1482,7 +1519,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="40">
+		<Property name="Fish" value="GcFishData" _index="41">
 			<Property name="ProductID" value="F_TOX_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -1519,7 +1556,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="41">
+		<Property name="Fish" value="GcFishData" _index="42">
 			<Property name="ProductID" value="F_TOX_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -1556,7 +1593,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="42">
+		<Property name="Fish" value="GcFishData" _index="43">
 			<Property name="ProductID" value="F_TOX_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -1593,7 +1630,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="43">
+		<Property name="Fish" value="GcFishData" _index="44">
 			<Property name="ProductID" value="F_TOX_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -1630,7 +1667,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="44">
+		<Property name="Fish" value="GcFishData" _index="45">
 			<Property name="ProductID" value="F_TOX_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -1667,7 +1704,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="45">
+		<Property name="Fish" value="GcFishData" _index="46">
 			<Property name="ProductID" value="F_TOX_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -1704,7 +1741,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="46">
+		<Property name="Fish" value="GcFishData" _index="47">
 			<Property name="ProductID" value="F_TOX_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -1741,7 +1778,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="47">
+		<Property name="Fish" value="GcFishData" _index="48">
 			<Property name="ProductID" value="F_TOX_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -1778,7 +1815,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="48">
+		<Property name="Fish" value="GcFishData" _index="49">
 			<Property name="ProductID" value="F_RAD_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1815,7 +1852,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="49">
+		<Property name="Fish" value="GcFishData" _index="50">
 			<Property name="ProductID" value="F_RAD_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1852,7 +1889,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="50">
+		<Property name="Fish" value="GcFishData" _index="51">
 			<Property name="ProductID" value="F_RAD_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1889,7 +1926,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="51">
+		<Property name="Fish" value="GcFishData" _index="52">
 			<Property name="ProductID" value="F_RAD_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1926,7 +1963,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="52">
+		<Property name="Fish" value="GcFishData" _index="53">
 			<Property name="ProductID" value="F_RAD_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -1963,7 +2000,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="53">
+		<Property name="Fish" value="GcFishData" _index="54">
 			<Property name="ProductID" value="F_RAD_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2000,7 +2037,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="54">
+		<Property name="Fish" value="GcFishData" _index="55">
 			<Property name="ProductID" value="F_RAD_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2037,7 +2074,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="55">
+		<Property name="Fish" value="GcFishData" _index="56">
 			<Property name="ProductID" value="F_RAD_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2074,7 +2111,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="56">
+		<Property name="Fish" value="GcFishData" _index="57">
 			<Property name="ProductID" value="F_RAD_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2111,7 +2148,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="57">
+		<Property name="Fish" value="GcFishData" _index="58">
 			<Property name="ProductID" value="F_RAD_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2148,7 +2185,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="58">
+		<Property name="Fish" value="GcFishData" _index="59">
 			<Property name="ProductID" value="F_RAD_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2185,7 +2222,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="59">
+		<Property name="Fish" value="GcFishData" _index="60">
 			<Property name="ProductID" value="F_RAD_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2222,7 +2259,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="60">
+		<Property name="Fish" value="GcFishData" _index="61">
 			<Property name="ProductID" value="F_RAD_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2259,7 +2296,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="61">
+		<Property name="Fish" value="GcFishData" _index="62">
 			<Property name="ProductID" value="F_RAD_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -2296,7 +2333,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="62">
+		<Property name="Fish" value="GcFishData" _index="63">
 			<Property name="ProductID" value="F_RAD_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -2333,7 +2370,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="63">
+		<Property name="Fish" value="GcFishData" _index="64">
 			<Property name="ProductID" value="F_RAD_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -2370,7 +2407,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="64">
+		<Property name="Fish" value="GcFishData" _index="65">
 			<Property name="ProductID" value="F_RAD_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -2407,7 +2444,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="65">
+		<Property name="Fish" value="GcFishData" _index="66">
 			<Property name="ProductID" value="F_RAD_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -2444,7 +2481,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="66">
+		<Property name="Fish" value="GcFishData" _index="67">
 			<Property name="ProductID" value="F_RAD_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -2481,7 +2518,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="67">
+		<Property name="Fish" value="GcFishData" _index="68">
 			<Property name="ProductID" value="F_RAD_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -2518,7 +2555,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="68">
+		<Property name="Fish" value="GcFishData" _index="69">
 			<Property name="ProductID" value="F_RAD_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -2555,7 +2592,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="69">
+		<Property name="Fish" value="GcFishData" _index="70">
 			<Property name="ProductID" value="F_HOT_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2592,7 +2629,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="70">
+		<Property name="Fish" value="GcFishData" _index="71">
 			<Property name="ProductID" value="F_HOT_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2629,7 +2666,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="71">
+		<Property name="Fish" value="GcFishData" _index="72">
 			<Property name="ProductID" value="F_HOT_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2666,7 +2703,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="72">
+		<Property name="Fish" value="GcFishData" _index="73">
 			<Property name="ProductID" value="F_HOT_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2703,7 +2740,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="73">
+		<Property name="Fish" value="GcFishData" _index="74">
 			<Property name="ProductID" value="F_HOT_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2740,7 +2777,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="74">
+		<Property name="Fish" value="GcFishData" _index="75">
 			<Property name="ProductID" value="F_HOT_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2777,7 +2814,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="75">
+		<Property name="Fish" value="GcFishData" _index="76">
 			<Property name="ProductID" value="F_HOT_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -2814,7 +2851,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="76">
+		<Property name="Fish" value="GcFishData" _index="77">
 			<Property name="ProductID" value="F_HOT_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2851,7 +2888,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="77">
+		<Property name="Fish" value="GcFishData" _index="78">
 			<Property name="ProductID" value="F_HOT_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2888,7 +2925,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="78">
+		<Property name="Fish" value="GcFishData" _index="79">
 			<Property name="ProductID" value="F_HOT_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2925,7 +2962,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="79">
+		<Property name="Fish" value="GcFishData" _index="80">
 			<Property name="ProductID" value="F_HOT_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2962,7 +2999,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="80">
+		<Property name="Fish" value="GcFishData" _index="81">
 			<Property name="ProductID" value="F_HOT_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -2999,7 +3036,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="81">
+		<Property name="Fish" value="GcFishData" _index="82">
 			<Property name="ProductID" value="F_HOT_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -3036,7 +3073,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="82">
+		<Property name="Fish" value="GcFishData" _index="83">
 			<Property name="ProductID" value="F_HOT_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -3073,7 +3110,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="83">
+		<Property name="Fish" value="GcFishData" _index="84">
 			<Property name="ProductID" value="F_HOT_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -3110,7 +3147,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="84">
+		<Property name="Fish" value="GcFishData" _index="85">
 			<Property name="ProductID" value="F_HOT_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -3147,7 +3184,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="85">
+		<Property name="Fish" value="GcFishData" _index="86">
 			<Property name="ProductID" value="F_HOT_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -3184,7 +3221,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="86">
+		<Property name="Fish" value="GcFishData" _index="87">
 			<Property name="ProductID" value="F_HOT_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -3221,7 +3258,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="87">
+		<Property name="Fish" value="GcFishData" _index="88">
 			<Property name="ProductID" value="F_HOT_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -3258,7 +3295,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="88">
+		<Property name="Fish" value="GcFishData" _index="89">
 			<Property name="ProductID" value="F_HOT_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -3295,7 +3332,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="89">
+		<Property name="Fish" value="GcFishData" _index="90">
 			<Property name="ProductID" value="F_HOT_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -3332,7 +3369,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="90">
+		<Property name="Fish" value="GcFishData" _index="91">
 			<Property name="ProductID" value="F_COLD_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -3369,7 +3406,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="91">
+		<Property name="Fish" value="GcFishData" _index="92">
 			<Property name="ProductID" value="F_COLD_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -3406,7 +3443,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="92">
+		<Property name="Fish" value="GcFishData" _index="93">
 			<Property name="ProductID" value="F_COLD_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -3443,7 +3480,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="93">
+		<Property name="Fish" value="GcFishData" _index="94">
 			<Property name="ProductID" value="F_COLD_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -3480,7 +3517,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="94">
+		<Property name="Fish" value="GcFishData" _index="95">
 			<Property name="ProductID" value="F_COLD_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -3517,7 +3554,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="95">
+		<Property name="Fish" value="GcFishData" _index="96">
 			<Property name="ProductID" value="F_COLD_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -3554,7 +3591,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="96">
+		<Property name="Fish" value="GcFishData" _index="97">
 			<Property name="ProductID" value="F_COLD_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -3591,7 +3628,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="97">
+		<Property name="Fish" value="GcFishData" _index="98">
 			<Property name="ProductID" value="F_COLD_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -3628,7 +3665,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="98">
+		<Property name="Fish" value="GcFishData" _index="99">
 			<Property name="ProductID" value="F_COLD_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -3665,7 +3702,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="99">
+		<Property name="Fish" value="GcFishData" _index="100">
 			<Property name="ProductID" value="F_COLD_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -3702,7 +3739,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="100">
+		<Property name="Fish" value="GcFishData" _index="101">
 			<Property name="ProductID" value="F_COLD_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -3739,7 +3776,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="101">
+		<Property name="Fish" value="GcFishData" _index="102">
 			<Property name="ProductID" value="F_COLD_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -3776,7 +3813,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="102">
+		<Property name="Fish" value="GcFishData" _index="103">
 			<Property name="ProductID" value="F_COLD_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -3813,7 +3850,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="103">
+		<Property name="Fish" value="GcFishData" _index="104">
 			<Property name="ProductID" value="F_COLD_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -3850,7 +3887,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="104">
+		<Property name="Fish" value="GcFishData" _index="105">
 			<Property name="ProductID" value="F_COLD_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -3887,7 +3924,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="105">
+		<Property name="Fish" value="GcFishData" _index="106">
 			<Property name="ProductID" value="F_COLD_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -3924,7 +3961,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="106">
+		<Property name="Fish" value="GcFishData" _index="107">
 			<Property name="ProductID" value="F_COLD_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -3961,7 +3998,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="107">
+		<Property name="Fish" value="GcFishData" _index="108">
 			<Property name="ProductID" value="F_COLD_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -3998,7 +4035,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="108">
+		<Property name="Fish" value="GcFishData" _index="109">
 			<Property name="ProductID" value="F_COLD_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -4035,7 +4072,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="109">
+		<Property name="Fish" value="GcFishData" _index="110">
 			<Property name="ProductID" value="F_COLD_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -4072,7 +4109,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="110">
+		<Property name="Fish" value="GcFishData" _index="111">
 			<Property name="ProductID" value="F_COLD_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -4109,7 +4146,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="111">
+		<Property name="Fish" value="GcFishData" _index="112">
 			<Property name="ProductID" value="F_LUSH_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4146,7 +4183,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="112">
+		<Property name="Fish" value="GcFishData" _index="113">
 			<Property name="ProductID" value="F_LUSH_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4183,7 +4220,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="113">
+		<Property name="Fish" value="GcFishData" _index="114">
 			<Property name="ProductID" value="F_LUSH_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4220,7 +4257,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="114">
+		<Property name="Fish" value="GcFishData" _index="115">
 			<Property name="ProductID" value="F_LUSH_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4257,7 +4294,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="115">
+		<Property name="Fish" value="GcFishData" _index="116">
 			<Property name="ProductID" value="F_LUSH_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4294,7 +4331,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="116">
+		<Property name="Fish" value="GcFishData" _index="117">
 			<Property name="ProductID" value="F_LUSH_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4331,7 +4368,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="117">
+		<Property name="Fish" value="GcFishData" _index="118">
 			<Property name="ProductID" value="F_LUSH_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4368,7 +4405,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="118">
+		<Property name="Fish" value="GcFishData" _index="119">
 			<Property name="ProductID" value="F_LUSH_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -4405,7 +4442,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="119">
+		<Property name="Fish" value="GcFishData" _index="120">
 			<Property name="ProductID" value="F_LUSH_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -4442,7 +4479,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="120">
+		<Property name="Fish" value="GcFishData" _index="121">
 			<Property name="ProductID" value="F_LUSH_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -4479,7 +4516,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="121">
+		<Property name="Fish" value="GcFishData" _index="122">
 			<Property name="ProductID" value="F_LUSH_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -4516,7 +4553,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="122">
+		<Property name="Fish" value="GcFishData" _index="123">
 			<Property name="ProductID" value="F_LUSH_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -4553,7 +4590,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="123">
+		<Property name="Fish" value="GcFishData" _index="124">
 			<Property name="ProductID" value="F_LUSH_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -4590,7 +4627,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="124">
+		<Property name="Fish" value="GcFishData" _index="125">
 			<Property name="ProductID" value="F_LUSH_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -4627,7 +4664,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="125">
+		<Property name="Fish" value="GcFishData" _index="126">
 			<Property name="ProductID" value="F_LUSH_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -4664,7 +4701,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="126">
+		<Property name="Fish" value="GcFishData" _index="127">
 			<Property name="ProductID" value="F_LUSH_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -4701,7 +4738,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="127">
+		<Property name="Fish" value="GcFishData" _index="128">
 			<Property name="ProductID" value="F_LUSH_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -4738,7 +4775,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="128">
+		<Property name="Fish" value="GcFishData" _index="129">
 			<Property name="ProductID" value="F_LUSH_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -4775,7 +4812,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="129">
+		<Property name="Fish" value="GcFishData" _index="130">
 			<Property name="ProductID" value="F_LUSH_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -4812,7 +4849,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="130">
+		<Property name="Fish" value="GcFishData" _index="131">
 			<Property name="ProductID" value="F_LUSH_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -4849,7 +4886,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="131">
+		<Property name="Fish" value="GcFishData" _index="132">
 			<Property name="ProductID" value="F_LUSH_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -4886,7 +4923,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="132">
+		<Property name="Fish" value="GcFishData" _index="133">
 			<Property name="ProductID" value="F_DUST_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4923,7 +4960,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="133">
+		<Property name="Fish" value="GcFishData" _index="134">
 			<Property name="ProductID" value="F_DUST_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4960,7 +4997,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="134">
+		<Property name="Fish" value="GcFishData" _index="135">
 			<Property name="ProductID" value="F_DUST_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -4997,7 +5034,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="135">
+		<Property name="Fish" value="GcFishData" _index="136">
 			<Property name="ProductID" value="F_DUST_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5034,7 +5071,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="136">
+		<Property name="Fish" value="GcFishData" _index="137">
 			<Property name="ProductID" value="F_DUST_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5071,7 +5108,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="137">
+		<Property name="Fish" value="GcFishData" _index="138">
 			<Property name="ProductID" value="F_DUST_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5108,7 +5145,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="138">
+		<Property name="Fish" value="GcFishData" _index="139">
 			<Property name="ProductID" value="F_DUST_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5145,7 +5182,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="139">
+		<Property name="Fish" value="GcFishData" _index="140">
 			<Property name="ProductID" value="F_DUST_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -5182,7 +5219,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="140">
+		<Property name="Fish" value="GcFishData" _index="141">
 			<Property name="ProductID" value="F_DUST_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -5219,7 +5256,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="141">
+		<Property name="Fish" value="GcFishData" _index="142">
 			<Property name="ProductID" value="F_DUST_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -5256,7 +5293,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="142">
+		<Property name="Fish" value="GcFishData" _index="143">
 			<Property name="ProductID" value="F_DUST_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -5293,7 +5330,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="143">
+		<Property name="Fish" value="GcFishData" _index="144">
 			<Property name="ProductID" value="F_DUST_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -5330,7 +5367,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="144">
+		<Property name="Fish" value="GcFishData" _index="145">
 			<Property name="ProductID" value="F_DUST_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -5367,7 +5404,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="145">
+		<Property name="Fish" value="GcFishData" _index="146">
 			<Property name="ProductID" value="F_DUST_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -5404,7 +5441,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="146">
+		<Property name="Fish" value="GcFishData" _index="147">
 			<Property name="ProductID" value="F_DUST_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -5441,7 +5478,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="147">
+		<Property name="Fish" value="GcFishData" _index="148">
 			<Property name="ProductID" value="F_DUST_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -5478,7 +5515,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="148">
+		<Property name="Fish" value="GcFishData" _index="149">
 			<Property name="ProductID" value="F_DUST_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -5515,7 +5552,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="149">
+		<Property name="Fish" value="GcFishData" _index="150">
 			<Property name="ProductID" value="F_DUST_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -5552,7 +5589,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="150">
+		<Property name="Fish" value="GcFishData" _index="151">
 			<Property name="ProductID" value="F_DUST_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -5589,7 +5626,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="151">
+		<Property name="Fish" value="GcFishData" _index="152">
 			<Property name="ProductID" value="F_DUST_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -5626,7 +5663,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="152">
+		<Property name="Fish" value="GcFishData" _index="153">
 			<Property name="ProductID" value="F_DUST_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -5663,7 +5700,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="153">
+		<Property name="Fish" value="GcFishData" _index="154">
 			<Property name="ProductID" value="F_ODD_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5700,7 +5737,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="154">
+		<Property name="Fish" value="GcFishData" _index="155">
 			<Property name="ProductID" value="F_ODD_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5737,7 +5774,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="155">
+		<Property name="Fish" value="GcFishData" _index="156">
 			<Property name="ProductID" value="F_ODD_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5774,7 +5811,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="156">
+		<Property name="Fish" value="GcFishData" _index="157">
 			<Property name="ProductID" value="F_ODD_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5811,7 +5848,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="157">
+		<Property name="Fish" value="GcFishData" _index="158">
 			<Property name="ProductID" value="F_ODD_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5848,7 +5885,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="158">
+		<Property name="Fish" value="GcFishData" _index="159">
 			<Property name="ProductID" value="F_ODD_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5885,7 +5922,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="159">
+		<Property name="Fish" value="GcFishData" _index="160">
 			<Property name="ProductID" value="F_ODD_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -5922,7 +5959,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="160">
+		<Property name="Fish" value="GcFishData" _index="161">
 			<Property name="ProductID" value="F_ODD_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -5959,7 +5996,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="161">
+		<Property name="Fish" value="GcFishData" _index="162">
 			<Property name="ProductID" value="F_ODD_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -5996,7 +6033,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="162">
+		<Property name="Fish" value="GcFishData" _index="163">
 			<Property name="ProductID" value="F_ODD_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6033,7 +6070,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="163">
+		<Property name="Fish" value="GcFishData" _index="164">
 			<Property name="ProductID" value="F_ODD_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6070,7 +6107,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="164">
+		<Property name="Fish" value="GcFishData" _index="165">
 			<Property name="ProductID" value="F_ODD_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6107,7 +6144,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="165">
+		<Property name="Fish" value="GcFishData" _index="166">
 			<Property name="ProductID" value="F_ODD_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6144,7 +6181,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="166">
+		<Property name="Fish" value="GcFishData" _index="167">
 			<Property name="ProductID" value="F_ODD_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -6181,7 +6218,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="167">
+		<Property name="Fish" value="GcFishData" _index="168">
 			<Property name="ProductID" value="F_ODD_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -6218,7 +6255,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="168">
+		<Property name="Fish" value="GcFishData" _index="169">
 			<Property name="ProductID" value="F_ODD_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -6255,7 +6292,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="169">
+		<Property name="Fish" value="GcFishData" _index="170">
 			<Property name="ProductID" value="F_ODD_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -6292,7 +6329,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="170">
+		<Property name="Fish" value="GcFishData" _index="171">
 			<Property name="ProductID" value="F_ODD_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -6329,7 +6366,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="171">
+		<Property name="Fish" value="GcFishData" _index="172">
 			<Property name="ProductID" value="F_ODD_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -6366,7 +6403,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="172">
+		<Property name="Fish" value="GcFishData" _index="173">
 			<Property name="ProductID" value="F_ODD_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -6403,7 +6440,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="173">
+		<Property name="Fish" value="GcFishData" _index="174">
 			<Property name="ProductID" value="F_ODD_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -6440,7 +6477,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="174">
+		<Property name="Fish" value="GcFishData" _index="175">
 			<Property name="ProductID" value="F_DEEP_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -6477,7 +6514,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="175">
+		<Property name="Fish" value="GcFishData" _index="176">
 			<Property name="ProductID" value="F_DEEP_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -6514,7 +6551,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="176">
+		<Property name="Fish" value="GcFishData" _index="177">
 			<Property name="ProductID" value="F_DEEP_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -6551,7 +6588,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="177">
+		<Property name="Fish" value="GcFishData" _index="178">
 			<Property name="ProductID" value="F_DEEP_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -6588,7 +6625,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="178">
+		<Property name="Fish" value="GcFishData" _index="179">
 			<Property name="ProductID" value="F_DEEP_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -6625,7 +6662,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="179">
+		<Property name="Fish" value="GcFishData" _index="180">
 			<Property name="ProductID" value="F_DEEP_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -6662,7 +6699,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="180">
+		<Property name="Fish" value="GcFishData" _index="181">
 			<Property name="ProductID" value="F_DEEP_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -6699,7 +6736,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="181">
+		<Property name="Fish" value="GcFishData" _index="182">
 			<Property name="ProductID" value="F_DEEP_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6736,7 +6773,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="182">
+		<Property name="Fish" value="GcFishData" _index="183">
 			<Property name="ProductID" value="F_DEEP_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6773,7 +6810,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="183">
+		<Property name="Fish" value="GcFishData" _index="184">
 			<Property name="ProductID" value="F_DEEP_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6810,7 +6847,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="184">
+		<Property name="Fish" value="GcFishData" _index="185">
 			<Property name="ProductID" value="F_DEEP_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6847,7 +6884,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="185">
+		<Property name="Fish" value="GcFishData" _index="186">
 			<Property name="ProductID" value="F_DEEP_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6884,7 +6921,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="186">
+		<Property name="Fish" value="GcFishData" _index="187">
 			<Property name="ProductID" value="F_DEEP_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -6921,7 +6958,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="187">
+		<Property name="Fish" value="GcFishData" _index="188">
 			<Property name="ProductID" value="F_DEEP_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -6958,7 +6995,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="188">
+		<Property name="Fish" value="GcFishData" _index="189">
 			<Property name="ProductID" value="F_DEEP_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -6995,7 +7032,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="189">
+		<Property name="Fish" value="GcFishData" _index="190">
 			<Property name="ProductID" value="F_DEEP_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -7032,7 +7069,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="190">
+		<Property name="Fish" value="GcFishData" _index="191">
 			<Property name="ProductID" value="F_DEEP_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -7069,7 +7106,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="191">
+		<Property name="Fish" value="GcFishData" _index="192">
 			<Property name="ProductID" value="F_DEEP_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -7106,7 +7143,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="192">
+		<Property name="Fish" value="GcFishData" _index="193">
 			<Property name="ProductID" value="F_DEEP_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -7143,7 +7180,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="193">
+		<Property name="Fish" value="GcFishData" _index="194">
 			<Property name="ProductID" value="F_DEEP_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -7180,7 +7217,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="194">
+		<Property name="Fish" value="GcFishData" _index="195">
 			<Property name="ProductID" value="F_DEEP_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -7217,7 +7254,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="195">
+		<Property name="Fish" value="GcFishData" _index="196">
 			<Property name="ProductID" value="F_GAS_COM_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -7254,7 +7291,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="196">
+		<Property name="Fish" value="GcFishData" _index="197">
 			<Property name="ProductID" value="F_GAS_COM_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -7291,7 +7328,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="197">
+		<Property name="Fish" value="GcFishData" _index="198">
 			<Property name="ProductID" value="F_GAS_COM_S3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -7328,7 +7365,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="198">
+		<Property name="Fish" value="GcFishData" _index="199">
 			<Property name="ProductID" value="F_GAS_COM_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -7365,7 +7402,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="199">
+		<Property name="Fish" value="GcFishData" _index="200">
 			<Property name="ProductID" value="F_GAS_COM_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -7402,7 +7439,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="200">
+		<Property name="Fish" value="GcFishData" _index="201">
 			<Property name="ProductID" value="F_GAS_COM_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -7439,7 +7476,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="201">
+		<Property name="Fish" value="GcFishData" _index="202">
 			<Property name="ProductID" value="F_GAS_COM_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Common" />
@@ -7476,7 +7513,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="202">
+		<Property name="Fish" value="GcFishData" _index="203">
 			<Property name="ProductID" value="F_GAS_RARE_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -7513,7 +7550,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="203">
+		<Property name="Fish" value="GcFishData" _index="204">
 			<Property name="ProductID" value="F_GAS_RARE_S2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -7550,7 +7587,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="204">
+		<Property name="Fish" value="GcFishData" _index="205">
 			<Property name="ProductID" value="F_GAS_RARE_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -7587,7 +7624,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="205">
+		<Property name="Fish" value="GcFishData" _index="206">
 			<Property name="ProductID" value="F_GAS_RARE_M2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -7624,7 +7661,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="206">
+		<Property name="Fish" value="GcFishData" _index="207">
 			<Property name="ProductID" value="F_GAS_RARE_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -7661,7 +7698,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="207">
+		<Property name="Fish" value="GcFishData" _index="208">
 			<Property name="ProductID" value="F_GAS_RARE_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Rare" />
@@ -7698,7 +7735,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="208">
+		<Property name="Fish" value="GcFishData" _index="209">
 			<Property name="ProductID" value="F_GAS_EPIC_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -7735,7 +7772,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="209">
+		<Property name="Fish" value="GcFishData" _index="210">
 			<Property name="ProductID" value="F_GAS_EPIC_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -7772,7 +7809,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="210">
+		<Property name="Fish" value="GcFishData" _index="211">
 			<Property name="ProductID" value="F_GAS_EPIC_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -7809,7 +7846,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="211">
+		<Property name="Fish" value="GcFishData" _index="212">
 			<Property name="ProductID" value="F_GAS_EPIC_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Epic" />
@@ -7846,7 +7883,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="212">
+		<Property name="Fish" value="GcFishData" _index="213">
 			<Property name="ProductID" value="F_GAS_LEG_S1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -7883,7 +7920,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="213">
+		<Property name="Fish" value="GcFishData" _index="214">
 			<Property name="ProductID" value="F_GAS_LEG_M1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -7920,7 +7957,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="214">
+		<Property name="Fish" value="GcFishData" _index="215">
 			<Property name="ProductID" value="F_GAS_LEG_L1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -7957,7 +7994,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="215">
+		<Property name="Fish" value="GcFishData" _index="216">
 			<Property name="ProductID" value="F_GAS_LEG_XL" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Legendary" />
@@ -7994,7 +8031,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="216">
+		<Property name="Fish" value="GcFishData" _index="217">
 			<Property name="ProductID" value="F_TRASH_1" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -8031,7 +8068,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="217">
+		<Property name="Fish" value="GcFishData" _index="218">
 			<Property name="ProductID" value="F_TRASH_2" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -8068,7 +8105,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="218">
+		<Property name="Fish" value="GcFishData" _index="219">
 			<Property name="ProductID" value="F_TRASH_3" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -8105,7 +8142,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="219">
+		<Property name="Fish" value="GcFishData" _index="220">
 			<Property name="ProductID" value="F_TRASH_4" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -8142,7 +8179,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="220">
+		<Property name="Fish" value="GcFishData" _index="221">
 			<Property name="ProductID" value="F_TRASH_5" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -8179,7 +8216,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="221">
+		<Property name="Fish" value="GcFishData" _index="222">
 			<Property name="ProductID" value="F_TRASH_6" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -8216,7 +8253,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="222">
+		<Property name="Fish" value="GcFishData" _index="223">
 			<Property name="ProductID" value="F_TRASH_7" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -8253,7 +8290,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="FISH_BOOT" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="223">
+		<Property name="Fish" value="GcFishData" _index="224">
 			<Property name="ProductID" value="F_TRASH_8" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />
@@ -8290,7 +8327,7 @@
 			<Property name="MissionCatchChanceOverride" value="0.000000" />
 			<Property name="CatchIncrementsStat" value="" />
 		</Property>
-		<Property name="Fish" value="GcFishData" _index="224">
+		<Property name="Fish" value="GcFishData" _index="225">
 			<Property name="ProductID" value="F_BOTTLE" />
 			<Property name="Quality" value="GcItemQuality">
 				<Property name="ItemQuality" value="Junk" />

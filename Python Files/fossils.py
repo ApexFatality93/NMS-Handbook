@@ -54,6 +54,7 @@ for product in root.findall('.//Property[@value="GcProductData"]'):
         food_stat_type = data.get('FoodBonusStat', {}).get('StatsType', '')
 
         product_data_dict[product_id] = {
+            'FossilID': product_id,
             'Name': name_id,
             'Name_Text': lang_lookup.get(name_id, ''),
             'NameLower': name_lower_id,

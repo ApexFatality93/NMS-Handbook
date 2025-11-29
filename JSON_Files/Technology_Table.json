@@ -11278,8 +11278,80 @@
         "Subtitle": "UI_SHIPTRAIL_SUB",
         "Subtitle_Text": "Starship Exhaust Override",
         "Description": "UI_SHIPTRAIL_PLASMA_DESC",
-        "Description_Text": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA visual enhancement for the starship, replacing traditional exhaust jets with a plasma thruster and generating a dramatic exhaust plume of ionised matter.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
+        "Description_Text": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nA visual enhancement for the starship, replacing traditional exhaust jets with a plasma thruster and generating a dramatic plume of ionised matter.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
         "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.SHIPTRAIL.DDS",
+        "Colour_R": "0.101960786",
+        "Colour_G": "0.152941182",
+        "Colour_B": "0.200000",
+        "Colour_A": "1.000000",
+        "Chargeable": "false",
+        "ChargeAmount": "100",
+        "ChargeType": "Earth",
+        "ChargeBy": [],
+        "ChargeMultiplier": "1.000000",
+        "BuildFullyCharged": "true",
+        "UsesAmmo": "false",
+        "AmmoId": "",
+        "AmmoNameText": "",
+        "PrimaryItem": "false",
+        "Upgrade": "false",
+        "Core": "false",
+        "RepairTech": "false",
+        "Procedural": "false",
+        "BrokenSlotTech": "false",
+        "Category": "AllShips",
+        "Rarity": "Impossible",
+        "Value": "1.000000",
+        "Requirements": [
+            {
+                "Id": "LAND1",
+                "Type": "substance",
+                "Name_ID": "UI_LAND1_NAME_L",
+                "NameLower_Text": "Ferrite Dust",
+                "Amount": "10",
+                "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.LAND.1.DDS",
+                "Colour_R": "0.541176498",
+                "Colour_G": "0.498039216",
+                "Colour_B": "0.447058827",
+                "Colour_A": "1.000000"
+            }
+        ],
+        "BaseStat": "Ship_Scan",
+        "BaseStatText": "<TEXT>Scan<>",
+        "StatBonuses": [
+            {
+                "StatsType": "Ship_Boost",
+                "StatsTypeText": "Boost",
+                "Bonus": "1.010000",
+                "Level": "1"
+            }
+        ],
+        "RequiredTech": "",
+        "RequiredLevel": "0",
+        "RewardGroup": "",
+        "RequiredRank": "1",
+        "DispensingRace": "Traders",
+        "FragmentCost": "1",
+        "TechShopRarity": "Impossible",
+        "WikiEnabled": "false",
+        "NeverPinnable": "false",
+        "DamagedDescription": "",
+        "DamagedDescriptionText": "",
+        "ParentTechId": "",
+        "IsTemplate": "false",
+        "ExclusivePrimaryStat": "false"
+    },
+    "T_SHIP_ATLAS": {
+        "TechnologyId": "T_SHIP_ATLAS",
+        "Name": "UI_SHIPTRAIL_ATLAS_NAME",
+        "Name_Text": "AERON STARSHIP TRAIL",
+        "NameLower": "UI_SHIPTRAIL_ATLAS_NAME_L",
+        "NameLower_Text": "Aeron Starship Trail",
+        "Subtitle": "UI_SHIPTRAIL_SUB",
+        "Subtitle_Text": "Starship Exhaust Override",
+        "Description": "UI_SHIPTRAIL_ATLAS_DESC",
+        "Description_Text": "An exclusive <STELLAR>Starship Exhaust Modifier<>.\n\nThis engine modification injects the Starship exhaust trail with an arterial streak of crimson.\n\nInstall this <TECHNOLOGY>technology<> in your starship inventory to change the appearance of the engine exhaust trails.",
+        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S20.SHIPTRAIL.DDS",
         "Colour_R": "0.101960786",
         "Colour_G": "0.152941182",
         "Colour_B": "0.200000",
@@ -14571,7 +14643,7 @@
                 "StatsType": "Weapon_Projectile_Recoil",
                 "StatsTypeText": "Recoil",
                 "Bonus": "0.700000",
-                "Level": "0"
+                "Level": "1"
             },
             {
                 "StatsType": "Weapon_Projectile_BurstCap",
@@ -14823,7 +14895,7 @@
                 "StatsType": "Weapon_Laser_Mining_Speed",
                 "StatsTypeText": "Mining Speed",
                 "Bonus": "0.950000",
-                "Level": "0"
+                "Level": "1"
             },
             {
                 "StatsType": "Weapon_Laser_HeatTime",
@@ -15428,7 +15500,7 @@
                 "StatsType": "Weapon_Laser_Damage",
                 "StatsTypeText": "Damage",
                 "Bonus": "200.000000",
-                "Level": "0"
+                "Level": "1"
             }
         ],
         "RequiredTech": "RAILGUN",
@@ -15792,7 +15864,7 @@
                 "StatsType": "Weapon_Projectile_ReloadTime",
                 "StatsTypeText": "Reload Time",
                 "Bonus": "0.850000",
-                "Level": "0"
+                "Level": "1"
             }
         ],
         "RequiredTech": "SHOTGUN",
@@ -16054,7 +16126,7 @@
                 "StatsType": "Weapon_Projectile_ClipSize",
                 "StatsTypeText": "Clip Size",
                 "Bonus": "20.000000",
-                "Level": "0"
+                "Level": "1"
             }
         ],
         "RequiredTech": "SMG",
@@ -29726,7 +29798,7 @@
                 "Colour_A": "1.000000"
             }
         ],
-        "BaseStat": "Ship_Weapons_Plasma",
+        "BaseStat": "Ship_Weapons_Rockets",
         "BaseStatText": "",
         "StatBonuses": [],
         "RequiredTech": "SHIPPLASMA",

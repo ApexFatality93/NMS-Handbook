@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.01.0.2)-->
+<!--File created using MBINCompiler version (6.17.0.2)-->
 <Data template="cGcSubstanceTable">
 	<Property name="Table">
 		<Property name="Table" value="GcRealitySubstanceData" _id="FUEL1">
@@ -9,15 +9,9 @@
 			<Property name="Symbol" value="UI_FUEL1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.FUEL.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_FUEL1_SUB" />
@@ -80,15 +74,9 @@
 			<Property name="Symbol" value="UI_FUEL2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.FUEL.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_FUEL2_SUB" />
@@ -151,15 +139,9 @@
 			<Property name="Symbol" value="UI_AIR_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.AIR.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_AIR_SUB" />
@@ -222,15 +204,9 @@
 			<Property name="Symbol" value="UI_LAUNCHSUB_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.LAUNCHSUB.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_LAUNCHSUB_SUB" />
@@ -293,15 +269,9 @@
 			<Property name="Symbol" value="UI_LAUNCHSUB2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.LAUNCHSUB.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_LAUNCHSUB2_SUB" />
@@ -364,15 +334,9 @@
 			<Property name="Symbol" value="UI_ROCKETFUEL_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.ROCKETSUB.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_ROCKETFUEL_SUB" />
@@ -435,15 +399,9 @@
 			<Property name="Symbol" value="UI_LAND1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.LAND.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_LAND1_SUB" />
@@ -506,15 +464,9 @@
 			<Property name="Symbol" value="UI_LAND2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.LAND.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_LAND2_SUB" />
@@ -577,15 +529,9 @@
 			<Property name="Symbol" value="UI_LAND3_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.LAND.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_LAND3_SUB" />
@@ -648,15 +594,9 @@
 			<Property name="Symbol" value="UI_SAND1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.SAND.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_SAND1_SUB" />
@@ -719,15 +659,9 @@
 			<Property name="Symbol" value="UI_WATER2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.CATALYST.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_CATALYST1_SUB" />
@@ -790,15 +724,9 @@
 			<Property name="Symbol" value="UI_NEWCATA2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.CATALYST.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_CATALYST2_SUB" />
@@ -861,15 +789,9 @@
 			<Property name="Symbol" value="UI_CAVE1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.CAVE.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_CAVE1_SUB" />
@@ -932,15 +854,9 @@
 			<Property name="Symbol" value="UI_CAVE2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.CAVE.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_CAVE2_SUB" />
@@ -1003,15 +919,9 @@
 			<Property name="Symbol" value="UI_WATER1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.WATER.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_WATER1_SUB" />
@@ -1074,15 +984,9 @@
 			<Property name="Symbol" value="UI_NEWWATER2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.WATER.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_WATER2_SUB" />
@@ -1145,15 +1049,9 @@
 			<Property name="Symbol" value="UI_WATERPLANT_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.WATER.PLANT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_WATERPLANT_SUB" />
@@ -1216,15 +1114,9 @@
 			<Property name="Symbol" value="UI_YELLOW2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.YELLOW.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_YELLOW2_SUB" />
@@ -1287,15 +1179,9 @@
 			<Property name="Symbol" value="UI_RED2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.RED.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_RED2_SUB" />
@@ -1358,15 +1244,9 @@
 			<Property name="Symbol" value="UI_GREEN2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.GREEN.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_GREEN2_SUB" />
@@ -1429,15 +1309,9 @@
 			<Property name="Symbol" value="UI_BLUE2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BLUE.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BLUE2_SUB" />
@@ -1500,15 +1374,9 @@
 			<Property name="Symbol" value="UI_PURPLE2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PURPLE.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PURPLE2_SUB" />
@@ -1571,15 +1439,9 @@
 			<Property name="Symbol" value="UI_STELLAR_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.STELLAR.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_STELLAR_SUB" />
@@ -1642,15 +1504,9 @@
 			<Property name="Symbol" value="UI_NANITE_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/NANITE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="TECH_FRAGMENT_SUBTITLE" />
@@ -1713,15 +1569,9 @@
 			<Property name="Symbol" value="UI_LUSH_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.LUSH.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -1784,15 +1634,9 @@
 			<Property name="Symbol" value="UI_DUSTY_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.DUSTY.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -1855,15 +1699,9 @@
 			<Property name="Symbol" value="UI_TOXIC_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.TOXIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -1926,15 +1764,9 @@
 			<Property name="Symbol" value="UI_RADIO_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.RADIO.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -1997,15 +1829,9 @@
 			<Property name="Symbol" value="UI_COLD_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.COLD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -2068,15 +1894,9 @@
 			<Property name="Symbol" value="UI_HOT_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.HOT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -2139,15 +1959,9 @@
 			<Property name="Symbol" value="UI_LAVA_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.LAVA.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -2210,15 +2024,9 @@
 			<Property name="Symbol" value="UI_RUIN_SUB_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.METALLIC.4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_RUIN_SUB_SUB" />
@@ -2281,15 +2089,9 @@
 			<Property name="Symbol" value="UI_WATERWORLD1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.WATERWORLD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -2352,15 +2154,9 @@
 			<Property name="Symbol" value="UI_GASGIANT1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BIOME.GASGIANT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BIOME_SUB" />
@@ -2423,15 +2219,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_DEADCREATURE_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.CREATURE.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_HARVESTED_SUB" />
@@ -2494,15 +2284,9 @@
 			<Property name="Symbol" value="SUB_DEADDRONE_SYMBOL" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.ROBOT.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="SUB_DEADDRONE_SUBTITLE" />
@@ -2565,15 +2349,9 @@
 			<Property name="Symbol" value="UI_NANITE_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.ROBOT.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_ROBOT2_SUB" />
@@ -2636,15 +2414,9 @@
 			<Property name="Symbol" value="UI_ASTERIOID1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.ASTEROID.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_ASTERIOID_SUB" />
@@ -2707,15 +2479,9 @@
 			<Property name="Symbol" value="UI_ASTERIOID2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.ASTEROID.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_ASTERIOID_SUB" />
@@ -2778,15 +2544,9 @@
 			<Property name="Symbol" value="UI_ASTERIOID3_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.ASTEROID.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS2.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_ASTERIOID_SUB" />
@@ -2849,15 +2609,9 @@
 			<Property name="Symbol" value="UI_GAS_1_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/GAS.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_GAS_SUBTITLE" />
@@ -2920,15 +2674,9 @@
 			<Property name="Symbol" value="UI_GAS_2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/GAS.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_GAS_SUBTITLE" />
@@ -2991,15 +2739,9 @@
 			<Property name="Symbol" value="UI_GAS_3_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/GAS.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_GAS_SUBTITLE" />
@@ -3062,15 +2804,9 @@
 			<Property name="Symbol" value="UI_GAS_4_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/GAS.4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_GAS_SUBTITLE" />
@@ -3133,15 +2869,9 @@
 			<Property name="Symbol" value="UI_YELLOW2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.EXYELLOW.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_YELLOW2_SUB" />
@@ -3204,15 +2934,9 @@
 			<Property name="Symbol" value="UI_RED2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.EXRED.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_RED2_SUB" />
@@ -3275,15 +2999,9 @@
 			<Property name="Symbol" value="UI_GREEN2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.EXGREEN.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_GREEN2_SUB" />
@@ -3346,15 +3064,9 @@
 			<Property name="Symbol" value="UI_BLUE2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.EXBLUE.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BLUE2_SUB" />
@@ -3417,15 +3129,9 @@
 			<Property name="Symbol" value="UI_PURPLE2_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.EXPURPLE.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PURPLE2_SUB" />
@@ -3488,15 +3194,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_TOXIC_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.TOXIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -3559,15 +3259,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_SNOW_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.SNOW.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -3630,15 +3324,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_RADIO_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.RADIO.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -3701,15 +3389,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_BARREN_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.DUSTY.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -3772,15 +3454,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_SCORCHED_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.HOT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -3843,15 +3519,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_LUSH_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.LUSH.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -3914,15 +3584,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_CAVE_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.CAVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/ROCKDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -3985,15 +3649,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_WATER_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.WATER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TECHDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -4056,15 +3714,9 @@
 			<Property name="Symbol" value="UI_PLANTSUB_CREATUREPOOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.PLANT.POOP.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_PLANTSUB_SUBTITLE" />
@@ -4127,15 +3779,9 @@
 			<Property name="Symbol" value="UI_MAINTAIN_SUB_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_MAINTAIN_SUB_SUB" />
@@ -4198,15 +3844,9 @@
 			<Property name="Symbol" value="UI_MAINTAIN_SUB_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_MAINTAIN_SUB_SUB" />
@@ -4269,15 +3909,9 @@
 			<Property name="Symbol" value="UI_MAINTAIN_SUB_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_MAINTAIN_SUB_SUB" />
@@ -4340,15 +3974,9 @@
 			<Property name="Symbol" value="UI_MAINTAIN_SUB_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_MAINTAIN_SUB_SUB" />
@@ -4411,15 +4039,9 @@
 			<Property name="Symbol" value="UI_MAINTAIN_SUB_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS3.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_MAINTAIN_SUB_SUB" />
@@ -4482,15 +4104,9 @@
 			<Property name="Symbol" value="UI_AF_METAL_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.TAINTEDMETAL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_AF_METAL_SUB" />
@@ -4553,15 +4169,9 @@
 			<Property name="Symbol" value="UI_BUI_SCRAP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.BUISCRAP.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_BUI_SCRAP_SUB" />
@@ -4624,15 +4234,9 @@
 			<Property name="Symbol" value="UI_HEXITE_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.HEXCORE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_FUEL1_SUB" />
@@ -4695,15 +4299,9 @@
 			<Property name="Symbol" value="UI_NANITE_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/CURRENCY.NANITES.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="TECH_FRAGMENT_SUBTITLE" />
@@ -4766,15 +4364,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/CURRENCY.QUICKSILVER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -4837,15 +4429,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/CURRENCY.UNITS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -4908,15 +4494,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/MISSIONS/MISSIONFACTION.GEK.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -4979,15 +4559,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/MISSIONS/MISSIONFACTION.GEK.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5050,15 +4624,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/MISSIONS/MISSIONFACTION.KORVAX.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5121,15 +4689,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/MISSIONS/MISSIONFACTION.KORVAX.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5192,15 +4754,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/MISSIONS/MISSIONFACTION.VYKEEN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5263,15 +4819,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/MISSIONS/MISSIONFACTION.VYKEEN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5334,15 +4884,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/MISSIONS/MISSIONFACTION.BUILDER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5405,15 +4949,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/MISSIONS/MISSIONFACTION.BUILDER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5476,15 +5014,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.TRADEGUILD.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5547,15 +5079,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.TRADEGUILD.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5618,15 +5144,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.EXPLORERGUILD.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5689,15 +5209,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.EXPLORERGUILD.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5760,15 +5274,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.WARRIORGUILD.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5831,15 +5339,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.WARRIORGUILD.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5902,15 +5404,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.PIRATE.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -5973,15 +5469,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/RANK/FACTIONS.PIRATE.ON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6044,15 +5534,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/HUD/ICONS/BUILDINGS/BUILDING.SETTLEMENT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6115,15 +5599,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/POSITIVEPOPULATION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6186,15 +5664,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/NEGATIVEPOPULATION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6257,15 +5729,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/POSITIVEPRODUCTION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6328,15 +5794,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/NEGATIVEPRODUCTION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6399,15 +5859,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/POSITIVEHAPPINESS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6470,15 +5924,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/NEGATIVEHAPPINESS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6541,15 +5989,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/POSITIVEMAINTENANCE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6612,15 +6054,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/NEGATIVEMAINTENANCE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6683,15 +6119,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/POSITIVEALERT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6754,15 +6184,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/NEGATIVEALERT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6825,15 +6249,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/POSITIVEPRODUCTION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6896,15 +6314,9 @@
 			<Property name="Symbol" value="UI_REWARDPOP_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SETTLEMENT/NEGATIVEPRODUCTION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_REWARDPOP_SUB" />
@@ -6967,15 +6379,9 @@
 			<Property name="Symbol" value="UI_SUNGOLD_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/SUB.SUNGOLD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS1.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_SUNGOLD_SUB" />
@@ -7038,15 +6444,9 @@
 			<Property name="Symbol" value="UI_SOULFRAG_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/SUB.SOULFRAG.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_SOULFRAG_SUB" />
@@ -7109,15 +6509,9 @@
 			<Property name="Symbol" value="UI_SOULFRAG_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/SUB.SOULFRAG.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_SOULFRAG_SUB" />
@@ -7180,15 +6574,9 @@
 			<Property name="Symbol" value="UI_WORMDUST_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.WORMDUST.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_WORMDUST_SUB" />
@@ -7251,15 +6639,9 @@
 			<Property name="Symbol" value="UI_WORMDUST_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.TIMEDUST.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/RESOURCEDEBRIS.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_ROGUE_TIME_DUST_SUB" />
@@ -7322,15 +6704,9 @@
 			<Property name="Symbol" value="UI_WORMDUST_SYM" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4SUBSTANCES/SUBSTANCE.TIMEMILK.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="DebrisFile" value="TkModelResource">
 				<Property name="Filename" value="MODELS/EFFECTS/CREATURES/MILK.SCENE.MBIN" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 				<Property name="Seed" value="0" />
 			</Property>
 			<Property name="Subtitle" value="UI_ROGUE_TIME_MILK_SUB" />

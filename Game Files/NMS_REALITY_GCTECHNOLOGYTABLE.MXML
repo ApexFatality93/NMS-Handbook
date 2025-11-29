@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.01.0.2)-->
+<!--File created using MBINCompiler version (6.17.0.2)-->
 <Data template="cGcTechnologyTable">
 	<Property name="Table">
 		<Property name="Table" value="GcTechnology" _id="PROTECT">
@@ -14,9 +14,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTGENERIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -166,9 +163,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTGENERICMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -279,9 +273,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CELL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -396,9 +387,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CELLMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -502,9 +490,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.JETPACK.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -636,9 +621,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.JETPACKMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -770,9 +752,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.JETPACKMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -883,9 +862,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.JETPACKMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1003,9 +979,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTHEAT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1123,9 +1096,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTCOLD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1243,9 +1213,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTTOXIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1363,9 +1330,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTRADS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1483,9 +1447,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.HELMET.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1603,9 +1564,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTGENERICMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1723,9 +1681,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.SUITSUMMONER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1843,9 +1798,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PERSONALREFINER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -1956,9 +1908,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PERSONALREFINER2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -2076,9 +2025,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE1/TECH.POWERGLOVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -2189,9 +2135,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.ATLASSTONE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -2302,9 +2245,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.HEXCORE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -2422,9 +2362,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.HERETICCORE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -2544,9 +2481,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.TECHMODULE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -2657,9 +2591,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4TECH/RENDER.JETPACKWATERMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -2777,9 +2708,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CELLMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -2897,9 +2825,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/AUTOTRANSLATOR.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -3003,9 +2928,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/AUTOTRANSLATOR.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -3123,9 +3045,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/AUTOTRANSLATOR.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -3243,9 +3162,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ARTEMISTRANSLATOR.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -3356,9 +3272,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECH.WORMTECH.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -3476,9 +3389,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECH.WORMREADER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -3596,9 +3506,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECH.SUITROCKET.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -3718,9 +3625,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECH.FISHSKIFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -3838,9 +3742,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECH.SPIDERBRAIN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -3951,9 +3852,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/FEEDING.TUBE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -4071,9 +3969,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.HAZARD.SPOOK.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -4214,9 +4109,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSEDRIVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -4365,9 +4257,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSEDRIVEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -4485,9 +4374,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSEDRIVEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -4605,9 +4491,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSEDRIVEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -4739,9 +4622,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSEDRIVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -4873,9 +4753,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LANDINGGEAR.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -4996,9 +4873,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LANDINGGEARMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -5116,9 +4990,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LANDINGGEARMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -5236,9 +5107,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LANDINGGEARMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -5356,9 +5224,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4TECH/RENDER.SHIPTELEPORT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -5469,9 +5334,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.HYPERDRIVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -5599,9 +5461,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.CADMIUMDRIVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -5712,9 +5571,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.EMERILDRIVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -5825,9 +5681,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.INDIUMDRIVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -5938,9 +5791,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.PURPLEDRIVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -6058,9 +5908,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.HYPERDRIVEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -6178,9 +6025,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CARGOSHIELD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -6298,9 +6142,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIELD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -6422,9 +6263,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIELDMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -6542,9 +6380,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.ROCKET.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -6711,9 +6546,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.ROCKETMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -6824,9 +6656,6 @@
 			<Property name="HintEnd" value="SHIPWEAPON_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIPPROJECTILE1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -6993,9 +6822,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIPPROJECTILE1MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -7113,9 +6939,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIPSCAN_ECON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -7226,9 +7049,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIPSCAN_COMBAT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -7339,9 +7159,6 @@
 			<Property name="HintEnd" value="SHIPWEAPON_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHASEBEAM.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -7473,9 +7290,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHASEBEAMMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -7593,9 +7407,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHOTONBLAST.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -7762,9 +7573,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHOTONBLASTMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -7882,9 +7690,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHOTONACCEL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -8051,9 +7856,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHOTONACCELMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -8171,9 +7973,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.IONBLAST.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -8340,9 +8139,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.IONBLASTMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -8453,9 +8249,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.FREIGHTERHD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -8597,9 +8390,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTERSIGMA.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -8717,9 +8507,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTERTAU.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -8837,9 +8624,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTERTHETA.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -8957,9 +8741,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTERSIGMA.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -9077,9 +8858,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTERTAU.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -9197,9 +8975,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTERTHETA.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -9317,9 +9092,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTERPURPLE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -9437,9 +9209,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4TECH/RENDER.FREIGHTERTELEPORT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -9557,9 +9326,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.FREIGHTERSCANNER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -9684,9 +9450,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTER.MEGAWARP.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -9804,9 +9567,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTER.LIFESUPP.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -9924,9 +9684,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.ENERGY2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10022,9 +9779,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10127,9 +9881,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.ALLOY4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10225,9 +9976,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPROD.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10330,9 +10078,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/SPACEGUNK.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10442,9 +10187,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMPONENT4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10547,9 +10289,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.EXOTICS4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10652,9 +10391,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10757,9 +10493,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10855,9 +10588,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -10960,9 +10690,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPROD.5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -11072,9 +10799,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/COMPOUND.6.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -11184,9 +10908,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.CATAPROD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -11282,9 +11003,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -11380,9 +11098,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.HYDRALIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -11478,9 +11193,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.S10.ROBOTCORE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -11576,9 +11288,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.HEART.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -11721,9 +11430,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.BRAIN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -11845,9 +11551,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.EYECLUSTER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -11976,9 +11679,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.SCALES.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -12100,9 +11800,6 @@
 			<Property name="HintEnd" value="SHIPWEAPON_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.LUMPS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -12269,9 +11966,6 @@
 			<Property name="HintEnd" value="SHIPWEAPON_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.EYE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -12403,9 +12097,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/PRODUCT.STEM1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -12516,9 +12207,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/PRODUCT.STEM2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -12629,9 +12317,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/PRODUCT.STEM4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -12749,9 +12434,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/PRODUCT.BIOEXOTIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -12862,9 +12544,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.SCALES.MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -12975,9 +12654,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.BOBBLEAPOLLO.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13081,9 +12757,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.BOBBLEARTEMIS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13187,9 +12860,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.BOBBLEATLAS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13293,9 +12963,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.BOBBLENADA.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13399,9 +13066,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.BOBBLENUL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13505,9 +13169,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.BOBBLEPOLO.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13611,9 +13272,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL1.OCTOBOBBLE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13717,9 +13375,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.SHIPTRAIL.RAINBOW.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13823,9 +13478,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.SHIPTRAIL.DARK.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -13929,9 +13581,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.SHIPTRAIL.RED.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14035,9 +13684,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.SHIPTRAIL.GREEN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14141,9 +13787,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.SHIPTRAIL.GOLD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14247,9 +13890,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL1.SHIPTRAIL.PIRATE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14353,9 +13993,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL1.EXPEDITION.SHIPTRAIL.ROGUE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14459,9 +14096,109 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S19.SHIPTRAIL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
+			</Property>
+			<Property name="Colour">
+				<Property name="R" value="0.101960786" />
+				<Property name="G" value="0.152941182" />
+				<Property name="B" value="0.200000" />
+				<Property name="A" value="1.000000" />
+			</Property>
+			<Property name="Level" value="1" />
+			<Property name="Chargeable" value="false" />
+			<Property name="ChargeAmount" value="100" />
+			<Property name="ChargeType" value="GcRealitySubstanceCategory">
+				<Property name="SubstanceCategory" value="Earth" />
+			</Property>
+			<Property name="ChargeBy" />
+			<Property name="ChargeMultiplier" value="1.000000" />
+			<Property name="BuildFullyCharged" value="true" />
+			<Property name="UsesAmmo" value="false" />
+			<Property name="AmmoId" value="" />
+			<Property name="PrimaryItem" value="false" />
+			<Property name="Upgrade" value="false" />
+			<Property name="Core" value="false" />
+			<Property name="RepairTech" value="false" />
+			<Property name="Procedural" value="false" />
+			<Property name="BrokenSlotTech" value="false" />
+			<Property name="Category" value="GcTechnologyCategory">
+				<Property name="TechnologyCategory" value="AllShips" />
+			</Property>
+			<Property name="Rarity" value="GcTechnologyRarity">
+				<Property name="TechnologyRarity" value="Impossible" />
+			</Property>
+			<Property name="Value" value="1.000000" />
+			<Property name="Requirements">
+				<Property name="Requirements" value="GcTechnologyRequirement" _id="LAND1">
+					<Property name="ID" value="LAND1" />
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Substance" />
+					</Property>
+					<Property name="Amount" value="10" />
 				</Property>
+			</Property>
+			<Property name="BaseStat" value="GcStatsTypes">
+				<Property name="StatsType" value="Ship_Scan" />
+			</Property>
+			<Property name="StatBonuses">
+				<Property name="StatBonuses" value="GcStatsBonus" _index="0">
+					<Property name="Stat" value="GcStatsTypes">
+						<Property name="StatsType" value="Ship_Boost" />
+					</Property>
+					<Property name="Bonus" value="1.010000" />
+					<Property name="Level" value="1" />
+				</Property>
+			</Property>
+			<Property name="RequiredTech" value="" />
+			<Property name="RequiredLevel" value="0" />
+			<Property name="FocusLocator" value="MAINTENANCESLOT1" />
+			<Property name="UpgradeColour">
+				<Property name="R" value="1.000000" />
+				<Property name="G" value="1.000000" />
+				<Property name="B" value="1.000000" />
+				<Property name="A" value="1.000000" />
+			</Property>
+			<Property name="LinkColour">
+				<Property name="R" value="1.000000" />
+				<Property name="G" value="1.000000" />
+				<Property name="B" value="1.000000" />
+				<Property name="A" value="1.000000" />
+			</Property>
+			<Property name="RewardGroup" value="" />
+			<Property name="BaseValue" value="1" />
+			<Property name="Cost" value="GcItemPriceModifiers">
+				<Property name="SpaceStationMarkup" value="0.000000" />
+				<Property name="LowPriceMod" value="0.000000" />
+				<Property name="HighPriceMod" value="0.000000" />
+				<Property name="BuyBaseMarkup" value="0.000000" />
+				<Property name="BuyMarkupMod" value="0.000000" />
+			</Property>
+			<Property name="RequiredRank" value="1" />
+			<Property name="DispensingRace" value="GcAlienRace">
+				<Property name="AlienRace" value="Traders" />
+			</Property>
+			<Property name="FragmentCost" value="1" />
+			<Property name="TechShopRarity" value="GcTechnologyRarity">
+				<Property name="TechnologyRarity" value="Impossible" />
+			</Property>
+			<Property name="WikiEnabled" value="false" />
+			<Property name="NeverPinnable" value="false" />
+			<Property name="DamagedDescription" value="" />
+			<Property name="ParentTechId" value="" />
+			<Property name="IsTemplate" value="false" />
+			<Property name="ExclusivePrimaryStat" value="false" />
+		</Property>
+		<Property name="Table" value="GcTechnology" _id="T_SHIP_ATLAS">
+			<Property name="ID" value="T_SHIP_ATLAS" />
+			<Property name="Group" value="" />
+			<Property name="Name" value="UI_SHIPTRAIL_ATLAS_NAME" />
+			<Property name="NameLower" value="UI_SHIPTRAIL_ATLAS_NAME_L" />
+			<Property name="Subtitle" value="UI_SHIPTRAIL_SUB" />
+			<Property name="Description" value="UI_SHIPTRAIL_ATLAS_DESC" />
+			<Property name="Teach" value="false" />
+			<Property name="HintStart" value="" />
+			<Property name="HintEnd" value="" />
+			<Property name="Icon" value="TkTextureResource">
+				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/EXPEDITION.S20.SHIPTRAIL.DDS" />
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14565,9 +14302,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.ENGINE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14688,9 +14422,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/ULTRAPROD.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14846,9 +14577,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL.MYSTERYTRACKER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -14983,9 +14711,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -15099,9 +14824,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SOLARSAIL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -15233,9 +14955,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIPSCAN_ECON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -15323,9 +15042,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.LAUNCHER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -15460,9 +15176,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.PULSE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -15618,9 +15331,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.HYPERDRIVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -15749,9 +15459,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.SHIELD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -15873,9 +15580,6 @@
 			<Property name="HintEnd" value="SHIPWEAPON_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.WEAPON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -16042,9 +15746,6 @@
 			<Property name="HintEnd" value="SHIPWEAPON_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.INTERFACE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.101960786" />
@@ -16162,9 +15863,6 @@
 			<Property name="HintEnd" value="BINOCS_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BINOCULARS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -16289,9 +15987,6 @@
 			<Property name="HintEnd" value="SCANNER_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SCAN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -16437,9 +16132,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SCANMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -16557,9 +16249,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BINOCSMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -16677,9 +16366,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BUILDERSSCANMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -16804,9 +16490,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/STAFFTECH.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -16933,9 +16616,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BUILDERSSCANMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -17060,9 +16740,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.TERRAINEDITOR.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -17173,9 +16850,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4TECH/RENDER.GROUNDSHIELD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -17286,9 +16960,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4TECH/RENDER.STEALTH.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -17406,9 +17077,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BINOCSMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -17519,9 +17187,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LASER1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -17664,9 +17329,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE1/TECH.STRONGLASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -17791,9 +17453,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE1/TECH.STRONGLASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -17911,9 +17570,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.FISHLASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -18031,9 +17687,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SPECIALSHOP/SPECIAL1.EXPEDITION.S15FISHLASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -18151,9 +17804,6 @@
 			<Property name="HintEnd" value="BOLTCASTER_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROJECTILE1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -18338,9 +17988,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROJECTILE1MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -18397,7 +18044,7 @@
 						<Property name="StatsType" value="Weapon_Projectile_Recoil" />
 					</Property>
 					<Property name="Bonus" value="0.700000" />
-					<Property name="Level" value="0" />
+					<Property name="Level" value="1" />
 				</Property>
 				<Property name="StatBonuses" value="GcStatsBonus" _index="1">
 					<Property name="Stat" value="GcStatsTypes">
@@ -18465,9 +18112,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROJECTILE1MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -18578,9 +18222,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROJECTILE1MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -18698,9 +18339,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LASER1MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -18750,7 +18388,7 @@
 						<Property name="StatsType" value="Weapon_Laser_Mining_Speed" />
 					</Property>
 					<Property name="Bonus" value="0.950000" />
-					<Property name="Level" value="0" />
+					<Property name="Level" value="1" />
 				</Property>
 				<Property name="StatBonuses" value="GcStatsBonus" _index="1">
 					<Property name="Stat" value="GcStatsTypes">
@@ -18811,9 +18449,6 @@
 			<Property name="HintEnd" value="GRENADE_HINT" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.GRENADE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -18968,9 +18603,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.TERRAINGRENADE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -19090,9 +18722,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.STUNGRENADE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -19233,9 +18862,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BLAZEJAVELIN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -19391,9 +19017,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BLAZEJAVELINMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -19450,7 +19073,7 @@
 						<Property name="StatsType" value="Weapon_Laser_Damage" />
 					</Property>
 					<Property name="Bonus" value="200.000000" />
-					<Property name="Level" value="0" />
+					<Property name="Level" value="1" />
 				</Property>
 			</Property>
 			<Property name="RequiredTech" value="RAILGUN" />
@@ -19504,9 +19127,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BLAZEJAVELINMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -19631,9 +19251,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SCATTERBLASTER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -19818,9 +19435,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SCATTERBLASTERMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -19877,7 +19491,7 @@
 						<Property name="StatsType" value="Weapon_Projectile_ReloadTime" />
 					</Property>
 					<Property name="Bonus" value="0.850000" />
-					<Property name="Level" value="0" />
+					<Property name="Level" value="1" />
 				</Property>
 			</Property>
 			<Property name="RequiredTech" value="SHOTGUN" />
@@ -19931,9 +19545,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSESPITTER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -20118,9 +19729,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSESPITTERMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -20177,7 +19785,7 @@
 						<Property name="StatsType" value="Weapon_Projectile_ClipSize" />
 					</Property>
 					<Property name="Bonus" value="20.000000" />
-					<Property name="Level" value="0" />
+					<Property name="Level" value="1" />
 				</Property>
 			</Property>
 			<Property name="RequiredTech" value="SMG" />
@@ -20231,9 +19839,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSESPITTERMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -20351,9 +19956,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSESPITTERMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -20485,9 +20087,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.FLAMETHROWER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -20672,9 +20271,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CANNON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -20865,9 +20461,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CANNONMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -20999,9 +20592,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.STUNDAMAGEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -21119,9 +20709,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -21217,9 +20804,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPROD.4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -21315,9 +20899,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -21427,9 +21008,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPRODBASIC.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -21525,9 +21103,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -21637,9 +21212,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -21749,9 +21321,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -21854,9 +21423,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPROD.9.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -21966,9 +21532,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMPONENT2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22071,9 +21634,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22176,9 +21736,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPROD.5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22288,9 +21845,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22400,9 +21954,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.WEAPON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22498,9 +22049,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.PULSE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22596,9 +22144,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.SHIELD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22701,9 +22246,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/ROBOTSHIP.LAUNCHER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22799,9 +22341,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22897,9 +22436,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -22995,9 +22531,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPROD.9.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -23093,9 +22626,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.482352942" />
@@ -23191,9 +22721,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SUNLASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -23304,9 +22831,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SOULLASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -23455,9 +22979,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LASERSENTINEL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -23600,9 +23121,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECH.ATLASLASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -23752,9 +23270,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.ENGINE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -23893,9 +23408,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.TRACTION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -24020,9 +23532,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.TRACTION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -24147,9 +23656,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.TRACTION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -24274,9 +23780,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTHEAT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -24394,9 +23897,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTCOLD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -24514,9 +24014,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTTOXIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -24634,9 +24131,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTRADS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -24754,9 +24248,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.ENGINEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -24874,9 +24365,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.REFINER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -24994,9 +24482,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SCAN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -25107,9 +24592,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SCANU1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -25227,9 +24709,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SCANU1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -25347,9 +24826,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.BOOST.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -25481,9 +24957,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_LASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -25608,9 +25081,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_LASERU1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -25728,9 +25198,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_GUN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -25855,9 +25322,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_GUNMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -26010,9 +25474,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SUBMARINEENGINE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -26153,9 +25614,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SUBMARINECANNON.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -26287,9 +25745,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_LASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -26421,9 +25876,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SUBMARINECANNONMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -26541,9 +25993,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SUBSCAN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -26661,9 +26110,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SUBMARINEENGINEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -26781,9 +26227,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.ENGINE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -26929,9 +26372,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.ENGINE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -27049,9 +26489,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SCAN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -27169,9 +26606,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.BOOST.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -27303,9 +26737,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_LASER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -27430,9 +26861,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_LASERU1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -27550,9 +26978,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_GUN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -27684,9 +27109,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_GUN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -27804,9 +27226,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTGENERIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -27945,9 +27364,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLEAUTOPILOT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -28065,9 +27481,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.SENT.LARM.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -28213,9 +27626,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.SENT.RARM.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -28347,9 +27757,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.SENT.LEGS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -28467,9 +27874,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.SENT.HEAD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -28587,9 +27991,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.ARMY.LARM.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -28714,9 +28115,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.ARMY.RARM.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -28869,9 +28267,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.ARMY.LEGS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -28989,9 +28384,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.ARMY.HEAD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29109,9 +28501,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29217,9 +28606,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29325,9 +28711,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29433,9 +28816,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29541,9 +28921,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29649,9 +29026,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29742,9 +29116,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29832,9 +29203,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -29922,9 +29290,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30015,9 +29380,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30105,9 +29467,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30203,9 +29562,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30301,9 +29657,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30399,9 +29752,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30504,9 +29854,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30602,9 +29949,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.EXOTICS4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30700,9 +30044,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30805,9 +30146,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -30903,9 +30241,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31001,9 +30336,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE1/TECH.POWERGLOVE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31099,9 +30431,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/COMPOUND.4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31197,9 +30526,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/COMPOUND.6.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31295,9 +30621,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31400,9 +30723,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31505,9 +30825,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMPONENT4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31603,9 +30920,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMMIDITY3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31701,9 +31015,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31806,9 +31117,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MEGAPROD.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -31904,9 +31212,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32009,9 +31314,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.ENERGY5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32107,9 +31409,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MEGAPROD.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32212,9 +31511,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.EXOTICS5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32317,9 +31613,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.ENERGY2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32422,9 +31715,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPROD.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32534,9 +31824,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMPONENT4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32639,9 +31926,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.0.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32729,9 +32013,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32819,9 +32100,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32909,9 +32187,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -32999,9 +32274,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33089,9 +32361,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33179,9 +32448,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.6.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33269,9 +32535,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.7.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33359,9 +32622,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.8.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33449,9 +32709,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.9.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33539,9 +32796,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.A.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33629,9 +32883,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.B.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33719,9 +32970,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.C.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33809,9 +33057,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.D.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33899,9 +33144,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.E.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -33989,9 +33231,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.F.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34079,9 +33318,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MINDARC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34177,9 +33413,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34267,9 +33500,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMMODITY4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34357,9 +33587,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/CATEGORIES/HOOK.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34447,9 +33674,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/FEEDING.TUBE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -34537,9 +33761,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/COMPONENTS/EMPTYSLOTCIRCLE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34627,9 +33848,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/WIKI/WIKI.COOKING.OFF.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34717,9 +33935,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34807,9 +34022,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.VORTEXCUBE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -34905,9 +34117,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.CLAMPEARL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35003,9 +34212,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.TRIDENTKEY.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35101,9 +34307,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35199,9 +34402,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35304,9 +34504,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35402,9 +34599,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMPONENT4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35500,9 +34694,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMMIDITY3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35605,9 +34796,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35703,9 +34891,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MEGAPROD.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35801,9 +34986,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.TECH1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -35906,9 +35088,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/FARMPROD.3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -36011,9 +35190,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.COMPONENT4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -36109,9 +35285,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TREASUREPROD.PLANT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -36207,9 +35380,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/U4PRODUCTS/PRODUCT.NANOTUBES.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -36305,9 +35475,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/TRADEPROD.ALLOY4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -36403,9 +35570,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.0.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.301960796" />
@@ -36495,9 +35659,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.301960796" />
@@ -36587,9 +35748,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/PORTALSYMBOL.2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.301960796" />
@@ -36679,9 +35837,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -36777,9 +35932,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -36875,9 +36027,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -36973,9 +36122,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -37071,9 +36217,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.TECH5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -37169,9 +36312,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FARM5.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -37267,9 +36407,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -37365,9 +36502,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL2.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -37463,9 +36597,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL3.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -37561,9 +36692,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/UPDATE3/MAINTTECH.FUEL4.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.0352941193" />
@@ -37659,9 +36787,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSEDRIVEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -37771,9 +36896,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LANDINGGEARMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -37883,9 +37005,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.HYPERDRIVEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -37995,9 +37114,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIELD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38107,9 +37223,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIPPROJECTILE1MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38219,9 +37332,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHASEBEAMMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38331,9 +37441,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHOTONBLASTMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38443,9 +37550,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHOTONACCELMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38555,9 +37659,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.IONBLASTMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38667,9 +37768,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.ROCKETMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38725,7 +37823,7 @@
 				</Property>
 			</Property>
 			<Property name="BaseStat" value="GcStatsTypes">
-				<Property name="StatsType" value="Ship_Weapons_Plasma" />
+				<Property name="StatsType" value="Ship_Weapons_Rockets" />
 			</Property>
 			<Property name="StatBonuses" />
 			<Property name="RequiredTech" value="SHIPPLASMA" />
@@ -38779,9 +37877,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SCANMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38884,9 +37979,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LASER1MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -38989,9 +38081,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROJECTILE1MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39094,9 +38183,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.GRENADEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39199,9 +38285,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.GRENADEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39304,9 +38387,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.BLAZEJAVELINMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39416,9 +38496,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SCATTERBLASTERMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39521,9 +38598,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSESPITTERMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39626,9 +38700,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CANNONMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39731,9 +38802,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.CELLMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39843,9 +38911,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.JETPACKMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -39955,9 +39020,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SHIELDMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40067,9 +39129,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTGENERICMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40179,9 +39238,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTWATER.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40287,9 +39343,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTRADS.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40395,9 +39448,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTTOXIC.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40503,9 +39553,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTCOLD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40611,9 +39658,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PROTECTHEAT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40719,9 +39763,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_GUNMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40824,9 +39865,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_LASERU1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -40929,9 +39967,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.BOOSTMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -41034,9 +40069,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.ENGINEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -41139,9 +40171,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SUBMARINEENGINEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -41244,9 +40273,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.SUBMARINECANNONMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -41349,9 +40375,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.HEART.MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -41454,9 +40477,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.BRAIN.MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -41559,9 +40579,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.EYECLUSTER.MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -41664,9 +40681,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.SCALES.MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -41769,9 +40783,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.LUMPS.MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -41874,9 +40885,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/BIO/BIOTECH.EYE.MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -41979,9 +40987,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_GUNMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42084,9 +41089,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.MECH.FLAME.MOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42189,9 +41191,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.VEHICLE_LASERU1.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42294,9 +41293,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/VEHICLE/RENDER.ENGINEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42399,9 +41395,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FREIGHTERTHETA.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42504,9 +41497,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FLEET.SPEED.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42616,9 +41606,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FLEET.FUEL.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42728,9 +41715,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FLEET.TRADE.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42840,9 +41824,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FLEET.COMBAT.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -42952,9 +41933,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FLEET.EXPLORATION.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -43064,9 +42042,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/TECHNOLOGY.FLEET.MINING.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -43176,9 +42151,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SENTINELSUITMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -43288,9 +42260,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SENTINELGUNMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -43393,9 +42362,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.ROBOTSUITMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.541176498" />
@@ -43505,9 +42471,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PHASEBEAMMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -43610,9 +42573,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.HYPERDRIVEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -43715,9 +42675,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.PULSEDRIVEMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />
@@ -43820,9 +42777,6 @@
 			<Property name="HintEnd" value="" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.LANDINGGEARMOD.DDS" />
-				<Property name="ResHandle" value="GcResource">
-					<Property name="ResourceID" value="0" />
-				</Property>
 			</Property>
 			<Property name="Colour">
 				<Property name="R" value="0.129411772" />

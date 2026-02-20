@@ -1,4 +1,109 @@
 {
+    "VAULT_ARMOUR": {
+        "ID": "VAULT_ARMOUR",
+        "RewardName": "Heirloom Breastplate",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "VAULT_TORSO": {
+        "ID": "VAULT_TORSO",
+        "RewardName": "Heirloom Suit",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "VAULT_GLOVES": {
+        "ID": "VAULT_GLOVES",
+        "RewardName": "Heirloom Gloves",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "VAULT_LEGS": {
+        "ID": "VAULT_LEGS",
+        "RewardName": "Heirloom Leggings",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "VAULT_BOOTS": {
+        "ID": "VAULT_BOOTS",
+        "RewardName": "Heirloom Boots",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_TITLE21": {
+        "ID": "EXPD_TITLE21",
+        "RewardName": "Title: 'Mag-Field Expert'",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_DECAL21": {
+        "ID": "EXPD_DECAL21",
+        "RewardName": "Remnant Decal",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_BANNER21": {
+        "ID": "EXPD_BANNER21",
+        "RewardName": "Remnant Banner",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "TRUCK_WHEELS08": {
+        "ID": "TRUCK_WHEELS08",
+        "RewardName": "Mechanical Legs",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "TRUCK_CAB03": {
+        "ID": "TRUCK_CAB03",
+        "RewardName": "Asymmetrical Cabin",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "TRUCK_PAINT03": {
+        "ID": "TRUCK_PAINT03",
+        "RewardName": "Camouflage Finish",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SPEC_EMOTE16": {
+        "ID": "SPEC_EMOTE16",
+        "RewardName": "Toot Toot!",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER21C": {
+        "ID": "EXPD_POSTER21C",
+        "RewardName": "Colossus Exocraft Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER21B": {
+        "ID": "EXPD_POSTER21B",
+        "RewardName": "Gravitino Coil Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER21A": {
+        "ID": "EXPD_POSTER21A",
+        "RewardName": "Magnetism Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
     "B_WNG_P": {
         "ID": "B_WNG_P",
         "RewardName": "",
@@ -815,14 +920,16 @@
         "ID": "EXPD_POSTER12B",
         "RewardName": "Interface Poster",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_POSTER12A": {
         "ID": "EXPD_POSTER12A",
         "RewardName": "Remembrance Poster",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_EGG_11": {
@@ -871,35 +978,40 @@
         "ID": "BLD_BUI_TENT",
         "RewardName": "Ragged Tent",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_PETCUST11": {
         "ID": "EXPD_PETCUST11",
         "RewardName": "Mechanical Paw",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_POSTER11C": {
         "ID": "EXPD_POSTER11C",
         "RewardName": "Open Horizons Poster",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_POSTER11B": {
         "ID": "EXPD_POSTER11B",
         "RewardName": "Anomalous Wonder Poster",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_POSTER11A": {
         "ID": "EXPD_POSTER11A",
         "RewardName": "Navigators Poster",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "JETS_ELECTRIC": {
@@ -997,7 +1109,8 @@
         "ID": "FREI_TRAIL_RED",
         "RewardName": "Crimson Freighter Trail",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_POSTER10C": {
@@ -1056,7 +1169,8 @@
         "ID": "EXPD_EGG_09",
         "RewardName": "Robo-Warden Egg",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "SPEC_BUCKETHELM": {
@@ -1138,7 +1252,8 @@
         "ID": "BLD_DATASIGN",
         "RewardName": "Data Display Unit",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "BLD_FIREPIT": {
@@ -1269,7 +1384,8 @@
         "ID": "EXPD_CAPE06",
         "RewardName": "Outlaw Cape",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_BANNER06": {
@@ -1708,6 +1824,139 @@
         "RewardName": "Atlas Firework Pack",
         "RewardType": [
             "Expedition"
+        ]
+    },
+    "TWITCH_FIREW12A": {
+        "ID": "TWITCH_FIREW12A",
+        "RewardName": "Deluxe Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW12B": {
+        "ID": "TWITCH_FIREW12B",
+        "RewardName": "Deluxe Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW12C": {
+        "ID": "TWITCH_FIREW12C",
+        "RewardName": "Deluxe Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW12D": {
+        "ID": "TWITCH_FIREW12D",
+        "RewardName": "Deluxe Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW12E": {
+        "ID": "TWITCH_FIREW12E",
+        "RewardName": "Deluxe Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BASE_GRASS7": {
+        "ID": "BASE_GRASS7",
+        "RewardName": "Antler Grass",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BLD_CRYS_SENT0": {
+        "ID": "BLD_CRYS_SENT0",
+        "RewardName": "Living Fragment A",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BLD_COVCRATE": {
+        "ID": "BLD_COVCRATE",
+        "RewardName": "Covered Crate",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "HOOD_GEK": {
+        "ID": "HOOD_GEK",
+        "RewardName": "Spawning Cowl",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "JETS_FIREWORK": {
+        "ID": "JETS_FIREWORK",
+        "RewardName": "Pyrotechnic Jetpack Trail",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN28": {
+        "ID": "TWITCH_GUN28",
+        "RewardName": "Art of Esenyov-XVI",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN29": {
+        "ID": "TWITCH_GUN29",
+        "RewardName": "Obedience of Solemnity",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_PET25": {
+        "ID": "TWITCH_PET25",
+        "RewardName": "H. Coldvaum Egg",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN30": {
+        "ID": "TWITCH_GUN30",
+        "RewardName": "Conceptual Vatezh Beam",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP56": {
+        "ID": "TWITCH_SHIP56",
+        "RewardName": "Tahikok Roamer V",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP57": {
+        "ID": "TWITCH_SHIP57",
+        "RewardName": "Reckless Prophecy HF3",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP58": {
+        "ID": "TWITCH_SHIP58",
+        "RewardName": "The Master of Sleep",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP59": {
+        "ID": "TWITCH_SHIP59",
+        "RewardName": "Oigaya's Redemption PV4",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP60": {
+        "ID": "TWITCH_SHIP60",
+        "RewardName": "DX7 Ibail",
+        "RewardType": [
+            "Twitch"
         ]
     },
     "DECAL_CREPAWS": {

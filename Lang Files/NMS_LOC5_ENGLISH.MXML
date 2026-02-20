@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.01.0.2)-->
+<!--File created using MBINCompiler version (6.24.0.1)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_VR_RECENTRE">
@@ -4505,6 +4505,26 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="CTRL_BTN_DISC_VIEW_DOWN">
 			<Property name="Id" value="CTRL_BTN_DISC_VIEW_DOWN" />
 			<Property name="English" value="Discovery Page Scroll Down" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="CTRL_BTN_BINOC_SCAN">
+			<Property name="Id" value="CTRL_BTN_BINOC_SCAN" />
+			<Property name="English" value="Analyse" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -31804,7 +31824,67 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXOCRAFT_TECH_TREE">
 			<Property name="Id" value="UI_EXOCRAFT_TECH_TREE" />
-			<Property name="English" value="&lt;IMG&gt;DIAMONDBULLET&lt;&gt; Exocraft Upgrades &lt;IMG&gt;DIAMONDBULLET&lt;&gt;" />
+			<Property name="English" value="&lt;IMG&gt;DIAMONDBULLET&lt;&gt; Vehicle Upgrades &lt;IMG&gt;DIAMONDBULLET&lt;&gt;" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_VEHICLE_TECH_TREE">
+			<Property name="Id" value="UI_VEHICLE_TECH_TREE" />
+			<Property name="English" value="Exocraft Upgrades" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXOSUB_TECH_TREE">
+			<Property name="Id" value="UI_EXOSUB_TECH_TREE" />
+			<Property name="English" value="Nautilon Upgrades" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXOMECH_TECH_TREE">
+			<Property name="Id" value="UI_EXOMECH_TECH_TREE" />
+			<Property name="English" value="Minotaur Upgrades" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -42482,9 +42562,29 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="CUST_PLAYER_PRESETS_TITLE">
+			<Property name="Id" value="CUST_PLAYER_PRESETS_TITLE" />
+			<Property name="English" value="OUTFITS" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_OUTFITS_HEADER">
 			<Property name="Id" value="UI_OUTFITS_HEADER" />
-			<Property name="English" value="Saved Outfits" />
+			<Property name="English" value="Stored Outfits" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -42505,6 +42605,66 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="SAVE_U">
 			<Property name="Id" value="SAVE_U" />
 			<Property name="English" value="SAVE" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="APPLY_U">
+			<Property name="Id" value="APPLY_U" />
+			<Property name="English" value="APPLY" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="DELETE_U">
+			<Property name="Id" value="DELETE_U" />
+			<Property name="English" value="DELETE" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="SELECT_U">
+			<Property name="Id" value="SELECT_U" />
+			<Property name="English" value="SELECT" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -42564,7 +42724,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_CHANGE_OUTFIT_CONFIRM_TITLE">
 			<Property name="Id" value="UI_CHANGE_OUTFIT_CONFIRM_TITLE" />
-			<Property name="English" value="DISCARD CHANGES?" />
+			<Property name="English" value="APPLY OUTFIT?" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -42584,7 +42744,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_CHANGE_OUTFIT_CONFIRM">
 			<Property name="Id" value="UI_CHANGE_OUTFIT_CONFIRM" />
-			<Property name="English" value="The current outfit has been changed, but those changes have not been saved. Are you sure you want to leave the Customiser?" />
+			<Property name="English" value="Applying this outfit will overwrite your current customisation settings. Are you sure?" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

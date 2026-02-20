@@ -4245,7 +4245,7 @@
   },
   {
     "Id": "UI_CHANGE_PRESET_CONFIRM",
-    "English": "Changing the preset will overwrite your current customisation settings. Are you sure?"
+    "English": "Applying a preset will overwrite your current customisation settings. Are you sure?"
   },
   {
     "Id": "UI_CHANGE_PRESET_CONFIRM_TITLE",
@@ -33061,7 +33061,7 @@
   },
   {
     "Id": "FLEET_MINING_FAIL_18",
-    "English": "Onboard industrial units processed %NUM%NUM% tonnes of collected ore from %SYSTEM% System. No valuable mineral content found: collected material exclusively dirt."
+    "English": "Onboard industrial units processed %NUM%00 tonnes of collected ore from %SYSTEM% System. No valuable mineral content found: collected material exclusively dirt."
   },
   {
     "Id": "FLEET_MINING_FAIL_19",
@@ -44264,6 +44264,10 @@
     "English": "Discovery Page Scroll Down"
   },
   {
+    "Id": "CTRL_BTN_BINOC_SCAN",
+    "English": "Analyse"
+  },
+  {
     "Id": "VR_CONTROLS_BUILD_MENU",
     "English": "Build Menu Controls"
   },
@@ -49721,7 +49725,19 @@
   },
   {
     "Id": "UI_EXOCRAFT_TECH_TREE",
-    "English": "<IMG>DIAMONDBULLET<> Exocraft Upgrades <IMG>DIAMONDBULLET<>"
+    "English": "<IMG>DIAMONDBULLET<> Vehicle Upgrades <IMG>DIAMONDBULLET<>"
+  },
+  {
+    "Id": "UI_VEHICLE_TECH_TREE",
+    "English": "Exocraft Upgrades"
+  },
+  {
+    "Id": "UI_EXOSUB_TECH_TREE",
+    "English": "Nautilon Upgrades"
+  },
+  {
+    "Id": "UI_EXOMECH_TECH_TREE",
+    "English": "Minotaur Upgrades"
   },
   {
     "Id": "UI_TECH_TREE_SUB",
@@ -51852,12 +51868,28 @@
     "English": "Add New Inventory Slot"
   },
   {
+    "Id": "CUST_PLAYER_PRESETS_TITLE",
+    "English": "OUTFITS"
+  },
+  {
     "Id": "UI_OUTFITS_HEADER",
-    "English": "Saved Outfits"
+    "English": "Stored Outfits"
   },
   {
     "Id": "SAVE_U",
     "English": "SAVE"
+  },
+  {
+    "Id": "APPLY_U",
+    "English": "APPLY"
+  },
+  {
+    "Id": "DELETE_U",
+    "English": "DELETE"
+  },
+  {
+    "Id": "SELECT_U",
+    "English": "SELECT"
   },
   {
     "Id": "UI_SAVE_OUTFIT_TITLE",
@@ -51869,11 +51901,11 @@
   },
   {
     "Id": "UI_CHANGE_OUTFIT_CONFIRM_TITLE",
-    "English": "DISCARD CHANGES?"
+    "English": "APPLY OUTFIT?"
   },
   {
     "Id": "UI_CHANGE_OUTFIT_CONFIRM",
-    "English": "The current outfit has been changed, but those changes have not been saved. Are you sure you want to leave the Customiser?"
+    "English": "Applying this outfit will overwrite your current customisation settings. Are you sure?"
   },
   {
     "Id": "UI_DEMAND_SUFFIX",
@@ -102368,6 +102400,182 @@
     "English": "Cannot activate uplink <IMG>SLASH<> Starship interference detected"
   },
   {
+    "Id": "UI_TEXT_CHAT_INPUT",
+    "English": "Input chat message:"
+  },
+  {
+    "Id": "UI_CARGO_VALUE",
+    "English": "Cargo Aboard: %NUM%"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCKING1",
+    "English": "%NAME%, Cleanup Agent"
+  },
+  {
+    "Id": "UI_PLAYER_TDESC_TRUCKING1",
+    "English": "Recycle some industrial waste"
+  },
+  {
+    "Id": "UI_TITLE_OWNED_TRUCKING1",
+    "English": "Recycled your first piece of industrial waste"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCKING2",
+    "English": "Big Rig %NAME%"
+  },
+  {
+    "Id": "UI_PLAYER_TDESC_TRUCKING2",
+    "English": "Recycle a large amount of industrial waste"
+  },
+  {
+    "Id": "UI_TITLE_OWNED_TRUCKING2",
+    "English": "Recycled a large amount of industrial waste"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCKING3",
+    "English": "%NAME%, the Colossus"
+  },
+  {
+    "Id": "UI_PLAYER_TDESC_TRUCKING3",
+    "English": "Recycle a vast amount of industrial waste"
+  },
+  {
+    "Id": "UI_TITLE_OWNED_TRUCKING3",
+    "English": "Recycled a vast amount of industrial waste"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCKING4",
+    "English": "Rusty %NAME%"
+  },
+  {
+    "Id": "UI_PLAYER_TDESC_TRUCKING4",
+    "English": "Manually process scrap metal"
+  },
+  {
+    "Id": "UI_TITLE_OWNED_TRUCKING4",
+    "English": "Recycled %NUM% pieces of scrap metal"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCKING5",
+    "English": "Loadmaster %NAME%"
+  },
+  {
+    "Id": "UI_PLAYER_TDESC_TRUCKING5",
+    "English": "Manually process explosive waste"
+  },
+  {
+    "Id": "UI_TITLE_OWNED_TRUCKING5",
+    "English": "Recycled %NUM% pieces of explosive waste"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCKING6",
+    "English": "Fuel Handler %NAME%"
+  },
+  {
+    "Id": "UI_PLAYER_TDESC_TRUCKING6",
+    "English": "Manually process radioactive waste"
+  },
+  {
+    "Id": "UI_TITLE_OWNED_TRUCKING6",
+    "English": "Recycled %NUM% pieces of radioactive waste"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCKING7",
+    "English": "Hazmat Specialist %NAME%"
+  },
+  {
+    "Id": "UI_PLAYER_TDESC_TRUCKING7",
+    "English": "Manually process toxic waste"
+  },
+  {
+    "Id": "UI_TITLE_OWNED_TRUCKING7",
+    "English": "Recycled %NUM% pieces of toxic waste"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCKING8",
+    "English": "Ploughman %NAME%"
+  },
+  {
+    "Id": "UI_PLAYER_TDESC_TRUCKING8",
+    "English": "Acquire resources with an Excavation Blade"
+  },
+  {
+    "Id": "UI_TITLE_OWNED_TRUCKING8",
+    "English": "Scoured a planet with an Exacavation Blade"
+  },
+  {
+    "Id": "EMOTE_HONK_HORN_U",
+    "English": "TOOT TOOT!"
+  },
+  {
+    "Id": "EMOTE_HONK_HORN",
+    "English": "Toot Toot!"
+  },
+  {
+    "Id": "EMOTE_HONK_HORN_DESC",
+    "English": "An exclusive gesture.\nThis can be selected from the <VAL_ON>Quick Menu<>. All aboard!"
+  },
+  {
+    "Id": "UI_EMOTE_CHAT_HONK_HORN",
+    "English": "Toot Toot!"
+  },
+  {
+    "Id": "UI_REWARD_FORMAT_GESTURE",
+    "English": "<COMMODITY>\"%ITEM%\" gesture<>"
+  },
+  {
+    "Id": "VEHICLE_PLOUGH",
+    "English": "Resource Scoop"
+  },
+  {
+    "Id": "UI_WASTE_REJECTED_OSD",
+    "English": "Deposit rejected <IMG>SLASH<> Incorrect material type"
+  },
+  {
+    "Id": "UI_EXPLOSIVE_LABEL",
+    "English": "Potentially Explosive"
+  },
+  {
+    "Id": "UI_VALUABLE_CARGO_LABEL",
+    "English": "Industrial Waste"
+  },
+  {
+    "Id": "UI_TOXIC_LABEL",
+    "English": "Toxic Containment"
+  },
+  {
+    "Id": "UI_RADIOACTIVE_LABEL",
+    "English": "Radioactive Hazard"
+  },
+  {
+    "Id": "UI_SCRAP_RECYCLE_ALERT",
+    "English": "Scrap processed into nanites"
+  },
+  {
+    "Id": "UI_EXP_RECYCLE_ALERT",
+    "English": "Unstable waste processed into nanites"
+  },
+  {
+    "Id": "UI_TOX_RECYCLE_ALERT",
+    "English": "Toxic waste processed into nanites"
+  },
+  {
+    "Id": "UI_RAD_RECYCLE_ALERT",
+    "English": "Radioactive waste processed into nanites"
+  },
+  {
+    "Id": "UI_FURNACE_RECYCLE_ALERT",
+    "English": "Hazardous waste processed into nanites"
+  },
+  {
+    "Id": "UI_FIRST",
+    "English": "first"
+  },
+  {
+    "Id": "UI_S21_EMERGENCY_RETURN",
+    "English": "Return to the Waste Processing Plant"
+  },
+  {
     "Id": "UI_SEASON_20_NAME",
     "English": "Breach"
   },
@@ -102421,7 +102629,7 @@
   },
   {
     "Id": "UI_EXPED20_DETAIL_LINE3B",
-    "English": "Bases, discoveries, and other progress <TECHNOLOGY>will be shared or merged<> with your primary save."
+    "English": "Bases and discoveries from <TECHNOLOGY>accessible systems<> will be shared or merged with your primary save."
   },
   {
     "Id": "UI_EXPED20_DETAIL_LINE4A",
@@ -103486,6 +103694,2350 @@
   {
     "Id": "UI_EXPED_CRE_STRIDERGLOW_MSG5A",
     "English": "Discover bioluminescent bipeds: %CURRENT%/%AMOUNT%\nAll luminous lifeforms in this system have been discovered\nUse the <TECHNOLOGY>Galaxy Map<> to locate another viable world"
+  },
+  {
+    "Id": "UPDATE_24_TITLE",
+    "English": "No Man's Sky version 6.2: REMNANT"
+  },
+  {
+    "Id": "UPDATE_24_INTRO",
+    "English": "No Man's Sky <SPECIAL>REMNANT<> brings <STELLAR>physical manipulation<> to the Multi-Tool, and <STELLAR>overhauls Exocraft customisation<>. Magnetise, launch, carry and transport stacks of industrial waste, and salvage valuable alloys hidden in the debris."
+  },
+  {
+    "Id": "UPDATE_24_BULLET1",
+    "English": "<IMG>BULLETPOINT<> Equip the powerful <TECHNOLOGY>Gravitino Coil<> in your Multi-Tool, and <STELLAR>physically manipulate<> the piles of industrial waste accumulated on planets."
+  },
+  {
+    "Id": "UPDATE_24_BULLET2",
+    "English": "<IMG>BULLETPOINT<> Deck out your <TECHNOLOGY>Colossus Exocraft<> with a variety of off-road wheels, cabins, paint finishes, technologies and more."
+  },
+  {
+    "Id": "UPDATE_24_BULLET3",
+    "English": "<IMG>BULLETPOINT<> Install a <TECHNOLOGY>flatbed module<> in your Colossus to transport large quantities of waste across terrain, and <STELLAR>process your haul<> for rewards."
+  },
+  {
+    "Id": "UPDATE_24_BULLET4",
+    "English": "<IMG>BULLETPOINT<> Join the community in a <STELLAR>time-limited expedition<>, staged in the sands of a <STELLAR>single planet<>. Drive cross-country and strip the desert of dangerous industrial remnants."
+  },
+  {
+    "Id": "UI_SEASON_21_NAME",
+    "English": "Remnant"
+  },
+  {
+    "Id": "UI_SEASON_21_NAME_U",
+    "English": "REMNANT"
+  },
+  {
+    "Id": "UI_SEASON_21_MAIN_TITLE",
+    "English": "Expedition 21: Remnant"
+  },
+  {
+    "Id": "TRADE_FILTER_SEASON_21",
+    "English": "Expedition 21"
+  },
+  {
+    "Id": "UI_SEASON_21_MAIN_MSG",
+    "English": "Register for long-distance hauling and strip the desert of <STELLAR>industrial waste<>!\nSelect the <EXPED>%MILESTONE%<> milestone to start your journey\nPhase %NUM%: %CURRENT%/%AMOUNT% milestones complete\nFind milestones in the <STELLAR>Expedition<> tab (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED21_MAIN_DESC",
+    "English": "Sign up for heavy-duty industrial salvage! Drive cross-country and strip the desert of industrial waste. Collect material with the powerful Gravitino Coil and transport your haul across the planet."
+  },
+  {
+    "Id": "UI_EXPED21_SUMMARY",
+    "English": "Sign up for Expedition 21: <SPECIAL>Remnant<> to wield the powerful Gravitino Coil, manipulate industrial waste, and transport it across the desert in the mighty Colossus Exocraft."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_DESC",
+    "English": "Sign up for heavy-duty industrial salvage! Equip the powerful <TECHNOLOGY>Gravitino Coil<> to manipulate <STELLAR>industrial waste<> and <STELLAR>haul<> it across the desert.\n\nComplete <TECHNOLOGY>Milestones<> to earn new equipment. Complete entire <COMMODITY>Phases<> for special, exclusive rewards."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_LINE1A",
+    "English": "View progress in the <STELLAR>Expedition<> page (<IMG>OPTIONS<>)."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_LINE2A",
+    "English": "Earn equipment and <STELLAR>exclusive rewards<> by completing <TECHNOLOGY>Milestones<>."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_LINE3A",
+    "English": "Starship travel is <RED>unavailable<>. All scavengers must traverse this world via <STELLAR>Exocraft<>."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_LINE4A",
+    "English": "<COMMODITY>Phase rewards<> can be accessed on <STELLAR>any save<>. This save will remain playable when the expedition ends."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_LINE1B",
+    "English": "View progress in the <STELLAR>Expedition<> page (<IMG>OPTIONS<>). Reach the <SPECIAL>Space Anomaly<> to retrieve your stored items."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_LINE2B",
+    "English": "Starship travel is <RED>unavailable<>. All haulers must traverse this world via <STELLAR>Exocraft<>."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_LINE3B",
+    "English": "Bases, discoveries, and other progress <TECHNOLOGY>will be shared or merged<> with your primary save."
+  },
+  {
+    "Id": "UI_EXPED21_DETAIL_LINE4B",
+    "English": "Switch back to your primary save at <STELLAR>any time<>. <COMMODITY>Phase rewards<> can be accessed on <STELLAR>any save<>."
+  },
+  {
+    "Id": "UI_GUIDE_TOPIC_SCRAP",
+    "English": "Scrap Salvaging & Industrial Waste"
+  },
+  {
+    "Id": "UI_GUIDE_BODY_SCRAP",
+    "English": "A number of worlds contain remnants of <STELLAR>salvageable scrap<> and <STELLAR>industrial waste<>. Scan planets from space to identify scrap worlds.\n\nSalvageable scrap is often highly <COMMODITY>valuable<>, and can be sold at a <TECHNOLOGY>Galactic Trade Terminal<>.\n\nSalvage containers are also a rich source of <TECHNOLOGY>modules<> used to construct a Corvette-class Starship.\n\nInstall a <TECHNOLOGY>Gravitino Coil<> in the Multi-Tool to <VAL_ON>magnetise<> and <VAL_ON>manipulate<> deposits of <STELLAR>industrial waste<>. Large stacks of industrial waste can be hauled across the planet in a <TECHNOLOGY>Colossus Exocraft<>, and deposited for rewards at a <STELLAR>Waste Processing Plant<>.\n\nWhile driving a Colossus on a scrap world, use the <TECHNOLOGY>Exocraft Radar<> in the Quick Menu (<IMG>QUICK_MENU<>) to locate nearby <STELLAR>Processing Plants<> and <STELLAR>Waste Heaps<>."
+  },
+  {
+    "Id": "UI_WIKI_SHORT_SCRAP",
+    "English": "A number of worlds contain remnants of <STELLAR>salvageable scrap<> and <STELLAR>industrial waste<>. Scan planets from space to identify scrap worlds. <WIKIHIGH>Read more...<>"
+  },
+  {
+    "Id": "UI_S21_START_INV_BODY",
+    "English": "This expedition takes place on a <STELLAR>single planet<>. Starship travel is <FUEL>unavailable<>, and this terminus will not be reachable for equipment transfer until the expedition is complete.\n\n<STELLAR>Bases<> and <STELLAR>discoveries<> are <STELLAR>automatically shared<> with your primary save at the end of the expedition."
+  },
+  {
+    "Id": "UI_EXPED21_START_DETAIL_BODY2",
+    "English": "Beginning the expedition will start a new journey. You may switch freely between your expedition and primary saves at any time."
+  },
+  {
+    "Id": "UI_EXPED21_START_WARNING",
+    "English": "Beginning the expedition will start a new journey and place you upon an unknown world. You may switch freely between your expedition and primary saves at any time.\n\nDo you wish to continue?"
+  },
+  {
+    "Id": "UI_MP_EXPED21_START_WARNING",
+    "English": "Beginning the expedition will start a new journey and place you upon an unknown world. You may switch freely between your expedition and primary saves at any time.\n\nYou will be removed from your current multiplayer group.\n\nDo you wish to continue?"
+  },
+  {
+    "Id": "UI_EXPED21_REWARDS_SEASON_MSG1",
+    "English": "Expedition <TRADEABLE>Complete<>!\nStarship now <TRADEABLE>available<> to return to the <SPECIAL>Space Anomaly<>\nTransfer valuables from the Exocraft Inventory to the Starship before takeoff\nUse the <EXPED>Expedition Terminus<> to send valuable items to your primary save"
+  },
+  {
+    "Id": "UI_EXPD_TITLE_21_NAME",
+    "English": "TITLE: 'MAG-FIELD EXPERT'"
+  },
+  {
+    "Id": "UI_EXPD_TITLE_21_NAME_L",
+    "English": "Title: 'Mag-Field Expert'"
+  },
+  {
+    "Id": "UI_EXPD_TITLE_21_DESC",
+    "English": "An exclusive <STELLAR>Explorer Title<>, commemorating completion of the <STELLAR>Remnant<> expedition, and the mastery of magnetism.\n\nApply this title to your banner at an <TECHNOLOGY>Appearance Modifier<>."
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_EXPD21",
+    "English": "Mag-Field Expert %NAME%"
+  },
+  {
+    "Id": "BLD_DECAL_EXPD_21_NAME",
+    "English": "REMNANT DECAL"
+  },
+  {
+    "Id": "BLD_DECAL_EXPD_21_NAME_L",
+    "English": "Remnant Decal"
+  },
+  {
+    "Id": "BLD_DECAL_EXPD_21_DESCRIPTION",
+    "English": "An exclusive placeable decal, to add flair and decoration to bases.\n\nThis decal commemorates completion of the <STELLAR>Remnant<> expedition, and the mastery of magnetism."
+  },
+  {
+    "Id": "UI_BANNER_EXPD_21_NAME",
+    "English": "REMNANT BANNER"
+  },
+  {
+    "Id": "UI_BANNER_EXPD_21_NAME_L",
+    "English": "Remnant Banner"
+  },
+  {
+    "Id": "UI_BANNER_EXPD_21_DESC",
+    "English": "Equip this exclusive <STELLAR>Personal Flair<> in commemoration of the <STELLAR>Remnant<> expedition, and the mastery of magnetism.\nApply this banner to your profile at an <TECHNOLOGY>Appearance Modifier<>."
+  },
+  {
+    "Id": "UI_TIP_BANNER_EXPD_21",
+    "English": "Remnant Expedition Banner"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21A_NAME",
+    "English": "MAGNETISM POSTER"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21A_NAME_L",
+    "English": "Magnetism Poster"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21A_DESCRIPTION",
+    "English": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis symbolic artwork represents the polarity of the Traveller's nature, the push and pull of the universe, the flux of exploration."
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21B_NAME",
+    "English": "GRAVITINO COIL POSTER"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21B_NAME_L",
+    "English": "Gravitino Coil Poster"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21B_DESCRIPTION",
+    "English": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nIs your home planet overburdened with industrial waste? Troubled by crates and barrels exploding in the night? Looking to earn rewards for responsible disposal? Purchase a <TECHNOLOGY>Gravitino Coil<> today!"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21C_NAME",
+    "English": "COLOSSUS EXOCRAFT POSTER"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21C_NAME_L",
+    "English": "Colossus Exocraft Poster"
+  },
+  {
+    "Id": "BLD_EXPD_POSTER21C_DESCRIPTION",
+    "English": "An exclusive piece of self-adhesive, crease-proof wall art.\n\nThis poster is a tribute to the power of the Colossus large Exocraft, and the endurance of its many off-road wheel modules."
+  },
+  {
+    "Id": "UI_TIP_ARMOUR_VAULT",
+    "English": "Heirloom Breastplate"
+  },
+  {
+    "Id": "UI_TIP_TORSO_VAULT",
+    "English": "Heirloom Suit"
+  },
+  {
+    "Id": "UI_TIP_GLOVES_VAULT",
+    "English": "Heirloom Gloves"
+  },
+  {
+    "Id": "UI_TIP_LEGS_VAULT",
+    "English": "Heirloom Leggings"
+  },
+  {
+    "Id": "UI_TIP_BOOTS_VAULT",
+    "English": "Heirloom Boots"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_SET_DESC",
+    "English": "An exclusive <STELLAR>Exosuit Appearance Override<>.\n\nA lavish set of exosuit armour, inspired by the traditional designs of Balaron textile merchants. Ornate detailing and plush, padded fabrics elevate the attractiveness and status of the wearer.\n\nTransform the appearance of your Exosuit at an <TECHNOLOGY>Appearance Modifier<>."
+  },
+  {
+    "Id": "UI_EXPED_VAULT_ARMOUR_NAME",
+    "English": "HEIRLOOM BREASTPLATE"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_ARMOUR_NAME_L",
+    "English": "Heirloom Breastplate"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_TORSO_NAME",
+    "English": "HEIRLOOM SUIT"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_TORSO_NAME_L",
+    "English": "Heirloom Suit"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_GLOVES_NAME",
+    "English": "HEIRLOOM GLOVES"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_GLOVES_NAME_L",
+    "English": "Heirloom Gloves"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_BOOTS_NAME",
+    "English": "HEIRLOOM BOOTS"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_BOOTS_NAME_L",
+    "English": "Heirloom Boots"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_LEGS_NAME",
+    "English": "HEIRLOOM LEGGINGS"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_LEGS_NAME_L",
+    "English": "Heirloom Leggings"
+  },
+  {
+    "Id": "UI_EXPED_VAULT_SET_TITLE",
+    "English": "<COMMODITY>Heirloom<> customisation set"
+  },
+  {
+    "Id": "UI_TIP_VAULT_ARMOUR_TEX_1",
+    "English": "Natural Leather"
+  },
+  {
+    "Id": "UI_TIP_VAULT_ARMOUR_TEX_2",
+    "English": "Dyed Leather"
+  },
+  {
+    "Id": "UI_TIP_VAULT_TORSO_TEX_1",
+    "English": "Simple Embroidery"
+  },
+  {
+    "Id": "UI_TIP_VAULT_TORSO_TEX_2",
+    "English": "Trimmings"
+  },
+  {
+    "Id": "UI_TIP_VAULT_TORSO_TEX_3",
+    "English": "Accents"
+  },
+  {
+    "Id": "UI_TIP_VAULT_GLOVES_TEX_1",
+    "English": "Solid Colour"
+  },
+  {
+    "Id": "UI_TIP_VAULT_GLOVES_TEX_2",
+    "English": "Accented Knuckles"
+  },
+  {
+    "Id": "UI_TIP_VAULT_GLOVES_TEX_3",
+    "English": "Accented Wrists"
+  },
+  {
+    "Id": "UI_TIP_VAULT_BOOTS_TEX_1",
+    "English": "Solid Colour"
+  },
+  {
+    "Id": "UI_TIP_VAULT_BOOTS_TEX_2",
+    "English": "Accented Leather"
+  },
+  {
+    "Id": "UI_TIP_VAULT_BOOTS_TEX_3",
+    "English": "Contrasting Leather"
+  },
+  {
+    "Id": "UI_TIP_VAULT_LEGS_TEX_1",
+    "English": "Simple Embroidery"
+  },
+  {
+    "Id": "UI_TIP_VAULT_LEGS_TEX_2",
+    "English": "Trimmings"
+  },
+  {
+    "Id": "UI_TIP_VAULT_LEGS_TEX_3",
+    "English": "Chequered Pattern"
+  },
+  {
+    "Id": "UI_BONES_PACK_TITLE",
+    "English": "<STELLAR>Collection of Decorative Bones<>"
+  },
+  {
+    "Id": "OSD_SUMMON_NO_EXOCRAFT",
+    "English": "Exocraft Not Owned"
+  },
+  {
+    "Id": "BASEBUILD_INVALID_PROTECTED",
+    "English": "Cannot Build <IMG>SLASH<> Site Unavailable"
+  },
+  {
+    "Id": "UI_GRAVGUN_NAME",
+    "English": "GRAVITINO COIL"
+  },
+  {
+    "Id": "UI_GRAVGUN_NAME_L",
+    "English": "Gravitino Coil"
+  },
+  {
+    "Id": "UI_GRAVGUN_SUB",
+    "English": "Industrial Waste Manipulation Device"
+  },
+  {
+    "Id": "UI_GRAVGUN_DESC",
+    "English": "This remarkable technology transforms the Multi-Tool into a powerful kinetic manipulator, capable of attracting and repelling industrial waste via a localised magnetic field.\n\nAccess the Gravitino Coil by pressing <IMG>CYCLEWEAPON<>, and attract industrial waste with <IMG>ALTATTACK<>. Magnetised objects can be launched from the Coil with <IMG>ATTACK<>, or gently released with <IMG>ALTATTACK<>."
+  },
+  {
+    "Id": "UI_VEHICLESCOPE_NAME",
+    "English": "CYCLOPS SCOPE"
+  },
+  {
+    "Id": "UI_VEHICLESCOPE_NAME_L",
+    "English": "Cyclops Scope"
+  },
+  {
+    "Id": "UI_VEHICLESCOPE_DESC",
+    "English": "An enhancement to the Exocraft's navigational capabilities, attaching to the driver's visor display. Analyses surroundings and projects detailed data over the environment, identifying <STELLAR>points of interest<> and generating <COMMODITY>valuable data<> when used to study <TRADEABLE>flora<>, <FUEL>fauna<> and <TECHNOLOGY>minerals<>.\n\nHold <IMG>AIM<> to operate."
+  },
+  {
+    "Id": "UI_VEHICLESCOPE_SUB",
+    "English": "Exocraft Survey Device"
+  },
+  {
+    "Id": "UI_VEHICLESCOPE_NO_TECH",
+    "English": "No Cyclops Scope installed"
+  },
+  {
+    "Id": "UI_TRUCK_PLOUGH_NAME",
+    "English": "EXCAVATION BLADE"
+  },
+  {
+    "Id": "UI_TRUCK_PLOUGH_NAME_L",
+    "English": "Excavation Blade"
+  },
+  {
+    "Id": "UI_TRUCK_PLOUGH_SUB",
+    "English": "Exocraft Demolition Attachment"
+  },
+  {
+    "Id": "UI_TRUCK_PLOUGH_DESC",
+    "English": "A obstacle demolition attachment for a terrestrial vehicle, compatible with the <TECHNOLOGY>Colossus<> large Exocraft.\n\nThe <STELLAR>Excavation Blade<> allows the Colossus to collect a small number of resources from minerals and vegetation upon collision, and reduces grime and scratches to the Exocraft's paintwork."
+  },
+  {
+    "Id": "UI_TRUCK_DUMP_LABEL",
+    "English": "Dump Materials"
+  },
+  {
+    "Id": "OSD_SUMMON_VEHICLE_ERR",
+    "English": "CANNOT SUMMON <IMG>SLASH<> GEOBAY OCCUPIED"
+  },
+  {
+    "Id": "UI_CUSTOMISE_VEHICLE_OPT_A",
+    "English": "Research Visual Modifications"
+  },
+  {
+    "Id": "UI_CUSTOMISE_VEHICLE_OPT_B",
+    "English": "Customise Appearance"
+  },
+  {
+    "Id": "UI_CUSTOMISE_VEHICLE_TREE",
+    "English": "<IMG>DIAMONDBULLET<> Exocraft Visual Modifications <IMG>DIAMONDBULLET<>"
+  },
+  {
+    "Id": "UI_CUSTOMISE_VEH_TRUCK_TREE",
+    "English": "Colossus Modifications"
+  },
+  {
+    "Id": "CUST_VEH_PRESETS_TITLE",
+    "English": "CONFIGS"
+  },
+  {
+    "Id": "CUST_VEH_PRESETS_L",
+    "English": "Stored Configurations"
+  },
+  {
+    "Id": "CUST_PRESETS_NAME",
+    "English": "Unnamed Outfit"
+  },
+  {
+    "Id": "CUST_PRESETS_NAME_EMPTY",
+    "English": "Empty Slot"
+  },
+  {
+    "Id": "CUST_PRESETS_SAVE",
+    "English": "STORE"
+  },
+  {
+    "Id": "CUST_VEH_PRESETS_NAME",
+    "English": "Unnamed Config"
+  },
+  {
+    "Id": "CUST_VEH_PRESETS_NAME_EMPTY",
+    "English": "Empty Slot"
+  },
+  {
+    "Id": "UI_RENAME_PRESET_VEH",
+    "English": "Rename this stored configuration"
+  },
+  {
+    "Id": "UI_RENAME_PRESET_PLAYER",
+    "English": "Rename this outfit"
+  },
+  {
+    "Id": "UI_SAVE_VEH_OUTFIT_TITLE",
+    "English": "OVERRIDE CONFIG?"
+  },
+  {
+    "Id": "UI_SAVE_VEH_OUTFIT_BODY",
+    "English": "Saving this custom config will override the settings currently stored in this slot. Do you wish to continue?"
+  },
+  {
+    "Id": "UI_CHANGE_VEH_OUTFIT_TITLE",
+    "English": "APPLY CONFIG?"
+  },
+  {
+    "Id": "UI_CHANGE_VEH_OUTFIT_BODY",
+    "English": "Applying this config will overwrite your current customisation settings. Are you sure?"
+  },
+  {
+    "Id": "UI_DELETE_PLAYER_OUTFIT_TITLE",
+    "English": "DELETE OUTFIT?"
+  },
+  {
+    "Id": "UI_DELETE_PLAYER_OUTFIT_BODY",
+    "English": "Are you sure you wish to delete the \"%NAME%\" outfit?"
+  },
+  {
+    "Id": "UI_DELETE_VEH_OUTFIT_TITLE",
+    "English": "DELETE CONFIG?"
+  },
+  {
+    "Id": "UI_DELETE_VEH_OUTFIT_BODY",
+    "English": "Are you sure you wish to delete the \"%NAME%\" config?"
+  },
+  {
+    "Id": "UI_SAVE_VEH_CUSTOMISATION",
+    "English": "Would you like to apply the current changes to your Exocraft?"
+  },
+  {
+    "Id": "CUST_TRUCK_FINISH",
+    "English": "PAINT"
+  },
+  {
+    "Id": "CUST_TRUCK_MATERIAL_L",
+    "English": "Paint Style"
+  },
+  {
+    "Id": "CUST_TRUCK_BODY",
+    "English": "CHASSIS"
+  },
+  {
+    "Id": "CUST_TRUCK_CABIN",
+    "English": "CABIN"
+  },
+  {
+    "Id": "CUST_TRUCK_WHEELS",
+    "English": "RUNNING GEAR"
+  },
+  {
+    "Id": "CUST_TRUCK_MODULE_L",
+    "English": "Module"
+  },
+  {
+    "Id": "CUST_EXO_BOOSTER_COLOUR_L",
+    "English": "Exhaust Colour"
+  },
+  {
+    "Id": "CUST_TRUCK_DECALS_FRONT",
+    "English": "FRONT DECALS"
+  },
+  {
+    "Id": "CUST_TRUCK_DECALS_LEFT",
+    "English": "LEFT DECALS"
+  },
+  {
+    "Id": "CUST_TRUCK_DECALS_RIGHT",
+    "English": "RIGHT DECALS"
+  },
+  {
+    "Id": "CUST_TRUCK_DECALS_BACK",
+    "English": "REAR DECALS"
+  },
+  {
+    "Id": "UI_TRUCK_BODY01_NAME",
+    "English": "CLASSIC COLOSSUS BODY"
+  },
+  {
+    "Id": "UI_TRUCK_BODY01_NAME_L",
+    "English": "Classic Colossus Body"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_BODY_01",
+    "English": "Classic Colossus Body"
+  },
+  {
+    "Id": "UI_TRUCK_BODY01_DESC",
+    "English": "A custom body module for a terrestrial vehicle, compatible with the <TECHNOLOGY>Colossus<> large Exocraft.\n\nThe <STELLAR>Classic Colossus Body<> features heavy plated armour and a flat, elongated hull. Forms part of the iconic silhouette for this Exocraft.\n\n<STELLAR>Recalibrate Exocraft visuals<> from the <TECHNOLOGY>Colossus Geobay<>."
+  },
+  {
+    "Id": "UI_TRUCK_BODY02_NAME",
+    "English": "FLATBED CHASSIS MODULE"
+  },
+  {
+    "Id": "UI_TRUCK_BODY02_NAME_L",
+    "English": "Flatbed Chassis Module"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_BODY_02",
+    "English": "Flatbed Module"
+  },
+  {
+    "Id": "UI_TRUCK_BODY02_DESC",
+    "English": "A custom <STELLAR>body<> module for a terrestrial vehicle, compatible with the <TECHNOLOGY>Colossus<> large Exocraft.\n\nThe <TECHNOLOGY>Flatbed Module<> allows the Colossus to haul heavy stacks of industrial waste across long distances. An electromagnetic containment field minimises cargo loss while navigating uneven terrain.\n\nA tipping lever allows the flatbed to <STELLAR>dump<> its contents, for ease of processing.\n\n<STELLAR>Recalibrate Exocraft visuals<> from the <TECHNOLOGY>Colossus Geobay<>."
+  },
+  {
+    "Id": "UI_TRUCK_BODY03_NAME",
+    "English": "FURNACE CHASSIS MODULE"
+  },
+  {
+    "Id": "UI_TRUCK_BODY03_NAME_L",
+    "English": "Furnace Chassis Module"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_BODY_03",
+    "English": "Furnace Module"
+  },
+  {
+    "Id": "UI_TRUCK_BODY03_DESC",
+    "English": "A custom body module for a terrestrial vehicle, compatible with the <TECHNOLOGY>Colossus<> large Exocraft.\n\nThe <STELLAR>Furnace Module<> enables immediate disposal of industrial waste. Note: resource extraction is less efficient than at a Waste Processing Plant.\n\n<STELLAR>Recalibrate Exocraft visuals<> from the <TECHNOLOGY>Colossus Geobay<>."
+  },
+  {
+    "Id": "UI_TRUCK_CAB01_NAME",
+    "English": "CLASSIC CABIN"
+  },
+  {
+    "Id": "UI_TRUCK_CAB01_NAME_L",
+    "English": "Classic Cabin"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_CAB_01",
+    "English": "Classic Cabin"
+  },
+  {
+    "Id": "UI_TRUCK_CAB02_NAME",
+    "English": "WIDESCREEN CABIN"
+  },
+  {
+    "Id": "UI_TRUCK_CAB02_NAME_L",
+    "English": "Widescreen Cabin"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_CAB_02",
+    "English": "Widescreen Cabin"
+  },
+  {
+    "Id": "UI_TRUCK_CAB03_NAME",
+    "English": "ASYMMETRICAL CABIN"
+  },
+  {
+    "Id": "UI_TRUCK_CAB03_NAME_L",
+    "English": "Asymmetrical Cabin"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_CAB_03",
+    "English": "Asymmetrical Cabin"
+  },
+  {
+    "Id": "UI_TRUCK_CAB_DESC",
+    "English": "A custom cabin module for a terrestrial vehicle, compatible with the <TECHNOLOGY>Colossus<> large Exocraft.\n\n<STELLAR>Recalibrate Exocraft visuals<> from the <TECHNOLOGY>Colossus Geobay<>."
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS01_NAME",
+    "English": "CLASSIC WHEELS"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS01_NAME_L",
+    "English": "Classic Wheels"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_WHEELS_01",
+    "English": "Classic Wheels"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS02_NAME",
+    "English": "OFF-ROAD WHEELS"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS02_NAME_L",
+    "English": "Off-Road Wheels"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_WHEELS_02",
+    "English": "Off-Road Wheels"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS03_NAME",
+    "English": "TRACKED TREADS"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS03_NAME_L",
+    "English": "Tracked Treads"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_WHEELS_03",
+    "English": "Tracked Treads"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS04_NAME",
+    "English": "REAR TREADS"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS04_NAME_L",
+    "English": "Rear Treads"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_WHEELS_04",
+    "English": "Rear Treads"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS05_NAME",
+    "English": "FRONT TREADS"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS05_NAME_L",
+    "English": "Front Treads"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_WHEELS_05",
+    "English": "Front Treads"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS06_NAME",
+    "English": "CATERPILLAR TRACK"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS06_NAME_L",
+    "English": "Caterpillar Track"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_WHEELS_06",
+    "English": "Caterpillar Track"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS07_NAME",
+    "English": "SUPERELASTIC WHEELS"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS07_NAME_L",
+    "English": "Superelastic Wheels"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_WHEELS_07",
+    "English": "Superelastic Wheels"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS08_NAME",
+    "English": "MECHANICAL LEGS"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS08_NAME_L",
+    "English": "Mechanical Legs"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_WHEELS_08",
+    "English": "Mechanical Legs"
+  },
+  {
+    "Id": "UI_TRUCK_WHEELS_DESC",
+    "English": "A custom running gear module for a terrestrial vehicle, compatible with the <TECHNOLOGY>Colossus<> large Exocraft.\n\n<STELLAR>Recalibrate Exocraft visuals<> from the <TECHNOLOGY>Colossus Geobay<>."
+  },
+  {
+    "Id": "UI_TRUCK_PAINT01_NAME",
+    "English": "CLASSIC FINISH"
+  },
+  {
+    "Id": "UI_TRUCK_PAINT01_NAME_L",
+    "English": "Classic Finish"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_PAINT_01",
+    "English": "Classic Finish"
+  },
+  {
+    "Id": "UI_TRUCK_PAINT02_NAME",
+    "English": "WEATHERED FINISH"
+  },
+  {
+    "Id": "UI_TRUCK_PAINT02_NAME_L",
+    "English": "Weathered Finish"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_PAINT_02",
+    "English": "Weathered Finish"
+  },
+  {
+    "Id": "UI_TRUCK_PAINT03_NAME",
+    "English": "CAMOUFLAGE FINISH"
+  },
+  {
+    "Id": "UI_TRUCK_PAINT03_NAME_L",
+    "English": "Camouflage Finish"
+  },
+  {
+    "Id": "UI_TIP_VEH_TRUCK_PAINT_03",
+    "English": "Camouflage Finish"
+  },
+  {
+    "Id": "UI_TRUCK_PAINT_DESC",
+    "English": "A custom paintwork finish for a terrestrial vehicle, compatible with the <TECHNOLOGY>Colossus<> large Exocraft.\n\n<STELLAR>Recalibrate Exocraft visuals<> from the <TECHNOLOGY>Colossus Geobay<>."
+  },
+  {
+    "Id": "UI_VEHICLE_CUSTOM_SUB",
+    "English": "Exocraft Customisation Option"
+  },
+  {
+    "Id": "UI_PRIV_PHYSICS_CARGO",
+    "English": "Can access my Exocraft flatbed"
+  },
+  {
+    "Id": "UI_PRIV_PHYSICS_CARGO_D",
+    "English": "Determines which other players, if any, can see and interact with items carried in your Colossus flatbed."
+  },
+  {
+    "Id": "UI_SCAN_CRATE",
+    "English": "Abandoned Crate"
+  },
+  {
+    "Id": "UI_SCAN_PHYSICS_CARGO",
+    "English": "Industrial Waste"
+  },
+  {
+    "Id": "UI_SCAN_PHYSICS_CARGO_SPEC",
+    "English": "Specialist Industrial Waste"
+  },
+  {
+    "Id": "UI_VEHICLE_BUILDING_SCRAPYARD",
+    "English": "Waste Processing Plants"
+  },
+  {
+    "Id": "UI_SIGNAL_SCRAPYARD",
+    "English": "Waste Processing Plant Detected"
+  },
+  {
+    "Id": "UI_TIP_SCRAPYARD",
+    "English": "<TITLE>Waste Processing Plant detected<>\nIndustrial waste offload available"
+  },
+  {
+    "Id": "UI_VEHICLE_BUILDING_CARGODROP",
+    "English": "Waste Heaps"
+  },
+  {
+    "Id": "UI_SIGNAL_CARGODROP",
+    "English": "Waste Heap Detected"
+  },
+  {
+    "Id": "UI_TIP_CARGODROP",
+    "English": "<TITLE>Waste Heap detected<>\nIndustrial waste pickup available"
+  },
+  {
+    "Id": "UI_CARGODROP_NAME",
+    "English": "Waste Heap"
+  },
+  {
+    "Id": "UI_CARGODROP_SE_MARKER",
+    "English": "Waste Heap"
+  },
+  {
+    "Id": "UI_CARGODROP_SE_OSD",
+    "English": "WASTE HEAP"
+  },
+  {
+    "Id": "UI_CARGODROP_SE_MSG",
+    "English": "<TITLE>Large heap of industrial waste detected<>\nWaste available for collection with a <TECHNOLOGY>Gravitino Coil<>"
+  },
+  {
+    "Id": "UI_SCRAPYARD_NAME",
+    "English": "Waste Processing Plant"
+  },
+  {
+    "Id": "UI_INTERACT_SCRAPYARD",
+    "English": "Plant Control Panel"
+  },
+  {
+    "Id": "UI_INTERACT_SCRAPYARD_SUB",
+    "English": "Valuation Scale Operation"
+  },
+  {
+    "Id": "UI_SCRAPYARD_LANG",
+    "English": "Analysing waste on <COMMODITY>valuation scale<>...<NEWLINE>Fee payable after Auto-Collect: <COMMODITY><IMG>NANITE<>%CARGO_VALUE%<><NEWLINE>Sort materials manually for additional payment"
+  },
+  {
+    "Id": "UI_SCRAPYARD_LANG_ALT",
+    "English": "Analysing waste on valuation scale...<NEWLINE><COMMODITY>Special cargo detected!<><NEWLINE>Sort materials manually for maximum payment"
+  },
+  {
+    "Id": "UI_SCRAPYARD_LANG_EMPTY",
+    "English": "No waste detected on valuation scale<NEWLINE>Deposit <STELLAR>industrial waste<> on scale to assess value and claim collection fee"
+  },
+  {
+    "Id": "UI_SCRAPYARD_RES",
+    "English": "Initiating waste translocation...<NEWLINE>...<NEWLINE>Payment dispensed!"
+  },
+  {
+    "Id": "UI_SCRAPYARD_OPT_A",
+    "English": "Scan for waste heaps"
+  },
+  {
+    "Id": "UI_SCRAPYARD_OPT_B",
+    "English": "Request Auto-Collect"
+  },
+  {
+    "Id": "UI_EXPED_BLUEPRINT_UNKNOWN_MSG",
+    "English": "<TECHNOLOGY>%ITEM%<> blueprint not yet known\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_NAME",
+    "English": "Magnetic Personality"
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_NAME_U",
+    "English": "MAGNETIC PERSONALITY"
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_DESC",
+    "English": "Install the Gravitino Coil"
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_DESC_D",
+    "English": "Equipped the Gravitino Coil"
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_OBJ1",
+    "English": "Install a Gravitino Coil"
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_OBJ1_T",
+    "English": "The <TECHNOLOGY>Gravitino Coil<> transforms the Multi-Tool into a powerful kinetic manipulator, capable of attracting and repelling industrial waste via a localised magnetic field.\n\nSelect an empty <TECHNOLOGY>Technology<> slot in the Multi-Tool, and begin installation with <IMG>TECHMENU<>. Pin required components with <IMG>PIN<>."
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_MSG1A",
+    "English": "Install the <TECHNOLOGY>%ITEM%<> to manipulate industrial waste\nComplete the <EXPED>%MILESTONE%<> milestone to learn the blueprint\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_MSG1B",
+    "English": "Install the <TECHNOLOGY>%ITEM%<> to manipulate industrial waste\nAccess the Multi-Tool Inventory with <IMG>INVENTORY<>\nBegin installation in an empty slot with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_GET_GRAVITYGUN_MSG1C",
+    "English": "Complete the <TECHNOLOGY>%ITEM%<> installation\nUse <IMG>TECHMENU<> to inspect progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_NAME",
+    "English": "Flux Calibration"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_NAME_U",
+    "English": "FLUX CALIBRATION"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_DESC",
+    "English": "Test the field equipment"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_DESC_D",
+    "English": "Generated a magnetic field"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_OBJ1",
+    "English": "Test the Gravitino Coil"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_OBJ1_T",
+    "English": "Identify <STELLAR>industrial waste<> in the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>).\n\nAccess the <TECHNOLOGY>Gravitino Coil<> by pressing <IMG>CYCLEWEAPON<>, and attract industrial waste with <IMG>ALTATTACK<>.\n\nMagnetised objects can be launched from the Coil with <IMG>ATTACK<>, or gently released with <IMG>ALTATTACK<>.\n\nDeposit industrial waste in the large <STELLAR>Processors<> at a <STELLAR>Waste Processing Plant<>."
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG1A",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nSearch for <STELLAR>industrial waste<> in the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG1B",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nCycle Multi-Tool modes with <IMG>CYCLEWEAPON<>"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG1C",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nIdentify <STELLAR>industrial waste<> in the Analysis Visor (<IMG>AIM<>)\nAim at <STELLAR>industrial waste<> and tap <IMG>ALTATTACK<> to magnetise (%CURRENT%/%AMOUNT%)"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG1G",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nIdentify <STELLAR>industrial waste<> in the Analysis Visor (<IMG>AIM<>)\nAim at <STELLAR>industrial waste<> and repel it with <IMG>ATTACK<> (%CURRENT%/%AMOUNT%)"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG1D",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nLaunch magnetised objects by tapping <IMG>ATTACK<>\nOr gently release with <IMG>ALTATTACK<>"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG1E",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nDrive with <IMG>CAR_ACCEL<> and steer by aiming the camera\nSweep for <STELLAR>industrial waste<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG1F",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nExit your vehicle (<IMG>EXITSHIP<>)"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG2A",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nReturn to a <STELLAR>Waste Processing Plant<>"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG2B",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nAim at <STELLAR>industrial waste<> and tap <IMG>ALTATTACK<> to magnetise\nDeposit items in the appropriate <STELLAR>waste processor<>: (%CURRENT%/%AMOUNT%)"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_MSG2C",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nLaunch industrial waste by tapping <IMG>ATTACK<>\nDeposit items in the appropriate <STELLAR>waste processor<>: (%CURRENT%/%AMOUNT%)"
+  },
+  {
+    "Id": "UI_EXPED_TEST_GRAVITYGUN_LABEL",
+    "English": "Waste Processor"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BUILD_NAME",
+    "English": "Dust Trails"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BUILD_NAME_U",
+    "English": "DUST TRAILS"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BUILD_DESC",
+    "English": "Deploy the Colossus"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BUILD_DESC_D",
+    "English": "Deployed a Colossus"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BUILD_OBJ",
+    "English": "Deploy a Colossus"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BUILD_OBJ_TIP",
+    "English": "The hefty <STELLAR>Colossus<> Exocraft allows fast transportation around the planet, and can be customised with utility modules to assist with hauling <STELLAR>industrial waste<>.\n\nThe Colossus <TECHNOLOGY>Geobay<> can be constructed anywhere on a planet's surface.\n\nAccess the <TECHNOLOGY>Build Menu<> with <IMG>BUILD_MENU<> and pin plans with <IMG>PIN_BUILD<>."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BUILD_MSG1",
+    "English": "Deploy a <COMMODITY>Colossus Exocraft<> for rapid planetary transport\nAccess the <TECHNOLOGY>Build Menu<> with <IMG>BUILD_MENU<>"
+  },
+  {
+    "Id": "UI_S21_TRUCK_BUILD_MSG1",
+    "English": "Embark on a cross-country road trip\nDeploy a <COMMODITY>Colossus Exocraft<> to traverse the desert\nAccess the <TECHNOLOGY>Build Menu<> with <IMG>BUILD_MENU<>"
+  },
+  {
+    "Id": "UI_S21_TRUCK_BUILD_MSG1A",
+    "English": "Embark on a cross-country road trip\nDeploy a <COMMODITY>Colossus Exocraft<> to traverse the desert\nCraft %ITEM% in the Inventory (<IMG>INVENTORY<>): %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_S21_TRUCK_BUILD_MSG1B",
+    "English": "Deploy a <COMMODITY>Colossus Exocraft<> to traverse the desert\nGather minerals with the Mining Laser to refine <EARTH>Paraffinium<>\nMine <EARTH>Ferrite Dust<> from small rocks: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_S21_TRUCK_BUILD_MSG1C",
+    "English": "Deploy a <COMMODITY>Colossus Exocraft<> to traverse the desert\nGather minerals with the Terrain Manipulator to refine <EARTH>Paraffinium<>\nMine <EARTH>Pyrite<> from terrain deposits: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_S21_TRUCK_BUILD_MSG1D",
+    "English": "Deploy a <COMMODITY>Colossus Exocraft<> to traverse the desert\nThe Exosuit <TECHNOLOGY>Personal Refiner Mk 2<> can refine complex recipes\nRefine <EARTH>Paraffinium<> from Pyrite and Ferrite Dust: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_S21_PIN_LUSH1_MSG",
+    "English": "<EARTH>Paraffinium<> can be refined from <EARTH>Ferrite Dust<> and <EARTH>Pyrite<>\nThe Exosuit <TECHNOLOGY>Personal Refiner Mk 2<> can refine complex recipes"
+  },
+  {
+    "Id": "UI_S21_PIN_LUSH1_OBJ_TIP",
+    "English": "Natural <EARTH>Paraffinium<> is rare in <FUEL>desert environments<>, but can be <TECHNOLOGY>refined<> from other terrain elements.\nRefine <EARTH>Ferrite Dust<> and <EARTH>Pyrite<> in the Exosuit <TECHNOLOGY>Personal Refiner Mk 2<> to produce <EARTH>Paraffinium<>."
+  },
+  {
+    "Id": "UI_S21_PIN_LAND3_MSG",
+    "English": "Refine pure ferrite in the <TECHNOLOGY>Personal Refiner<> (<IMG>INVENTORY<>) to create <EARTH>Magnetised Ferrite<>\nHarvest ferrite dust from small rocks using the <TECHNOLOGY>Mining Laser<> (<IMG>ATTACK<>)"
+  },
+  {
+    "Id": "UI_S21_PIN_LAND3_OBJ_TIP",
+    "English": "Create <EARTH>Magnetised Ferrite<> in the <TECHNOLOGY>Personal Refiner<> by processing pure ferrite."
+  },
+  {
+    "Id": "UI_S21_PIN_CAVE2_MSG",
+    "English": "<TECHNOLOGY>Ionised Cobalt<> is created from Cobalt in a <TECHNOLOGY>Refiner<>\nHarvest cobalt underground by finding natural cave entrances\nLocate the Personal Refiner in the Exosuit Inventory (<IMG>INVENTORY<>)"
+  },
+  {
+    "Id": "UI_S21_PIN_CAVE2_OBJ_TIP",
+    "English": "<TECHNOLOGY>Ionised Cobalt<> is created from Cobalt in a <TECHNOLOGY>Refiner<>. Locate Cobalt underground.\nLocate natural cave entrances. <RED>WARNING:<> many caves contain hazardous flora."
+  },
+  {
+    "Id": "UI_S21_PIN_MAGNET_OBJ_TIP",
+    "English": "Craft %ITEM% from <EARTH>Magnetised Ferrite<> and <TECHNOLOGY>Ionised Cobalt<>. Use the <TECHNOLOGY>Personal Refiner<> in the Exosuit Inventory to process advanced materials.\n\n<TECHNOLOGY>Cobalt<> is found underground. Locate natural cave entrances. <RED>WARNING:<> many caves contain hazardous flora.\nGather <EARTH>Ferrite<> from planetary rocks."
+  },
+  {
+    "Id": "UI_S21_START_NAME",
+    "English": "Wasteland"
+  },
+  {
+    "Id": "UI_S21_START_NAME_U",
+    "English": "WASTELAND"
+  },
+  {
+    "Id": "UI_S21_START_DESC",
+    "English": "Investigate the processing facility"
+  },
+  {
+    "Id": "UI_S21_START_DESC_D",
+    "English": "Registered for industrial waste hauling"
+  },
+  {
+    "Id": "UI_S21_START_OBJ",
+    "English": "Register for industrial waste hauling"
+  },
+  {
+    "Id": "UI_S21_START_OBJ_TIP",
+    "English": "Join a community road trip to clear <STELLAR>industrial waste<> from this planet.\nRegister at the <STELLAR>Plant Control Panel<>."
+  },
+  {
+    "Id": "UI_S21_START_MSG",
+    "English": "Join a community road trip to clear <STELLAR>industrial waste<> from this planet\nRegister at the <STELLAR>Plant Control Panel<>"
+  },
+  {
+    "Id": "UI_S21_START_TERM_LANG",
+    "English": "<IMG>SLASH<> <STELLAR>%PLANET%<> pollutants report <IMG>SLASH<><NEWLINE>Industrial remnants: <FUEL>Significant<><NEWLINE>Waste: <FUEL>Widespread<><NEWLINE>Geosphere: <AUDIO>UI_NoWhereToLand<><SPECIAL>H<DELAY>0.1<>e<DELAY>0.1<>a<DELAY>0.1<>v<DELAY>0.1<>y<>\nHello user %USER%! Welcome to %PLANET% waste hauling registration! Field equipment available. Download <TECHNOLOGY>Gravitino Coil<> blueprint?"
+  },
+  {
+    "Id": "UI_S21_START_TERM_OPT",
+    "English": "Download blueprint"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_NAME",
+    "English": "Utility Vehicle"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_NAME_U",
+    "English": "UTILITY VEHICLE"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_DESC",
+    "English": "Outfit a Colossus for hauling"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_DESC_D",
+    "English": "Designed an industrial waste hauler"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_OBJ1",
+    "English": "Customise the Colossus with a <TECHNOLOGY>Flatbed<> module"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_OBJ1_TIP",
+    "English": "The <TECHNOLOGY>Flatbed Module<> allows the Colossus to haul heavy stacks of industrial waste across long distances. An electromagnetic containment field minimises cargo loss while navigating uneven terrain.\n\n<STELLAR>Recalibrate Exocraft visuals<> from the <TECHNOLOGY>Colossus Geobay<>.\nThe Geobay can be constructed anywhere on a planet's surface.\nApply the <TECHNOLOGY>Flatbed<> modification to the Colossus <TECHNOLOGY>Chassis<>."
+  },
+  {
+    "Id": "UI_S21_TRUCK_BED_MSG1A",
+    "English": "Embark on a cross-country road trip\nDeploy a <COMMODITY>Colossus Exocraft<> to traverse the desert\nAccess the <TECHNOLOGY>Build Menu<> with <IMG>BUILD_MENU<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_MSG1A",
+    "English": "Deploy a <COMMODITY>Colossus Exocraft<> for rapid planetary transport\nAccess the <TECHNOLOGY>Build Menu<> with <IMG>BUILD_MENU<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_MSG1B",
+    "English": "Outfit the Colossus for heavy-duty waste collection\nComplete the <EXPED>%MILESTONE%<> milestone to learn the <TECHNOLOGY>Flatbed<> module\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_MSG1C",
+    "English": "Prepare your vehicle for heavy-duty waste collection\nOutfit the Colossus at the <COMMODITY>Geobay<>\nSelect the <STELLAR>flatbed<> customisation for the <STELLAR>chassis<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_OBJ2",
+    "English": "Install <TECHNOLOGY>radar<> technology in the Colossus"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_OBJ2_TIP",
+    "English": "A large and complex field-based subspace radar, the <TECHNOLOGY>Exocraft Radar<> provides powerful scan technology, as well as acting as a portable Signal Booster to locate specific buildings.\n\nInstall technology in the Inventory (<IMG>INVENTORY<>)."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_MSG2A",
+    "English": "Outfit the Colossus for hauling with an <TECHNOLOGY>Exocraft Radar<>\nComplete the <EXPED>%MILESTONE%<> milestone to earn a pre-packaged Radar\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_MSG2B",
+    "English": "Locate industrial waste with an <TECHNOLOGY>Exocraft Radar<>\nInstall the pre-packaged Radar in the Exocraft Inventory (<IMG>INVENTORY<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_BED_MSG2C",
+    "English": "Locate industrial waste with an <TECHNOLOGY>Exocraft Radar<>\nInstall technology in the Exocraft Inventory (<IMG>INVENTORY<>) with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_NAME",
+    "English": "Tipper"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_NAME_U",
+    "English": "TIPPER"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_DESC",
+    "English": "Transport and process industrial waste"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_DESC_D",
+    "English": "Processed industrial waste"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_OBJ1",
+    "English": "Load the Colossus flatbed"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_OBJ1_T",
+    "English": "Load the Colossus flatbed: %CURRENT%/%AMOUNT%.\nUse the <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste.\nAim at waste and magnetise it with <IMG>ALTATTACK<>.\nLaunch magnetised objects with <IMG>ATTACK<>."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_PARTY",
+    "English": "Transport and process industrial waste\nComplete the <EXPED>%MILESTONE%<> milestone to load up"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG1A",
+    "English": "Load the Colossus flatbed: %CURRENT%/%AMOUNT%\nBoard the Colossus Exocraft to scan for <STELLAR>industrial waste<>\nOr search on foot with the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG1B",
+    "English": "Load the Colossus flatbed: %CURRENT%/%AMOUNT%\nCycle Multi-Tool modes with <IMG>CYCLEWEAPON<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG1C",
+    "English": "Load the Colossus flatbed: %CURRENT%/%AMOUNT%\nAim at <STELLAR>industrial waste<> and tap <IMG>ALTATTACK<> to magnetise"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG1G",
+    "English": "Load the Colossus flatbed: %CURRENT%/%AMOUNT%\nIndustrial waste <COMMODITY>heaps<> contain <COMMODITY>high-value<> items\nAim at <STELLAR>industrial waste<> and tap <IMG>ALTATTACK<> to magnetise"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG1D",
+    "English": "Load the Colossus flatbed: %CURRENT%/%AMOUNT%\nLaunch magnetised objects by tapping <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG1E",
+    "English": "Load the Colossus flatbed: %CURRENT%/%AMOUNT%\nDrive with <IMG>CAR_ACCEL<> and steer by aiming the camera\nSweep for <STELLAR>industrial waste<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG1F",
+    "English": "Load the Colossus flatbed: %CURRENT%/%AMOUNT%\nExit your vehicle (<IMG>EXITSHIP<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_OBJ2",
+    "English": "Visit a Waste Processing Plant"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_OBJ2_T",
+    "English": "Assess your haul at a <STELLAR>Waste Processing Plant<>.\nPark the loaded Colossus on the valuation scale and operate the <STELLAR>Plant Control Panel<>.\n\nWhen driving an Exocraft, accelerate with <IMG>CAR_ACCEL<> and steer by aiming the camera.\nPress <IMG>EXOBOOST<> for a short <VAL_ON>speed boost<>. Use <IMG>EXOJUMP<> to <VAL_ON>jump<>.\nSound the vehicle horn with <IMG>HORN<>."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG2A",
+    "English": "Transport your haul for valuation\nReturn to the <STELLAR>Processing Plant<>\nIndustrial waste loaded in flatbed: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG2B",
+    "English": "<STELLAR>Waste Processing Plant<> nearby\nPark the Colossus on the <COMMODITY>valuation scale<>\nIndustrial waste loaded in flatbed: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG2C",
+    "English": "Industrial waste detected on valuation scale\nRequest Auto-Collection from the <STELLAR>Plant Control Panel<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG2D",
+    "English": "<FUEL>Warning<>: Insufficient load detected (%CURRENT%/%AMOUNT%)\nCollect <STELLAR>additional waste<> for processing\nLocate industrial waste with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_MSG2E",
+    "English": "<FUEL>Warning<>: Insufficient load detected (%CURRENT%/%AMOUNT%)\nCollect <STELLAR>additional waste<> for processing\nIdentify <STELLAR>industrial waste<> in the Analysis Visor (<IMG>AIM<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_TUT_LANG",
+    "English": "Welcome back, hauler %USER%!<NEWLINE>Analysing waste on <COMMODITY>valuation scale<>...<NEWLINE>Fee payable after Auto-Collect: <COMMODITY><IMG>NANITE<>%CARGO_VALUE%<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO1_NAME",
+    "English": "Road Trip I"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO1_NAME_U",
+    "English": "ROAD TRIP I"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO2_NAME",
+    "English": "Road Trip II"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO2_NAME_U",
+    "English": "ROAD TRIP II"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO3_NAME",
+    "English": "Road Trip III"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO3_NAME_U",
+    "English": "ROAD TRIP III"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO4_NAME",
+    "English": "Road Trip IV"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO4_NAME_U",
+    "English": "ROAD TRIP IV"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO5_NAME",
+    "English": "Road Trip V"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO5_NAME_U",
+    "English": "ROAD TRIP V"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_DESC",
+    "English": "Transport and process %AMOUNT% special industrial waste"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_DESC_D",
+    "English": "Processed %NUM% special industrial waste"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_OBJ1",
+    "English": "Load the Colossus flatbed with <SPECIAL>special<> industrial waste"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_OBJ1_T",
+    "English": "Load the Colossus flatbed with <FUEL>explosive<>, <COMMODITY>radioactive<>, or <TRADEABLE>toxic<> waste: %CURRENT%/%AMOUNT%.\nUse the <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste.\nAim at <SPECIAL>special<> industrial waste and magnetise it with <IMG>ALTATTACK<>.\nLaunch magnetised objects with <IMG>ATTACK<>."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_PARTY",
+    "English": "Transport and process <SPECIAL>special<> industrial waste\nReach the <EXPED>%MILESTONE%<> milestone to load up"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG1A",
+    "English": "Load the Colossus flatbed with <SPECIAL>special<> waste: %CURRENT%/%AMOUNT%\nBoard the Colossus Exocraft to scan for <STELLAR>industrial waste<>\nOr search on foot with the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG1B",
+    "English": "Load the Colossus with <SPECIAL>special<> waste: %CURRENT%/%AMOUNT%\nCycle Multi-Tool modes with <IMG>CYCLEWEAPON<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG1C",
+    "English": "Load the Colossus with <STELLAR>at least %AMOUNT%<> <SPECIAL>special<> waste\n<SPECIAL>Special<> waste currently loaded on flatbed: <STELLAR>%CURRENT%<>\nAim at <FUEL>explosive<>, <COMMODITY>radioactive<>, or <TRADEABLE>toxic<> items and tap <IMG>ALTATTACK<> to magnetise"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG1G",
+    "English": "Load the Colossus with <STELLAR>at least %AMOUNT%<> <SPECIAL>special<> waste\n<SPECIAL>Special<> waste currently loaded on flatbed: <STELLAR>%CURRENT%<>\nAim at <FUEL>explosive<>, <COMMODITY>radioactive<>, or <TRADEABLE>toxic<> items and tap <IMG>ALTATTACK<> to magnetise"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG1D",
+    "English": "Load the Colossus with <STELLAR>at least %AMOUNT%<> <SPECIAL>special<> waste\n<SPECIAL>Special<> waste currently loaded on flatbed: <STELLAR>%CURRENT%<>\nLaunch magnetised objects by tapping <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG1E",
+    "English": "Load the Colossus with <STELLAR>at least %AMOUNT%<> <SPECIAL>special<> waste\n<SPECIAL>Special<> waste currently loaded on flatbed: <STELLAR>%CURRENT%<>\nDrive with <IMG>CAR_ACCEL<> and steer by aiming the camera\nSweep for <STELLAR>industrial waste<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG1F",
+    "English": "Load the Colossus with <SPECIAL>special<> waste: %CURRENT%/%AMOUNT%\nExit your vehicle (<IMG>EXITSHIP<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_OBJ2",
+    "English": "Visit a Waste Processing Plant"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_OBJ2_T",
+    "English": "Assess your haul at a <STELLAR>Waste Processing Plant<>.\nPark the loaded Colossus on the valuation scale and operate the <STELLAR>Plant Control Panel<>.\nGathered materials can be unloaded with the <STELLAR>dump<> lever on the rear of the Colossus.\nUse the <TECHNOLOGY>Gravitino Coil<> to place <FUEL>explosive<>, <COMMODITY>radioactive<>, and <TRADEABLE>toxic<> material into the appropriate waste processors.\n\nWhen driving an Exocraft, accelerate with <IMG>CAR_ACCEL<> and steer by aiming the camera.\nPress <IMG>EXOBOOST<> for a short <VAL_ON>speed boost<>. Use <IMG>EXOJUMP<> to <VAL_ON>jump<>.\nSound the vehicle horn with <IMG>HORN<>."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG2A",
+    "English": "Return to the <STELLAR>Processing Plant<> to recycle gathered material: %CURRENT%/%AMOUNT%\nNavigate carefully while driving to avoid <STELLAR>cargo loss<>\n<SPECIAL>Special<> waste currently loaded on flatbed: <STELLAR>%LOAD%<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG2B",
+    "English": "Process <SPECIAL>special<> industrial waste: %CURRENT%/%AMOUNT%\nManually sort materials for <STELLAR>maximum resource recovery<>\nUse the <TECHNOLOGY>Gravitino Coil<> to place material into the appropriate waste processor"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG2C",
+    "English": "Process <SPECIAL>special<> industrial waste: %CURRENT%/%AMOUNT%\n<SPECIAL>Special<> waste loaded on Colossus flatbed: %LOAD%\nUnload gathered materials with the <STELLAR>dump<> lever on the rear of the Colossus"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG2D",
+    "English": "<FUEL>Warning<>: Cargo loss detected!\nRecycle waste at the <STELLAR>Processing Plant<>: %CURRENT%/%AMOUNT%\n<SPECIAL>Special<> waste currently loaded on flatbed: <STELLAR>%LOAD%<>\nSweep with <IMG>VEHICLESCAN<>, or scan for <STELLAR>Waste Heaps<> from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_MSG2E",
+    "English": "<FUEL>Warning<>: Cargo loss detected!\nRecycle waste at the <STELLAR>Processing Plant<>: %CURRENT%/%AMOUNT%\n<SPECIAL>Special<> waste currently loaded on flatbed: <STELLAR>%LOAD%<>\nIdentify <STELLAR>industrial waste<> in the Analysis Visor (<IMG>AIM<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_CARGO_LANG",
+    "English": "Welcome back, hauler %USER%!<NEWLINE>Analysing waste on <COMMODITY>valuation scale<>...<NEWLINE>Fee payable after Auto-Collect: <COMMODITY><IMG>NANITE<>%CARGO_VALUE%<><NEWLINE>Sort materials manually for additional payment"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_NAME",
+    "English": "Big Dig Rig"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_NAME_U",
+    "English": "BIG DIG RIG"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_DESC",
+    "English": "Install an Excavation Blade"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_DESC_D",
+    "English": "Installed an Excavation Blade"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_OBJ",
+    "English": "Equip the Colossus with an Excavation Blade"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_OBJ_TIP",
+    "English": "The <TECHNOLOGY>Excavation Blade<> allows the Colossus to harvest valuable resources that would otherwise be wasted when the vehicle collides with planetary objects.\n\nSelect an empty <TECHNOLOGY>Technology<> slot in the Colossus, and begin installation with <IMG>TECHMENU<>. Pin required components with <IMG>PIN<>."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_MSG1",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to harvest crushed resources\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_MSG2",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to harvest crushed resources\nAccess the Colossus Inventory with <IMG>INVENTORY<>\nBegin installation in an empty slot with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PLOUGH_MSG3",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to harvest crushed resources\nUse <IMG>TECHMENU<> to inspect progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_NAME",
+    "English": "Motor Optics"
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_NAME_U",
+    "English": "MOTOR OPTICS"
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_DESC",
+    "English": "Install a Cyclops Scope"
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_DESC_D",
+    "English": "Installed a Cyclops Scope"
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_OBJ",
+    "English": "Equip an Exocraft with the Cyclops Scope"
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_OBJ_TIP",
+    "English": "The Exocraft <TECHNOLOGY>Cyclops Scope<> attaches to the driver's visor display, allowing for detailed environmental analysis while in a planetary vehicle. The Scope will generate <COMMODITY>valuable data<> when used to study <TRADEABLE>flora<>, <FUEL>fauna<> and <TECHNOLOGY>minerals<>.\n\nSelect an empty <TECHNOLOGY>Technology<> slot in the Exocraft, and begin installation with <IMG>TECHMENU<>. Pin required components with <IMG>PIN<>."
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_MSG1",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to enable the Analysis Visor while driving\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_MSG2",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to enable the Analysis Visor while driving\nAccess the Exocraft Inventory with <IMG>INVENTORY<>\nBegin installation in an empty slot with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_GET_SCOPE_MSG3",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to enable the Analysis Visor while driving\nUse <IMG>TECHMENU<> to inspect progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PRESET_NAME",
+    "English": "Auto Mechanics"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PRESET_NAME_U",
+    "English": "AUTO MECHANICS"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PRESET_DESC",
+    "English": "Design Colossus configurations: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PRESET_DESC_D",
+    "English": "Designed %NUM% configs for the Colossus"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PRESET_1_DESC_D",
+    "English": "Designed a config for the Colossus"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PRESET_OBJ",
+    "English": "Design configurations at a Colossus Geobay"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PRESET_OBJ_TIP",
+    "English": "Design and save Colossus configurations: %CURRENT%/%AMOUNT%.\n<STELLAR>Recalibrate Colossus visuals<> from the <TECHNOLOGY>Colossus Geobay<>."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_PRESET_MSG",
+    "English": "Design and save Colossus configurations: %CURRENT%/%AMOUNT%\n<STELLAR>Recalibrate Colossus visuals<> from the <TECHNOLOGY>Colossus Geobay<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_NAME",
+    "English": "Lay Waste"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_NAME_U",
+    "English": "LAY WASTE"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_DESC",
+    "English": "Excavate obstacles in the Colossus: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_DESC_D",
+    "English": "Smashed %NUM% obstacles"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_OBJ",
+    "English": "Destroy obstacles with the <TECHNOLOGY>Excavation Blade<>: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_OBJ_TIP",
+    "English": "The <TECHNOLOGY>Excavation Blade<> allows the Colossus to harvest valuable resources that would otherwise be wasted when the vehicle collides with planetary objects.\n\nWhen driving an Exocraft, accelerate with <IMG>CAR_ACCEL<> and steer by aiming the camera.\nPress <IMG>EXOBOOST<> for a short <VAL_ON>speed boost<>. Use <IMG>EXOJUMP<> to <VAL_ON>jump<>."
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_MSG1",
+    "English": "Summon the <STELLAR>Colossus Exocraft<> to recover resources from obstacles (%CURRENT%/%AMOUNT%)\nSummon Exocraft from their <COMMODITY>Geobay<> or the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_MSG2",
+    "English": "Install the <TECHNOLOGY>Excavation Blade<> to recover resources from obstacles (%CURRENT%/%AMOUNT%)\nAccess the Inventory with <IMG>INVENTORY<>\nSelect an empty slot and begin installation with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_MSG3",
+    "English": "Complete the <TECHNOLOGY>Excavation Blade<> to recover resources from obstacles (%CURRENT%/%AMOUNT%)\nUse <IMG>TECHMENU<> to inspect installation progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_MSG4",
+    "English": "Board your <STELLAR>Exocraft<> to destroy obstacles (%CURRENT%/%AMOUNT%)\nThe <TECHNOLOGY>Excavation Blade<> allows the Colossus to harvest valuable resources"
+  },
+  {
+    "Id": "UI_EXPED_TRUCK_SMASH_MSG5",
+    "English": "Destroy obstacles: %CURRENT%/%AMOUNT%\nThe <TECHNOLOGY>Excavation Blade<> allows the Colossus to harvest valuable resources"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_NAME",
+    "English": "Roadkill"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_NAME_U",
+    "English": "ROADKILL"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_DESC",
+    "English": "Collide with fauna in an Exocraft: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_DESC_D",
+    "English": "Struck %NUM% creatures with an Exocraft"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_OBJ",
+    "English": "Hit creatures with an Exocraft: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_OBJ_TIP",
+    "English": "When driving an Exocraft, accelerate with <IMG>CAR_ACCEL<> and steer by aiming the camera.\nPress <IMG>EXOBOOST<> for a short <VAL_ON>speed boost<>. Use <IMG>EXOJUMP<> to <VAL_ON>jump<>.\n\nLocate creatures from the Exocraft using the <TECHNOLOGY>Cyclops Scope<> (<IMG>AIM<>). Creatures can be identified by <TRADEABLE>green pawprints<> or <FUEL>red dots<>."
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_MSG1",
+    "English": "Summon your <STELLAR>Exocraft<> to collide with fauna (%CURRENT%/%AMOUNT%)\nSummon Exocraft from their <COMMODITY>Geobay<> or the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_MSG2",
+    "English": "Board the <STELLAR>Exocraft<> to collide with fauna (%CURRENT%/%AMOUNT%)"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_MSG3",
+    "English": "Collide with wildlife: %CURRENT%/%AMOUNT%\nLocate creatures using the Cyclops Scope (<IMG>AIM<>)\nIn the Scope, look for <FUEL>red dots<> or <TRADEABLE>green pawprints<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_KILL_MSG4",
+    "English": "Collide with wildlife: %CURRENT%/%AMOUNT%\nAccelerate with <IMG>CAR_ACCEL<> and steer by aiming the camera"
+  },
+  {
+    "Id": "UI_TRUCK_KILL_TITLE_NAME_L",
+    "English": "Title: 'Bulldozer'"
+  },
+  {
+    "Id": "UI_PLAYER_TITLE_TRUCK_KILL",
+    "English": "Bulldozer %NAME%"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_NAME",
+    "English": "Defying Gravity"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_NAME_U",
+    "English": "DEFYING GRAVITY"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_DESC",
+    "English": "Launch %AMOUNT% pieces of industrial waste"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_DESC_D",
+    "English": "Propelled %NUM% magnetic waste objects"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_OBJ",
+    "English": "Launch industrial waste from the Gravitino Coil: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_OBJ_ALT",
+    "English": "Launch industrial waste from the Gravitino Coil"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_OBJ_TIP",
+    "English": "The <TECHNOLOGY>Gravitino Coil<> enables the user to manipulate <STELLAR>industrial waste<> found on planets.\n\nAttract industrial waste with <IMG>ALTATTACK<>.\nMagnetised objects can be forcefully repelled from the Multi-Tool with <IMG>ATTACK<>."
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_MSG1",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to manipulate industrial waste\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_MSG2",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to manipulate industrial waste\nAccess the Multi-Tool Inventory with <IMG>INVENTORY<>\nManage installation with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_MSG3",
+    "English": "Equip the <TECHNOLOGY>Gravitino Coil<> with <IMG>CYCLEWEAPON<>\nIndustrial waste launched: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_THROW_MSG4",
+    "English": "Launch <STELLAR>industrial waste<> from the Multi-Tool: %CURRENT%/%AMOUNT%\nMagnetise waste with <IMG>ALTATTACK<>\nRepel magnetised objects with <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_NAME",
+    "English": "Reorientation Programme"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_NAME_U",
+    "English": "REORIENTATION PROGRAMME"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_DESC",
+    "English": "Re-orientate %AMOUNT% Sentinels"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_DESC_D",
+    "English": "Threw %NUM% Sentinels"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_OBJ",
+    "English": "Forcefully re-orientate Sentinel Drones: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_OBJ_ALT",
+    "English": "Forcefully re-orientate Sentinel Drones"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_OBJ_TIP",
+    "English": "Sentinel drones may be <TECHNOLOGY>re-orientated<> with the aid of a <TECHNOLOGY>Gravitino Coil<>.\n\nMagnetise Sentinel drones with <IMG>ALTATTACK<>, and then propel captured drones with <IMG>ATTACK<>."
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_MSG1",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to begin Sentinel re-orientation\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_MSG2",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to begin Sentinel re-orientation\nAccess the Multi-Tool Inventory with <IMG>INVENTORY<>\nManage installation with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_MSG3",
+    "English": "Equip the <TECHNOLOGY>Gravitino Coil<> with <IMG>CYCLEWEAPON<>\nSentinels forcefully re-orientated: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_SENT_THROW_MSG4",
+    "English": "Forcefully re-orientate <SPECIAL>Sentinels<>: %CURRENT%/%AMOUNT%\nMagnetise Sentinel drones with <IMG>ALTATTACK<>\nPropel captured drones with <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_NAME",
+    "English": "Minecart"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_NAME_U",
+    "English": "MINECART"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_DESC",
+    "English": "Harvest resources from an Exocraft: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_DESC_D",
+    "English": "Mined %NUM% resources from a vehicle"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_OBJ",
+    "English": "Mine rocks with the Exocraft Mining Laser: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_OBJ_TIP",
+    "English": "While driving an Exocraft, use <IMG>VEHICLESHOOT<> to fire the Mining Laser.\nPress <IMG>CYCLEVEHWEAPON<> to cycle between weapon/mining attachments.\nRecharge the laser with <FUEL>carbon-based fuels<>."
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_MSG1",
+    "English": "Summon your <STELLAR>Exocraft<> to harvest resources (%CURRENT%/%AMOUNT%)\nSummon Exocraft from their <COMMODITY>Geobay<> or the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_MSG2",
+    "English": "Install the <TECHNOLOGY>Exocraft Mining Laser<> to harvest resources (%CURRENT%/%AMOUNT%)\nAccess the Inventory with <IMG>INVENTORY<>\nSelect an empty slot and begin installation with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_MSG3",
+    "English": "Complete the <TECHNOLOGY>Exocraft Mining Laser<> to harvest resources (%CURRENT%/%AMOUNT%)\nUse <IMG>TECHMENU<> to inspect installation progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_MSG4",
+    "English": "Board your <STELLAR>Exocraft<> to harvest resources (%CURRENT%/%AMOUNT%)"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_MSG5",
+    "English": "Extract resources with the Exocraft Mining Laser: %CURRENT%/%AMOUNT%\nUse <IMG>VEHICLESHOOT<> to fire the laser"
+  },
+  {
+    "Id": "UI_EXPED_MINE_EXO_MSG6",
+    "English": "Extract resources with the Exocraft Mining Laser: %CURRENT%/%AMOUNT%\nCycle between weapon/mining attachments with <IMG>CYCLEVEHWEAPON<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_NAME",
+    "English": "Weeds in the Tyres"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_NAME_U",
+    "English": "WEEDS IN THE TYRES"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_DESC",
+    "English": "Eliminate hazardous flora: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_DESC_D",
+    "English": "Eliminated %NUM% hazardous flora"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_OBJ",
+    "English": "Eliminate hazardous flora: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_OBJ_TIP",
+    "English": "<FUEL>Hazardous Flora<> on the planet surface can be <FUEL>crushed<> while driving an Exocraft.\nWhile driving, locate nearby dangerous plants (<IMG>DANGER<>) in the <TECHNOLOGY>Cyclops Scope<> (<IMG>AIM<>).\nActivate a <STELLAR>Target Sweep<> (<IMG>AIM<>) to locate more distant dangerous plants."
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_MSG",
+    "English": "Eliminate <FUEL>Hazardous Flora<>: %CURRENT%/%AMOUNT%\nPlants on the planet surface can be <FUEL>crushed<> with an Exocraft\nThe Exocraft <TECHNOLOGY>Cyclops Scope<> <IMG>AIM<> can detect hazardous flora <IMG>DANGER<> at short range"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_MSG_OFF",
+    "English": "Eliminate <FUEL>Hazardous Flora<>: %CURRENT%/%AMOUNT%\nFlora on the planet surface can be <FUEL>crushed<> with an Exocraft\nActivate a <STELLAR>Target Sweep<> (<IMG>AIM<>) to locate dangerous plants"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_MSG_SUR",
+    "English": "Eliminate <FUEL>Hazardous Flora<>: %CURRENT%/%AMOUNT%\nUse the <TECHNOLOGY>Target Sweep<> to locate dangerous plants"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_MSG_SWP",
+    "English": "Eliminate <FUEL>Hazardous Flora<>: %CURRENT%/%AMOUNT%\nActivate a <TECHNOLOGY>Target Sweep<> with <IMG>SURVEYFILTERL<>/<IMG>SURVEYFILTERR<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_HAZ_PLANTS_MSG_CAR",
+    "English": "Eliminate <FUEL>Hazardous Flora<>: %CURRENT%/%AMOUNT%\nUse a <STELLAR>Target Sweep<> to locate dangerous plants\nInstall an Exocraft <TECHNOLOGY>Cyclops Scope<> to locate targets while driving"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_NAME",
+    "English": "Desert Outpost"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_NAME_U",
+    "English": "DESERT OUTPOST"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_DESC",
+    "English": "Visit a Trade Outpost"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_DESC_D",
+    "English": "Visited a planetary trading post"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_OBJ",
+    "English": "Reach a planetary Trade Outpost"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_OBJ_TIP",
+    "English": "Upgrade the <TECHNOLOGY>Exocraft Radar<> with a <TECHNOLOGY>Radar Power Resonator<> to locate a planetary Trading Post.\nWhile in an Exocraft, scan for <STELLAR>Trade Outposts<> from the Quick Menu (<IMG>QUICK_MENU<>).\nSummon Exocraft from their <COMMODITY>Geobay<> or the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)."
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_MSG1",
+    "English": "Summon an <STELLAR>Exocraft<> to scan for a Trading Post\nSummon Exocraft from their <COMMODITY>Geobay<> or the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_MSG2",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to locate buildings while driving\nAccess the Exocraft Inventory with <IMG>INVENTORY<>\nBegin installation in an empty slot with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_MSG3",
+    "English": "Complete the <TECHNOLOGY>%ITEM%<> installation\nUse <IMG>TECHMENU<> to inspect progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_MSG4",
+    "English": "Upgrade the Exocraft Radar with an <TECHNOLOGY>%ITEM%<> \nAccess the Exocraft Inventory with <IMG>INVENTORY<>\nBegin installation in an empty slot with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_MSG5",
+    "English": "Complete the <TECHNOLOGY>%ITEM%<> installation\nUse <IMG>TECHMENU<> to inspect progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_MSG6",
+    "English": "Board the <STELLAR>Exocraft<> to scan for a Trading Post"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_MSG7",
+    "English": "Use the upgraded <TECHNOLOGY>Exocraft Radar<> to locate a Trading Post\nScan for <STELLAR>Trade Outposts<> from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_EXO_OUTPOST_MSG8",
+    "English": "<STELLAR>Trading Post<> detected\nReach the building"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_NAME",
+    "English": "Sandstone"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_NAME_U",
+    "English": "SANDSTONE"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_DESC",
+    "English": "Visit a Monolith"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_DESC_D",
+    "English": "Visited an alien monolith"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_OBJ",
+    "English": "Reach an alien monolith"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_OBJ_TIP",
+    "English": "Upgrade the <TECHNOLOGY>Exocraft Radar<> with a <TECHNOLOGY>Radar Power Resonator<> to locate a planetary Alien Monolith.\nWhile in an Exocraft, scan for <SPECIAL>Alien Structures<> from the Quick Menu (<IMG>QUICK_MENU<>).\nSummon Exocraft from their <COMMODITY>Geobay<> or the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)."
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_MSG1",
+    "English": "Summon an <STELLAR>Exocraft<> to scan for a monolith\nSummon Exocraft from their <COMMODITY>Geobay<> or the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_MSG2",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to locate buildings while driving\nAccess the Exocraft Inventory with <IMG>INVENTORY<>\nBegin installation in an empty slot with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_MSG3",
+    "English": "Complete the <TECHNOLOGY>%ITEM%<> installation\nUse <IMG>TECHMENU<> to inspect progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_MSG4",
+    "English": "Upgrade the Exocraft Radar with an <TECHNOLOGY>%ITEM%<> \nAccess the Exocraft Inventory with <IMG>INVENTORY<>\nBegin installation in an empty slot with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_MSG5",
+    "English": "Complete the <TECHNOLOGY>%ITEM%<> installation\nUse <IMG>TECHMENU<> to inspect progress\nPin required components with <IMG>PIN<>"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_MSG6",
+    "English": "Board the <STELLAR>Exocraft<> to scan for Alien Structures"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_MSG7",
+    "English": "Use the upgraded <TECHNOLOGY>Exocraft Radar<> to locate a monolith\nScan for <SPECIAL>Alien Structures<> from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_EXO_MONOLITH_MSG8",
+    "English": "<SPECIAL>Monolith<> detected\nReach the building"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_TOX_NAME",
+    "English": "Toxicity"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_TOX_NAME_U",
+    "English": "TOXICITY"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_TOX_DESC",
+    "English": "Process toxic waste: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_TOX_DESC_D",
+    "English": "Recovered %NUM% items of toxic waste"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_TOX_OBJ",
+    "English": "Recover toxic waste: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_TOX_OBJ_TIP",
+    "English": "Use the <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste.\nProcess your haul at a <STELLAR>Waste Processing Plant<>."
+  },
+  {
+    "Id": "UI_EXPED_CARGO_TOX_MSG",
+    "English": "Recover <TRADEABLE>toxic<> waste from the environment: %CURRENT%/%AMOUNT%\nSpecialist waste must be deposited in the <TRADEABLE>correct processor<>\nUse the <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste\nProcess your haul at a <STELLAR>Waste Processing Plant<>"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_RAD_NAME",
+    "English": "Irradiated Cargo"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_RAD_NAME_U",
+    "English": "IRRADIATED CARGO"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_RAD_DESC",
+    "English": "Purge radioactive waste: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_RAD_DESC_D",
+    "English": "Recycled %NUM% radioactive items"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_RAD_OBJ",
+    "English": "Recycle radioactive waste: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_RAD_OBJ_TIP",
+    "English": "Use the <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste.\nProcess your haul at a <STELLAR>Waste Processing Plant<>."
+  },
+  {
+    "Id": "UI_EXPED_CARGO_RAD_MSG",
+    "English": "Recycle <COMMODITY>radioactive waste<>: %CURRENT%/%AMOUNT%\nSpecialist waste must be deposited in the <COMMODITY>correct processor<>\nUse the <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste\nProcess your haul at a <STELLAR>Waste Processing Plant<>"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_EXP_NAME",
+    "English": "Volatile Payload"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_EXP_NAME_U",
+    "English": "VOLATILE PAYLOAD"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_EXP_DESC",
+    "English": "Dispose of explosive waste: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_EXP_DESC_D",
+    "English": "Cleansed the planet of %NUM% explosives"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_EXP_OBJ",
+    "English": "Cleanse the environment of explosive waste: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_EXP_OBJ_TIP",
+    "English": "Use the <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste.\nProcess your haul at a <STELLAR>Waste Processing Plant<>."
+  },
+  {
+    "Id": "UI_EXPED_CARGO_EXP_MSG",
+    "English": "Cleanse the environment of <FUEL>explosive<> waste: %CURRENT%/%AMOUNT%\nSpecialist waste must be deposited in the <FUEL>correct processor<>\nUse the <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste\nProcess your haul at a <STELLAR>Waste Processing Plant<>"
+  },
+  {
+    "Id": "UI_S21_PARTY1_NAME",
+    "English": "Checkpoint I"
+  },
+  {
+    "Id": "UI_S21_PARTY1_NAME_U",
+    "English": "CHECKPOINT I"
+  },
+  {
+    "Id": "UI_S21_PARTY1_DESC",
+    "English": "Reach the 1st waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY1_DESC_D",
+    "English": "Reached the 1st waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY1_OBJ",
+    "English": "Reach the first waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY2_NAME",
+    "English": "Checkpoint II"
+  },
+  {
+    "Id": "UI_S21_PARTY2_NAME_U",
+    "English": "CHECKPOINT II"
+  },
+  {
+    "Id": "UI_S21_PARTY2_DESC",
+    "English": "Reach the 2nd waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY2_DESC_D",
+    "English": "Reached the 2nd waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY2_OBJ",
+    "English": "Reach the second waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY3_NAME",
+    "English": "Checkpoint III"
+  },
+  {
+    "Id": "UI_S21_PARTY3_NAME_U",
+    "English": "CHECKPOINT III"
+  },
+  {
+    "Id": "UI_S21_PARTY3_DESC",
+    "English": "Reach the 3rd waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY3_DESC_D",
+    "English": "Reached the 3rd waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY3_OBJ",
+    "English": "Reach the third waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY4_NAME",
+    "English": "Checkpoint IV"
+  },
+  {
+    "Id": "UI_S21_PARTY4_NAME_U",
+    "English": "CHECKPOINT IV"
+  },
+  {
+    "Id": "UI_S21_PARTY4_DESC",
+    "English": "Reach the 4th waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY4_DESC_D",
+    "English": "Reached the 4th waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY4_OBJ",
+    "English": "Reach the fourth waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY5_NAME",
+    "English": "Checkpoint V"
+  },
+  {
+    "Id": "UI_S21_PARTY5_NAME_U",
+    "English": "CHECKPOINT V"
+  },
+  {
+    "Id": "UI_S21_PARTY5_DESC",
+    "English": "Reach the 5th waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY5_DESC_D",
+    "English": "Reached the 5th waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY5_OBJ",
+    "English": "Reach the fifth waste heap"
+  },
+  {
+    "Id": "UI_S21_PARTY_OBJ_TIP",
+    "English": "Each expedition has several marked rendezvous points. In this expedition, scavengers will rendezvous at waste heaps distributed across a <STELLAR>single desert planet<>.\n\nTravel by <TECHNOLOGY>Colossus Exocraft<> is recommended for rapid planetary transport.\nWhen driving an Exocraft, press <IMG>EXOBOOST<> for a <VAL_ON>speed boost<>. Use <IMG>EXOJUMP<> to <VAL_ON>jump<>."
+  },
+  {
+    "Id": "UI_S21_PARTY1_MSGA",
+    "English": "Drive to the first <STELLAR>rendezvous point<>\nPress <IMG>EXOBOOST<> for a short speed boost\nSound the vehicle horn with <IMG>HORN<>\nSweep for additional <STELLAR>industrial waste<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_S21_PARTY1_MSGB",
+    "English": "Reach the first <STELLAR>rendezvous point<>\nTravel by <TECHNOLOGY>Colossus Exocraft<> is recommended"
+  },
+  {
+    "Id": "UI_S21_PARTY2_MSGA",
+    "English": "Drive to the second <STELLAR>rendezvous point<>\nPress <IMG>EXOBOOST<> for a short speed boost\nSound the vehicle horn with <IMG>HORN<>\nSweep for additional <STELLAR>industrial waste<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_S21_PARTY2_MSGB",
+    "English": "Reach the second <STELLAR>rendezvous point<>\nTravel by <TECHNOLOGY>Colossus Exocraft<> is recommended"
+  },
+  {
+    "Id": "UI_S21_PARTY3_MSGA",
+    "English": "Drive to the third <STELLAR>rendezvous point<>\nPress <IMG>EXOBOOST<> for a short speed boost\nSound the vehicle horn with <IMG>HORN<>\nSweep for additional <STELLAR>industrial waste<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_S21_PARTY3_MSGB",
+    "English": "Reach the third <STELLAR>rendezvous point<>\nTravel by <TECHNOLOGY>Colossus Exocraft<> is recommended"
+  },
+  {
+    "Id": "UI_S21_PARTY4_MSGA",
+    "English": "Drive to the fourth <STELLAR>rendezvous point<>\nPress <IMG>EXOBOOST<> for a short speed boost\nSound the vehicle horn with <IMG>HORN<>\nSweep for additional <STELLAR>industrial waste<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_S21_PARTY4_MSGB",
+    "English": "Reach the fourth <STELLAR>rendezvous point<>\nTravel by <TECHNOLOGY>Colossus Exocraft<> is recommended"
+  },
+  {
+    "Id": "UI_S21_PARTY5_MSGA",
+    "English": "Drive to the final <STELLAR>rendezvous point<>\nPress <IMG>EXOBOOST<> for a short speed boost\nSound the vehicle horn with <IMG>HORN<>\nSweep for additional <STELLAR>industrial waste<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_S21_PARTY5_MSGB",
+    "English": "Reach the final <STELLAR>rendezvous point<>\nTravel by <TECHNOLOGY>Colossus Exocraft<> is recommended"
+  },
+  {
+    "Id": "UI_S21_PARTY_MSGC",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to scan for the rendezvous point\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_S21_PARTY_MSGD",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to scan for the rendezvous point\nLocate the pre-packaged %ITEM% in the Inventory (<IMG>INVENTORY<>)\nInstall in an Exocraft technology slot"
+  },
+  {
+    "Id": "UI_S21_PARTY_MSGE",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to scan for the rendezvous point\nInstall technology in the Exocraft Inventory (<IMG>INVENTORY<>) with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_S21_PARTY_MSGF",
+    "English": "Use the <TECHNOLOGY>Exocraft Radar<> to scan for the rendezvous point\nWhile in an Exocraft, scan for <STELLAR>Waste Heaps<> from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_S21_PARTY_SURVEY_IN_CAR",
+    "English": "Reach the expedition <STELLAR>rendezvous point<>\nUse a <STELLAR>Target Sweep<> to locate the rendezvous point\nInstall an Exocraft <TECHNOLOGY>Cyclops Scope<> to confirm directions while driving"
+  },
+  {
+    "Id": "UI_EXPED_PARTY_PREREQ_MSG",
+    "English": "The road trip has not yet reached this rendezvous\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_COLOSSUS_PREREQ_MSG",
+    "English": "Deploy a <COMMODITY>Colossus Exocraft<> for rapid planetary transport\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITYGUN_PREREQ_MSG",
+    "English": "Install a <TECHNOLOGY>Gravitino Coil<> to manipulate industrial waste\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_S21_GOT_GRAVBALLS_NAME",
+    "English": "Streetlights"
+  },
+  {
+    "Id": "UI_S21_GOT_GRAVBALLS_NAME_U",
+    "English": "STREETLIGHTS"
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_NAME",
+    "English": "Fat Cat"
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_NAME_U",
+    "English": "FAT CAT"
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_DESC",
+    "English": "Earn <IMG>UNITS<>%AMOUNT% for an Exocraft fauna scan"
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_DESC_D",
+    "English": "Discovered creature data worth %AMOUNT% units"
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_OBJ",
+    "English": "Earn <IMG>UNITS<>%AMOUNT% for a single creature discovery from the Exocraft"
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_OBJ_T",
+    "English": "Target creatures with the Exocraft <TECHNOLOGY>Cyclops Scope<> (<IMG>AIM<>), and use <IMG>BINOCSCAN<> to scan them.\n\n<TECHNOLOGY>Scanning system upgrades<> installed in the Multi-Tool will also augment the <TECHNOLOGY>Cyclops Scope<>, increasing the <STELLAR>value<> of <TECHNOLOGY>discovery data<>."
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_MSG1",
+    "English": "Install a <TECHNOLOGY>Cyclops Scope<> to scan creatures from a vehicle\nInstall technology in the Exocraft Inventory (<IMG>INVENTORY<>) with <IMG>TECHMENU<>\nHighest value data scanned: <IMG>UNITS<>%CURRENT%"
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_MSG2",
+    "English": "Board an Exocraft to scan fauna with the <TECHNOLOGY>Cyclops Scope<>\nHighest value data scanned: <IMG>UNITS<>%CURRENT%"
+  },
+  {
+    "Id": "UI_EXPED_BIG_SCAN_EXOCRE_MSG3",
+    "English": "Earn <IMG>UNITS<>%AMOUNT% for a single creature discovery from the Exocraft\nHighest value data scanned: <IMG>UNITS<>%CURRENT%"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_NAME",
+    "English": "Safari"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_NAME_U",
+    "English": "SAFARI"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_1_DESC",
+    "English": "Scan a creature from an Exocraft"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_1_DESC_D",
+    "English": "Discovered a new species while driving"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_DESC",
+    "English": "Scan %AMOUNT% fauna from an Exocraft"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_DESC_D",
+    "English": "Discovered %NUM% species while driving"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_OBJ",
+    "English": "Discover creatures from an Exocraft: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_OBJ_T",
+    "English": "Target creatures with the Exocraft <TECHNOLOGY>Cyclops Scope<> (<IMG>AIM<>), and use <IMG>BINOCSCAN<> to scan them.\nScanning creatures earns <STELLAR>units<>. Rename and upload your discoveries to earn <STELLAR>nanites<>.\nView a planet's <TECHNOLOGY>Discoveries<> page for hints on where and when to find specific creatures."
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_MSG1",
+    "English": "Discover creatures from an Exocraft: %CURRENT%/%AMOUNT%\nInstall a <TECHNOLOGY>Cyclops Scope<> to scan creatures from a vehicle\nInstall technology in the Exocraft Inventory (<IMG>INVENTORY<>) with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_MSG2",
+    "English": "Discover creatures from an Exocraft: %CURRENT%/%AMOUNT%\nBoard an Exocraft to scan fauna with the <TECHNOLOGY>Cyclops Scope<>"
+  },
+  {
+    "Id": "UI_EXPED_SCAN_EXOCRE_MSG3",
+    "English": "Discover creatures from an Exocraft: %CURRENT%/%AMOUNT%\nUndiscovered species appear as <FUEL>red dots<> within the <TECHNOLOGY>Cyclops Scope<> (<IMG>AIM<>)"
+  },
+  {
+    "Id": "UI_S21_DISC_WAYPOINT_NAME",
+    "English": "Roadsigns"
+  },
+  {
+    "Id": "UI_S21_DISC_WAYPOINT_NAME_U",
+    "English": "ROADSIGNS"
+  },
+  {
+    "Id": "UI_S21_SCAN_MIN_NAME",
+    "English": "Petrology"
+  },
+  {
+    "Id": "UI_S21_SCAN_MIN_NAME_U",
+    "English": "PETROLOGY"
+  },
+  {
+    "Id": "UI_S21_SENTINEL_KILL_NAME",
+    "English": "Drone Disposal"
+  },
+  {
+    "Id": "UI_S21_SENTINEL_KILL_NAME_U",
+    "English": "DRONE DISPOSAL"
+  },
+  {
+    "Id": "UI_S21_EXO_DISTANCE_NAME",
+    "English": "Mileage"
+  },
+  {
+    "Id": "UI_S21_EXO_DISTANCE_NAME_U",
+    "English": "MILEAGE"
+  },
+  {
+    "Id": "UI_S21_ALL_CREATURES_NAME",
+    "English": "Field Guide"
+  },
+  {
+    "Id": "UI_S21_ALL_CREATURES_NAME_U",
+    "English": "FIELD GUIDE"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_NAME",
+    "English": "HEAVY METAL"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_NAME_U",
+    "English": "Heavy Metal"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_DESC",
+    "English": "Haul industrial waste over %AMOUNT%u"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_DESC_D",
+    "English": "Hauled industrial waste over %NUM%u"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_MSG1",
+    "English": "No hauling vehicle owned\nDeploy a <TECHNOLOGY>Colossus Geobay<> from the <STELLAR>Build Menu<> (<IMG>BUILD_MENU<>)"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_MSG2",
+    "English": "Outfit the Colossus for hauling industrial waste\nApply the <TECHNOLOGY>Flatbed<> module to the <TECHNOLOGY>Chassis<>\n<STELLAR>Recalibrate<> modules from the <TECHNOLOGY>Colossus Geobay<>"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_MSG3",
+    "English": "Return to your <STELLAR>Colossus Exocraft<> to haul industrial waste\nSummon the Colossus from the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)\nDistance hauled: %CURRENT%/%AMOUNT%u"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_MSG4",
+    "English": "Return to your <STELLAR>Colossus Exocraft<> to haul industrial waste\nConstruct an <STELLAR>Exocraft Summoning Station<> to improve summon range\nSummon the Colossus from the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>)\nDistance hauled: %CURRENT%/%AMOUNT%u"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_MSG5",
+    "English": "Load the Colossus flatbed with <STELLAR>industrial waste<>\nDistance hauled: %CURRENT%/%AMOUNT%u"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_MSG6",
+    "English": "Haul industrial waste in the Colossus\nDistance hauled: %CURRENT%/%AMOUNT%u"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_OBJ",
+    "English": "Haul industrial waste in the Colossus: %CURRENT%/%AMOUNT%u"
+  },
+  {
+    "Id": "UI_EXPED_CARGO_DIST_OBJ_TIP",
+    "English": "Summon your Colossus Exocraft from the <TECHNOLOGY>Quick Menu<> (<IMG>QUICK_MENU<>).\n<STELLAR>Recalibrate Exocraft visuals<> from the <TECHNOLOGY>Colossus Geobay<> to attach a Flatbed module.\nInstall a <TECHNOLOGY>Gravitino Coil<> in the Multi-Tool to manipulate industrial waste."
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_GRAB_NAME",
+    "English": "DIPOLAR"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_GRAB_NAME_U",
+    "English": "Dipolar"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_GRAB_DESC",
+    "English": "Magnetise %AMOUNT% industrial waste pieces"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_GRAB_DESC_D",
+    "English": "Magnetised %NUM% magnetic waste objects"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_GRAB_MSG1",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to manipulate industrial waste\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_GRAB_MSG2",
+    "English": "Install a <TECHNOLOGY>%ITEM%<> to manipulate industrial waste\nAccess the Multi-Tool Inventory with <IMG>INVENTORY<>\nManage installation with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_GRAB_MSG3",
+    "English": "Equip the <TECHNOLOGY>Gravitino Coil<> with <IMG>CYCLEWEAPON<>\nIndustrial waste magnetised: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_GRAVITY_GRAB_MSG4",
+    "English": "Magnetise <STELLAR>industrial waste<> with the Multi-Tool: %CURRENT%/%AMOUNT%\nAttract objects with <IMG>ALTATTACK<>\nIndustrial waste magnetised: %CURRENT%/%AMOUNT%"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_NAME",
+    "English": "Space Truckers"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_NAME_U",
+    "English": "SPACE TRUCKERS"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_DESC",
+    "English": "Take part in collective hauling"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_DESC_D",
+    "English": "Cleaned the entire planet"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_OBJ",
+    "English": "Contribute to the collective hauling effort"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_OBJ_TIP",
+    "English": "Join the community in a cross-country road trip to purge the <STELLAR>entire planet<> of dangerous industrial remnants.\n\nGlobal waste processing progress: <COMMODITY>%CMTOTALPERCENT%<>"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_MSG1",
+    "English": "Install a <TECHNOLOGY>Gravitino Coil<> to contribute to the hauling effort\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_MSG2",
+    "English": "Deploy a <COMMODITY>Colossus Exocraft<> to contribute to the hauling effort\nComplete the <EXPED>%MILESTONE%<> milestone to proceed\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_MSG3",
+    "English": "Complete the <EXPED>%MILESTONE%<> to contribute to the hauling effort\nSelect milestones from the Expedition log (<IMG>OPTIONS<>)"
+  },
+  {
+    "Id": "UI_EXPED_S21_RECYCLE_MSG4",
+    "English": "Global waste hauling progress: <STELLAR>%CMTIERPERCENT%<>\nContribute by processing <STELLAR>industrial waste<>\nPersonal contribution: %AMOUNT%"
+  },
+  {
+    "Id": "UI_S21_COMMUNITY_BAR",
+    "English": "Global Hauling Effort"
   },
   {
     "Id": "UPDATE_22_TITLE",
@@ -109097,7 +111649,7 @@
   },
   {
     "Id": "UI_BIGGS_EDIT_OPT_NEW",
-    "English": "Create new Corvette"
+    "English": "Create new corvette"
   },
   {
     "Id": "UI_BIGGS_NEW_COST",
@@ -109145,7 +111697,7 @@
   },
   {
     "Id": "UI_BIGGS_SHOP_SUBTITLE",
-    "English": "Trade advanced Corvette modules"
+    "English": "Trade advanced corvette modules"
   },
   {
     "Id": "UI_BIGGS_SHIPNAME_PREVIOUS",
@@ -109281,7 +111833,7 @@
   },
   {
     "Id": "UI_BIGGS_QUIT_CONFIRM_MSG",
-    "English": "Select <TECHNOLOGY>finalise<> to transform your current Corvette design to a working ship, or <TECHNOLOGY>leave the workshop<> it to continue later.\n\nYour corvette design can be <STELLAR>resumed<> at any time. To finalise or resume a design, return to the <TECHNOLOGY>workshop<> aboard any Space Station."
+    "English": "Select <TECHNOLOGY>finalise<> to transform your current corvette design to a working ship, or <TECHNOLOGY>leave the workshop<> it to continue later.\n\nYour corvette design can be <STELLAR>resumed<> at any time. To finalise or resume a design, return to the <TECHNOLOGY>workshop<> aboard any Space Station."
   },
   {
     "Id": "UI_BIGGS_QUIT_CONFIRM_OWN_MSG",
@@ -109334,6 +111886,14 @@
   {
     "Id": "UI_BIGGS_NEW_CONFIRM_MSG_ALT",
     "English": "The workshop already has a corvette <TECHNOLOGY>design in progress<>. This design will be <STELLAR>cleared<> in order to start assembling a new corvette.\n\nStart a <VAL_ON>fresh design<>, or continue the current <VAL_ON>work in progress<>?"
+  },
+  {
+    "Id": "UI_BIGGS_NEW_SWITCH_MSG",
+    "English": "Your starship <STELLAR>%SHIPNAME%<> is already being edited at the workshop, and has <TECHNOLOGY>unfinished design changes<>. These changes will be <STELLAR>cleared<> in order to start assembling a new corvette.\n\nDo you wish to clear existing edits and start a fresh design?"
+  },
+  {
+    "Id": "UI_BIGGS_NEW_SWITCH_MSG_ALT",
+    "English": "The workshop already has a corvette <TECHNOLOGY>design in progress<>. This design will be <STELLAR>cleared<> in order to start assembling a new corvette.\n\nDo you wish to clear existing edits and start a fresh design?"
   },
   {
     "Id": "UI_BIGGS_SHIPNAME_PREVIOUS_ALT",
@@ -109813,7 +112373,7 @@
   },
   {
     "Id": "CORVETTE_MARKER_L",
-    "English": "Recently boarded Corvette"
+    "English": "Recently boarded corvette"
   },
   {
     "Id": "CV_MISSION_HIVES_OBJ",
@@ -110026,6 +112586,46 @@
   {
     "Id": "CV_MISSION_DER_FREIGHT_DESC",
     "English": "Completely explore a derelict freighter"
+  },
+  {
+    "Id": "UI_SALVAGE_ERROR_BIGGS",
+    "English": "Cannot salvage corvette-class ships"
+  },
+  {
+    "Id": "UI_BIGGS_EMERGENCY_TITLE",
+    "English": "CORVETTE COMPLEXITY LIMIT"
+  },
+  {
+    "Id": "UI_BIGGS_EMERGENCY_BODY",
+    "English": "One or more Corvette-class ships in this save exceed the complexity limit (%MAX%).\nDuring this session, these starships will be replaced by a temporary Corvette, which cannot be edited or sold."
+  },
+  {
+    "Id": "UI_BIGGS_EDIT_EMERGENCY_COST",
+    "English": "Cannot edit temporary corvette"
+  },
+  {
+    "Id": "UI_BIGGS_EMERGENCY_NAME",
+    "English": "Temporary Appearance"
+  },
+  {
+    "Id": "UI_BIGGS_EMERGENCY_EXCHANGE",
+    "English": "Cannot exchange"
+  },
+  {
+    "Id": "UI_BIGGS_EMERGENCY_EXCHANGE_SUB",
+    "English": "Temporary corvette cannot be exchanged"
+  },
+  {
+    "Id": "UI_BIGGS_EMERGENCY_DRAFT",
+    "English": "Temporary corvette saved as draft"
+  },
+  {
+    "Id": "UI_EXPED_REDEEM_BIGGS_EMERGENCY",
+    "English": "Cannot copy temporary corvette"
+  },
+  {
+    "Id": "UI_BIGGS_EMERGENCY_DRAFT_MSG",
+    "English": "Your starship <STELLAR>%SHIPNAME%<> is already being edited at the workshop, and has <TECHNOLOGY>unfinished design changes<>.\n\nThis starship exceeds the complexity limit, and cannot be edited during this session. The unfinished changes will be <STELLAR>cleared<> in order to start assembling a new corvette."
   },
   {
     "Id": "UI_SEASON_19_NAME",
@@ -111764,6 +114364,14 @@
     "English": "Nintendo Switch 2 Edition"
   },
   {
+    "Id": "UI_MILK_ANY_NAME",
+    "English": "MILK"
+  },
+  {
+    "Id": "UI_MILK_ANY_NAME_L",
+    "English": "Milk"
+  },
+  {
     "Id": "BLD_DECAL_NMSCORD_NAME",
     "English": "NMSCORD DECAL"
   },
@@ -112288,6 +114896,186 @@
     "English": "This sun-loving plant is an unusual hybrid of mineral and vegetation, giving it its dazzlingly beautiful glassy appearance.\n\nProvides decorative landscaping opportunities for bases."
   },
   {
+    "Id": "BLD_HOTPLANT_7_NAME",
+    "English": "CARBON VINE"
+  },
+  {
+    "Id": "BLD_HOTPLANT_7_NAME_L",
+    "English": "Carbon Vine"
+  },
+  {
+    "Id": "BLD_HOTPLANT_7_DESCRIPTION",
+    "English": "A freestanding vine with a naturally gritty, powder-like texture to its leaves. Smells of bonfire and charcoal.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_HOTPLANT_8_NAME",
+    "English": "EMBER FROND"
+  },
+  {
+    "Id": "BLD_HOTPLANT_8_NAME_L",
+    "English": "Ember Frond"
+  },
+  {
+    "Id": "BLD_HOTPLANT_8_DESCRIPTION",
+    "English": "The huge leathery leaves of the ember frond are both fire- and water-proof. Traces of the leaves have been found at the foot of ancient monoliths across a range of planetary biomes, suggesting they were once used for some ritualistic purpose.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST01_NAME",
+    "English": "DESERT STAR"
+  },
+  {
+    "Id": "BLD_DUST01_NAME_L",
+    "English": "Desert Star"
+  },
+  {
+    "Id": "BLD_DUST01_DESC",
+    "English": "A welcome sight for weary Travellers, this distinctive, attractive tree indicates the presence of fresh water in desert climates.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST02_NAME",
+    "English": "PIPE CACTUS"
+  },
+  {
+    "Id": "BLD_DUST02_NAME_L",
+    "English": "Pipe Cactus"
+  },
+  {
+    "Id": "BLD_DUST02_DESC",
+    "English": "A squat, dense succulent, covered with millions of needle-like thorns.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST03_NAME",
+    "English": "DUST PALM"
+  },
+  {
+    "Id": "BLD_DUST03_NAME_L",
+    "English": "Dust Palm"
+  },
+  {
+    "Id": "BLD_DUST03_DESC",
+    "English": "A miniature palm with two layers of fronds. Microscopic jellyfish-like creatures make their home among the pinnate inner foliage, sheltering from dust storms and consuming parasites.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST04_NAME",
+    "English": "LEOPARD TREE"
+  },
+  {
+    "Id": "BLD_DUST04_NAME_L",
+    "English": "Leopard Tree"
+  },
+  {
+    "Id": "BLD_DUST04_DESC",
+    "English": "A thick-trunked tree with a distinctive rosette-like pattern across its bark. Water is retained in the trunk, the tree swelling to tremendous proportions during wet seasons.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST05_NAME",
+    "English": "ORNAMENTAL TREE"
+  },
+  {
+    "Id": "BLD_DUST05_NAME_L",
+    "English": "Ornamental Tree"
+  },
+  {
+    "Id": "BLD_DUST05_DESC",
+    "English": "An elegant tree, evoking a feeling of peace and balance. Anyone sitting beneath its branches can also enjoy a soft, relaxing fragrance.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST06_NAME",
+    "English": "PORCELAIN FLOWER"
+  },
+  {
+    "Id": "BLD_DUST06_NAME_L",
+    "English": "Porcelain Flower"
+  },
+  {
+    "Id": "BLD_DUST06_DESC",
+    "English": "This plant's delicate waxy flowers retain precious moisture in dry environs, and can withstand the harshest desert sun.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST07_NAME",
+    "English": "TORQUE CACTUS"
+  },
+  {
+    "Id": "BLD_DUST07_NAME_L",
+    "English": "Torque Cactus"
+  },
+  {
+    "Id": "BLD_DUST07_DESC",
+    "English": "Each stem of this columnar cactus grows in a subtle corkscrew pattern, forever twisting away from something unseen.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST08_NAME",
+    "English": "SANDSTONE ROCK"
+  },
+  {
+    "Id": "BLD_DUST08_NAME_L",
+    "English": "Sandstone Rock"
+  },
+  {
+    "Id": "BLD_DUST08_DESC",
+    "English": "A natural chunk of sedimentary rock, its surface unmarred by tool marks.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST09_NAME",
+    "English": "SANDSTONE PILLAR"
+  },
+  {
+    "Id": "BLD_DUST09_NAME_L",
+    "English": "Sandstone Pillar"
+  },
+  {
+    "Id": "BLD_DUST09_DESC",
+    "English": "A natural pillar of sedimentary rock, its surface unmarred by tool marks.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST10_NAME",
+    "English": "CAVERN ROCK"
+  },
+  {
+    "Id": "BLD_DUST10_NAME_L",
+    "English": "Cavern Rock"
+  },
+  {
+    "Id": "BLD_DUST10_DESC",
+    "English": "A series of naturally-formed stalagnates, carefully cut from a cavern entrance to preserve their original texture.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST11_NAME",
+    "English": "DANCER TREE"
+  },
+  {
+    "Id": "BLD_DUST11_NAME_L",
+    "English": "Dancer Tree"
+  },
+  {
+    "Id": "BLD_DUST11_DESC",
+    "English": "A domesticated variety of desert tree, prized for the twirling, sculpted quality of its trunk.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST12_NAME",
+    "English": "FEATHER PALM"
+  },
+  {
+    "Id": "BLD_DUST12_NAME_L",
+    "English": "Feather Palm"
+  },
+  {
+    "Id": "BLD_DUST12_DESC",
+    "English": "This tall-growing palm tree is common in arid climates, and often farmed for its sweet, nutritious sap.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
+    "Id": "BLD_DUST13_NAME",
+    "English": "TINE CACTUS"
+  },
+  {
+    "Id": "BLD_DUST13_NAME_L",
+    "English": "Tine Cactus"
+  },
+  {
+    "Id": "BLD_DUST13_DESC",
+    "English": "A many-stemmed cactus, enthusiastically multiplying and dividing as it grows towards the nearest sun.\n\nProvides decorative landscaping opportunities for bases."
+  },
+  {
     "Id": "BLD_DECAL_P_BONESOUP_NAME",
     "English": "BONE BROTH DECAL"
   },
@@ -112692,12 +115480,80 @@
     "English": "A living, fertile egg, <TRADEABLE>ready to hatch!<>\n\nThe insect within snaps its mandibles, ferocious before even seeing another entity.\n\nScans indicate the being within has the genetic potential to be a <FUEL>fierce<> hunter, defeating prey and rival creatures with powerful aggression."
   },
   {
-    "Id": "UI_MILK_ANY_NAME",
-    "English": "MILK"
+    "Id": "UI_TWIT_SHIP_56_NAME",
+    "English": "TAHIKOK ROAMER V"
   },
   {
-    "Id": "UI_MILK_ANY_NAME_L",
-    "English": "Milk"
+    "Id": "UI_TWIT_SHIP_56_NAME_L",
+    "English": "Tahikok Roamer V"
+  },
+  {
+    "Id": "UI_TWIT_SHIP_57_NAME",
+    "English": "RECKLESS PROPHECY HF3"
+  },
+  {
+    "Id": "UI_TWIT_SHIP_57_NAME_L",
+    "English": "Reckless Prophecy HF3"
+  },
+  {
+    "Id": "UI_TWIT_SHIP_58_NAME",
+    "English": "THE MASTER OF SLEEP"
+  },
+  {
+    "Id": "UI_TWIT_SHIP_58_NAME_L",
+    "English": "The Master of Sleep"
+  },
+  {
+    "Id": "UI_TWIT_SHIP_59_NAME",
+    "English": "OIGAYA'S REDEMPTION PV4"
+  },
+  {
+    "Id": "UI_TWIT_SHIP_59_NAME_L",
+    "English": "Oigaya's Redemption PV4"
+  },
+  {
+    "Id": "UI_TWIT_SHIP_60_NAME",
+    "English": "DX7 IBAIL"
+  },
+  {
+    "Id": "UI_TWIT_SHIP_60_NAME_L",
+    "English": "DX7 Ibail"
+  },
+  {
+    "Id": "UI_TWIT_GUN_28_NAME",
+    "English": "ART OF ESENYOV-XVI"
+  },
+  {
+    "Id": "UI_TWIT_GUN_28_NAME_L",
+    "English": "Art of Esenyov-XVI"
+  },
+  {
+    "Id": "UI_TWIT_GUN_29_NAME",
+    "English": "OBEDIENCE OF SOLEMNITY"
+  },
+  {
+    "Id": "UI_TWIT_GUN_29_NAME_L",
+    "English": "Obedience of Solemnity"
+  },
+  {
+    "Id": "UI_TWIT_GUN_30_NAME",
+    "English": "CONCEPTUAL VATEZH BEAM"
+  },
+  {
+    "Id": "UI_TWIT_GUN_30_NAME_L",
+    "English": "Conceptual Vatezh Beam"
+  },
+  {
+    "Id": "UI_TWIT_PET_25_NAME",
+    "English": "H. COLDVAUM EGG"
+  },
+  {
+    "Id": "UI_TWIT_PET_25_NAME_L",
+    "English": "H. Coldvaum Egg"
+  },
+  {
+    "Id": "UI_TWIT_PET_25_DESC",
+    "English": "A living, fertile egg, <TRADEABLE>ready to hatch!<>\n\nThe creature inside wriggles and flexes its fluffy toes, yearning to feel soil between them.\n\nScans indicate the being within has the genetic potential for a <TRADEABLE>protective<> disposition, brimming with affection for its Traveller companion."
   },
   {
     "Id": "UI_MP_FISH_TITLE_1",
@@ -112958,6 +115814,266 @@
   {
     "Id": "MP_MISSION_STATION_SUB_ABAND",
     "English": "Complete missions with - kzzztkkt -"
+  },
+  {
+    "Id": "UI_HAUL_TUT_INTRO_OBJ1",
+    "English": "Reach a Waste Processing Plant"
+  },
+  {
+    "Id": "UI_HAUL_TUT_INTRO_OBJ1_TIP",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<> at a Waste Processing Plant.\n\nA planetary <STELLAR>Waste Processing Plant<> offers many opportunities to explorers and salvage experts alike..."
+  },
+  {
+    "Id": "UI_HAUL_TUT_INTRO_MSG1",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<> at a Waste Processing Plant\nReach the marked facility"
+  },
+  {
+    "Id": "UI_HAUL_TUT_INTRO_SURVEY",
+    "English": "Follow the <STELLAR>directional indicators<> to locate the Waste Processing Plant\nThis <TECHNOLOGY>Target Sweep<> will pinpoint mission locations"
+  },
+  {
+    "Id": "UI_HAUL_TUT_INTRO_SURVEY_CAR",
+    "English": "The Waste Processing Plant is <STELLAR>nearby<>\nUse a <STELLAR>Target Sweep<> to locate the objective\nTo confirm target sweep directions, exit your vehicle"
+  },
+  {
+    "Id": "UI_HAUL_TUT_INTRO_SURVEY_SWAP",
+    "English": "The Waste Processing Plant is <STELLAR>nearby<>\nActivate a <TECHNOLOGY>Target Sweep<> with <IMG>SURVEYFILTERL<>/<IMG>SURVEYFILTERR<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_INTRO_SURVEY_OFF",
+    "English": "The Waste Processing Plant is <STELLAR>nearby<>\nActivate a <STELLAR>Target Sweep<> from the Analysis Visor <IMG>AIM<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_TITLE",
+    "English": "Industrial Cleanup"
+  },
+  {
+    "Id": "UI_HAUL_TUT_SUB",
+    "English": "Recycle waste materials"
+  },
+  {
+    "Id": "UI_HAUL_TUT_DESC",
+    "English": "The <STELLAR>Colossus<> and a <TECHNOLOGY>Gravitino Coil<> are key pieces of equipment for any scrap-hunter. Collect, sort and process industrial waste to clean planets and extract recycled resources."
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ1",
+    "English": "Investigate the waste processing centre"
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ1_TIP",
+    "English": "A planetary <STELLAR>Waste Processing Plant<> offers many opportunities to explorers and salvage experts alike..."
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ2",
+    "English": "Acquire a Gravitino Coil"
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ2_TIP",
+    "English": "Once assembled, access the <TECHNOLOGY>Gravitino Coil<> by pressing <IMG>CYCLEWEAPON<>, and attract industrial waste with <IMG>ALTATTACK<>.\n\nMagnetised objects can be launched from the Generator with <IMG>ATTACK<>, or gently released with <IMG>ALTATTACK<>.\n\nScan for <STELLAR>industrial waste<> in the <TECHNOLOGY>Colossus Exocraft<> (<IMG>VEHICLESCAN<>)."
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ3",
+    "English": "Install a Flatbed module in the Colossus"
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ3_TIP",
+    "English": "The <TECHNOLOGY>Flatbed Module<> allows the Colossus to haul stacks of industrial waste across long distances. An electromagnetic containment field minimises cargo loss while navigating uneven terrain.\n\n<STELLAR>Recalibrate Exocraft visuals<> from a <TECHNOLOGY>Colossus Geobay<>.\nApply the <TECHNOLOGY>Flatbed<> modification to the Colossus <TECHNOLOGY>Chassis<>."
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ4",
+    "English": "Process industrial waste"
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ4_ALT",
+    "English": "Process high-value waste"
+  },
+  {
+    "Id": "UI_HAUL_TUT_OBJ4_TIP",
+    "English": "Aim at industrial waste and magnetise it with <IMG>ALTATTACK<>. Launch magnetised objects with <IMG>ATTACK<>. Load the Colossus' flatbed module to transport waste long distances.\n\nAssess your haul at a <STELLAR>Waste Processing Plant<>. Park the loaded Colossus on the valuation scale and operate the <TECHNOLOGY>Control Panel<> to automatically recycle collected material.\n\nCollect <SPECIAL>special<> waste containers for additional rewards. Manually sort waste into individual processors for <STELLAR>maximum resource recovery<>."
+  },
+  {
+    "Id": "UI_HAUL_TUT_LANG1",
+    "English": "Freelance waste disposal opportunities: <TRADEABLE>Available!<><NEWLINE>\nDownload <TECHNOLOGY>Gravitino Coil<> blueprints to begin waste processing."
+  },
+  {
+    "Id": "UI_HAUL_TUT_OPT1",
+    "English": "Download blueprints"
+  },
+  {
+    "Id": "UI_HAUL_TUT_RES1",
+    "English": "Note: waste processing station is remote operated. Field agents must supply their own equipment and assume all personal risks."
+  },
+  {
+    "Id": "UI_HAUL_TUT_LABEL1",
+    "English": "Waste Processing Plant"
+  },
+  {
+    "Id": "UI_HAUL_TUT_LABEL2",
+    "English": "Waste Processor"
+  },
+  {
+    "Id": "UI_HAUL_TUT_LABEL3",
+    "English": "Collection Zone"
+  },
+  {
+    "Id": "UI_HAUL_TUT_LABEL4",
+    "English": "Processor Control"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG1",
+    "English": "<STELLAR>Waste Processing Plant<> detected\nApproach the control panel to investigate salvage opportunities"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG2",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nSearch for <STELLAR>industrial waste<> in the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG3",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nCycle Multi-Tool modes with <IMG>CYCLEWEAPON<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG4",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>: %CURRENT%/%AMOUNT%\nAim at <STELLAR>industrial waste<> and tap <IMG>ALTATTACK<> to magnetise it"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG5",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>\nAim at <STELLAR>industrial waste<> and repel it with <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG6",
+    "English": "Test the <TECHNOLOGY>Gravitino Coil<>: %CURRENT%/%AMOUNT%\nLaunch magnetised objects by tapping <IMG>ATTACK<>\nOr gently release with <IMG>ALTATTACK<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG7",
+    "English": "Process industrial waste: %CURRENT%/%AMOUNT%\nAim at <STELLAR>industrial waste<> and tap <IMG>ALTATTACK<> to magnetise"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG7A",
+    "English": "Process industrial waste: %CURRENT%/%AMOUNT%\n<STELLAR>Launch<> collected waste into the <TECHNOLOGY>processor<> with <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG8",
+    "English": "Process industrial waste: %CURRENT%/%AMOUNT%\nReturn to the <STELLAR>waste processing plant<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG9",
+    "English": "<STELLAR>Colossus<> exocraft required for heavy-duty waste collection\nAcquire geobay blueprints aboard the <SPECIAL>Space Anomaly<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG10",
+    "English": "Deploy a <COMMODITY>Colossus Exocraft<> for heavy-duty waste collection\nConstruct a Geobay from the <TECHNOLOGY>Build Menu<> (<IMG>BUILD_MENU<>)\nOr summon existing Exocraft from the Quick Menu (<IMG>QUICK_MENU<>)"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG11",
+    "English": "Outfit the Colossus for heavy-duty waste collection\nApply the <COMMODITY>Flatbed<> module to the <TECHNOLOGY>Chassis<>\nDeploy new modules from the <TECHNOLOGY>Colossus Geobay<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG12",
+    "English": "Install an <TECHNOLOGY>Exocraft Radar<> to detect industrial waste\nInstall technology in the Exocraft Inventory (<IMG>INVENTORY<>) with <IMG>TECHMENU<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG13",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nRecyclable cargo aboard Colossus: %LOAD%\nBoard the Colossus to scan for nearby waste material\nOr search on foot with the <TECHNOLOGY>Analysis Visor<> (<IMG>AIM<>)"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG14",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nEquip the <TECHNOLOGY>Gravitino Coil<> to collect recyclable material\nCycle Multi-Tool modes with <IMG>CYCLEWEAPON<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG15",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nRecyclable cargo aboard Colossus: %LOAD%\nLoad material into the Colossus for long-distance transport\nAim at <TECHNOLOGY>recyclable material<> and tap <IMG>ALTATTACK<> to magnetise"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG16",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nRecyclable cargo aboard Colossus: %LOAD%\nLoad material into the Colossus for long-distance transport\nLaunch magnetised objects by tapping <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG17",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nRecyclable cargo aboard Colossus: %LOAD%\nDrive with <IMG>CAR_ACCEL<> and steer by aiming the camera\nSweep for <TECHNOLOGY>recyclable material<> with <IMG>VEHICLESCAN<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG18",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nRecyclable cargo aboard Colossus: %LOAD%\nExit your vehicle (<IMG>EXITSHIP<>) to collect nearby recyclable material"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG19",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nRecyclable cargo aboard Colossus: %LOAD%\nReturn to the <TECHNOLOGY>waste processor<> to recycle gathered material"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG20",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nRecyclable cargo aboard Colossus: %LOAD%\nPark within the <STELLAR>auto-collection zone<>, then disembark with <IMG>EXITSHIP<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG21",
+    "English": "Process <STELLAR>industrial waste<>: %CURRENT%/%AMOUNT%\nRecyclable cargo aboard Colossus: %LOAD%\nInterface with the <TECHNOLOGY>Processor Control Terminal<> to begin waste recovery"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG22",
+    "English": "Process high-value waste: %CURRENT%/%AMOUNT%\nBoard the Colossus to scan for <SPECIAL>waste heaps<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG22A",
+    "English": "Process high-value waste: %CURRENT%/%AMOUNT%\nBoard the Colossus to reach the marked <SPECIAL>waste heap<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG23",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT% (%LOAD% aboard Colossus)\nEquip the <TECHNOLOGY>Gravitino Coil<> to collect recyclable material\nCycle Multi-Tool modes with <IMG>CYCLEWEAPON<>\nPrioritise <SPECIAL>specialist<> waste for maximum resource recovery"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG24",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT% (%LOAD% aboard Colossus)\nLoad material into the Colossus for long-distance transport\nPrioritise <SPECIAL>specialist<> waste for maximum resource recovery\nAim at <TECHNOLOGY>recyclable material<> and tap <IMG>ALTATTACK<> to magnetise"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG25",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT% (%LOAD% aboard Colossus)\nLoad material into the Colossus for long-distance transport\nPrioritise <SPECIAL>specialist<> waste for maximum resource recovery\nLaunch magnetised objects by tapping <IMG>ATTACK<>"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG26",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT%\nDrive with <IMG>CAR_ACCEL<> and steer by aiming the camera\nReach the <SPECIAL>waste heap<> to recover specialist waste types"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG27",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT% (%LOAD% aboard Colossus)\nLocate <STELLAR>waste heaps<> with the Exocraft Radar (<IMG>QUICK_MENU<>)\nPrioritise <SPECIAL>specialist<> waste for maximum resource recovery"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG27A",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT%\nSpecialist material aboard Colossus: %LOAD%\nExit your vehicle (<IMG>EXITSHIP<>) to collect nearby waste"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG28",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT%\nSpecialist material aboard Colossus: %LOAD%\nReturn to the <TECHNOLOGY>waste processor<> to recycle gathered waste"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG29",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT%\nSpecialist material aboard Colossus: %LOAD%\nUnload gathered waste with the <STELLAR>dump<> lever on the rear of the Colossus"
+  },
+  {
+    "Id": "UI_HAUL_TUT_MSG30",
+    "English": "Process <STELLAR>high-value waste<>: %CURRENT%/%AMOUNT%\nSort materials for <COMMODITY>maximum resource recovery<>\nUse the <TECHNOLOGY>Gravitino Coil<> to place material into the appropriate <TECHNOLOGY>waste processor<>"
+  },
+  {
+    "Id": "UI_HAUL_LOOP_TITLE",
+    "English": "Industrial Cleanup"
+  },
+  {
+    "Id": "UI_HAUL_LOOP_SUB",
+    "English": "Recycle waste materials"
+  },
+  {
+    "Id": "UI_HAUL_LOOP_DESC",
+    "English": "The <STELLAR>Colossus<> and a <TECHNOLOGY>Gravitino Coil<> are key pieces of equipment for any scrap-hunter. Collect, sort and process industrial waste to clean planets and extract recycled resources."
+  },
+  {
+    "Id": "UI_HAUL_LOOP_OBJ1",
+    "English": "Process industrial waste"
+  },
+  {
+    "Id": "UI_HAUL_LOOP_OBJ1_TIP",
+    "English": "Aim at industrial waste and magnetise it with <IMG>ALTATTACK<>. Launch magnetised objects with <IMG>ATTACK<>. Load the Colossus' flatbed module to transport waste long distances.\n\nAssess your haul at a <STELLAR>Waste Processing Plant<>. Park the loaded Colossus on the valuation scale and operate the <TECHNOLOGY>Control Panel<> to automatically recycle collected material. Collect <SPECIAL>special<> waste containers for additional rewards. Manually sort waste into individual processors for <STELLAR>maximum resource recovery<>.\n\n<VAL_ON>Lifetime waste management statistics<>\nTotal value of recovered waste: <STELLAR>%SCRAP_VAL%<IMG>NANITE<><>\nScrap metal recovered: <STELLAR>%SCRAP_NUM%<>\nToxic material recovered: <STELLAR>%TOX_NUM%<>\nRadioactive material recovered: <STELLAR>%RAD_NUM%<>\nExplosive material recovered: <STELLAR>%EXP_NUM%<>"
+  },
+  {
+    "Id": "UI_HAUL_LOOP_MSG1",
+    "English": "Use the <STELLAR>Colossus<> and the <TECHNOLOGY>Gravitino Coil<> to recover industrial waste\nExtract valuable resources at a <STELLAR>Waste Processing Plant<>\nView recovery statistics in the <TECHNOLOGY>Mission Log<> (<IMG>OPTIONS<>)"
   },
   {
     "Id": "EXPED_15_TITLE",
@@ -120821,7 +123937,7 @@
   },
   {
     "Id": "UI_EXPED17_DETAIL_LINE3B",
-    "English": "Bases, discoveries, and other progress <TECHNOLOGY>will be shared or merged<> with your primary save."
+    "English": "Bases and discoveries from <TECHNOLOGY>accessible systems<> will be shared or merged with your primary save."
   },
   {
     "Id": "UI_EXPED17_DETAIL_LINE4A",
@@ -121133,7 +124249,7 @@
   },
   {
     "Id": "UI_EXPED_SEAGLASS_OBJ_TIP",
-    "English": "<TRADEABLE>Sea Glass<> shards can only be collected from the <TECHNOLOGY>deepest oceans<>.\n\nThese highly valuable crystalline structures await those who explore the abyss. Use the <TECHNOLOGY>Analysis Visor<> to locate harvest sites. Use a <TECHNOLOGY>Nautilon Submarine<> and exosuit <TECHNOLOGY>Pressure Membrane<> is highly recommended."
+    "English": "<TRADEABLE>Sea Glass<> shards can only be collected from the <TECHNOLOGY>deepest oceans<>.\n\nThese highly valuable crystalline structures await those who explore the abyss. Use the <TECHNOLOGY>Analysis Visor<> to locate harvest sites. The use of a <TECHNOLOGY>Nautilon Submarine<> and exosuit <TECHNOLOGY>Pressure Membrane<> is highly recommended."
   },
   {
     "Id": "UI_EXPED_SEAGLASS_MSG1",
@@ -142905,7 +146021,7 @@
   },
   {
     "Id": "BLD_DATASIGN_DESC",
-    "English": "A arrangement of dynamic glass panels, each filled with undoubtedly useful and valuable information.\n\nThis display unit also functions as a source of illumination."
+    "English": "An arrangement of dynamic glass panels, each filled with undoubtedly useful and valuable information.\n\nThis display unit also functions as a source of illumination."
   },
   {
     "Id": "BLD_DATASIGN_SUB",
@@ -161173,7 +164289,7 @@
   },
   {
     "Id": "UI_JUDGEMENT_VISITOR_TECHGIFT1",
-    "English": "They say they are a philosopher, and wish to share their knowledge. The present the secret to <TECHNOLOGY>\"%TECHGIFT%\"<>"
+    "English": "They say they are a philosopher, and wish to share their knowledge. They present the secret to <TECHNOLOGY>\"%TECHGIFT%\"<>"
   },
   {
     "Id": "UI_JUDGEMENT_VISITOR_TECHGIFT2",
@@ -235337,7 +238453,7 @@
   },
   {
     "Id": "UI_EXPED_ALL_CREATURES_DESC",
-    "English": "Find all creatures on the planet: %CURRENT%/%AMOUNT%"
+    "English": "Find all creatures on the planet"
   },
   {
     "Id": "UI_EXPED_ALL_CREATURES_DESC_D",
@@ -244726,6 +247842,10 @@
   {
     "Id": "UI_ABAND_FREIGHT_MSG2",
     "English": "Enter the <TECHNOLOGY>Derelict Freighter<>"
+  },
+  {
+    "Id": "UI_ABAND_FREIGHT_MSG2_BIGGS",
+    "English": "<STELLAR>Beam aboard<> the <TECHNOLOGY>Derelict Freighter<>\nTeleport using the button by the corvette accessway"
   },
   {
     "Id": "UI_ABAND_FREIGHT_MSG3",
@@ -255857,7 +258977,7 @@
   },
   {
     "Id": "BLD_GARAGE_MECH_DESC",
-    "English": "A secure parking, summoning and customisation facility for the <STELLAR>Minotaur Heavy Exosuit Hybrid<>.\n\nDeploy the Minotaur from the Quick Menu. With the aid of an <TECHNOLOGY>Orbital Exocraft Materialiser<> mounted inside a freighter, the Minotaur can be instantly deployed to any location within the same system as the mothership."
+    "English": "A secure parking, summoning and customisation facility for the <STELLAR>Minotaur Heavy Exosuit Hybrid<>.\n\nThe Minotaur Geobay can be constructed anywhere on a planet's surface.\n\nDeploy the Minotaur from the Quick Menu. With the aid of an <TECHNOLOGY>Orbital Exocraft Materialiser<> mounted inside a freighter, the Minotaur can be instantly deployed to any location within the same system as the mothership."
   },
   {
     "Id": "BLD_GARAGE_MECH_SUB",

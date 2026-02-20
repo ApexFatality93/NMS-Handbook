@@ -826,7 +826,7 @@ function createSpecialRewardsSection(itemId, rewardData, purchaseData) {
     if (isPurchasable) {
         description.textContent = "This item is available for purchase at the Quicksilver Synthesis Companion aboard the Space Anomaly.";
     } else {
-        description.textContent = "This item was previously rewarded through a limited-time event and is not currently obtainable unless it was already unlocked on one of your save files. However, Hello Games often re-runs Expeditions at the end of each year, which may offer another chance to earn it.";
+        description.textContent = "This item is rewarded through a limited-time event. Unless there is an ongoing Expedition and/or Twitch event, it is not currently obtainable unless it was already unlocked on one of your other save files. However, Hello Games often re-runs Expeditions at the end of each year, which may offer another chance to earn it.";
     }
 
     section.appendChild(description);

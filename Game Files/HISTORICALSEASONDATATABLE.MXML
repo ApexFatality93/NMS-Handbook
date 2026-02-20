@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.17.0.2)-->
+<!--File created using MBINCompiler version (6.24.0.1)-->
 <Data template="cGcHistoricalSeasonDataTable">
 	<Property name="Table">
 		<Property name="Table" value="GcHistoricalSeasonData" _index="0">
@@ -261,6 +261,19 @@
 			<Property name="Description" value="UI_EXPED20_MAIN_DESC" />
 			<Property name="FinalReward" value="RS_S20_COMPLETE" />
 			<Property name="UnlockedTitle" value="UI_PLAYER_TITLE_EXPD20" />
+		</Property>
+		<Property name="Table" value="GcHistoricalSeasonData" _index="20">
+			<Property name="SeasonName" value="UI_SEASON_21_NAME" />
+			<Property name="SeasonNameUpper" value="UI_SEASON_21_NAME_U" />
+			<Property name="SeasonNumber" value="45" />
+			<Property name="RemixNumber" value="0" />
+			<Property name="DisplayNumber" value="21" />
+			<Property name="MainIcon" value="TkTextureResource">
+				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.EXPEDITION.21.DDS" />
+			</Property>
+			<Property name="Description" value="UI_EXPED21_MAIN_DESC" />
+			<Property name="FinalReward" value="RS_S21_COMPLETE" />
+			<Property name="UnlockedTitle" value="UI_PLAYER_TITLE_EXPD21" />
 		</Property>
 	</Property>
 </Data>

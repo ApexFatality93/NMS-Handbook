@@ -20147,7 +20147,7 @@
         "Subtitle": "BLD_GARAGE_MECH_SUB",
         "Subtitle_Text": "Heavy Loader Storage Bay",
         "Description": "BLD_GARAGE_MECH_DESC",
-        "Description_Text": "A secure parking, summoning and customisation facility for the <STELLAR>Minotaur Heavy Exosuit Hybrid<>.\n\nDeploy the Minotaur from the Quick Menu. With the aid of an <TECHNOLOGY>Orbital Exocraft Materialiser<> mounted inside a freighter, the Minotaur can be instantly deployed to any location within the same system as the mothership.",
+        "Description_Text": "A secure parking, summoning and customisation facility for the <STELLAR>Minotaur Heavy Exosuit Hybrid<>.\n\nThe Minotaur Geobay can be constructed anywhere on a planet's surface.\n\nDeploy the Minotaur from the Quick Menu. With the aid of an <TECHNOLOGY>Orbital Exocraft Materialiser<> mounted inside a freighter, the Minotaur can be instantly deployed to any location within the same system as the mothership.",
         "BaseValue": "10",
         "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.VEHICLEGARAGEMECH.DDS",
         "Colour_R": "0.172549024",

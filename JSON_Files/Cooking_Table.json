@@ -46869,56 +46869,6 @@
             }
         ]
     },
-    "FOOD_F_JEELS": {
-        "ProductID": "FOOD_F_JEELS",
-        "Name": "UI_FISH_FOOD_JELLYEELS_NAME",
-        "Name_Text": "JELLIED EEL",
-        "NameLower": "UI_FISH_FOOD_JELLYEELS_NAME_L",
-        "NameLower_Text": "Jellied Eel",
-        "Subtitle": "FOOD_COOKED_SUB",
-        "Subtitle_Text": "Edible Product",
-        "Description": "UI_FISH_FOOD_LARGE_DESC",
-        "Description_Text": "A slab of seafood, created in the <TECHNOLOGY>Nutrient Processor<>. Food such as this can be <STELLAR>highly valuable<>.\n\nCan be consumed as it stands or subjected to further processing.",
-        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/COOKINGPRODUCTS/PRODUCT.FISH.OCTOPUS.DDS",
-        "Colour_R": "0.0352941193",
-        "Colour_G": "0.360784322",
-        "Colour_B": "0.466666669",
-        "Colour_A": "1.000000",
-        "Recipes": [
-            {
-                "RecipeType": "Processor Setting: Seafood Assembly",
-                "RecipeName": "Seafood Assembly",
-                "TimeToMake": "5.000000",
-                "Amount": "1",
-                "Ingredients": [
-                    {
-                        "Id": "FOOD_F_JELLY",
-                        "Type": "Product",
-                        "Name_ID": "UI_FISH_FOOD_JELLY_NAME_L",
-                        "NameLower_Text": "Jellymeat",
-                        "Amount": "1",
-                        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/COOKINGPRODUCTS/PRODUCT.FISH.SQUID.DDS",
-                        "Colour_R": "0.0352941193",
-                        "Colour_G": "0.360784322",
-                        "Colour_B": "0.466666669",
-                        "Colour_A": "1.000000"
-                    },
-                    {
-                        "Id": "FOOD_F_EEL",
-                        "Type": "Product",
-                        "Name_ID": "UI_FISH_FOOD_EEL_NAME_L",
-                        "NameLower_Text": "Fleshy Cylinder",
-                        "Amount": "1",
-                        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/COOKINGPRODUCTS/PRODUCT.FISH.SQUID.DDS",
-                        "Colour_R": "0.0352941193",
-                        "Colour_G": "0.360784322",
-                        "Colour_B": "0.466666669",
-                        "Colour_A": "1.000000"
-                    }
-                ]
-            }
-        ]
-    },
     "FOOD_F_STEW": {
         "ProductID": "FOOD_F_STEW",
         "Name": "UI_FISH_FOOD_STEW_NAME",
@@ -47339,6 +47289,56 @@
                         "Colour_R": "0.117647059",
                         "Colour_G": "0.541176498",
                         "Colour_B": "0.258823544",
+                        "Colour_A": "1.000000"
+                    }
+                ]
+            }
+        ]
+    },
+    "FOOD_F_JEELS": {
+        "ProductID": "FOOD_F_JEELS",
+        "Name": "UI_FISH_FOOD_JELLYEELS_NAME",
+        "Name_Text": "JELLIED EEL",
+        "NameLower": "UI_FISH_FOOD_JELLYEELS_NAME_L",
+        "NameLower_Text": "Jellied Eel",
+        "Subtitle": "FOOD_COOKED_SUB",
+        "Subtitle_Text": "Edible Product",
+        "Description": "UI_FISH_FOOD_LARGE_DESC",
+        "Description_Text": "A slab of seafood, created in the <TECHNOLOGY>Nutrient Processor<>. Food such as this can be <STELLAR>highly valuable<>.\n\nCan be consumed as it stands or subjected to further processing.",
+        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/COOKINGPRODUCTS/PRODUCT.FISH.OCTOPUS.DDS",
+        "Colour_R": "0.0352941193",
+        "Colour_G": "0.360784322",
+        "Colour_B": "0.466666669",
+        "Colour_A": "1.000000",
+        "Recipes": [
+            {
+                "RecipeType": "Processor Setting: Seafood Assembly",
+                "RecipeName": "Seafood Assembly",
+                "TimeToMake": "5.000000",
+                "Amount": "1",
+                "Ingredients": [
+                    {
+                        "Id": "FOOD_F_JELLY",
+                        "Type": "Product",
+                        "Name_ID": "UI_FISH_FOOD_JELLY_NAME_L",
+                        "NameLower_Text": "Jellymeat",
+                        "Amount": "1",
+                        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/COOKINGPRODUCTS/PRODUCT.FISH.SQUID.DDS",
+                        "Colour_R": "0.0352941193",
+                        "Colour_G": "0.360784322",
+                        "Colour_B": "0.466666669",
+                        "Colour_A": "1.000000"
+                    },
+                    {
+                        "Id": "FOOD_F_EEL",
+                        "Type": "Product",
+                        "Name_ID": "UI_FISH_FOOD_EEL_NAME_L",
+                        "NameLower_Text": "Fleshy Cylinder",
+                        "Amount": "1",
+                        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/COOKINGPRODUCTS/PRODUCT.FISH.SQUID.DDS",
+                        "Colour_R": "0.0352941193",
+                        "Colour_G": "0.360784322",
+                        "Colour_B": "0.466666669",
                         "Colour_A": "1.000000"
                     }
                 ]

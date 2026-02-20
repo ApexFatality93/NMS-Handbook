@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.17.0.2)-->
+<!--File created using MBINCompiler version (6.24.0.1)-->
 <Data template="cGcRecipeTable">
 	<Property name="Table">
 		<Property name="Table" value="GcRefinerRecipe" _id="RECIPE_1">
@@ -37625,36 +37625,6 @@
 				</Property>
 			</Property>
 		</Property>
-		<Property name="Table" value="GcRefinerRecipe" _id="RECIPE_1301">
-			<Property name="Id" value="RECIPE_1301" />
-			<Property name="RecipeType" value="UI_COOK_FISH" />
-			<Property name="RecipeName" value="UI_COOK_FISH_R" />
-			<Property name="TimeToMake" value="5.000000" />
-			<Property name="Cooking" value="true" />
-			<Property name="Result" value="GcRefinerRecipeElement">
-				<Property name="Id" value="FOOD_F_JEELS" />
-				<Property name="Type" value="GcInventoryType">
-					<Property name="InventoryType" value="Product" />
-				</Property>
-				<Property name="Amount" value="1" />
-			</Property>
-			<Property name="Ingredients">
-				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="FOOD_F_JELLY">
-					<Property name="Id" value="FOOD_F_JELLY" />
-					<Property name="Type" value="GcInventoryType">
-						<Property name="InventoryType" value="Product" />
-					</Property>
-					<Property name="Amount" value="1" />
-				</Property>
-				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="FOOD_F_EEL">
-					<Property name="Id" value="FOOD_F_EEL" />
-					<Property name="Type" value="GcInventoryType">
-						<Property name="InventoryType" value="Product" />
-					</Property>
-					<Property name="Amount" value="1" />
-				</Property>
-			</Property>
-		</Property>
 		<Property name="Table" value="GcRefinerRecipe" _id="RECIPE_1294">
 			<Property name="Id" value="RECIPE_1294" />
 			<Property name="RecipeType" value="UI_COOK_FISH" />
@@ -37902,6 +37872,36 @@
 				</Property>
 				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="ANY_FISH_RAW" _index="1">
 					<Property name="Id" value="ANY_FISH_RAW" />
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Product" />
+					</Property>
+					<Property name="Amount" value="1" />
+				</Property>
+			</Property>
+		</Property>
+		<Property name="Table" value="GcRefinerRecipe" _id="RECIPE_1301">
+			<Property name="Id" value="RECIPE_1301" />
+			<Property name="RecipeType" value="UI_COOK_FISH" />
+			<Property name="RecipeName" value="UI_COOK_FISH_R" />
+			<Property name="TimeToMake" value="5.000000" />
+			<Property name="Cooking" value="true" />
+			<Property name="Result" value="GcRefinerRecipeElement">
+				<Property name="Id" value="FOOD_F_JEELS" />
+				<Property name="Type" value="GcInventoryType">
+					<Property name="InventoryType" value="Product" />
+				</Property>
+				<Property name="Amount" value="1" />
+			</Property>
+			<Property name="Ingredients">
+				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="FOOD_F_JELLY">
+					<Property name="Id" value="FOOD_F_JELLY" />
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Product" />
+					</Property>
+					<Property name="Amount" value="1" />
+				</Property>
+				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="FOOD_F_EEL">
+					<Property name="Id" value="FOOD_F_EEL" />
 					<Property name="Type" value="GcInventoryType">
 						<Property name="InventoryType" value="Product" />
 					</Property>

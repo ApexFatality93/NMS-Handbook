@@ -9,6 +9,7 @@ rewards_mxml = resolve_case_path('./Game Files/UNLOCKABLESEASONREWARDS.MXML')
 lang_json_file = './JSON_Files/All_Lang_Data.json'
 product_file = './JSON_Files/Product_Table.json'
 substance_file = './JSON_Files/Substance_Table.json'
+building_parts_file = './JSON_Files/Building_Parts_Table.json'
 output_json_file = './JSON_Files/Expedition_Table.json'
 
 # --- LOAD JSON FILES ---
@@ -21,9 +22,13 @@ with open(product_file, 'r', encoding='utf-8') as f:
 with open(substance_file, 'r', encoding='utf-8') as f:
     substance_table = json.load(f)
 
+with open(building_parts_file, 'r', encoding='utf-8') as f:
+    building_parts_table = json.load(f)
+
 lang_lookup = {entry['Id']: entry['English'] for entry in lang_entries}
 product_lookup = {key: value for key, value in product_table.items()}
 substance_lookup = {key: value for key, value in substance_table.items()}
+building_parts_lookup = {key: value for key, value in building_parts_table.items()}
 
 # --- UTILITY ---
 def extract_data(property_node):
@@ -72,10 +77,23 @@ for reward in reward_root.findall('.//Property[@value="GcUnlockableSeasonReward"
     reward_id = data.get('ID')
     season_ids = data.get('SeasonIds', {}).get('SeasonIds', [])
     stage_id = data.get('StageIds', {}).get('StageIds', '')
-    product = product_lookup.get(reward_id, {})
+
+
+    if reward_id in product_lookup:
+        product = product_lookup.get(reward_id, {})
+        reward_type = "product"
+    elif reward_id in substance_lookup:
+        product = substance_lookup.get(reward_id, {})
+        reward_type = "substance"
+    elif reward_id in building_parts_lookup:
+        product = building_parts_lookup.get(reward_id, {})
+        reward_type = "construction"
+    else:
+        print('❌ Houston, we have a problem here!')
 
     reward_data = {
         'ID': reward_id,
+        'Type': reward_type,
         'RewardName': product.get('NameLower_Text', ''),
         'RewardSubtitle': product.get('Subtitle_Text', ''),
         'RewardDescription': product.get('Description_Text', ''),

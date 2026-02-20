@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.17.0.2)-->
+<!--File created using MBINCompiler version (6.24.0.1)-->
 <Data template="cGcProductTable">
 	<Property name="Table">
 		<Property name="Table" value="GcProductData" _id="FIGHT_COCKAA">
@@ -71,6 +71,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -163,6 +164,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -255,6 +257,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -347,6 +350,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -439,6 +443,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -531,6 +536,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -623,6 +629,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -715,6 +722,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -807,6 +815,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -899,6 +908,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -991,6 +1001,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1083,6 +1094,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1175,6 +1187,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1267,6 +1280,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1359,6 +1373,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1451,6 +1466,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1543,6 +1559,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1635,6 +1652,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1727,6 +1745,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1819,6 +1838,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -1911,6 +1931,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2003,6 +2024,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2095,6 +2117,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2187,6 +2210,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2279,6 +2303,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2371,6 +2396,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2463,6 +2489,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2555,6 +2582,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2647,6 +2675,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2739,6 +2768,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2831,6 +2861,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -2923,6 +2954,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3015,6 +3047,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3107,6 +3140,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3199,6 +3233,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3291,6 +3326,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3383,6 +3419,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3475,6 +3512,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3567,6 +3605,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3659,6 +3698,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3751,6 +3791,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3843,6 +3884,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -3935,6 +3977,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4027,6 +4070,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4119,6 +4163,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4211,6 +4256,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4303,6 +4349,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4395,6 +4442,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4487,6 +4535,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4579,6 +4628,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4671,6 +4721,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4763,6 +4814,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4855,6 +4907,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -4947,6 +5000,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5039,6 +5093,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5131,6 +5186,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5223,6 +5279,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5315,6 +5372,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5407,6 +5465,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5499,6 +5558,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5591,6 +5651,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5683,6 +5744,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5775,6 +5837,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5867,6 +5930,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -5959,6 +6023,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6051,6 +6116,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6143,6 +6209,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6235,6 +6302,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6327,6 +6395,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6419,6 +6488,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6511,6 +6581,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6603,6 +6674,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6695,6 +6767,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6787,6 +6860,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6879,6 +6953,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -6971,6 +7046,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7063,6 +7139,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7155,6 +7232,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7247,6 +7325,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7339,6 +7418,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7431,6 +7511,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7523,6 +7604,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7615,6 +7697,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7707,6 +7790,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7799,6 +7883,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7891,6 +7976,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -7983,6 +8069,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8075,6 +8162,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8167,6 +8255,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8259,6 +8348,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8351,6 +8441,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8443,6 +8534,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8535,6 +8627,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8627,6 +8720,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8719,6 +8813,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8811,6 +8906,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8903,6 +8999,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -8995,6 +9092,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9087,6 +9185,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9179,6 +9278,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9271,6 +9371,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9363,6 +9464,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9455,6 +9557,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9547,6 +9650,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9639,6 +9743,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9731,6 +9836,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9823,6 +9929,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -9915,6 +10022,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10007,6 +10115,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10099,6 +10208,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10191,6 +10301,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10283,6 +10394,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10375,6 +10487,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10467,6 +10580,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10559,6 +10673,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10651,6 +10766,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10743,6 +10859,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10835,6 +10952,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -10927,6 +11045,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11019,6 +11138,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11111,6 +11231,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11203,6 +11324,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11295,6 +11417,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11387,6 +11510,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11479,6 +11603,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11571,6 +11696,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11663,6 +11789,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11755,6 +11882,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11847,6 +11975,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -11939,6 +12068,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12031,6 +12161,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12123,6 +12254,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12215,6 +12347,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12307,6 +12440,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12399,6 +12533,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12491,6 +12626,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12583,6 +12719,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12675,6 +12812,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12767,6 +12905,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12859,6 +12998,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -12951,6 +13091,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13043,6 +13184,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13135,6 +13277,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13227,6 +13370,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13319,6 +13463,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13411,6 +13556,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13503,6 +13649,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13595,6 +13742,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13687,6 +13835,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13779,6 +13928,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13871,6 +14021,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -13963,6 +14114,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14055,6 +14207,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14147,6 +14300,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14239,6 +14393,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14331,6 +14486,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14423,6 +14579,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14515,6 +14672,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14607,6 +14765,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14699,6 +14858,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14791,6 +14951,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14883,6 +15044,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -14975,6 +15137,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15067,6 +15230,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15159,6 +15323,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15251,6 +15416,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15343,6 +15509,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15435,6 +15602,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15527,6 +15695,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15619,6 +15788,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15711,6 +15881,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15803,6 +15974,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15895,6 +16067,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -15987,6 +16160,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16079,6 +16253,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16171,6 +16346,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16263,6 +16439,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16355,6 +16532,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16447,6 +16625,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16539,6 +16718,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16631,6 +16811,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16723,6 +16904,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16815,6 +16997,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16907,6 +17090,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -16999,6 +17183,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17091,6 +17276,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17183,6 +17369,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17275,6 +17462,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17367,6 +17555,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17459,6 +17648,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17551,6 +17741,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17643,6 +17834,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17735,6 +17927,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17827,6 +18020,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -17919,6 +18113,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18011,6 +18206,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18103,6 +18299,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18195,6 +18392,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18287,6 +18485,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18379,6 +18578,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18471,6 +18671,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18563,6 +18764,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18655,6 +18857,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18747,6 +18950,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18839,6 +19043,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -18931,6 +19136,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19023,6 +19229,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19115,6 +19322,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19207,6 +19415,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19299,6 +19508,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19391,6 +19601,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19483,6 +19694,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19575,6 +19787,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19667,6 +19880,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19759,6 +19973,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19851,6 +20066,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -19943,6 +20159,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20035,6 +20252,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20127,6 +20345,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20219,6 +20438,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20311,6 +20531,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20403,6 +20624,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20495,6 +20717,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20587,6 +20810,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20679,6 +20903,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20771,6 +20996,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20863,6 +21089,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -20955,6 +21182,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21047,6 +21275,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21139,6 +21368,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21231,6 +21461,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21323,6 +21554,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21415,6 +21647,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21507,6 +21740,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21599,6 +21833,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21691,6 +21926,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21783,6 +22019,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21875,6 +22112,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -21967,6 +22205,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22059,6 +22298,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22151,6 +22391,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22243,6 +22484,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22335,6 +22577,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22427,6 +22670,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22519,6 +22763,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22611,6 +22856,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22703,6 +22949,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22795,6 +23042,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22887,6 +23135,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -22979,6 +23228,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23071,6 +23321,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23163,6 +23414,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23255,6 +23507,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23347,6 +23600,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23439,6 +23693,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23531,6 +23786,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23623,6 +23879,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23715,6 +23972,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23807,6 +24065,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23899,6 +24158,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -23991,6 +24251,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24083,6 +24344,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24175,6 +24437,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24267,6 +24530,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24359,6 +24623,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24451,6 +24716,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24543,6 +24809,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24635,6 +24902,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24727,6 +24995,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24819,6 +25088,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -24911,6 +25181,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25003,6 +25274,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25095,6 +25367,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25187,6 +25460,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25279,6 +25553,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25371,6 +25646,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25463,6 +25739,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25555,6 +25832,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25647,6 +25925,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25739,6 +26018,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25831,6 +26111,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -25923,6 +26204,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -26015,6 +26297,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -26107,6 +26390,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.250000" />
@@ -26199,6 +26483,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -26291,6 +26576,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -26383,6 +26669,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -26475,6 +26762,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -26567,6 +26855,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -26659,6 +26948,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -26751,6 +27041,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -26843,6 +27134,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -26935,6 +27227,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27027,6 +27320,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27119,6 +27413,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27211,6 +27506,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27303,6 +27599,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27395,6 +27692,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27487,6 +27785,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27579,6 +27878,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27671,6 +27971,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27763,6 +28064,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27855,6 +28157,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -27947,6 +28250,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28039,6 +28343,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28131,6 +28436,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28223,6 +28529,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28315,6 +28622,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28407,6 +28715,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28499,6 +28808,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28591,6 +28901,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28683,6 +28994,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28775,6 +29087,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28867,6 +29180,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -28959,6 +29273,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29051,6 +29366,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29143,6 +29459,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29235,6 +29552,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29327,6 +29645,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29419,6 +29738,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29511,6 +29831,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29603,6 +29924,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29695,6 +30017,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29787,6 +30110,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29879,6 +30203,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -29971,6 +30296,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30063,6 +30389,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30155,6 +30482,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30247,6 +30575,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30339,6 +30668,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30431,6 +30761,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30523,6 +30854,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30615,6 +30947,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30707,6 +31040,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30799,6 +31133,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30891,6 +31226,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -30983,6 +31319,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31075,6 +31412,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31167,6 +31505,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31259,6 +31598,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31351,6 +31691,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31443,6 +31784,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31535,6 +31877,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31627,6 +31970,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31719,6 +32063,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31811,6 +32156,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31903,6 +32249,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -31995,6 +32342,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32087,6 +32435,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32179,6 +32528,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32271,6 +32621,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32363,6 +32714,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32455,6 +32807,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32547,6 +32900,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32639,6 +32993,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32731,6 +33086,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32823,6 +33179,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -32915,6 +33272,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33007,6 +33365,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33099,6 +33458,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33191,6 +33551,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33283,6 +33644,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33375,6 +33737,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33467,6 +33830,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33559,6 +33923,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33651,6 +34016,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33743,6 +34109,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33835,6 +34202,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -33927,6 +34295,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34019,6 +34388,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34111,6 +34481,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34203,6 +34574,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34295,6 +34667,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34387,6 +34760,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34479,6 +34853,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34571,6 +34946,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34663,6 +35039,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34755,6 +35132,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34847,6 +35225,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -34939,6 +35318,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35031,6 +35411,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35123,6 +35504,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35215,6 +35597,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35307,6 +35690,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35399,6 +35783,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35491,6 +35876,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35583,6 +35969,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35675,6 +36062,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35767,6 +36155,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35859,6 +36248,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -35951,6 +36341,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36043,6 +36434,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36135,6 +36527,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36227,6 +36620,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36319,6 +36713,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36411,6 +36806,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36503,6 +36899,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36595,6 +36992,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36687,6 +37085,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36779,6 +37178,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36871,6 +37271,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -36963,6 +37364,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37055,6 +37457,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37147,6 +37550,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37239,6 +37643,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37331,6 +37736,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37423,6 +37829,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37515,6 +37922,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37607,6 +38015,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37699,6 +38108,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37791,6 +38201,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37883,6 +38294,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -37975,6 +38387,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38067,6 +38480,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38159,6 +38573,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38251,6 +38666,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38343,6 +38759,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38435,6 +38852,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38527,6 +38945,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38619,6 +39038,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38711,6 +39131,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38803,6 +39224,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38895,6 +39317,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -38987,6 +39410,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -39079,6 +39503,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -39171,6 +39596,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />
@@ -39263,6 +39689,7 @@
 			<Property name="CorvettePartCategory" value="GcCorvettePartCategory">
 				<Property name="CorvettePartCategory" value="None" />
 			</Property>
+			<Property name="CorvetteRewardFrequency" value="0.000000" />
 			<Property name="IsCraftable" value="false" />
 			<Property name="DeploysInto" value="" />
 			<Property name="EconomyInfluenceMultiplier" value="0.000000" />

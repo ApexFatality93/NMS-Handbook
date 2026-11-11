@@ -1263,6 +1263,39 @@ h1 {
 
 /* ---------------------------------------------------------------------- */
 
+/* Site-wide view counter on the home page */
+.site-views {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    width: fit-content;
+    margin: 3rem auto 1rem;
+    padding: 0.75rem 2rem;
+    background-color: var(--color-bg);
+    border-radius: 12px;
+    box-shadow: 0 0 10px var(--color-card-border);
+}
+
+.site-views[hidden] {
+    display: none;
+}
+
+.site-views-count {
+    color: var(--color-primary);
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.site-views-label {
+    color: var(--color-text);
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* ---------------------------------------------------------------------- */
+
 /* GENERAL MOBILE OPTIMIZATIONS */
 @media screen and (max-width: 768px) {
     body {

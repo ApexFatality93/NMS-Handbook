@@ -130,6 +130,24 @@
                 </a>
             </div>
         </section>
+
+        <div id="site-views" class="site-views" hidden>
+            <span class="site-views-label">Visitors for this site:</span>
+            <span class="site-views-count"></span>
+        </div>
+        <script>
+            // Fetch the total views for the whole site and show them (stays hidden if blocked or failed)
+            fetch('https://nmshandbook.goatcounter.com/counter/TOTAL.json')
+                .then(function (res) { return res.ok ? res.json() : Promise.reject(res.status); })
+                .then(function (data) {
+                    var box = document.getElementById('site-views');
+                    var total = Number(String(data.count).replace(/\D/g, ''));
+                    box.querySelector('.site-views-count').textContent = total.toLocaleString('en-US');
+                    box.hidden = false;
+                })
+                .catch(function () { /* blocked or unavailable: leave it hidden */ });
+        </script>
+
     </main>
 
     <div id="footer-placeholder"></div>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UPDATE6_TITLE">
@@ -5004,7 +5004,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="ITEMGEN_SPACEFEAR_NOUN_17">
 			<Property name="Id" value="ITEMGEN_SPACEFEAR_NOUN_17" />
-			<Property name="English" value="Lavae" />
+			<Property name="English" value="Larvae" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -11702,9 +11702,29 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_REWARD_DECLINE_EXPED_TEXT">
+			<Property name="Id" value="UI_REWARD_DECLINE_EXPED_TEXT" />
+			<Property name="English" value="Do you wish to decline this reward in your current expedition? It will still be available to redeem in other saves." />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_REWARD_DECLINE_FOREVER_YES">
 			<Property name="Id" value="UI_REWARD_DECLINE_FOREVER_YES" />
-			<Property name="English" value="Decline Forever" />
+			<Property name="English" value="Decline" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -11724,7 +11744,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_REWARD_DECLINE_FOREVER_NO">
 			<Property name="Id" value="UI_REWARD_DECLINE_FOREVER_NO" />
-			<Property name="English" value="Claim Later" />
+			<Property name="English" value="Cancel" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -14802,6 +14822,26 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_PET_MGR_UNLOCK_SUB_L">
+			<Property name="Id" value="UI_PET_MGR_UNLOCK_SUB_L" />
+			<Property name="English" value="Install New Slot" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PET_MGR_BTN_UNLOCK_SUB">
 			<Property name="Id" value="UI_PET_MGR_BTN_UNLOCK_SUB" />
 			<Property name="English" value="Purchase new companion slot (&lt;TECHNOLOGY&gt;%COST%&lt;&gt;)" />
@@ -15784,7 +15824,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PETCARE_DETAIL_DESC">
 			<Property name="Id" value="UI_PETCARE_DETAIL_DESC" />
-			<Property name="English" value="A creature has become your &lt;STELLAR&gt;companion&lt;&gt;!&#xA;You can adopt up to 6 alien creatures as companions." />
+			<Property name="English" value="A creature has become your &lt;STELLAR&gt;companion&lt;&gt;!&#xA;You can adopt up to 30 alien creatures as companions." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -16505,6 +16545,46 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="PET_OPT_ADOPT">
 			<Property name="Id" value="PET_OPT_ADOPT" />
 			<Property name="English" value="Adopt as Companion" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="PET_OPT_FEED">
+			<Property name="Id" value="PET_OPT_FEED" />
+			<Property name="English" value="Give Treats" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="PET_FREELEVEL">
+			<Property name="Id" value="PET_FREELEVEL" />
+			<Property name="English" value="Evolve Companion" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -83764,7 +83844,207 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_VISIT_LIBRARY_OBJ_TIP">
 			<Property name="Id" value="UI_EXPED_VISIT_LIBRARY_OBJ_TIP" />
-			<Property name="English" value="&lt;SPECIAL&gt;Planetary Archives&lt;&gt; are large structures, where artifacts can be exchanged or logged and historical data accessed.&#xA;A space station &lt;TECHNOLOGY&gt;Cartographer&lt;&gt; will sell charts to archive locations." />
+			<Property name="English" value="&lt;SPECIAL&gt;Planetary Archives&lt;&gt; are large structures, where artifacts can be exchanged or logged and historical data accessed.&#xA;A space station &lt;TECHNOLOGY&gt;Cartographer&lt;&gt; will sell charts containing &lt;TRADEABLE&gt;Commercial Cartographic Data&lt;&gt;.&#xA;Access to historical data is &lt;FUEL&gt;password-protected&lt;&gt;. Learn alien language to decrypt archives." />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG1">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG1" />
+			<Property name="English" value="Access historical data at a &lt;SPECIAL&gt;Planetary Archive&lt;&gt;: 0/1&#xA;No archives detected in current system" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG2">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG2" />
+			<Property name="English" value="Access historical data at a &lt;SPECIAL&gt;Planetary Archive&lt;&gt;: 0/1&#xA;Archived knowledge is &lt;FUEL&gt;password-protected&lt;&gt;&#xA;Learn alien words to decrypt archives: %CURRENT%/%AMOUNT%" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG3">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG3" />
+			<Property name="English" value="Purchase &lt;STELLAR&gt;Planetary Charts&lt;&gt; from a space station cartographer&#xA;&lt;STELLAR&gt;Navigation Data&lt;&gt; required for chart exchange: %CURRENT%/%AMOUNT%&#xA;Acquire navigation data by using the &lt;STELLAR&gt;waypoint markers&lt;&gt; found near planetary buildings" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG3_SURVEY">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG3_SURVEY" />
+			<Property name="English" value="Purchase &lt;STELLAR&gt;Planetary Charts&lt;&gt; from a space station cartographer&#xA;&lt;STELLAR&gt;Navigation Data&lt;&gt; required for chart exchange: %CURRENT%/%AMOUNT%&#xA;Use the &lt;TECHNOLOGY&gt;Target Sweep&lt;&gt; to locate nearby &lt;STELLAR&gt;ancient data structures&lt;&gt;" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG3_SWAP">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG3_SWAP" />
+			<Property name="English" value="Purchase &lt;STELLAR&gt;Planetary Charts&lt;&gt; from a space station cartographer&#xA;&lt;STELLAR&gt;Navigation Data&lt;&gt; required for chart exchange: %CURRENT%/%AMOUNT%&#xA;Activate a &lt;TECHNOLOGY&gt;Target Sweep&lt;&gt; with &lt;IMG&gt;SURVEYFILTERL&lt;&gt;/&lt;IMG&gt;SURVEYFILTERR&lt;&gt;" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG3_OFF">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG3_OFF" />
+			<Property name="English" value="Purchase &lt;STELLAR&gt;Planetary Charts&lt;&gt; from a space station cartographer&#xA;&lt;STELLAR&gt;Navigation Data&lt;&gt; required for chart exchange: %CURRENT%/%AMOUNT%&#xA;Activate a &lt;STELLAR&gt;Target Sweep&lt;&gt; (&lt;IMG&gt;AIM&lt;&gt;) to locate nearby &lt;STELLAR&gt;ancient data structures&lt;&gt;" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG4">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG4" />
+			<Property name="English" value="Access historical data at a &lt;SPECIAL&gt;Planetary Archive&lt;&gt;: 0/1&#xA;Purchase &lt;STELLAR&gt;Planetary Charts&lt;&gt; containing &lt;TRADEABLE&gt;Commercial Cartographic Data&lt;&gt;&#xA;Exchange map at a space station &lt;TECHNOLOGY&gt;Cartographer&lt;&gt;" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG5">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG5" />
+			<Property name="English" value="Access historical data at a &lt;SPECIAL&gt;Planetary Archive&lt;&gt;: 0/1&#xA;Use the &lt;STELLAR&gt;Planetary Chart&lt;&gt; to locate an archive&#xA;Locate in your Inventory (&lt;IMG&gt;INVENTORY&lt;&gt;) and select &lt;STELLAR&gt;Plot Route&lt;&gt; (&lt;IMG&gt;FE_ALT1&lt;&gt;)" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG6">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG6" />
+			<Property name="English" value="Access historical data at a &lt;SPECIAL&gt;Planetary Archive&lt;&gt;: 0/1&#xA;Reach the marked structure" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_LIBRARY_MSG7">
+			<Property name="Id" value="UI_EXPED_LIBRARY_MSG7" />
+			<Property name="English" value="Access historical data at a &lt;SPECIAL&gt;Planetary Archive&lt;&gt;: 0/1&#xA;Decrypt the terminal to access archived knowledge" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -117804,7 +118084,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_BIOSHIP_EGG4_DESC">
 			<Property name="Id" value="UI_BIOSHIP_EGG4_DESC" />
-			<Property name="English" value="An anomalous egg. Since the encounter with the bizarre deep-space 'creature', its strange music has grown more active, more agitated.&#xA;&#xA;When touched, conjures a powerful visions of a planet of strange anomalies, one minute a world of grass, the next a world of bizarre fungal growths..." />
+			<Property name="English" value="An anomalous egg. Since the encounter with the bizarre deep-space 'creature', its strange music has grown more active, more agitated.&#xA;&#xA;When touched, conjures a powerful vision of a planet of strange anomalies, one minute a world of grass, the next a world of bizarre fungal growths..." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -117844,7 +118124,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_BIOSHIP_EGG5_DESC">
 			<Property name="Id" value="UI_BIOSHIP_EGG5_DESC" />
-			<Property name="English" value="An anomalous egg. Since the encounter with the bizarre deep-space 'creature', its strange music has grown more active, more agitated.&#xA;&#xA;When touched, conjures a powerful visions of pink and blue, colours seared into the mind of the holder.&#xA;&#xA;The Hunter &lt;IMG&gt;SLASH&lt;&gt; The Reflection &lt;IMG&gt;SLASH&lt;&gt; The Hunter &lt;IMG&gt;SLASH&lt;&gt; The Spiral of Reality &lt;IMG&gt;SLASH&lt;&gt; The Star Over Water&lt;IMG&gt;SLASH&lt;&gt; The Ascending Orb &lt;IMG&gt;SLASH&lt;&gt; The Obscured Companion &lt;IMG&gt;SLASH&lt;&gt; The Hunter &lt;IMG&gt;SLASH&lt;&gt; The Lowly Insect &lt;IMG&gt;SLASH&lt;&gt; The Anomaly &lt;IMG&gt;SLASH&lt;&gt; The Sailor &lt;IMG&gt;SLASH&lt;&gt; The Ocean King &lt;IMG&gt;SLASH&lt;&gt; EUCLID EUCLID EUCLID" />
+			<Property name="English" value="An anomalous egg. Since the encounter with the bizarre deep-space 'creature', its strange music has grown more active, more agitated.&#xA;&#xA;When touched, conjures a powerful vision of pink and blue, colours seared into the mind of the holder.&#xA;&#xA;The Hunter &lt;IMG&gt;SLASH&lt;&gt; The Reflection &lt;IMG&gt;SLASH&lt;&gt; The Hunter &lt;IMG&gt;SLASH&lt;&gt; The Spiral of Reality &lt;IMG&gt;SLASH&lt;&gt; The Star Over Water&lt;IMG&gt;SLASH&lt;&gt; The Ascending Orb &lt;IMG&gt;SLASH&lt;&gt; The Obscured Companion &lt;IMG&gt;SLASH&lt;&gt; The Hunter &lt;IMG&gt;SLASH&lt;&gt; The Lowly Insect &lt;IMG&gt;SLASH&lt;&gt; The Anomaly &lt;IMG&gt;SLASH&lt;&gt; The Sailor &lt;IMG&gt;SLASH&lt;&gt; The Ocean King &lt;IMG&gt;SLASH&lt;&gt; EUCLID EUCLID EUCLID" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -192042,6 +192322,26 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_BIO_SHIP_MISSION3_MSG2B_MAP">
+			<Property name="Id" value="UI_BIO_SHIP_MISSION3_MSG2B_MAP" />
+			<Property name="English" value="The Void Egg host requires a &lt;COMMODITY&gt;Shell&lt;&gt;&#xA;Gather %ITEM% to craft &lt;TECHNOLOGY&gt;Impossible Membrane&lt;&gt;: %CURRENT%/%AMOUNT%&#xA;In space, access the Galaxy Map with &lt;IMG&gt;QUICK_MENU&lt;&gt;" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_BIO_SHIP_MISSION3_MSG2C">
 			<Property name="Id" value="UI_BIO_SHIP_MISSION3_MSG2C" />
 			<Property name="English" value="The Void Egg host requires a &lt;COMMODITY&gt;Shell&lt;&gt;&#xA;Gather %ITEM% to craft &lt;TECHNOLOGY&gt;Impossible Membrane&lt;&gt;: %CURRENT%/%AMOUNT%&#xA;Seek %ITEM% on the Space Station" />
@@ -194004,7 +194304,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_GUIDED_OBJ_TIP">
 			<Property name="Id" value="UI_PHOTO_BIO_GUIDED_OBJ_TIP" />
-			<Property name="English" value="The client requires photos of specific worlds.&#xA;Reach the target planet." />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of specific worlds.&#xA;Reach the target planet." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194024,7 +194324,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_GUIDED_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_GUIDED_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of specific worlds&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of specific worlds&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194064,7 +194364,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_LUSH_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_LUSH_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a tropical world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a tropical world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194084,7 +194384,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_TOX_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_TOX_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a toxic world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a toxic world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194104,7 +194404,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_HOT_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_HOT_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a scorched world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a scorched world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194124,7 +194424,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_RADIO_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_RADIO_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a radioactive world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a radioactive world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194144,7 +194444,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_COLD_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_COLD_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a frozen world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a frozen world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194164,7 +194464,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_DUST_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_DUST_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a desert world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a desert world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194184,7 +194484,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_DEAD_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_DEAD_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of an airless world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of an airless world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194204,7 +194504,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_WEIRD_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_WEIRD_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a strange world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a strange world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194224,7 +194524,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_SWAMP_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_SWAMP_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a marsh world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a marsh world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194244,7 +194544,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_LAVA_OBJ_MSG1">
 			<Property name="Id" value="UI_PHOTO_BIO_LAVA_OBJ_MSG1" />
-			<Property name="English" value="The client requires photos of a volcanic world&#xA;Reach the target planet" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of a volcanic world&#xA;Reach the target planet" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194304,7 +194604,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_GUIDED_OBJ2_TIP">
 			<Property name="Id" value="UI_PHOTO_BIO_GUIDED_OBJ2_TIP" />
-			<Property name="English" value="Take a photo for the client.&#xA;Activate photo mode with &lt;IMG&gt;QUICK_MENU&lt;&gt;." />
+			<Property name="English" value="Take a photo for &lt;STELLAR&gt;%CLIENT%&lt;&gt;.&#xA;Activate photo mode with &lt;IMG&gt;QUICK_MENU&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -194324,7 +194624,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_GUIDED_OBJ2_MSG">
 			<Property name="Id" value="UI_PHOTO_BIO_GUIDED_OBJ2_MSG" />
-			<Property name="English" value="The client requires photos of %BIOME%&#xA;Scan planets from space with &lt;IMG&gt;SHIPSCAN&lt;&gt;" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of %BIOME%&#xA;Scan planets from space with &lt;IMG&gt;SHIPSCAN&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

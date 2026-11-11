@@ -331,6 +331,26 @@
                         "Colour_A": "1.000000"
                     }
                 ]
+            },
+            {
+                "RecipeType": "Requested Operation: Devitrification",
+                "RecipeName": "Devitrification",
+                "TimeToMake": "90.000000",
+                "Amount": "1",
+                "Ingredients": [
+                    {
+                        "Id": "SWARMDUST",
+                        "Type": "Substance",
+                        "Name_ID": "UI_SWARMDUST_NAME_L",
+                        "NameLower_Text": "Corrupted Ichor",
+                        "Amount": "5",
+                        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.SWARMDUST.DDS",
+                        "Colour_R": "0.101960786",
+                        "Colour_G": "0.152941182",
+                        "Colour_B": "0.200000",
+                        "Colour_A": "1.000000"
+                    }
+                ]
             }
         ]
     },
@@ -2368,6 +2388,26 @@
                         "Colour_A": "1.000000"
                     }
                 ]
+            },
+            {
+                "RecipeType": "Requested Operation: Toxin Extraction",
+                "RecipeName": "Toxin Extraction",
+                "TimeToMake": "90.000000",
+                "Amount": "1",
+                "Ingredients": [
+                    {
+                        "Id": "SLIMEPOST1",
+                        "Type": "Substance",
+                        "Name_ID": "UI_SLIMEPOST1_NAME_L",
+                        "NameLower_Text": "Gelatinous Fibres",
+                        "Amount": "5",
+                        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.SLIMEPOST.1.DDS",
+                        "Colour_R": "0.101960786",
+                        "Colour_G": "0.152941182",
+                        "Colour_B": "0.200000",
+                        "Colour_A": "1.000000"
+                    }
+                ]
             }
         ]
     },
@@ -3841,6 +3881,26 @@
                         "Colour_R": "0.541176498",
                         "Colour_G": "0.498039216",
                         "Colour_B": "0.447058827",
+                        "Colour_A": "1.000000"
+                    }
+                ]
+            },
+            {
+                "RecipeType": "Requested Operation: Metal Decontamination",
+                "RecipeName": "Metal Decontamination",
+                "TimeToMake": "90.000000",
+                "Amount": "1",
+                "Ingredients": [
+                    {
+                        "Id": "HULK1",
+                        "Type": "Substance",
+                        "Name_ID": "UI_HULK1_NAME_L",
+                        "NameLower_Text": "Isotopic Dust",
+                        "Amount": "5",
+                        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.HULK.1.DDS",
+                        "Colour_R": "0.101960786",
+                        "Colour_G": "0.152941182",
+                        "Colour_B": "0.200000",
                         "Colour_A": "1.000000"
                     }
                 ]
@@ -6185,6 +6245,26 @@
                         "Colour_R": "0.952941179",
                         "Colour_G": "0.662745118",
                         "Colour_B": "0.137254909",
+                        "Colour_A": "1.000000"
+                    }
+                ]
+            },
+            {
+                "RecipeType": "Requested Operation: Crystal Processing",
+                "RecipeName": "Crystal Processing",
+                "TimeToMake": "90.000000",
+                "Amount": "1",
+                "Ingredients": [
+                    {
+                        "Id": "ASTBELT1",
+                        "Type": "Substance",
+                        "Name_ID": "UI_ASTBELT1_NAME_L",
+                        "NameLower_Text": "Comet Dust",
+                        "Amount": "5",
+                        "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SUBSTANCES/SUBSTANCE.ASTBELT.1.DDS",
+                        "Colour_R": "0.101960786",
+                        "Colour_G": "0.152941182",
+                        "Colour_B": "0.200000",
                         "Colour_A": "1.000000"
                     }
                 ]

@@ -4984,7 +4984,7 @@
         "Subtitle_Text": "Hauler Starship Component",
         "Description": "UI_DROPSHIP_WING_DESC",
         "Description_Text": "A subcomponent for a <STELLAR>Hauler<>-class starship. This module determines the style and position of the ship's <STELLAR>wings<>.\n\nAcquire starship components by breaking down existing ships at the <TECHNOLOGY>Starship Outfitting<> unit aboard any space station. Visit the <TECHNOLOGY>Starship Fabricator<> to design and assemble a new vessel.",
-        "BaseValue": "646",
+        "BaseValue": "310000",
         "Level": "0",
         "Icon_Filename": "TEXTURES/UI/FRONTEND/ICONS/SHIPICONS/SHIPPARTS.DROPSHIPWINGS.2.DDS",
         "Colour_R": "0.172549024",

@@ -1621,6 +1621,247 @@
                 ]
             },
             {
+                "PageID": "UI_S23_NOTES_NAME",
+                "PageText": "Developer Commentary",
+                "PageIcon": "TEXTURES/UI/FRONTEND/ICONS/RANK/HG.DDS",
+                "Entries": [
+                    {
+                        "TitleID": "UI_S23_LEAVE_PLANET_NAME",
+                        "TitleText": "Launch",
+                        "EntryID": "UI_S23_LEAVE_PLANET_LOG",
+                        "EntryText": "<STELLAR>No Man's Sky<> was an idea that maybe everyone who plays games has thought about at some point. What if you could explore the universe? What if a game world didn't have boundaries? It's certainly something we had always wanted to see exist...\n\nFor us there was a technical excitement. No one had done seamless travel between planets, or used procedural generation to make 3D planets - but it should be possible? And wouldn't it be fun to try?\n\nThere was also an emotional motivation. We wanted to really have that feeling of exploration in a game, true exploration where no one knows what's over the hill. That science fiction fantasy of landing on a planet for the first time.\n\nSo sat in our little office one night, we started to build it. There was never really a plan, we had no idea how wild a journey it would become, but it felt exciting."
+                    },
+                    {
+                        "TitleID": "UI_S23_BUILD_BASE_NAME",
+                        "TitleText": "Foundation",
+                        "EntryID": "UI_S23_BUILD_BASE_LOG",
+                        "EntryText": "<STELLAR>Foundation<> was really the beginning of our journey. We had the idea to name our updates, and to give each one a sci-fi book cover. We always loved Asimov, and Foundation as a name felt like a fitting tribute, because this was going to also be a starting point we would build on.\n\nWe liked the idea of letting players put down roots in an infinite universe, it wasn't really what players were asking for, but it has become fundamental to No Man's Sky as we know it now.\n\nWe also introduced game modes for the first time: Normal, Creative, and Survival. With these changes Foundation pointed to our future, allowing players to find their own way to experience the universe.\n\nThe whole thing was created in just three months under a lot of pressure, with just a handful of developers. This update was made in our old tiny office down near the River Wey in Guildford. We had no air con, a venomous spider who lived in the toilets, and failing internet."
+                    },
+                    {
+                        "TitleID": "UI_S23_BUILD_EXO_ANY_NAME",
+                        "TitleText": "Pathfinder",
+                        "EntryID": "UI_S23_BUILD_EXO_ANY_LOG",
+                        "EntryText": "The planets in No Man's Sky are vast, but players tended to jump in their ship even for short-distance journeys. We wanted to find a way to make planetary traversal fun, and fast. Several of the team had worked on racing games like Burnout or Need for Speed at EA, and we had a lot of experience with vehicles from our first game Joe Danger! So it was really exciting to introduce sci-fi themed vehicles to the No Man's Sky universe.\n\nIn <STELLAR>Pathfinder<>, we added buggies, hovercrafts, and a heavy-duty armoured truck. We deepened a number of existing systems too, introducing base uploads and new weapon types, and a Permadeath mode for extreme challenge seekers. Making our generation keep up with these new vehicle speeds was a particularly difficult but fun challenge."
+                    },
+                    {
+                        "TitleID": "UI_S23_WAKE_TITAN_NAME",
+                        "TitleText": "Waking Titan",
+                        "EntryID": "UI_S23_WAKE_TITAN_LOG",
+                        "EntryText": "By 2017 we knew there was a core community of players who loved the game, and they were the people we deeply cared about. We desperately wanted to find a way to communicate with them and let them know we were listening, whilst we focused on the game.\n\nThen the thought came: we've always loved ARGs! What about an Augmented Reality Game? This became <STELLAR>Waking Titan<>.\n\nWe posted physical cassette tapes to 16 prominent members of the NMS community, and invited players to explore a website filled with cyphers and mysterious documents. Players travelled to real world live drop locations, and met with agents from the mysterious \"Atlas Foundation\". There was a live stream of a hamster. We loved it!\n\nTogether with the ARG puppet masters, it felt like we were enjoying a game with friends in the community. Some of our ideas went a bit too far. We were advised that our insurance didn't cover inviting players into the studio and arming them with blowtorches to extract a key from an ice sculpture. We still think that would have been fine."
+                    },
+                    {
+                        "TitleID": "UI_S23_ARTEMIS_NAME",
+                        "TitleText": "Atlas Rises",
+                        "EntryID": "UI_S23_ARTEMIS_LOG",
+                        "EntryText": "At launch, the guided story was very light touch. Most of the game's lore was fragmented, discovered through exploration, and there were only a couple of recurring non-player characters.\n\nFor <STELLAR>Atlas Rises<>, we crafted a massive 30-hour story, introducing new characters and a new interdimensional race. As a first step toward true multiplayer, we allowed players to see each other as floating orbs, and tied this into the evolution of the game's lore.\n\nOur aim with updates became to always deepen and expand existing features while also adding new ones. Atlas Rises brought wealth and conflict levels to the galactic economy, as well as adding exotic biomes and the exotic ship class.\n\nDevelopment on this update was a whirlwind, we added so much in such a short space of time. We had to code a brand-new mission system to support the story, and the ending wasn't implemented until the night before launch! (We have learned to be a little better planned now. Most of the time.)"
+                    },
+                    {
+                        "TitleID": "UI_S23_NEXT_NAME",
+                        "TitleText": "Next",
+                        "EntryID": "UI_S23_NEXT_LOG",
+                        "EntryText": "<STELLAR>NEXT<> came at the conclusion of phase two of Waking Titan. This was a huge milestone for No Man's Sky. We always knew we wanted to add full multiplayer, but once we started making and animating third-person models, it just made sense to add a third-person mode too. We hadn't anticipated how much it would help highlight the scale of the universe - seeing a person-sized figure next to a huge structure literally helps put it into perspective.\n\nWe launched a website showcasing the community, and started weekly community events. We added new enemies, planetary rings, volumetric clouds, frigate fleets, and the ability to build multiple bases, anywhere, without needing to locate a pre-placed base computer. We also reworked the terrain generation algorithm to improve the shape of planets - something players often ask for, but which comes at the cost of disrupting existing bases. There are still bases out there that were buried when the terrain moved.\n\nReleasing NEXT was nerve-wracking, but the community response was incredible, a real turning point. Our global user rating even progressed from Mostly Negative to Mixed! We mixed now bois!"
+                    },
+                    {
+                        "TitleID": "UI_S23_EXO_BIKE_NAME",
+                        "TitleText": "Pilgrim",
+                        "EntryID": "UI_S23_EXO_BIKE_LOG",
+                        "EntryText": "After NEXT, we wanted to try a more regular rhythm of smaller releases before the next huge named update.\n\nWe surveyed the community to get a sense of what players wanted most, and planned out an \"underwater update\", which became The Abyss, a \"biomes update\", which became Visions, and an \"exocraft update\"...\n\n...which introduced the Pilgrim exocraft, exocraft customisation, techs, and other improvements... and which we quietly blogged about under the unassuming title <STELLAR>Development Update 5<>.\n\nAt this point we were still trying to figure out whether to do yearly huge updates or more regular, smaller ones."
+                    },
+                    {
+                        "TitleID": "UI_S23_GOT_FISHCORE_NAME",
+                        "TitleText": "The Abyss",
+                        "EntryID": "UI_S23_GOT_FISHCORE_LOG",
+                        "EntryText": "<STELLAR>The Abyss<> followed on from the unnamed exocraft update, intended to be another smaller-scale release. It wasn't until close to launch that we realised it was getting quite substantial, and decided to give it a name, a website, and a trailer.\n\nThe Abyss expanded underwater gameplay and visual variety with sunken buildings, new underwater biomes, glass base parts for submerged bases, a submarine, and a set of missions to guide players through the new features. We released close to Halloween and leant into the spookier side of the game, populating the bottom of oceans with a number of deep-sea terrors."
+                    },
+                    {
+                        "TitleID": "UI_S23_GOT_GLITCH_NAME",
+                        "TitleText": "Visions",
+                        "EntryID": "UI_S23_GOT_GLITCH_LOG",
+                        "EntryText": "<STELLAR>Visions<> followed on very soon after The Abyss. No Man's Sky has always taken a lot of inspiration from the traditional sci-fi we love, but it's important to us to keep things unique and weird. Players were asking for more places to explore, so we used Visions as a reason to add weirder planets, weirder creatures, and increase variety.\n\nIt was here that we first introduced a system of being able to bury objects for players to excavate with the terrain manipulator - salvageable scrap and ancient bones - a mechanic people really loved that we later expanded on. "
+                    },
+                    {
+                        "TitleID": "UI_S23_BEYOND_NAME",
+                        "TitleText": "Beyond",
+                        "EntryID": "UI_S23_BEYOND_LOG",
+                        "EntryText": "<STELLAR>Beyond<> was a massive update, and development was intense. We had two parts of the team working in parallel on two huge, technically challenging new features: virtual reality support, and expanded multiplayer.\n\nUp until now, the full multiplayer experience with third-person character models was limited to 4 people per session, and there was no way to ambiently meet strangers in-game. With Beyond we expanded the Space Anomaly into a social hub, where it was easy to meet and group up with other players. We added stacks of new content too - including multiplayer missions, new NPCs, base power, tech trees, and cooking.\n\nOne thing we didn't anticipate was how different the world looked when playing VR. You have no idea what its like to work on this game for ten years, then see it with fresh eyes! One knock on was having to dramatically increase the size of all the ships in the game to make them look their best in VR - which also made landing pads bigger across the game, which in turn impacted the size and position of buildings and space stations!"
+                    },
+                    {
+                        "TitleID": "UI_S23_BYTEBEAT_NAME",
+                        "TitleText": "Synthesis",
+                        "EntryID": "UI_S23_BYTEBEAT_LOG",
+                        "EntryText": "<STELLAR>Synthesis<> was an effort to consolidate, tidy and polish the game across the board, in response to the most frequent requests from the community. Addressing player feedback isn't always straightforward, and some solutions might not always lead to the best result, so we designed Synthesis' features with a lot of thought and care. Remembering back it's funny to think there was a time before you could drag and drop items in the inventory, when you could only own one Multi-Tool, and when you couldn't undo terrain manipulations.\n\nTwo weeks later we released something very different: the <STELLAR>Bytebeat<> audio synthesiser for bases. This was a passion project dreamed up by one of our coders and our audio director. We always knew it would be a niche feature, but even now the creative players who engage with it continue to regularly bring us joy, 7 years later."
+                    },
+                    {
+                        "TitleID": "UI_S23_WEEKEND_NAME",
+                        "TitleText": "Weekend Missions",
+                        "EntryID": "UI_S23_WEEKEND_LOG",
+                        "EntryText": "With NEXT, we introduced <STELLAR>community missions<>, which were a sort of precursor to today's community expeditions. We had the idea that we wanted to bring large groups of players together on the same planet, working towards the same goal, and that collaborative progress would unlock special rewards for the whole community.\n\nThe name of the special new reward currency, Quicksilver, was a suggestion from our ARG partners from Waking Titan. Quicksilver is an archaic word for mercury, which has the atomic symbol Hg. \"The mercury process\" was the name we gave to messages from HG - Hello Games - during the ARG.\n\nIn late 2019, we started running community missions regularly on weekends. They began with some light narrative that eventually evolved into a deep mystery involving the inhabitants of the Space Anomaly. We've never completely revealed all the secrets of that storyline. Special missions are still available every weekend, and are now procedurally generated rather than hand-authored. "
+                    },
+                    {
+                        "TitleID": "UI_S23_LIVING_SHIP_NAME",
+                        "TitleText": "Living Ship",
+                        "EntryID": "UI_S23_LIVING_SHIP_LOG",
+                        "EntryText": "Most of our updates start with an idea from one of the team. An artist had this idea to create a <STELLAR>Living Ship<>, using our procedural ship system to essentially piece together a huge variety of space whales. We had a lot of fun teasing this update by putting a mysterious egg in the Quicksilver shop and watching players puzzle over it. This was sort of the beginning of teasing updates with emojis. We really just enjoyed focusing on the work, and kind of ignored social media. What's the minimum we could get away with posting? A single emoji we joked - but turns out it was just enough!\n\nThis update also saw the first version of deep-space objects, which were spawned as random encounters when the player engaged pulse drive, rather than existing as persistent locations in space. "
+                    },
+                    {
+                        "TitleID": "UI_S23_BUILD_MECH_NAME",
+                        "TitleText": "Exo Mech",
+                        "EntryID": "UI_S23_BUILD_MECH_LOG",
+                        "EntryText": "<STELLAR>Exo Mech<> was another artist-led update. One of our artists just really wanted to make a mech! The aesthetic appealed to the rest of the team, and it seemed like a good fit for a new style of exocraft. It all came together really quickly.\n\nIn the middle of development on Exo Mech, the UK government started releasing information and warnings about the outbreak of a new coronavirus. At the start of March, a few volunteers from the team \"trialled\" working from home. Within a fortnight the entire team was fully remote. It was a weird transition for a small team who were used to working very closely together in the same space, but we made it work. Somehow we stayed just as productive as before, and a very busy year of updates followed. We kept socially connected with regular evening games of Among Us, and a weekly film club that kept going for 70 weeks. "
+                    },
+                    {
+                        "TitleID": "UI_S23_DO_ABAND_F_NAME",
+                        "TitleText": "Desolation",
+                        "EntryID": "UI_S23_DO_ABAND_F_LOG",
+                        "EntryText": "<STELLAR>Desolation<> might be the darkest update we've made for No Man's Sky, leaning into the space horror side of sci fi. Perhaps we were feeling the effects of being locked down after all! It took a bit of iteration to get the rules for the procedural generation of these huge space hulks feeling correct. Making the spaces interesting to explore without being frustrating to navigate without a mini-map is a fun problem. All the generation happens behind the scenes, in the moment you unlock the airlock door.\n\nJust after Desolation, we added cross-play support, to let Travellers across all platforms play together, and added a custom system for adding players from other platforms as \"No Man's Sky friends\". Not many other games were doing this at the time and it was a huge undertaking.\n\nNo Man's Sky is generated using maths, and each platform has different hardware that results in tiny differences in how their maths are calculated. For instance some maths differences between platforms meant the space stations had always been generated in slightly different positions before this update!"
+                    },
+                    {
+                        "TitleID": "UI_S23_ORIGINS_NAME",
+                        "TitleText": "Origins",
+                        "EntryID": "UI_S23_ORIGINS_LOG",
+                        "EntryText": "No Man's Sky has always been a game about exploration and discovery, and players were often asking us to give them more variety on planets, more places to explore. But the difficulty is balancing that against players who are attached to existing planets.\n\nIt broke our heart in the past when we changed generation and had people write in to say that they've named a planet or built a base in memory of a family member, and now that planet has a different climate or terrain shape or grass colour.\n\nSo in <STELLAR>Origins<> we took a two-pronged approach to refreshing the universe: we \"remixed\" existing biomes, vastly increasing the variety of landscapes players could encounter, and we added brand new planets so we could create dramatic new terrain shapes without disrupting anyone's bases. With new creature types, new buildings, and a huge injection of variety it really felt like stepping into a new universe for the first time. We also introduced huge sandworms, roaming the landscape, which have gone on to create some of our favorite moments with streamers and players over the years."
+                    },
+                    {
+                        "TitleID": "UI_S23_GOT_PETS_NAME",
+                        "TitleText": "Companions",
+                        "EntryID": "UI_S23_GOT_PETS_LOG",
+                        "EntryText": "The procedurally-generated creatures in No Man's Sky are an ongoing source of joy. They still make us laugh. The team still sends screenshots and videos around when we find a particularly beautiful, surprising or funny animal. We wanted to add more ways for players to interact with them, to make them feel more connected and alive.\n\nThe design for <STELLAR>Companions<> went through several iterations. At one point, the concept revolved around collecting DNA samples from wild creatures to grow new life in a laboratory setting. But in playtesting we found it was more satisfying to hunt down and adopt a pet, similar to hunting down the perfect ship. We love seeing players sharing images of their weird and wonderful pets."
+                    },
+                    {
+                        "TitleID": "UI_S23_PIONEERS_NAME",
+                        "TitleText": "Expeditions",
+                        "EntryID": "UI_S23_PIONEERS_LOG",
+                        "EntryText": "The average playtime is really high on No Man's Sky, and that's something we're proud of. Sometimes players send us saves that are 2000 or 3000 hours long! But there's something special about starting from the beginning, starting from nothing, with a crashed ship on an unfamiliar planet - that's the best bit of any sandbox game - and we wanted to find a way to give that moment back to players. \n\nThe <STELLAR>Expeditions<> system was a natural evolution of the community missions and weekend missions we'd been running for a few years - bringing players together - and it also encouraged seasoned players to re-experience those first steps stranded on a strange planet.\n\nThe first expedition we launched was called \"Pioneers\". Subsequent expeditions have become more experimental and weird as time has gone by... We've been surprised and delighted with how popular they are amongst players, and have gone on to create some incredible moments we couldn't have predicted."
+                    },
+                    {
+                        "TitleID": "UI_S23_PRISMS_NAME",
+                        "TitleText": "Prisms",
+                        "EntryID": "UI_S23_PRISMS_LOG",
+                        "EntryText": "The backbone of No Man's Sky is our custom engine, which we continue to expand and improve with every update.\n\nAs well as handling the memory and performance challenges that come with an infinite, procedurally-generated universe running on two generations of consoles, our engine team are constantly pushing graphical limits to make that universe just a little more beautiful. \n\nSome of our rendering improvements come from art team requests, and others are driven from within the engine team itself. In <STELLAR>Prisms<>, we tried to gather and showcase a bunch of graphical improvements all at once: adding things like volumetric lighting, screen-space reflections, and furry creatures. We work on No Man's Sky every day motivated by the technical endeavour as much as that sci-fi fantasy."
+                    },
+                    {
+                        "TitleID": "UI_S23_FRONTIERS_NAME",
+                        "TitleText": "Frontiers",
+                        "EntryID": "UI_S23_FRONTIERS_LOG",
+                        "EntryText": "We started experimenting with an algorithm called wave function collapse, in combination with our base building system, to procedurally generate complex buildings. The design went through several iterations before we landed on exactly what we wanted to do with the technology. We started making abandoned bases for players to clean out and restore, but in the end what appealed was creating Mos Eisley-feeling settlements populated by aliens. \n\nThis became <STELLAR>Frontiers<>. Creating and rendering these settlements was a huge undertaking, the culmination of years of work and really pushed what was possible with our engine. It opened up a lot of possibilities for the future.\n\nAfter years of positive reviews, our rating progressed from \"Mixed\" to \"Mostly Positive\". A huge milestone for the team, we made \"Mostly Positive\" t-shirts for everyone, which is basically just a good message on a tee."
+                    },
+                    {
+                        "TitleID": "UI_S23_MINIWORMS_NAME",
+                        "TitleText": "Emergence",
+                        "EntryID": "UI_S23_MINIWORMS_LOG",
+                        "EntryText": "Expeditions are a great way for us to try out new ideas that we think players would enjoy, but wouldn't necessarily fit with the core game. Almost little experiments or alternative realities. In some ways, <STELLAR>Emergence<> is a love letter to the likes of Dune, but we had a lot of fun making our own body-horror themed lore for this. There is a creepy side to sci-fi that is so fun to explore."
+                    },
+                    {
+                        "TitleID": "UI_S23_RAID_HIVE_NAME",
+                        "TitleText": "Sentinel",
+                        "EntryID": "UI_S23_RAID_HIVE_LOG",
+                        "EntryText": "No Man's Sky is a game about exploration and combat may not be the main focus, but Sentinels patrol almost every planet. We wanted to make fighting them feel more tactical and interesting.\n\nThe <STELLAR>Sentinel<> update added different varieties of Sentinel drones - repair drones, heavies, and summoners. We improved the feel of ground combat across the board with lots of new abilities and tech. We even created a new story-based mission for players to construct their own drone companion, and upgrade their Exo-Mech! This was supposed to be a smaller update but in the end the patch notes amounted to more than 250 items!"
+                    },
+                    {
+                        "TitleID": "UI_S23_OUTLAWS_NAME",
+                        "TitleText": "Outlaws",
+                        "EntryID": "UI_S23_OUTLAWS_LOG",
+                        "EntryText": "Our updates often come together like this. One person had made a ship with holographic sails - the Solar ship. A programmer had gotten cloth physics working, perhaps now we could have flowing capes? Another artist was making a cool underworld themed space station... \n\nWe were aware that some players really liked to engage with the space piracy fantasy. Capes? Sail ships? Underground space station? What if we made a pirate focused update? And so <STELLAR>Outlaws<> was born!\n\nThis idea unlocked so much creativity in the team, with tons of new content and gameplay."
+                    },
+                    {
+                        "TitleID": "UI_S23_LEVIATHAN_NAME",
+                        "TitleText": "Leviathan",
+                        "EntryID": "UI_S23_LEVIATHAN_LOG",
+                        "EntryText": "Many of our community expeditions ran alongside named updates - Cartographers, Exobiology and The Blight were concurrent with Frontiers, Sentinel, and Outlaws. The <STELLAR>Leviathan<> expedition became so visually striking, and the gameplay was so unique that we felt it needed its own trailer, and we released it standalone. \n\nThe idea came together from the artists wanting to make a biological frigate, and the designers wanting to craft an expedition around roguelike gameplay. It was our most different, but also our most popular expedition - exciting us to go further with expeditions in the future."
+                    },
+                    {
+                        "TitleID": "UI_S23_ENDURANCE_NAME",
+                        "TitleText": "Endurance",
+                        "EntryID": "UI_S23_ENDURANCE_LOG",
+                        "EntryText": "<STELLAR>Endurance<> hugely changed the scope of building a base on your freighter, a feature which had been largely untouched since introduced in Foundation. It was especially exciting to be able to build exterior catwalks and observation decks - something not possible before... \n\nRendering windows and exterior walkways in space is a particularly hard technical problem. The moment we first saw the view from the deck, we just knew we had to support it.\n\nIn fact the way we built freighters initially used a lot of smoke and mirrors and this made it particularly hard to support most of these new features. For instance, newer players might not remember a time before you could teleport from the freighter hangar to the bridge... such a great quality of life improvement! Even just that simple feature required some real technical wizardry going on behind the scenes to make that work."
+                    },
+                    {
+                        "TitleID": "UI_S23_WAYPOINT_NAME",
+                        "TitleText": "Waypoint",
+                        "EntryID": "UI_S23_WAYPOINT_LOG",
+                        "EntryText": "By 2022, No Man's Sky had been evolving for six years, and we had added a lot of new content and new layers. It was always important to us to keep the game accessible to new players. We wanted folks to be able to jump in and be excited by the possibilities of the universe, but not feel overwhelmed. <STELLAR>Waypoint<> was a concentrated effort to more clearly surface information about the universe as you discovered it. We cleaned up the in-game catalogue, and added journal-style records of progress through the core narrative.\n\nWe also completely unpicked the concept of game modes, which had remained the same since the introduction of Permadeath back in Pathfinder. We tried to allow players to play exactly as they wanted, letting them focus on whatever their favourite area of the game was - basebuilding, exploration, resource acquisition, story, combat, survival - the game means a lot of different things to a lot of different people."
+                    },
+                    {
+                        "TitleID": "UI_S23_FRACTAL_NAME",
+                        "TitleText": "Fractal",
+                        "EntryID": "UI_S23_FRACTAL_LOG",
+                        "EntryText": "<STELLAR>Fractal<> was an opportunity for the team to give No Man's Sky another scrub and coat of polish. We improved graphics, increased accessibility, and launched the Utopia expedition. We also added \"Wonders\" to showcase the most remarkable discoveries among the thousands players would amass on their journeys. This was something we'd wanted for a long time."
+                    },
+                    {
+                        "TitleID": "UI_S23_INTERCEPTOR_NAME",
+                        "TitleText": "Interceptor",
+                        "EntryID": "UI_S23_INTERCEPTOR_LOG",
+                        "EntryText": "What if you could commandeer and fly a Sentinel ship?\n\n<STELLAR>Interceptor<> started with that idea, allowing players to take something back from the relentless system authorities (who we affectionately refer to as \"the space police\" internally). It soon grew into something much bigger. The designers and artists dreamt up the concept of dissonant planets, with mysterious robot heads, apparently empty campsites, and Sentinel forces corrupted by an otherworldly purple crystal. This update came together especially quickly - everything just flowed and fell into place. It's an amazing feeling when that happens.\n\nNo Man's Sky now had more than seven platform variants. It was a lot, especially for a small team, and we weren't done yet... "
+                    },
+                    {
+                        "TitleID": "UI_S23_ECHOES_NAME",
+                        "TitleText": "Echoes",
+                        "EntryID": "UI_S23_ECHOES_LOG",
+                        "EntryText": "Interceptor, the Singularity expedition (where players helped Specialist Polo construct a robot) and now finally the <STELLAR>Echoes<> update were all designed as a sort of breadcrumb trail to introduce a new alien race we had been working on: the robotic Autophage. \n\nNarratively, these Korvax-derived lifeforms have always inhabited the universe, so we came up with a \"scan to reveal\" mechanic to unveil them to Travellers. We also introduced the \"modular customisation\" system in Echoes, allowing players to construct their own staff Multi-Tool. That system proved to be very versatile. The same underlying code enabled modular ship construction in Orbital, and fossil assembly in Relics.\n\nEchoes also brought in Dreadnought freighter battles, with a trench run gameplay loop inspired by a favourite scene in one of our favourite sci-fi franchises. We love that No Man's Sky can support this action side of sci-fi as well as more reflective exploration."
+                    },
+                    {
+                        "TitleID": "UI_S23_ORBITAL_NAME",
+                        "TitleText": "Orbital ",
+                        "EntryID": "UI_S23_ORBITAL_LOG",
+                        "EntryText": "<STELLAR>Orbital<>, <STELLAR>Omega<> and the <STELLAR>Adrift<> expedition all released in fairly quick succession in early 2024! \n\n<STELLAR>Omega<> was an especially challenging update. We essentially built a demo in the form of a free expedition, which has different technical requirements on different platforms, and which also had to serve as a sort of tutorial for new players. We also allowed players to start expeditions from existing saves - something the community had been requesting for a while - which required some delicate data-masking and context-handling of save games. We always feel extremely cautious around anything related to save data. Many of our players have thousands of hours of progress by now.\n\n<STELLAR>Orbital<> introduced two massive features we'd been working on for a while: a complete redesign of space stations, and constructable starships.\n\nSome players have been wanting to customise ships forever, but ship-hunting is such a core part of No Man's Sky that we couldn't simply remove that feature. Instead, we implemented the ability to collect modules and construct new ships from scratch, while acknowledging naturally-occurring ships with an \"authenticated\" badge.\n\nWe decided not to redesign the abandoned versions of space stations. It feels somehow fitting that they are a relic of the old design..."
+                    },
+                    {
+                        "TitleID": "UI_S23_WORLDS1_NAME",
+                        "TitleText": "Worlds I",
+                        "EntryID": "UI_S23_WORLDS1_LOG",
+                        "EntryText": "<STELLAR>Worlds Part I<> and Part II were originally conceived as one big update. We wanted to refresh exploration by completely overhauling the visuals and diversity of the universe. \n\nAs often happens with our updates, but with this one in particular... it got huge. Everyone on the team had more and more ideas, and more features they wanted to cram in. We decided to split the update in half, and get features to players sooner. Part I focused on improving existing planets, saving adding entirely new planets for Part II. \n\nYears of work came together to allow us to transform water from a fixed sphere to a dynamic, responsive mesh. Meanwhile we rewrote the cloud generation system from scratch. Finally the person who constantly replied to every social media post with \"fix clouds\" could rest."
+                    },
+                    {
+                        "TitleID": "UI_S23_CATCH_RARE_FISH_NAME",
+                        "TitleText": "Aquarius",
+                        "EntryID": "UI_S23_CATCH_RARE_FISH_LOG",
+                        "EntryText": "We work very quickly at Hello, with more of a game jam kind of vibe. New team members who join us from other studios often comment how fast new features come together. Fishing was one of those features! We saw a fan posting about how cool fishing would be, and just weeks later our fishing update was releasing! We designed the <STELLAR>Aquarius<> expedition around it and we love that it's a very chill way for people to spend time together on a planet. Seeing screenshots of lots of players fishing side-by-side makes us so happy.\n\nFor Halloween, we put together a spooky expedition called The Cursed, which started with the idea of limiting interstellar travel to the portal network, and grew to introduce elements like spectral squids and a sped-up day/night cycle.\n\nIn November 2024, our global user rating progressed from \"Mostly Positive\" to \"Very Positive\". We got some \"Very Positive\" socks made for the team, which you only wear when you are really feeling it. "
+                    },
+                    {
+                        "TitleID": "UI_S23_WORLDS2_NAME",
+                        "TitleText": "Worlds II",
+                        "EntryID": "UI_S23_WORLDS2_LOG",
+                        "EntryText": "When we split Worlds into two updates, we had intended to release <STELLAR>Worlds Part II<> shortly afterwards. The player response to Part I was so positive that we thought actually, we want to listen to feedback and spend longer perfecting Part II. Of course, that meant it grew even bigger!\n\nWe added a bunch of new biomes and creatures, as well as even more improvements to water rendering. We made \"abandoned mode\", an idea first introduced in Adrift, into a complete game mode. Perhaps most significantly, we added entirely new star systems - something we hadn't done since launch - which gave the narrative team a really exciting opportunity for building a new story. It gave us the freedom to add new terrain shapes and waterworlds. Finally we could add gas giants, something we had dreamt of since launch.\n\nIn the background we are also working on an ambitious new game, Light No Fire. Some key tech developed for this was now being sent back - almost from the future - for No Man's Sky, allowing us to keep expanding the universe."
+                    },
+                    {
+                        "TitleID": "UI_S23_GOT_FOSSILS_NAME",
+                        "TitleText": "Relics",
+                        "EntryID": "UI_S23_GOT_FOSSILS_LOG",
+                        "EntryText": "The idea for <STELLAR>Relics<> came from one of our team playing Animal Crossing with their daughter. The idea of collecting fossils for a bone museum fit perfectly with several elements of No Man's Sky: exploration, collecting, procedurally generated creatures, and the modular customisation system we'd established back in Echoes.\n\nVideo game publications cover No Man's Sky pretty regularly, but this update earnt us a tongue-in-cheek article in a museum industry magazine. The author noted that \"While Relics is certainly fun, as a museum professional there is a lot that I found concerning.\" \"I'm [...] troubled that said relics are then promptly shipped off to your home planet to be displayed in your own private (unaccredited) museum.\""
+                    },
+                    {
+                        "TitleID": "UI_S23_BEACON_NAME",
+                        "TitleText": "Beacon",
+                        "EntryID": "UI_S23_BEACON_LOG",
+                        "EntryText": "We'd had an internal wishlist of improvements for Settlements for a while, and we were excited by the idea of adding settlements for the new Autophage lifeforms. <STELLAR>Beacon<> combined those two design objectives into an update that the community wasn't expecting at all. It's always our aim to be surprising!\n\nSome of the proposed names for this update included \"Betterments\", \"Frontierier\", \"Robotopolis\", and \"Do Androids Dream Of Big Purple Settlements\". Thankfully, none of those were taken seriously."
+                    },
+                    {
+                        "TitleID": "UI_S23_BIGGS_BUILD_NAME",
+                        "TitleText": "Voyagers",
+                        "EntryID": "UI_S23_BIGGS_BUILD_LOG",
+                        "EntryText": "<STELLAR>Voyagers<> was one of our most challenging updates to develop. Having multi-crew star ships you could walk around in, in multiplayer, while travelling at light speed is a very hard problem. Retrofitting it to an existing game is even harder. From when it was first working though, you could just tell how incredible it would feel.\n\nEffectively we were using the base building system to create the ships, then flying those ships through space with networked players inside, sometimes on different gaming platforms, warping between systems together. We had some fantastic bugs in the weeks before launch. Planetary base parts were taking off and flying into space! Our IK system was warping players legs between ships like a scene from a Cronenberg film. Players would warp their ship full of friends to new systems, and accidentally scatter them stranded throughout space.\n\nThe team worked incredibly hard to solve all these issues, and more - and the reception when we released was genuinely unexpected. We saw the highest number of players since launch! We couldn't believe some of the wild creativity we were seeing from players. Meticulous reproductions of favourite classic sci-fi ships, but also using unusual base parts to create flying forests and galleons and ships with eyes and limbs. It made all that challenge worth it! "
+                    },
+                    {
+                        "TitleID": "UI_S23_REMNANT_NAME",
+                        "TitleText": "Remnant",
+                        "EntryID": "UI_S23_REMNANT_LOG",
+                        "EntryText": "After the physics tech we'd developed for Voyagers, we were hungry to add more physical elements to the gameplay of No Man's Sky. <STELLAR>Remnant<> was originally conceived with the plan to use multiple physics worlds for loading cargo into your exocraft - the same technology that allows players to stand inside a Corvette and not get jettisoned into space when it moves. \n\nWe tried that... it was ok... but we struck upon something much more fun. Introducing a gravity gun we embraced the chaos of physics and allowed the cargo to jiggle and bounce with the movement of the Colossus - and sometimes have precious cargo fall out. As we saw at launch, there were some great moments during development of precious cargo rolling down hill at the last moment."
+                    },
+                    {
+                        "TitleID": "UI_S23_PET_BATTLES_NAME",
+                        "TitleText": "Xeno Arena",
+                        "EntryID": "UI_S23_PET_BATTLES_LOG",
+                        "EntryText": "One of our team had a passion for turn-based multiplayer games, and a bunch of experience with developing them. We could see how turn-based games would fit with our multiplayer model, and so the concept of \"game tables\" was born. We loved the idea of having a game for players to play in more chill moments together.\n\n<STELLAR>Xeno Arena<> came from that love of pet battler games, and the creatures in No Man's Sky. We had always wanted to make more of the pets you collect in No Man's Sky, maybe we could combine the two? \n\nAt the start of development, we were hand-crafting every possible battle move, but it quickly became clear that we would need a vast number of moves to make battles fun to play repeatedly - far more than our tiny team could author by hand. So we built a procedural generation system to assign unique moves to each creature, and the result is hundreds of abilities, and a mini-game with a surprising amount of depth. "
+                    },
+                    {
+                        "TitleID": "UI_S23_FUTURE_NAME",
+                        "TitleText": "Our Journey Continues",
+                        "EntryID": "UI_S23_FUTURE_LOG",
+                        "EntryText": "Our most recent update is <STELLAR>Cosmos<>, bringing together a number of highly-requested features, and some we dreamt up internally: space station ownership, shipbreaking, and lots of points of interest in space! \n\nAll this time we have been a space game, and yet space felt like it could be much more alive. It's wild to us that ten years in, there are still so many unexplored areas of development like this, and they are still so exciting to us. We feel lucky to have that opportunity.\n\nWe love making this game. It means so much to us that most of the people in that \"gold master disc\" photo from a decade ago are still at Hello Games. It means so much that so many of you, our players, have been on this journey with us since day one - and that newer Travellers are joining us all the time.\n\nThank you. So much.\n\nOur journey continues. "
+                    }
+                ]
+            },
+            {
                 "PageID": "UI_BASELOG_TITLE",
                 "PageText": "Base Computer Archives",
                 "PageIcon": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.BASECOMPUTER.ON.DDS",

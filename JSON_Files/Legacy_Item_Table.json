@@ -1,4 +1,21 @@
 {
+    "ABAND_LOCATOR_X": {
+        "ProductId": "ABAND_LOCATOR_X",
+        "Name": "UI_ABAND_LOCATOR_X_NAME",
+        "Name_Text": "EMERGENCY SIGNAL SCANNER (ACTIVE)",
+        "NameLower": "UI_ABAND_LOCATOR_X_NAME_L",
+        "NameLower_Text": "Emergency Signal Scanner (Active)",
+        "Subtitle": "UI_ABAND_LOCATOR_SUB",
+        "Subtitle_Text": "Coordinate Data",
+        "Description": "UI_ABAND_LOCATOR_DESC",
+        "Description_Text": "A <STELLAR>single-use<> receiver that scans for distress signals on <TECHNOLOGY>freighter frequencies<>. Derelict or abandoned freighters often contain <STELLAR>high-value salvage<>.\n\nSelect the Receiver and use Tune Signal (<IMG>FE_ALT1<>) to begin the location process.",
+        "ConvertID": "ABAND_LOCATOR",
+        "ConvertName": "Emergency Signal Scanner",
+        "ConvertRatio": "1.000000",
+        "AddNewRecipe": "false",
+        "RemoveOldRecipe": "true",
+        "GameFile": "Yes"
+    },
     "BAIT_MEAT_1": {
         "ProductId": "BAIT_MEAT_1",
         "Name": "BAIT_MEAT_1_NAME",

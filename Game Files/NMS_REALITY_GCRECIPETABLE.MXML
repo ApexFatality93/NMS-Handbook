@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cGcRecipeTable">
 	<Property name="Table">
 		<Property name="Table" value="GcRefinerRecipe" _id="RECIPE_1">
@@ -50266,6 +50266,98 @@
 						<Property name="InventoryType" value="Substance" />
 					</Property>
 					<Property name="Amount" value="1" />
+				</Property>
+			</Property>
+		</Property>
+		<Property name="Table" value="GcRefinerRecipe" _id="REFINERECIPE_399">
+			<Property name="Id" value="REFINERECIPE_399" />
+			<Property name="RecipeType" value="RECIPE_SWARMDUST_TECHFRAG" />
+			<Property name="RecipeName" value="R_NAME_SWARMDUST_TECHFRAG" />
+			<Property name="TimeToMake" value="90.000000" />
+			<Property name="Cooking" value="false" />
+			<Property name="Result" value="GcRefinerRecipeElement">
+				<Property name="Id" value="TECHFRAG" />
+				<Property name="Type" value="GcInventoryType">
+					<Property name="InventoryType" value="Substance" />
+				</Property>
+				<Property name="Amount" value="1" />
+			</Property>
+			<Property name="Ingredients">
+				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="SWARMDUST">
+					<Property name="Id" value="SWARMDUST" />
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Substance" />
+					</Property>
+					<Property name="Amount" value="5" />
+				</Property>
+			</Property>
+		</Property>
+		<Property name="Table" value="GcRefinerRecipe" _id="REFINERECIPE_400">
+			<Property name="Id" value="REFINERECIPE_400" />
+			<Property name="RecipeType" value="RECIPE_ASTBELT1" />
+			<Property name="RecipeName" value="R_NAME_ASTBELT1" />
+			<Property name="TimeToMake" value="90.000000" />
+			<Property name="Cooking" value="false" />
+			<Property name="Result" value="GcRefinerRecipeElement">
+				<Property name="Id" value="ASTEROID1" />
+				<Property name="Type" value="GcInventoryType">
+					<Property name="InventoryType" value="Substance" />
+				</Property>
+				<Property name="Amount" value="1" />
+			</Property>
+			<Property name="Ingredients">
+				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="ASTBELT1">
+					<Property name="Id" value="ASTBELT1" />
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Substance" />
+					</Property>
+					<Property name="Amount" value="5" />
+				</Property>
+			</Property>
+		</Property>
+		<Property name="Table" value="GcRefinerRecipe" _id="REFINERECIPE_401">
+			<Property name="Id" value="REFINERECIPE_401" />
+			<Property name="RecipeType" value="RECIPE_HULK1" />
+			<Property name="RecipeName" value="R_NAME_HULK1" />
+			<Property name="TimeToMake" value="90.000000" />
+			<Property name="Cooking" value="false" />
+			<Property name="Result" value="GcRefinerRecipeElement">
+				<Property name="Id" value="LAND3" />
+				<Property name="Type" value="GcInventoryType">
+					<Property name="InventoryType" value="Substance" />
+				</Property>
+				<Property name="Amount" value="1" />
+			</Property>
+			<Property name="Ingredients">
+				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="HULK1">
+					<Property name="Id" value="HULK1" />
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Substance" />
+					</Property>
+					<Property name="Amount" value="5" />
+				</Property>
+			</Property>
+		</Property>
+		<Property name="Table" value="GcRefinerRecipe" _id="REFINERECIPE_402">
+			<Property name="Id" value="REFINERECIPE_402" />
+			<Property name="RecipeType" value="RECIPE_SLIMEPOST1" />
+			<Property name="RecipeName" value="R_NAME_SLIMEPOST1" />
+			<Property name="TimeToMake" value="90.000000" />
+			<Property name="Cooking" value="false" />
+			<Property name="Result" value="GcRefinerRecipeElement">
+				<Property name="Id" value="PLANT_POOP" />
+				<Property name="Type" value="GcInventoryType">
+					<Property name="InventoryType" value="Substance" />
+				</Property>
+				<Property name="Amount" value="1" />
+			</Property>
+			<Property name="Ingredients">
+				<Property name="Ingredients" value="GcRefinerRecipeElement" _id="SLIMEPOST1">
+					<Property name="Id" value="SLIMEPOST1" />
+					<Property name="Type" value="GcInventoryType">
+						<Property name="InventoryType" value="Substance" />
+					</Property>
+					<Property name="Amount" value="5" />
 				</Property>
 			</Property>
 		</Property>

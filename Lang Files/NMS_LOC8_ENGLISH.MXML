@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UPDATE14_TITLE">
@@ -15762,6 +15762,46 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_PC_FOVEATED">
+			<Property name="Id" value="UI_PC_FOVEATED" />
+			<Property name="English" value="Foveated Rendering" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_PC_FOVEATED_D">
+			<Property name="Id" value="UI_PC_FOVEATED_D" />
+			<Property name="English" value="Foveated rendering lowers image quality in your peripheral vision while keeping the center of vision sharp, optimising GPU usage." />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="EMOTE_HOLO_BLOB">
 			<Property name="Id" value="EMOTE_HOLO_BLOB" />
 			<Property name="English" value="Hologram: Blob" />
@@ -26722,8 +26762,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="STARBIRTH_ITEM_SUBTITLE">
-			<Property name="Id" value="STARBIRTH_ITEM_SUBTITLE" />
+		<Property name="Table" value="TkLocalisationEntry" _id="STARBIRTH_ITEM_SUBTITLE_ALT">
+			<Property name="Id" value="STARBIRTH_ITEM_SUBTITLE_ALT" />
 			<Property name="English" value="Cosmic Brand" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -70282,6 +70322,26 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_BUILD_EXO_ANY_MSGA">
+			<Property name="Id" value="UI_EXPED_BUILD_EXO_ANY_MSGA" />
+			<Property name="English" value="Deploy an &lt;TECHNOLOGY&gt;Exocraft Geobay&lt;&gt;&#xA;Complete the &lt;EXPED&gt;%MILESTONE%&lt;&gt; milestone to earn Geobay plans&#xA;Select milestones from the Expedition log (&lt;IMG&gt;OPTIONS&lt;&gt;)" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_S9_BUILD_EXO_MSG">
 			<Property name="Id" value="UI_EXPED_S9_BUILD_EXO_MSG" />
 			<Property name="English" value="Deploy an &lt;TECHNOLOGY&gt;Exocraft Geobay&lt;&gt; to reach your ship&#xA;Access the &lt;TECHNOLOGY&gt;Build Menu&lt;&gt; with &lt;IMG&gt;BUILD_MENU&lt;&gt;&#xA;&lt;STELLAR&gt;Pin&lt;&gt; construction steps with &lt;IMG&gt;PIN_BUILD&lt;&gt;" />
@@ -94922,6 +94982,26 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_END_MENU_WARNING">
+			<Property name="Id" value="UI_EXPED_END_MENU_WARNING" />
+			<Property name="English" value="The expedition has &lt;COMMODITY&gt;finished&lt;&gt;.&#xA;&#xA;You will be able to select items to &lt;STELLAR&gt;transfer&lt;&gt; back to your primary save after confirming you wish to end the expedition.&#xA;&#xA;Do you wish to continue?" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_FINAL_RETURN_BUTTON">
 			<Property name="Id" value="UI_EXPED_FINAL_RETURN_BUTTON" />
 			<Property name="English" value="End Expedition" />
@@ -95404,7 +95484,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_REWARDS_SEASON_MSG1">
 			<Property name="Id" value="UI_EXPED_REWARDS_SEASON_MSG1" />
-			<Property name="English" value="Expedition &lt;TRADEABLE&gt;Complete&lt;&gt;!&#xA;Return to the &lt;SPECIAL&gt;Space Anomaly&lt;&gt; to view earned rewards&#xA;Use the &lt;EXPED&gt;Expedition Terminus&lt;&gt; to send valuable items to your primary save" />
+			<Property name="English" value="Expedition &lt;TRADEABLE&gt;Complete&lt;&gt;!&#xA;Return to the &lt;SPECIAL&gt;Space Anomaly&lt;&gt; to view earned rewards&#xA;Use the &lt;EXPED&gt;Expedition Terminus&lt;&gt; to send valuable items to your primary save&#xA;Use the &lt;TECHNOLOGY&gt;Main Menu&lt;&gt; (&lt;IMG&gt;OPTIONS&lt;&gt;) to return to your primary save at any time" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -95662,8 +95742,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_OVER_MSG">
-			<Property name="Id" value="UI_EXPED_OVER_MSG" />
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXPED_OVER_MSG_ALT">
+			<Property name="Id" value="UI_EXPED_OVER_MSG_ALT" />
 			<Property name="English" value="Congratulations, Traveller. The expedition is &lt;STELLAR&gt;complete&lt;&gt;. Your exclusive expedition phase rewards are now automatically available on all saves.&#xA;&#xA;With the ending of the expedition, &lt;SPECIAL&gt;new paths&lt;&gt; have been opened in the universe. Return to the &lt;SPECIAL&gt;Space Anomaly&lt;&gt; to speak with Priest Entity Nada and Specialist Polo." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -116002,8 +116082,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="UI_SIGNAL_SCANNER_DESC_ALT">
-			<Property name="Id" value="UI_SIGNAL_SCANNER_DESC_ALT" />
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_SIGNAL_SCANNER_DESC_S13">
+			<Property name="Id" value="UI_SIGNAL_SCANNER_DESC_S13" />
 			<Property name="English" value="Outpost signal detection &lt;SPECIAL&gt;ERROR&lt;&gt; &lt;IMG&gt;SLASH&lt;&gt; Navigation subroutines &lt;STELLAR&gt;online&lt;&gt; &lt;IMG&gt;SLASH&lt;&gt;&lt;NEWLINE&gt;Please select navigational task:" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -145402,8 +145482,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="UI_SUIT_REFINER_SUB">
-			<Property name="Id" value="UI_SUIT_REFINER_SUB" />
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_SUIT_REFINER2_SUB">
+			<Property name="Id" value="UI_SUIT_REFINER2_SUB" />
 			<Property name="English" value="Self-Mounted Advanced Refiner" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />

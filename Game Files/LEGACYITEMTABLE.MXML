@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cGcLegacyItemTable">
 	<Property name="Table">
+		<Property name="Table" value="GcLegacyItem" _id="ABAND_LOCATOR_X">
+			<Property name="ID" value="ABAND_LOCATOR_X" />
+			<Property name="ConvertID" value="ABAND_LOCATOR" />
+			<Property name="ConvertRatio" value="1.000000" />
+			<Property name="AddNewRecipe" value="false" />
+			<Property name="RemoveOldRecipe" value="true" />
+		</Property>
 		<Property name="Table" value="GcLegacyItem" _id="PIPESHAPE">
 			<Property name="ID" value="PIPESHAPE" />
 			<Property name="ConvertID" value="PIPE" />

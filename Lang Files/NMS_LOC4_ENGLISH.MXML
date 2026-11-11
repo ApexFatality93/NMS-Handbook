@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_GUIDE_TITLE">
@@ -1724,7 +1724,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_GUIDE_BODY_EXPLORATION_5">
 			<Property name="Id" value="UI_GUIDE_BODY_EXPLORATION_5" />
-			<Property name="English" value="Press and hold &lt;IMG&gt;THRUST&lt;&gt; to &lt;VAL_ON&gt;propel&lt;&gt; your ship. Use &lt;IMG&gt;BRAKE&lt;&gt; to &lt;VAL_ON&gt;brake&lt;&gt;. Hold &lt;IMG&gt;BOOST&lt;&gt; to &lt;RED&gt;boost&lt;&gt;. Normal flight does not require fuel.&#xA;You will travel much faster when outside of a planet's atmosphere.&#xA;&#xA;In space, use the &lt;TECHNOLOGY&gt;Pulse Engine&lt;&gt; (&lt;IMG&gt;PULSEJUMP&lt;&gt;) to travel faster.&#xA;The Pulse Engine requires &lt;EXOTIC&gt;Tritium&lt;&gt; to charge. Find Tritium by &lt;VAL_ON&gt;destroying asteroids&lt;&gt; in space. Scan (&lt;IMG&gt;SCAN&lt;&gt;) to search for &lt;TECHNOLOGY&gt;tritium-rich asteroids&lt;&gt;.&#xA;&#xA;The Pulse Engine cannot be used near space stations. &lt;SPECIAL&gt;Pirates&lt;&gt; may temporarily disable the Pulse Engine during an attack. To escape, survive until it comes back online.&#xA;The ship's HUD will alert you when the Pulse Engine is offline.&#xA;&#xA;Use the &lt;TECHNOLOGY&gt;Hyperdrive&lt;&gt; to travel to a new star system. Craft &lt;FUEL&gt;Warp Cells&lt;&gt; using &lt;COMMODITY&gt;Antimatter Housing&lt;&gt; and &lt;FUEL&gt;Antimatter&lt;&gt; to power the hyperdrive. &#xA;&#xA;To travel to a new system, open your &lt;VAL_ON&gt;Galaxy Map&lt;&gt; (&lt;IMG&gt;QUICK_MENU&lt;&gt;). Select a system and use &lt;IMG&gt;GALAXYWARP&lt;&gt; to engage the hyperdrive.&#xA;&#xA;Star systems are &lt;VAL_ON&gt;colour graded&lt;&gt;: Yellow, Red, Green and Blue. Non-yellow systems require &lt;VAL_ON&gt;upgraded hyperdrive technology&lt;&gt; to visit." />
+			<Property name="English" value="Press and hold &lt;IMG&gt;THRUST&lt;&gt; to &lt;VAL_ON&gt;propel&lt;&gt; your ship. Use &lt;IMG&gt;BRAKE&lt;&gt; to &lt;VAL_ON&gt;brake&lt;&gt;. Hold &lt;IMG&gt;BOOST&lt;&gt; to &lt;RED&gt;boost&lt;&gt;. Normal flight does not require fuel.&#xA;You will travel much faster when outside of a planet's atmosphere.&#xA;&#xA;In space, use the &lt;TECHNOLOGY&gt;Pulse Engine&lt;&gt; (&lt;IMG&gt;PULSEJUMP&lt;&gt;) to travel faster.&#xA;The Pulse Engine requires &lt;EXOTIC&gt;Tritium&lt;&gt; to charge. Find Tritium by &lt;VAL_ON&gt;destroying asteroids&lt;&gt; in space. Scan (&lt;IMG&gt;SCAN&lt;&gt;) to search for &lt;TECHNOLOGY&gt;tritium-rich asteroids&lt;&gt;.&#xA;&#xA;The Pulse Engine cannot be used near large objects in space. &lt;SPECIAL&gt;Pirates&lt;&gt; may temporarily disable the Pulse Engine during an attack. To escape, survive until it comes back online.&#xA;The ship's HUD will alert you when the Pulse Engine is offline.&#xA;&#xA;The &lt;VAL_ON&gt;Star System Map&lt;&gt; (&lt;IMG&gt;SOLARSYS_TOGGLEMAP&lt;&gt;) displays an overview of planets, moons, and deep-space objects in your current system. Mark objects on the map with &lt;IMG&gt;FE_SELECT&lt;&gt; to assist with navigation.&#xA;&#xA;Use the &lt;TECHNOLOGY&gt;Hyperdrive&lt;&gt; to travel to a new star system. Craft &lt;FUEL&gt;Warp Cells&lt;&gt; using &lt;COMMODITY&gt;Antimatter Housing&lt;&gt; and &lt;FUEL&gt;Antimatter&lt;&gt; to power the hyperdrive. &#xA;&#xA;To travel to a new system, open your &lt;VAL_ON&gt;Galaxy Map&lt;&gt; (&lt;IMG&gt;QUICK_MENU&lt;&gt;). Select a system and use &lt;IMG&gt;GALAXYWARP&lt;&gt; to engage the hyperdrive.&#xA;&#xA;Star systems are &lt;VAL_ON&gt;colour graded&lt;&gt;: Yellow, Red, Green and Blue. Non-yellow systems require &lt;VAL_ON&gt;upgraded hyperdrive technology&lt;&gt; to visit." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -8002,6 +8002,26 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="QUICK_MENU_NO_GALMAP_NEXUS">
+			<Property name="Id" value="QUICK_MENU_NO_GALMAP_NEXUS" />
+			<Property name="English" value="Galactic Navigation Unavailable :: Anomaly Interference" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="QUICK_MENU_NO_ECON_SCANNER">
 			<Property name="Id" value="QUICK_MENU_NO_ECON_SCANNER" />
 			<Property name="English" value="No Economy Scanner Installed" />
@@ -14225,6 +14245,66 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="PHOTO_CAMMODE_CONTROLS_NEW">
 			<Property name="Id" value="PHOTO_CAMMODE_CONTROLS_NEW" />
 			<Property name="English" value="&lt;IMG&gt;PHOTO_SUN&lt;&gt; Move Sun  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_CAMDOWN&lt;&gt;/&lt;IMG&gt;PHOTO_CAMUP&lt;&gt; Change Height  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_CAMROLLLEFT&lt;&gt;/&lt;IMG&gt;PHOTO_CAMROLLRIGHT&lt;&gt; Tilt  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_CAM&lt;&gt; Adjust Effects&#xA;&#xA;&lt;IMG&gt;PHOTO_CAPTURE&lt;&gt; Take Screenshot  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_HIDE&lt;&gt; Hide Menu  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_EXIT&lt;&gt; Exit" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="PHOTO_MODE_CONTROLS_SUN">
+			<Property name="Id" value="PHOTO_MODE_CONTROLS_SUN" />
+			<Property name="English" value="&lt;IMG&gt;PHOTO_HIDE&lt;&gt; Hide Menu  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_CAM&lt;&gt; Save Effects  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_EXIT&lt;&gt; Exit" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="PHOTO_CAMMODE_CONTROLS_SUN_VR1">
+			<Property name="Id" value="PHOTO_CAMMODE_CONTROLS_SUN_VR1" />
+			<Property name="English" value="&lt;IMG&gt;PHOTO_HIDE&lt;&gt; Hide Menu  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_CAMDOWN&lt;&gt;/&lt;IMG&gt;PHOTO_CAMUP&lt;&gt; Change Camera Height" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="PHOTO_CAMMODE_CONTROLS_SUN">
+			<Property name="Id" value="PHOTO_CAMMODE_CONTROLS_SUN" />
+			<Property name="English" value="&lt;IMG&gt;PHOTO_CAMDOWN&lt;&gt;/&lt;IMG&gt;PHOTO_CAMUP&lt;&gt; Change Height  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_CAMROLLLEFT&lt;&gt;/&lt;IMG&gt;PHOTO_CAMROLLRIGHT&lt;&gt; Tilt  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_CAM&lt;&gt; Adjust Effects&#xA;&#xA;&lt;IMG&gt;PHOTO_CAPTURE&lt;&gt; Take Screenshot  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_HIDE&lt;&gt; Hide Menu  &lt;IMG&gt;DIAMONDBULLET&lt;&gt;  &lt;IMG&gt;PHOTO_EXIT&lt;&gt; Exit" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -23445,6 +23525,26 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="TRADE_SELL_NANITES">
 			<Property name="Id" value="TRADE_SELL_NANITES" />
 			<Property name="English" value="Sell for %PRICE% Nanite Clusters" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="TRADE_SELL_NANITES_SHORT">
+			<Property name="Id" value="TRADE_SELL_NANITES_SHORT" />
+			<Property name="English" value="Sell for %PRICE% &lt;IMG&gt;NANITE&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -36784,7 +36884,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="ITEMGEN_WATERWEIRD_NOUN_17">
 			<Property name="Id" value="ITEMGEN_WATERWEIRD_NOUN_17" />
-			<Property name="English" value="Lavae" />
+			<Property name="English" value="Larvae" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -61464,7 +61564,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_CORE_CATALYST2_MSG">
 			<Property name="Id" value="UI_CORE_CATALYST2_MSG" />
-			<Property name="English" value="Sodium is used to charge &lt;COMMODITY&gt;Hazard Protection&lt;&gt;&#xA;Refine &lt;COMMODITY&gt;Nitrous Oxide&lt;&gt; in the &lt;TECHNOLOGY&gt;Refiner&lt;&gt; for greater charge&#xA;Press &lt;IMG&gt;OPTIONS&lt;&gt; to learn more" />
+			<Property name="English" value="Sodium is used to charge &lt;COMMODITY&gt;Hazard Protection&lt;&gt;&#xA;Refine &lt;COMMODITY&gt;Sodium Nitrate&lt;&gt; in the &lt;TECHNOLOGY&gt;Refiner&lt;&gt; for greater charge&#xA;Press &lt;IMG&gt;OPTIONS&lt;&gt; to learn more" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -77244,7 +77344,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_DIGGING_OBJ3">
 			<Property name="Id" value="UI_DIGGING_OBJ3" />
-			<Property name="English" value="Transmit artifact data to the client" />
+			<Property name="English" value="Transmit artifact data to &lt;STELLAR&gt;%CLIENT%&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -77264,7 +77364,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_DIGGING_OBJ3_TIP">
 			<Property name="Id" value="UI_DIGGING_OBJ3_TIP" />
-			<Property name="English" value="The client will allow you to keep the physical specimen, but has requested a complete 4D scan of the artifact is uploaded to their database.&#xA;Find the database uplink point at a &lt;STELLAR&gt;Trade Outpost&lt;&gt;." />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; will allow you to keep the physical specimen, but has requested a complete 4D scan of the artifact is uploaded to their database.&#xA;Find the database uplink point at a &lt;STELLAR&gt;Trade Outpost&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -77484,7 +77584,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_DIGGING_OBJ6_MSG">
 			<Property name="Id" value="UI_DIGGING_OBJ6_MSG" />
-			<Property name="English" value="Transmit the data to the client at a &lt;TECHNOLOGY&gt;Trade Terminal&lt;&gt;" />
+			<Property name="English" value="Transmit the data to &lt;STELLAR&gt;%CLIENT%&lt;&gt; at a &lt;TECHNOLOGY&gt;Trade Terminal&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -104524,7 +104624,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="DNT_EXP_FIRST_WORD_LANG">
 			<Property name="Id" value="DNT_EXP_FIRST_WORD_LANG" />
-			<Property name="English" value="Korvax! Korvax! Korvax! 16 16 16!" />
+			<Property name="English" value="Korvax! Korvax! Korvax! sixteen sixteen sixteen!" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -104544,7 +104644,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="DNT_TRA_FIRST_WORD_LANG">
 			<Property name="Id" value="DNT_TRA_FIRST_WORD_LANG" />
-			<Property name="English" value="Gek! Gek! Gek! 16 16 16!" />
+			<Property name="English" value="Gek! Gek! Gek! sixteen sixteen sixteen!" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -104564,7 +104664,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="DNT_WAR_FIRST_WORD_LANG">
 			<Property name="Id" value="DNT_WAR_FIRST_WORD_LANG" />
-			<Property name="English" value="Vy'keen! Vy'keen! Vy'keen! 16 16 16!" />
+			<Property name="English" value="Vy'keen! Vy'keen! Vy'keen! sixteen sixteen sixteen!" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

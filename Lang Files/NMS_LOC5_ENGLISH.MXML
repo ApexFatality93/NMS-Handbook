@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_VR_RECENTRE">
@@ -1842,8 +1842,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="CTRL_BTN_BUILD_DELETE">
-			<Property name="Id" value="CTRL_BTN_BUILD_DELETE" />
+		<Property name="Table" value="TkLocalisationEntry" _id="CTRL_BTN_BUILD_MODIFY">
+			<Property name="Id" value="CTRL_BTN_BUILD_MODIFY" />
 			<Property name="English" value="Modify Placed Part" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -29862,6 +29862,26 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="QUICK_MENU_SUM_NEXUS_NEXUS">
+			<Property name="Id" value="QUICK_MENU_SUM_NEXUS_NEXUS" />
+			<Property name="English" value="Space Anomaly Unavailable :: Spacetime Recursion" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="NPC_SHIP_CRASHED_DESC">
 			<Property name="Id" value="NPC_SHIP_CRASHED_DESC" />
 			<Property name="English" value="The nearby lifeform observes me as I approach this ship. Perhaps they could offer clues about what occurred here..." />
@@ -32165,6 +32185,26 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_BASETECH_TREE">
 			<Property name="Id" value="UI_BASETECH_TREE" />
 			<Property name="English" value="Technology Modules" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="UI_BASETECH_DEPLOY_TREE">
+			<Property name="Id" value="UI_BASETECH_DEPLOY_TREE" />
+			<Property name="English" value="Deployable Technology" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -43062,6 +43102,26 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="WEAP_BUY_ITEM">
+			<Property name="Id" value="WEAP_BUY_ITEM" />
+			<Property name="English" value="Buy (%COST%)" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_CIVILIAN_MURDER_OSD">
 			<Property name="Id" value="UI_CIVILIAN_MURDER_OSD" />
 			<Property name="English" value="CIVILIAN SHIP DESTROYED &lt;IMG&gt;SLASH&lt;&gt; AUTHORITIES ALERTED" />
@@ -49004,7 +49064,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_BUILD_OBJ5_MSG">
 			<Property name="Id" value="UI_BUILD_OBJ5_MSG" />
-			<Property name="English" value="&lt;STELLAR&gt;Upload&lt;&gt; Base Report to client&#xA;Base owner can upload data from the &lt;TECHNOLOGY&gt;Base Computer&lt;&gt;&#xA;Base can be &lt;FUEL&gt;deleted&lt;&gt; after uploading" />
+			<Property name="English" value="&lt;STELLAR&gt;Upload&lt;&gt; Base Report to &lt;STELLAR&gt;%CLIENT%&lt;&gt;&#xA;Base owner can upload data from the &lt;TECHNOLOGY&gt;Base Computer&lt;&gt;&#xA;Base can be &lt;FUEL&gt;deleted&lt;&gt; after uploading" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -86205,6 +86265,246 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC12_NAME">
 			<Property name="Id" value="FTH_EXOTIC12_NAME" />
 			<Property name="English" value="Eos" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC1_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC1_NAME_TITLE" />
+			<Property name="English" value="Iteration: Ariadne" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC2_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC2_NAME_TITLE" />
+			<Property name="English" value="Iteration: Gemini" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC3_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC3_NAME_TITLE" />
+			<Property name="English" value="Iteration: Mercury" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC4_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC4_NAME_TITLE" />
+			<Property name="English" value="Iteration: Cronus" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC5_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC5_NAME_TITLE" />
+			<Property name="English" value="Iteration: Selene" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC6_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC6_NAME_TITLE" />
+			<Property name="English" value="Iteration: Helios" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC7_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC7_NAME_TITLE" />
+			<Property name="English" value="Iteration: Hyperion" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC8_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC8_NAME_TITLE" />
+			<Property name="English" value="Iteration: Tethys" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC9_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC9_NAME_TITLE" />
+			<Property name="English" value="Iteration: Perses" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC10_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC10_NAME_TITLE" />
+			<Property name="English" value="Iteration: Ares" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC11_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC11_NAME_TITLE" />
+			<Property name="English" value="Iteration: Hesperus" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="FTH_EXOTIC12_NAME_TITLE">
+			<Property name="Id" value="FTH_EXOTIC12_NAME_TITLE" />
+			<Property name="English" value="Iteration: Eos" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -128844,7 +129144,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_GEODE_SPACE_HINT_MSG">
 			<Property name="Id" value="UI_GEODE_SPACE_HINT_MSG" />
-			<Property name="English" value="&lt;STELLAR&gt;Analyze&lt;&gt; the &lt;STELLAR&gt;Tritium Hypercluster&lt;&gt; with &lt;IMG&gt;FE_ALT1&lt;&gt;&#xA;To analyze, first locate in the Inventory (&lt;IMG&gt;INVENTORY&lt;&gt;)&#xA;Hyperclusters contain large quantities of &lt;TECHNOLOGY&gt;Tritium&lt;&gt;" />
+			<Property name="English" value="&lt;STELLAR&gt;Analyse&lt;&gt; the &lt;STELLAR&gt;Tritium Hypercluster&lt;&gt; with &lt;IMG&gt;FE_ALT1&lt;&gt;&#xA;To analyse, first locate in the Inventory (&lt;IMG&gt;INVENTORY&lt;&gt;)&#xA;Hyperclusters contain large quantities of &lt;TECHNOLOGY&gt;Tritium&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -128964,7 +129264,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_GEODE_ASTEROID_HINT_MSG">
 			<Property name="Id" value="UI_GEODE_ASTEROID_HINT_MSG" />
-			<Property name="English" value="&lt;STELLAR&gt;Analyze&lt;&gt; the &lt;STELLAR&gt;Gold Nugget&lt;&gt; with &lt;IMG&gt;FE_ALT1&lt;&gt;&#xA;To analyze, first locate in the Inventory (&lt;IMG&gt;INVENTORY&lt;&gt;)&#xA;Gold Nuggets contain large quantities of &lt;COMMODITY&gt;Gold&lt;&gt;" />
+			<Property name="English" value="&lt;STELLAR&gt;Analyse&lt;&gt; the &lt;STELLAR&gt;Gold Nugget&lt;&gt; with &lt;IMG&gt;FE_ALT1&lt;&gt;&#xA;To analyse, first locate in the Inventory (&lt;IMG&gt;INVENTORY&lt;&gt;)&#xA;Gold Nuggets contain large quantities of &lt;COMMODITY&gt;Gold&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

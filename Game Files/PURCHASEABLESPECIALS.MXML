@@ -1,58 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cGcPurchaseableSpecials">
 	<Property name="Table">
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_DUST12">
 			<Property name="ID" value="BASE_DUST12" />
-			<Property name="ShopNumber" value="116" />
+			<Property name="ShopNumber" value="118" />
 			<Property name="MissionTier" value="3" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_DUST02">
 			<Property name="ID" value="BASE_DUST02" />
-			<Property name="ShopNumber" value="116" />
+			<Property name="ShopNumber" value="118" />
 			<Property name="MissionTier" value="2" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_HOTPLANT07">
 			<Property name="ID" value="BASE_HOTPLANT07" />
-			<Property name="ShopNumber" value="116" />
+			<Property name="ShopNumber" value="118" />
 			<Property name="MissionTier" value="1" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_DUST11">
 			<Property name="ID" value="BASE_DUST11" />
-			<Property name="ShopNumber" value="115" />
+			<Property name="ShopNumber" value="117" />
 			<Property name="MissionTier" value="3" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_DUST01">
 			<Property name="ID" value="BASE_DUST01" />
-			<Property name="ShopNumber" value="115" />
+			<Property name="ShopNumber" value="117" />
 			<Property name="MissionTier" value="2" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_HOTPLANT08">
 			<Property name="ID" value="BASE_HOTPLANT08" />
-			<Property name="ShopNumber" value="115" />
+			<Property name="ShopNumber" value="117" />
+			<Property name="MissionTier" value="1" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="DECAL_OOGC">
+			<Property name="ID" value="DECAL_OOGC" />
+			<Property name="ShopNumber" value="116" />
+			<Property name="MissionTier" value="2" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BANNER_OOGC">
+			<Property name="ID" value="BANNER_OOGC" />
+			<Property name="ShopNumber" value="116" />
+			<Property name="MissionTier" value="2" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="DECAL_RSS">
+			<Property name="ID" value="DECAL_RSS" />
+			<Property name="ShopNumber" value="116" />
+			<Property name="MissionTier" value="1" />
+			<Property name="IsConsumable" value="false" />
+		</Property>
+		<Property name="Table" value="GcPurchaseableSpecial" _id="BANNER_RSS">
+			<Property name="ID" value="BANNER_RSS" />
+			<Property name="ShopNumber" value="116" />
 			<Property name="MissionTier" value="1" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_DUST10">
 			<Property name="ID" value="BASE_DUST10" />
-			<Property name="ShopNumber" value="114" />
+			<Property name="ShopNumber" value="115" />
 			<Property name="MissionTier" value="3" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_DUST09">
 			<Property name="ID" value="BASE_DUST09" />
-			<Property name="ShopNumber" value="114" />
+			<Property name="ShopNumber" value="115" />
 			<Property name="MissionTier" value="2" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_DUST08">
 			<Property name="ID" value="BASE_DUST08" />
-			<Property name="ShopNumber" value="114" />
+			<Property name="ShopNumber" value="115" />
 			<Property name="MissionTier" value="1" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
@@ -125,7 +149,7 @@
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_RADPLANT04">
 			<Property name="ID" value="BASE_RADPLANT04" />
 			<Property name="ShopNumber" value="110" />
-			<Property name="MissionTier" value="3" />
+			<Property name="MissionTier" value="2" />
 			<Property name="IsConsumable" value="false" />
 		</Property>
 		<Property name="Table" value="GcPurchaseableSpecial" _id="BASE_TOXPLANT04">

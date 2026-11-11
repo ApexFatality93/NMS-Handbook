@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cGcProductTable">
 	<Property name="Table">
 		<Property name="Table" value="GcProductData" _id="FIGHT_COCKAA">
@@ -18523,7 +18523,7 @@
 				<Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
 				<Property name="Seed" value="0" />
 			</Property>
-			<Property name="BaseValue" value="646" />
+			<Property name="BaseValue" value="310000" />
 			<Property name="Level" value="0" />
 			<Property name="Icon" value="TkTextureResource">
 				<Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/SHIPICONS/SHIPPARTS.DROPSHIPWINGS.2.DDS" />

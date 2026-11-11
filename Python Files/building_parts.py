@@ -20,7 +20,7 @@ with open('./JSON_Files/Substance_Table.json', 'r', encoding='utf-8') as f:
 
 product_lookup = {key: value for key, value in product_table.items()}
 substance_lookup = {key: value for key, value in substance_table.items()}
-lang_lookup = {entry['Id']: entry['English'] for entry in lang_entries}
+lang_lookup = {entry['Id'].upper(): entry['English'] for entry in lang_entries}
 
 # --- UTILITY ---
 def extract_data(property_node):
@@ -55,13 +55,13 @@ for product in root.findall('.//Property[@value="GcProductData"]'):
         product_data_dict[product_id] = {
             'ProductId': product_id,
             'Name': name_id,
-            'Name_Text': lang_lookup.get(name_id, ''),
+            'Name_Text': lang_lookup.get(name_id.upper(), ''),
             'NameLower': name_lower_id,
-            'NameLower_Text': lang_lookup.get(name_lower_id, ''),
+            'NameLower_Text': lang_lookup.get(name_lower_id.upper(), ''),
             'Subtitle': subtitle_id,
-            'Subtitle_Text': lang_lookup.get(subtitle_id, ''),
+            'Subtitle_Text': lang_lookup.get(subtitle_id.upper(), ''),
             'Description': description_id,
-            'Description_Text': lang_lookup.get(description_id, ''),
+            'Description_Text': lang_lookup.get(description_id.upper(), ''),
             'BaseValue': data.get('BaseValue', ''),
             'Icon_Filename': data.get('Icon', {}).get('Filename', ''),
             'Colour_R': data.get('Colour', {}).get('R', ''),
@@ -109,7 +109,7 @@ for product in root.findall('.//Property[@value="GcProductData"]'):
                     'Id': req_id,
                     'Type': req_type.lower(),
                     'Name_ID': value_data.get('NameLower', ''),
-                    'NameLower_Text': lang_lookup.get(value_data.get('NameLower', ''), ''),
+                    'NameLower_Text': lang_lookup.get(value_data.get('NameLower', '').upper(), ''),
                     'Amount': req_amount,
                     'Icon_Filename': value_data.get('Icon_Filename', ''),
                     'Colour_R': value_data.get('Colour_R', ''),

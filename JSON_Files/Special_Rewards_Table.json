@@ -1,4 +1,291 @@
 {
+    "EXPD_TITLE23": {
+        "ID": "EXPD_TITLE23",
+        "RewardName": "Title: 'Time Traveller'",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_DECAL23": {
+        "ID": "EXPD_DECAL23",
+        "RewardName": "Our Journey Continues Decal",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_BANNER23": {
+        "ID": "EXPD_BANNER23",
+        "RewardName": "Our Journey Continues Banner",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_EGG_23": {
+        "ID": "EXPD_EGG_23",
+        "RewardName": "Diplo Egg",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_SHIP23A": {
+        "ID": "EXPD_SHIP23A",
+        "RewardName": "Golden Rasamama S36",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_SHIP23B": {
+        "ID": "EXPD_SHIP23B",
+        "RewardName": "Vintage Interceptor",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_GUN23": {
+        "ID": "EXPD_GUN23",
+        "RewardName": "Starbound v0.27",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "BOBBLE_ASTRO": {
+        "ID": "BOBBLE_ASTRO",
+        "RewardName": "Astronaut Figurine",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23A": {
+        "ID": "EXPD_POSTER23A",
+        "RewardName": "Framed Launch Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23B": {
+        "ID": "EXPD_POSTER23B",
+        "RewardName": "Framed \"Atlas Rises\" Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23C": {
+        "ID": "EXPD_POSTER23C",
+        "RewardName": "Framed \"Next\" Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23D": {
+        "ID": "EXPD_POSTER23D",
+        "RewardName": "Framed \"Beyond\" Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23E": {
+        "ID": "EXPD_POSTER23E",
+        "RewardName": "Framed \"Origins\" Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23F": {
+        "ID": "EXPD_POSTER23F",
+        "RewardName": "Framed \"Frontiers\" Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23G": {
+        "ID": "EXPD_POSTER23G",
+        "RewardName": "Framed \"Echoes\" Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23H": {
+        "ID": "EXPD_POSTER23H",
+        "RewardName": "Framed \"Worlds\" Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER23I": {
+        "ID": "EXPD_POSTER23I",
+        "RewardName": "Framed \"Voyagers\" Art",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_TROPHY_B": {
+        "ID": "SWARM_TROPHY_B",
+        "RewardName": "Prismatic Core",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_TITLE22": {
+        "ID": "EXPD_TITLE22",
+        "RewardName": "Title: 'The Fragmented'",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_DECAL22": {
+        "ID": "EXPD_DECAL22",
+        "RewardName": "Swarm Decal",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_BANNER22": {
+        "ID": "EXPD_BANNER22",
+        "RewardName": "Swarm Banner",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_HAT": {
+        "ID": "SWARM_HAT",
+        "RewardName": "Direwasp Helm",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_ARMOUR": {
+        "ID": "SWARM_ARMOUR",
+        "RewardName": "Direwasp Plating",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_TORSO": {
+        "ID": "SWARM_TORSO",
+        "RewardName": "Direwasp Chestpiece",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_GLOVES": {
+        "ID": "SWARM_GLOVES",
+        "RewardName": "Direwasp Gloves",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_LEGS": {
+        "ID": "SWARM_LEGS",
+        "RewardName": "Direwasp Cuisses",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_BOOTS": {
+        "ID": "SWARM_BOOTS",
+        "RewardName": "Direwasp Boots",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_GUN": {
+        "ID": "SWARM_GUN",
+        "RewardName": "Direwasp Disintegrator",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_PACK": {
+        "ID": "SWARM_PACK",
+        "RewardName": "Direwasp Flightpack",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_R1": {
+        "ID": "SWARM_FLAG_R1",
+        "RewardName": "Royals Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_R2": {
+        "ID": "SWARM_FLAG_R2",
+        "RewardName": "Swallowtail Royals Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_R3": {
+        "ID": "SWARM_FLAG_R3",
+        "RewardName": "Tapered Royals Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_G1": {
+        "ID": "SWARM_FLAG_G1",
+        "RewardName": "Sages Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_G2": {
+        "ID": "SWARM_FLAG_G2",
+        "RewardName": "Swallowtail Sages Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_G3": {
+        "ID": "SWARM_FLAG_G3",
+        "RewardName": "Tapered Sages Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_B1": {
+        "ID": "SWARM_FLAG_B1",
+        "RewardName": "Weavers Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_B2": {
+        "ID": "SWARM_FLAG_B2",
+        "RewardName": "Swallowtail Weavers Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "SWARM_FLAG_B3": {
+        "ID": "SWARM_FLAG_B3",
+        "RewardName": "Tapered Weavers Flag",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER22C": {
+        "ID": "EXPD_POSTER22C",
+        "RewardName": "Weavers Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER22B": {
+        "ID": "EXPD_POSTER22B",
+        "RewardName": "Sages Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
+    "EXPD_POSTER22A": {
+        "ID": "EXPD_POSTER22A",
+        "RewardName": "Royals Poster",
+        "RewardType": [
+            "Expedition"
+        ]
+    },
     "VAULT_ARMOUR": {
         "ID": "VAULT_ARMOUR",
         "RewardName": "Heirloom Breastplate",
@@ -857,7 +1144,8 @@
         "ID": "EXPD_POSTER13A",
         "RewardName": "Meditation Poster",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_BANNER12": {
@@ -913,7 +1201,8 @@
         "ID": "EXPD_POSTER12C",
         "RewardName": "Starborn Poster",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "EXPD_POSTER12B": {
@@ -1177,7 +1466,8 @@
         "ID": "SPEC_BUCKETHELM",
         "RewardName": "Fearsome Visor",
         "RewardType": [
-            "Expedition"
+            "Expedition",
+            "Twitch"
         ]
     },
     "BLD_HOLOGEK": {
@@ -1824,6 +2114,195 @@
         "RewardName": "Atlas Firework Pack",
         "RewardType": [
             "Expedition"
+        ]
+    },
+    "S_POSTER29": {
+        "ID": "S_POSTER29",
+        "RewardName": "Scrambled Signal Poster",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "S_POSTER30": {
+        "ID": "S_POSTER30",
+        "RewardName": "Ship Parts Poster",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "S_POSTER31": {
+        "ID": "S_POSTER31",
+        "RewardName": "Bake Sale Poster",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW13A": {
+        "ID": "TWITCH_FIREW13A",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW13B": {
+        "ID": "TWITCH_FIREW13B",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW13C": {
+        "ID": "TWITCH_FIREW13C",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW13D": {
+        "ID": "TWITCH_FIREW13D",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_FIREW13E": {
+        "ID": "TWITCH_FIREW13E",
+        "RewardName": "Atlas Firework Pack",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BASE_FLYINGFERN": {
+        "ID": "BASE_FLYINGFERN",
+        "RewardName": "Floating Tassel Lily",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BLD_CRANE": {
+        "ID": "BLD_CRANE",
+        "RewardName": "Industrial Crane",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "STATUE_DIP_I": {
+        "ID": "STATUE_DIP_I",
+        "RewardName": "Ice Diplo Statue",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BASE_SUBZPLANT1": {
+        "ID": "BASE_SUBZPLANT1",
+        "RewardName": "Closed Seed Cone",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BASE_SPRIGBUSH": {
+        "ID": "BASE_SPRIGBUSH",
+        "RewardName": "Sprig Bush",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "BUGMECH_ARMR": {
+        "ID": "BUGMECH_ARMR",
+        "RewardName": "Liquidator Right Arm",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "FREI_TRAIL_TUR": {
+        "ID": "FREI_TRAIL_TUR",
+        "RewardName": "Hadal Freighter Trail",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "CAPE_JELLY": {
+        "ID": "CAPE_JELLY",
+        "RewardName": "Tentacled Cape",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "JETS_PLASMA": {
+        "ID": "JETS_PLASMA",
+        "RewardName": "Plasma Jetpack Trail",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN31": {
+        "ID": "TWITCH_GUN31",
+        "RewardName": "Memories of the Ancients",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN32": {
+        "ID": "TWITCH_GUN32",
+        "RewardName": "Improvised Ion Generator",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_PET26": {
+        "ID": "TWITCH_PET26",
+        "RewardName": "X. Spellristreus Egg",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_GUN33": {
+        "ID": "TWITCH_GUN33",
+        "RewardName": "Silent Shock Injector",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_PET27": {
+        "ID": "TWITCH_PET27",
+        "RewardName": "N. Heydroadrus Egg",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP61": {
+        "ID": "TWITCH_SHIP61",
+        "RewardName": "WK5 Mimar",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP62": {
+        "ID": "TWITCH_SHIP62",
+        "RewardName": "Ratsu's Prospect",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP63": {
+        "ID": "TWITCH_SHIP63",
+        "RewardName": "Unjiwua's Voyage LO5",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP64": {
+        "ID": "TWITCH_SHIP64",
+        "RewardName": "Mookaw NI8",
+        "RewardType": [
+            "Twitch"
+        ]
+    },
+    "TWITCH_SHIP65": {
+        "ID": "TWITCH_SHIP65",
+        "RewardName": "Halcyon Dance VQ6",
+        "RewardType": [
+            "Twitch"
         ]
     },
     "TWITCH_FIREW12A": {

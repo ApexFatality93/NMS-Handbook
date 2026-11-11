@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--File created using MBINCompiler version (6.24.0.1)-->
+<!--File created using MBINCompiler version (7.10.0.1)-->
 <Data template="cTkLocalisationTable">
 	<Property name="Table">
 		<Property name="Table" value="TkLocalisationEntry" _id="NAMEGEN_PLANET_ADORN_1">
@@ -84902,9 +84902,9 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="NPC_CORE_ACT1_10A_LANG_CHECK_OP">
-			<Property name="Id" value="NPC_CORE_ACT1_10A_LANG_CHECK_OP" />
-			<Property name="English" value="NPC_CORE_ACT1_5A_OPT_A" />
+		<Property name="Table" value="TkLocalisationEntry" _id="NPC_CORE_ACT1_10A_CHECK_OPT_A">
+			<Property name="Id" value="NPC_CORE_ACT1_10A_CHECK_OPT_A" />
+			<Property name="English" value="Confirm" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -84922,9 +84922,9 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="NPC_CORE_ACT1_10A_LANG_CHECK_OP" _index="1">
-			<Property name="Id" value="NPC_CORE_ACT1_10A_LANG_CHECK_OP" />
-			<Property name="English" value="NPC_CORE_ACT1_4D_OPT_B" />
+		<Property name="Table" value="TkLocalisationEntry" _id="NPC_CORE_ACT1_10A_CHECK_OPT_B">
+			<Property name="Id" value="NPC_CORE_ACT1_10A_CHECK_OPT_B" />
+			<Property name="English" value="Decline" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -84942,8 +84942,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="NPC_CORE_ACT1_10A_LANG_CHECK_RE">
-			<Property name="Id" value="NPC_CORE_ACT1_10A_LANG_CHECK_RE" />
+		<Property name="Table" value="TkLocalisationEntry" _id="NPC_CORE_ACT1_10A_CHECK_RES">
+			<Property name="Id" value="NPC_CORE_ACT1_10A_CHECK_RES" />
 			<Property name="English" value="Hmm. Well. Do what you need to do. You know where to find me when you're ready." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -121464,7 +121464,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_CORE_ACT2_STEP4_OBJ1_TIPB">
 			<Property name="Id" value="UI_CORE_ACT2_STEP4_OBJ1_TIPB" />
-			<Property name="English" value="Refine from &lt;STELLAR&gt;Silicate Powder&lt;&gt;. Extract silicate from the earth with a &lt;TECHNOLOGY&gt;Terrain Manipulator&lt;&gt;.&#xA;Craft with &lt;TECHNOLOGY&gt;Frost Crystals&lt;&gt; harvested from &lt;TECHNOLOGY&gt;frozen worlds&lt;&gt;.  Learn the blueprint with the aid of a &lt;TECHNOLOGY&gt;Construction Overseer&lt;&gt;." />
+			<Property name="English" value="Refine from &lt;STELLAR&gt;Silicate Powder&lt;&gt;. Extract silicate from the earth with a &lt;TECHNOLOGY&gt;Terrain Manipulator&lt;&gt;.&#xA;Alternatively, craft with &lt;TECHNOLOGY&gt;Frost Crystals&lt;&gt; harvested from &lt;TECHNOLOGY&gt;frozen worlds&lt;&gt;.  Learn the blueprint with the aid of a &lt;TECHNOLOGY&gt;Construction Overseer&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -141524,7 +141524,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="NPC_EXO_WAIT_RES_A_6">
 			<Property name="Id" value="NPC_EXO_WAIT_RES_A_6" />
-			<Property name="English" value="Traveller, know that my race were once more than just warriors; we were explorers, defenders of these worlds. Before the Sentinels, before Hirk and his great folly.&#xA;Untold centuries ago, two Vy'keen approached the Great Monolith: Hirk and Nal, battle-brothers, sworn to deliver knowledge to the people! But in their jealousy, Hirk lied and murdered their brother Nal, claiming that they and they alone knew the righteous path.&#xA;Nal's followers fled, killed almost to the last warrior. But there were those who never forgot. The Cult of Nal attempts to uncover the truth that was lost. We seek to restore the crimson truth, to heal the hearts of the ignorant!&#xA;You participate in a great work, Traveller. History will remember your name." />
+			<Property name="English" value="Traveller, know that my race were once more than just warriors; we were explorers, defenders of these worlds. Before the Sentinels, before Hirk and their great folly.&#xA;Untold centuries ago, two Vy'keen approached the Great Monolith: Hirk and Nal, battle-brothers, sworn to deliver knowledge to the people! But in their jealousy, Hirk lied and murdered their brother Nal, claiming that they and they alone knew the righteous path.&#xA;Nal's followers fled, killed almost to the last warrior. But there were those who never forgot. The Cult of Nal attempts to uncover the truth that was lost. We seek to restore the crimson truth, to heal the hearts of the ignorant!&#xA;You participate in a great work, Traveller. History will remember your name." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -151564,7 +151564,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXOTUT3_MSG2">
 			<Property name="Id" value="UI_EXOTUT3_MSG2" />
-			<Property name="English" value="Construct the Exocraft Mining Laser&#xA; Use &lt;IMG&gt;INVENTORY&lt;&gt; to access Exocraft Systems" />
+			<Property name="English" value="Construct the Exocraft Mining Laser&#xA;Use &lt;IMG&gt;INVENTORY&lt;&gt; to access Exocraft Systems" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -151584,7 +151584,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_EXOTUT3_MSG3">
 			<Property name="Id" value="UI_EXOTUT3_MSG3" />
-			<Property name="English" value="Construct the Exocraft Radar Upgrade Sigma&#xA; Use &lt;IMG&gt;INVENTORY&lt;&gt; to access Exocraft Systems" />
+			<Property name="English" value="Construct the Radar Amplifier&#xA;Use &lt;IMG&gt;INVENTORY&lt;&gt; to access Exocraft Systems" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -162724,7 +162724,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="NPC_MISSION_FREI_A_2">
 			<Property name="Id" value="NPC_MISSION_FREI_A_2" />
-			<Property name="English" value="The client seeks aggressive mediation in a dispute with a former colleague. The target has left the business to pursue legitimate freighter captaincy. The client, however, has a long memory. They cannot simply be swept into the past. They would see the new captain reminded of his previous commitments." />
+			<Property name="English" value="The client seeks aggressive mediation in a dispute with a former colleague. The target has left the business to pursue legitimate freighter captaincy. The client, however, has a long memory. They cannot simply be swept into the past. They would see the new captain reminded of their previous commitments." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -163044,7 +163044,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="NPC_MISSION_FREI_D_8">
 			<Property name="Id" value="NPC_MISSION_FREI_D_8" />
-			<Property name="English" value="The client runs a freighter company, and one of their transports is under attack in local space. Usually they would write off the loss of a freighter against their insurance, but the captain of the ship is on his final mission before retirement. The death of such an experienced spacefarer would add significantly to their premiums, and as such they seek all hands to aid the defence of the vessel." />
+			<Property name="English" value="The client runs a freighter company, and one of their transports is under attack in local space. Usually they would write off the loss of a freighter against their insurance, but the captain of the ship is on their final mission before retirement. The death of such an experienced spacefarer would add significantly to their premiums, and as such they seek all hands to aid the defence of the vessel." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170164,7 +170164,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_TREE_OBJ_TIP">
 			<Property name="Id" value="UI_SCAN_TREE_OBJ_TIP" />
-			<Property name="English" value="The client has requested floral scans from a &lt;STELLAR&gt;specific planet&lt;&gt;. Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;survey location&lt;&gt;.&#xA;Each planet has its own unique biosphere. Track how many plants you have discovered on each planet via the &lt;STELLAR&gt;Discovery Page&lt;&gt;." />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested floral scans from a &lt;STELLAR&gt;specific planet&lt;&gt;. Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;survey location&lt;&gt;.&#xA;Each planet has its own unique biosphere. Track how many plants you have discovered on each planet via the &lt;STELLAR&gt;Discovery Page&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170184,7 +170184,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_TREE_OBJ1_MSG1">
 			<Property name="Id" value="UI_SCAN_TREE_OBJ1_MSG1" />
-			<Property name="English" value="The client has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;Floral Survey Location&lt;&gt;" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;Floral Survey Location&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170204,7 +170204,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_TREE_OBJ1_MSG2">
 			<Property name="Id" value="UI_SCAN_TREE_OBJ1_MSG2" />
-			<Property name="English" value="The client has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Land at the &lt;TRADEABLE&gt;Floral Survey Location&lt;&gt; to begin scanning" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Land at the &lt;TRADEABLE&gt;Floral Survey Location&lt;&gt; to begin scanning" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170304,7 +170304,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_MIN_OBJ_TIP">
 			<Property name="Id" value="UI_SCAN_MIN_OBJ_TIP" />
-			<Property name="English" value="The client has requested mineral scans from a &lt;STELLAR&gt;specific planet&lt;&gt;. Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;survey location&lt;&gt;.&#xA;Each planet has its own unique geology. Track how many minerals you have discovered on each planet via the &lt;STELLAR&gt;Discovery Page&lt;&gt;." />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested mineral scans from a &lt;STELLAR&gt;specific planet&lt;&gt;. Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;survey location&lt;&gt;.&#xA;Each planet has its own unique geology. Track how many minerals you have discovered on each planet via the &lt;STELLAR&gt;Discovery Page&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170324,7 +170324,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_MIN_OBJ1_MSG1">
 			<Property name="Id" value="UI_SCAN_MIN_OBJ1_MSG1" />
-			<Property name="English" value="The client has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TECHNOLOGY&gt;Mineral Survey Location&lt;&gt;" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TECHNOLOGY&gt;Mineral Survey Location&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170344,7 +170344,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_MIN_OBJ1_MSG2">
 			<Property name="Id" value="UI_SCAN_MIN_OBJ1_MSG2" />
-			<Property name="English" value="The client has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Land at the &lt;TECHNOLOGY&gt;Mineral Survey Location&lt;&gt; to begin scanning" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Land at the &lt;TECHNOLOGY&gt;Mineral Survey Location&lt;&gt; to begin scanning" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170444,7 +170444,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_CRE_OBJ_TIP">
 			<Property name="Id" value="UI_SCAN_CRE_OBJ_TIP" />
-			<Property name="English" value="The client has requested creature scans from a &lt;STELLAR&gt;specific planet&lt;&gt;. Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;survey location&lt;&gt;.&#xA;Each planet has its own ecosystem. Track how many creatures you have discovered on each planet via the &lt;STELLAR&gt;Discovery Page&lt;&gt;. Some creatures only come out at night." />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested creature scans from a &lt;STELLAR&gt;specific planet&lt;&gt;. Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;survey location&lt;&gt;.&#xA;Each planet has its own ecosystem. Track how many creatures you have discovered on each planet via the &lt;STELLAR&gt;Discovery Page&lt;&gt;. Some creatures only come out at night." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170464,7 +170464,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_CRE_OBJ1_MSG1">
 			<Property name="Id" value="UI_SCAN_CRE_OBJ1_MSG1" />
-			<Property name="English" value="The client has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;survey location&lt;&gt;" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Consult the &lt;VAL_ON&gt;Galaxy Map&lt;&gt; while in space to locate the &lt;TRADEABLE&gt;survey location&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -170484,7 +170484,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_SCAN_CRE_OBJ1_MSG2">
 			<Property name="Id" value="UI_SCAN_CRE_OBJ1_MSG2" />
-			<Property name="English" value="The client has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Land at the &lt;TRADEABLE&gt;Creature Survey Location&lt;&gt; to begin scanning" />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; has requested scans from a &lt;STELLAR&gt;specific planet&lt;&gt;&#xA;Land at the &lt;TRADEABLE&gt;Creature Survey Location&lt;&gt; to begin scanning" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -171524,7 +171524,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_DELIVERY_OBJ1_MSG">
 			<Property name="Id" value="UI_DELIVERY_OBJ1_MSG" />
-			<Property name="English" value="Deliver the %PRIMARYITEM%&#xA;Client has provided direct coordinates for a &lt;TECHNOLOGY&gt;secure depot&lt;&gt;" />
+			<Property name="English" value="Deliver the %PRIMARYITEM% to the &lt;TECHNOLOGY&gt;secure depot&lt;&gt;&#xA;&lt;STELLAR&gt;%CLIENT%&lt;&gt; has provided direct coordinates" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -171544,7 +171544,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_DELIVERY_OBJ1_MSG2">
 			<Property name="Id" value="UI_DELIVERY_OBJ1_MSG2" />
-			<Property name="English" value="Deliver the %PRIMARYITEM% to the &lt;TECHNOLOGY&gt;secure depot&lt;&gt;&#xA;Client has provided direct coordinates to a nearby system&#xA;In space, consult the Galaxy Map with &lt;IMG&gt;QUICK_MENU&lt;&gt;" />
+			<Property name="English" value="Deliver the %PRIMARYITEM% to the &lt;TECHNOLOGY&gt;secure depot&lt;&gt;&#xA;&lt;STELLAR&gt;%CLIENT%&lt;&gt; has provided direct coordinates to a nearby system&#xA;In space, consult the Galaxy Map with &lt;IMG&gt;QUICK_MENU&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -171664,7 +171664,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_COLLECT_OBJ">
 			<Property name="Id" value="UI_COLLECT_OBJ" />
-			<Property name="English" value="Source items for the client" />
+			<Property name="English" value="Source items for &lt;STELLAR&gt;%CLIENT%&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -172124,7 +172124,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_REPAIR_OBJ2_MSG">
 			<Property name="Id" value="UI_REPAIR_OBJ2_MSG" />
-			<Property name="English" value="Transmit &lt;STELLAR&gt;diagnostic results&lt;&gt;&#xA;Use the machine's fault reporting system to let the client know the repair is complete" />
+			<Property name="English" value="Transmit &lt;STELLAR&gt;diagnostic results&lt;&gt; to &lt;STELLAR&gt;%CLIENT%&lt;&gt;&#xA;Use the machine's fault reporting system" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -172164,7 +172164,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_REPAIR_OBJ2_TIP">
 			<Property name="Id" value="UI_REPAIR_OBJ2_TIP" />
-			<Property name="English" value="Use the machine's fault reporting system to let the client know the repair is complete" />
+			<Property name="English" value="Use the machine's fault reporting system to let &lt;STELLAR&gt;%CLIENT%&lt;&gt; know the repair is complete." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -172544,7 +172544,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_DEPOT_OBJ1_MSG1">
 			<Property name="Id" value="UI_DEPOT_OBJ1_MSG1" />
-			<Property name="English" value="Find and destroy &lt;TECHNOLOGY&gt;resource depots&lt;&gt;&#xA;Client has provided &lt;STELLAR&gt;approximate coordinates&lt;&gt;" />
+			<Property name="English" value="Find and destroy &lt;TECHNOLOGY&gt;resource depots&lt;&gt;&#xA;&lt;STELLAR&gt;%CLIENT%&lt;&gt; has provided &lt;STELLAR&gt;approximate coordinates&lt;&gt;" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -173004,7 +173004,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_HIDE_SEEK_OBJ1_TIP">
 			<Property name="Id" value="UI_HIDE_SEEK_OBJ1_TIP" />
-			<Property name="English" value="Track the hidden individual and report their location to the client." />
+			<Property name="English" value="Track the hidden individual and report their location to &lt;STELLAR&gt;%CLIENT%&lt;&gt;." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -173044,7 +173044,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_HIDE_SEEK_OBJ2_TIP">
 			<Property name="Id" value="UI_HIDE_SEEK_OBJ2_TIP" />
-			<Property name="English" value="Track the hidden individual and report their location to the client.&#xA;A contact over the starship's communicator claims to have relevant information..." />
+			<Property name="English" value="Track the hidden individual and report their location to &lt;STELLAR&gt;%CLIENT%&lt;&gt;.&#xA;A contact over the starship's communicator claims to have relevant information..." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -173084,7 +173084,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_HIDE_SEEK_OBJ3_TIP">
 			<Property name="Id" value="UI_HIDE_SEEK_OBJ3_TIP" />
-			<Property name="English" value="Track the hidden individual and report their location to the client.&#xA;A potential lead has been logged to your navigation systems.&#xA;Use a &lt;STELLAR&gt;Target Sweep&lt;&gt; from the &lt;TECHNOLOGY&gt;Analysis Visor&lt;&gt; to help search for obscured targets." />
+			<Property name="English" value="Track the hidden individual and report their location to &lt;STELLAR&gt;%CLIENT%&lt;&gt;.&#xA;A potential lead has been logged to your navigation systems.&#xA;Use a &lt;STELLAR&gt;Target Sweep&lt;&gt; from the &lt;TECHNOLOGY&gt;Analysis Visor&lt;&gt; to help search for obscured targets." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -188464,7 +188464,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BIO_OBJ_TIP">
 			<Property name="Id" value="UI_PHOTO_BIO_OBJ_TIP" />
-			<Property name="English" value="The client requires photos of specific worlds.&#xA;Learn information about planets from space by using the &lt;TECHNOLOGY&gt;Ship Scanner&lt;&gt; (&lt;IMG&gt;SHIPSCAN&lt;&gt;)." />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; requires photos of specific worlds.&#xA;Learn information about planets from space by using the &lt;TECHNOLOGY&gt;Ship Scanner&lt;&gt; (&lt;IMG&gt;SHIPSCAN&lt;&gt;)." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -188544,7 +188544,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_CRE_OBJ_TIP">
 			<Property name="Id" value="UI_PHOTO_CRE_OBJ_TIP" />
-			<Property name="English" value="The client may require a specific type of creature.&#xA;Use the &lt;TECHNOLOGY&gt;Analysis Visor&lt;&gt; (&lt;IMG&gt;AIM&lt;&gt;) to identify potential creature locations." />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; may require a specific type of creature.&#xA;Use the &lt;TECHNOLOGY&gt;Analysis Visor&lt;&gt; (&lt;IMG&gt;AIM&lt;&gt;) to identify potential creature locations." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -188604,7 +188604,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_BLD_OBJ_TIP">
 			<Property name="Id" value="UI_PHOTO_BLD_OBJ_TIP" />
-			<Property name="English" value="The client may require a specific type of building.&#xA;The &lt;VAL_ON&gt;Cartographer&lt;&gt; on Space Stations will supply &lt;STELLAR&gt;Planetary Charts&lt;&gt; for specific buildings. Using these charts will mark a site on your Exosuit's HUD." />
+			<Property name="English" value="&lt;STELLAR&gt;%CLIENT%&lt;&gt; may require a specific type of building.&#xA;The &lt;VAL_ON&gt;Cartographer&lt;&gt; on Space Stations will supply &lt;STELLAR&gt;Planetary Charts&lt;&gt; for specific buildings. Using these charts will mark a site on your Exosuit's HUD." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -188684,7 +188684,7 @@
 		</Property>
 		<Property name="Table" value="TkLocalisationEntry" _id="UI_PHOTO_SURVEY_MSG">
 			<Property name="Id" value="UI_PHOTO_SURVEY_MSG" />
-			<Property name="English" value="Take a photo of &lt;STELLAR&gt;%BUILDING%&lt;&gt;&#xA;The client has provided approximate coordinates" />
+			<Property name="English" value="Take a photo of &lt;STELLAR&gt;%BUILDING%&lt;&gt;&#xA;&lt;STELLAR&gt;%CLIENT%&lt;&gt; has provided approximate coordinates" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />
@@ -191342,8 +191342,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_REQ_LOOP_OPT_">
-			<Property name="Id" value="TRA_NPC_U3ANOMALY_REQ_LOOP_OPT_" />
+		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_LOOP_OPT_A1">
+			<Property name="Id" value="TRA_NPC_U3ANOMALY_LOOP_OPT_A1" />
 			<Property name="English" value="Purchase Suit Technology" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -191362,8 +191362,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_REQ_LOOP_OPT_" _index="1">
-			<Property name="Id" value="TRA_NPC_U3ANOMALY_REQ_LOOP_OPT_" />
+		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_LOOP_OPT_B1">
+			<Property name="Id" value="TRA_NPC_U3ANOMALY_LOOP_OPT_B1" />
 			<Property name="English" value="Purchase Weapon Technology" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -191382,8 +191382,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_REQ_LOOP_OPT_" _index="2">
-			<Property name="Id" value="TRA_NPC_U3ANOMALY_REQ_LOOP_OPT_" />
+		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_LOOP_OPT_C1">
+			<Property name="Id" value="TRA_NPC_U3ANOMALY_LOOP_OPT_C1" />
 			<Property name="English" value="Purchase Ship Technology" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -191402,8 +191402,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_REQ_LOOP_RES_">
-			<Property name="Id" value="TRA_NPC_U3ANOMALY_REQ_LOOP_RES_" />
+		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_LOOP_RES_A1">
+			<Property name="Id" value="TRA_NPC_U3ANOMALY_LOOP_RES_A1" />
 			<Property name="English" value="Clever. A strong suit, a long life, friend! I just wish that I could be there to see it..." />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -191422,8 +191422,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_REQ_LOOP_RES_" _index="1">
-			<Property name="Id" value="TRA_NPC_U3ANOMALY_REQ_LOOP_RES_" />
+		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_LOOP_RES_B1">
+			<Property name="Id" value="TRA_NPC_U3ANOMALY_LOOP_RES_B1" />
 			<Property name="English" value="Fight only to survive, friend. Treasure the galaxy and all its wonder! You will go far, I am sure of it!" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -191442,8 +191442,8 @@
 			<Property name="Japanese" value="" />
 			<Property name="USEnglish" value="" />
 		</Property>
-		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_REQ_LOOP_RES_" _index="2">
-			<Property name="Id" value="TRA_NPC_U3ANOMALY_REQ_LOOP_RES_" />
+		<Property name="Table" value="TkLocalisationEntry" _id="TRA_NPC_U3ANOMALY_LOOP_RES_C1">
+			<Property name="Id" value="TRA_NPC_U3ANOMALY_LOOP_RES_C1" />
 			<Property name="English" value="Go further, go faster, see it all! Have no regrets, friend! I am proud of you!" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
@@ -218205,6 +218205,26 @@
 		<Property name="Table" value="TkLocalisationEntry" _id="ALL_REQUEST_LEAVE">
 			<Property name="Id" value="ALL_REQUEST_LEAVE" />
 			<Property name="English" value="Leave" />
+			<Property name="French" value="" />
+			<Property name="Italian" value="" />
+			<Property name="German" value="" />
+			<Property name="Spanish" value="" />
+			<Property name="Russian" value="" />
+			<Property name="Polish" value="" />
+			<Property name="Dutch" value="" />
+			<Property name="Portuguese" value="" />
+			<Property name="LatinAmericanSpanish" value="" />
+			<Property name="BrazilianPortuguese" value="" />
+			<Property name="SimplifiedChinese" value="" />
+			<Property name="TraditionalChinese" value="" />
+			<Property name="TencentChinese" value="" />
+			<Property name="Korean" value="" />
+			<Property name="Japanese" value="" />
+			<Property name="USEnglish" value="" />
+		</Property>
+		<Property name="Table" value="TkLocalisationEntry" _id="ALL_REQUEST_LEAVE_U">
+			<Property name="Id" value="ALL_REQUEST_LEAVE_U" />
+			<Property name="English" value="LEAVE" />
 			<Property name="French" value="" />
 			<Property name="Italian" value="" />
 			<Property name="German" value="" />

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator - No Man's Sky Handbook</title>
+    <meta name="description" content="A handbook for No Man's Sky featuring resource data, crafting, refining, cooking recipes, fishing locations, and more, in a lightweight, wiki-style format.">
+    <meta name="theme-color" content="#4aa8ff">
+    <meta name="keywords" content="No Man's Sky, NMS, crafting, refining, cooking, fishing, wiki">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nmshandbook.com/calculator">
+    <meta property="og:title" content="Calculator - No Man's Sky Handbook">
+    <meta property="og:description" content="A handbook for No Man's Sky featuring resource data, crafting, refining, cooking recipes, fishing locations, and more, in a lightweight, wiki-style format.">
+    <meta property="og:image" content="https://nmshandbook.com/android-chrome-512x512.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://nmshandbook.com/calculator">
+    <meta name="twitter:title" content="Calculator - No Man's Sky Handbook">
+    <meta name="twitter:description" content="A handbook for No Man's Sky featuring resource data, crafting, refining, cooking recipes, fishing locations, and more, in a lightweight, wiki-style format.">
+    <meta name="twitter:image" content="https://nmshandbook.com/android-chrome-512x512.png">
+
+    <link rel="canonical" href="https://nmshandbook.com/calculator">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <script data-goatcounter="https://nmshandbook.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <script>
+        fetch("/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <main>
+        <section class="intro-text">
+            <h2>Crafting Calculator</h2>
+            <p>
+                Add the products, technology and base parts you want to make, and get the total raw materials you'll need to gather
+            </p>
+        </section>
+
+        <section class="calc-picker">
+            <label for="calc-search" class="calc-picker-label">Add an item:</label>
+            <div class="calc-search-wrapper">
+                <input type="text" id="calc-search" placeholder="Loading items..." autocomplete="off" disabled />
+                <ul id="calc-search-results" class="calc-search-results" hidden></ul>
+            </div>
+        </section>
+
+        <section class="recipe-section">
+            <h2>Your List</h2>
+            <p id="calc-empty" class="calc-empty">Your list is empty. Search above to add items.</p>
+            <ul id="calc-list" class="calc-list"></ul>
+            <div id="calc-list-actions" class="calc-list-actions" hidden>
+                <button type="button" id="calc-copy-link" class="copy-link-button">Copy List Link</button>
+                <button type="button" id="calc-clear" class="recipe-toggle-btn">Clear List</button>
+                <p id="calc-copy-confirmation" class="copy-confirmation" hidden>Link Copied!</p>
+            </div>
+        </section>
+
+        <section id="calc-results" class="recipe-section breakdown-section" hidden>
+            <h2>Raw Materials</h2>
+            <p class="breakdown-note">Everything you need to gather, with all crafted components broken down.</p>
+            <ul id="calc-raw" class="charge-list"></ul>
+            <div class="breakdown-toggle-wrapper">
+                <button type="button" id="calc-steps-toggle" class="recipe-toggle-btn" aria-expanded="false"></button>
+            </div>
+            <ol id="calc-steps" class="breakdown-steps" hidden></ol>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch("/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <script src="/item/breakdown.js"></script>
+    <script src="./calculator.js"></script>
+    <script src="/script.js"></script>
+    <script src="/search/search-bar.js"></script>
+</body>
+</html>

@@ -1417,6 +1417,12 @@ function loadDataAndDisplay() {
                 if (craftingSection) {
                     sectionContainer.appendChild(craftingSection);
                 }
+
+                // Raw materials breakdown (from breakdown.js)
+                const rawMaterialsSection = createRawMaterialsSection(craftingItem.Ingredients, craftingData, { id, type });
+                if (rawMaterialsSection) {
+                    sectionContainer.appendChild(rawMaterialsSection);
+                }
             }
 
             const usedInCraftingSection = createUsedInCraftingSection(id, craftingData);
@@ -1479,6 +1485,11 @@ function loadDataAndDisplay() {
                 if (technologyRequirementsSection) {
                     sectionContainer.appendChild(technologyRequirementsSection);
                 }
+
+                const rawMaterialsSection = createRawMaterialsSection(item.Requirements, craftingData, { id, type });
+                if (rawMaterialsSection) {
+                    sectionContainer.appendChild(rawMaterialsSection);
+                }
             }
 
             // == Technology Stat Bonus Section ===
@@ -1509,6 +1520,11 @@ function loadDataAndDisplay() {
                 const constructionRequirementsSection = createConstructionRequirementsSection(id, item);
                 if (constructionRequirementsSection) {
                     sectionContainer.appendChild(constructionRequirementsSection);
+                }
+
+                const rawMaterialsSection = createRawMaterialsSection(item.Requirements, craftingData, { id, type });
+                if (rawMaterialsSection) {
+                    sectionContainer.appendChild(rawMaterialsSection);
                 }
             }
 

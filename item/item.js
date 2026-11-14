@@ -559,12 +559,13 @@ function createCraftingSection(craftingItem) {
     return section;
 }
 
-function createUsedInCraftingSection(itemId, craftingData) {
+// Also used for the technology, base part and corvette part "Used In" sections
+function createUsedInCraftingSection(itemId, craftingData, titleText = "Used In (Crafting)", linkType = "product") {
     const section = document.createElement("div");
     section.className = "recipe-section";
 
     const title = document.createElement("h2");
-    title.textContent = "Used In (Crafting)";
+    title.textContent = titleText;
     section.appendChild(title);
 
     const grid = document.createElement("div");
@@ -581,7 +582,7 @@ function createUsedInCraftingSection(itemId, craftingData) {
             // Output product link & icon
             const outputHeader = document.createElement("h4");
             const productLink = document.createElement("a");
-            productLink.href = `/item/?id=${product.ProductId}&type=product`;
+            productLink.href = `/item/?id=${product.ProductId}&type=${linkType}`;
             productLink.textContent = product.NameLower_Text;
             productLink.className = "product-link";
             outputHeader.appendChild(productLink);
@@ -635,7 +636,6 @@ function createUsedInCraftingSection(itemId, craftingData) {
 
             card.appendChild(ingredientGrid);
 
-            // Hide beyond first 4 for compactness
             if (usedInCards.length >= 4) card.style.display = "none";
 
             usedInCards.push(card);
@@ -665,6 +665,24 @@ function createUsedInCraftingSection(itemId, craftingData) {
     }
 
     return section;
+}
+
+function usedInDataToRecipes(entries, usedInItems) {
+    const recipes = {};
+    (entries || []).forEach(entry => {
+        const item = usedInItems[entry.Id];
+        if (!item) return;
+        recipes[entry.Id] = {
+            ...item,
+            ProductId: entry.Id,
+            Ingredients: entry.Requirements.map(([id, amount]) => ({
+                ...(usedInItems[id] || { NameLower_Text: id, Icon_Filename: "", Type: "product" }),
+                Id: id,
+                Amount: amount
+            }))
+        };
+    });
+    return recipes;
 }
 
 function createLegacySection(itemId, legacyData) {
@@ -1359,7 +1377,8 @@ function loadDataAndDisplay() {
             fetch("/JSON_Files/Cooking_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Bait_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Fish_Table.json").then(res => res.json()),
-            fetch("/JSON_Files/Special_Rewards_Table.json").then(res => res.json())
+            fetch("/JSON_Files/Special_Rewards_Table.json").then(res => res.json()),
+            fetch("/JSON_Files/Used_In_Table.json").then(res => res.json())
         ];
 
         if (type === "construction") {
@@ -1377,7 +1396,8 @@ function loadDataAndDisplay() {
                 baitData,
                 fishData,
                 specialRewardsData,
-                constructionPurchaseData = null // will be null if not fetched
+                usedInData,
+                constructionPurchaseData = null
             ] = dataArray;
 
             // === Legacy Item Section ===
@@ -1429,6 +1449,20 @@ function loadDataAndDisplay() {
             if (usedInCraftingSection) {
                 sectionContainer.appendChild(usedInCraftingSection);
             }
+
+            // === Used In: Technology, Base Parts, Corvette Parts ===
+            const usedIn = usedInData.usedIn[id] || {};
+            [
+                ["Used In (Technology)", usedIn.technology, "technology"],
+                ["Used In (Base Parts)", usedIn.construction, "construction"],
+                ["Used In (Corvette Parts)", usedIn.corvette, "construction"]
+            ].forEach(([title, entries, linkType]) => {
+                const recipes = usedInDataToRecipes(entries, usedInData.items);
+                const usedInSection = createUsedInCraftingSection(id, recipes, title, linkType);
+                if (usedInSection) {
+                    sectionContainer.appendChild(usedInSection);
+                }
+            });
 
             // === Cooking Section ===
             const cookingItem = cookingData[id];

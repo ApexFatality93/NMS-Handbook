@@ -52,6 +52,7 @@ When No Man's Sky receives an update, follow these steps to refresh the site dat
    - `substances.py`
    - `building_parts.py`
    - Then run any of the remaining `.py` files in any order
+   - Run `share_pages.py` last
 
 4. **Verify updates**:
    - Confirm that the output files in the `JSON Files/` folder are up to date and reflect any changes from the latest game version.

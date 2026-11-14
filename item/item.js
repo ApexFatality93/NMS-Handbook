@@ -1325,7 +1325,7 @@ function loadDataAndDisplay() {
         mainContainer.appendChild(infoContainer);
 
         copyLinkButton.addEventListener("click", () => {
-        const url = `${window.location.origin}${window.location.pathname}?id=${id}&type=${type}`;
+        const url = `${window.location.origin}/share/${encodeURIComponent(type)}/${encodeURIComponent(id)}/`;
 
         navigator.clipboard.writeText(url)
             .then(() => {

@@ -81,6 +81,7 @@ function renderSearchResults(query) {
     }
 
     for (const [id, fish] of Object.entries(fishData)) {
+        if (productData[id]) continue; // every fish is also a product, already added above
         allItems.push({
             id,
             name: fish.NameLower_Text || fish.Name,

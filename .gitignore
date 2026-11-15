@@ -3,3 +3,9 @@
 
 # To-do list
 TODO.md
+
+# Python cache files
+__pycache__/
+
+# VS Code settings
+.vscode/

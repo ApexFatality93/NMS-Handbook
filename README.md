@@ -53,6 +53,7 @@ When No Man's Sky receives an update, follow these steps to refresh the site dat
    - `building_parts.py`
    - Then run the remaining `.py` files in any order, except for the following:
    - Run `used_in.py` after `technology.py`, `building_parts.py` and `corvette_parts.py`
+   - Run `upgrade_modules.py` after `technology.py`
    - Run `share_pages.py` last
 
 4. **Verify updates**:

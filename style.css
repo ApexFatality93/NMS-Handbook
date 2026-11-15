@@ -1661,6 +1661,107 @@ h1 {
 
 /* ---------------------------------------------------------------------- */
 
+/* UPGRADE MODULES PAGE */
+.upgrade-card-category {
+    margin: 0 0 0.75rem;
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+}
+
+.upgrade-card.selected {
+    box-shadow: 0 0 0 2px var(--color-accent), 0 0 12px var(--color-accent);
+}
+
+#upgrade-details[hidden] {
+    display: none;
+}
+
+.upgrade-details-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.upgrade-details-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.upgrade-details-meta {
+    margin: 0;
+    color: var(--color-text-muted);
+}
+
+.upgrade-class-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 260px;
+}
+
+.upgrade-class-patch {
+    align-self: center;
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+}
+
+.upgrade-class-badge {
+    align-self: center;
+    padding: 0.3rem 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    background-color: var(--color-bg);
+    border: 2px solid var(--color-accent);
+}
+
+.upgrade-class-subtitle {
+    margin: 0;
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+}
+
+.upgrade-class-rolls {
+    margin: 0.5rem 0 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.upgrade-stat-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.upgrade-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    padding: 0.4rem 0.6rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 6px;
+    text-align: left;
+}
+
+.upgrade-stat-value {
+    color: var(--color-primary);
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
 /* GENERAL MOBILE OPTIMIZATIONS */
 @media screen and (max-width: 768px) {
     body {

@@ -6,7 +6,11 @@ from path_utils import resolve_case_path
 # --- CONFIG ---
 mxml_file = resolve_case_path('./Game Files/NMS_Reality_GCPRODUCTTABLE.MXML')
 lang_json_file = './JSON_Files/All_Lang_Data.json'
+upgrade_mxml_file = resolve_case_path('./Game Files/NMS_REALITY_GCPROCEDURALTECHNOLOGYTABLE.MXML')
 output_json_file = './JSON_Files/Product_Table.json'
+
+# Upgrade module quality
+UPGRADE_CLASSES = {'Normal': 'C', 'Rare': 'B', 'Epic': 'A', 'Legendary': 'S', 'Illegal': 'X'}
 
 # --- LOAD LANG JSON ---
 with open(lang_json_file, 'r', encoding='utf-8') as f:
@@ -28,6 +32,12 @@ def extract_data(property_node):
         else:
             data[name] = value
     return data
+
+# --- UPGRADE MODULE CLASSES ---
+upgrade_class_lookup = {}
+for upgrade in ET.parse(upgrade_mxml_file).getroot().findall('.//Property[@value="GcProceduralTechnologyData"]'):
+    upgrade_data = extract_data(upgrade)
+    upgrade_class_lookup[upgrade_data.get('ID', '')] = UPGRADE_CLASSES.get(upgrade_data.get('Quality', ''), '')
 
 # --- PARSE MXML ---
 tree = ET.parse(mxml_file)
@@ -92,6 +102,8 @@ for product in root.findall('.//Property[@value="GcProductData"]'):
             'GiveRewardOnSpecialPurchase': data.get('GiveRewardOnSpecialPurchase', ''),
             'EggModifierIngredient': data.get('EggModifierIngredient', ''),
             'IsTechbox': data.get('IsTechbox', ''),
+            'DeploysInto': data.get('DeploysInto', ''),
+            'UpgradeClass': upgrade_class_lookup.get(data.get('DeploysInto', ''), ''),
             'CanSendToOtherPlayers': data.get('CanSendToOtherPlayers', '')
         }
 

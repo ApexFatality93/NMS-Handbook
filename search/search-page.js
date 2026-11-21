@@ -66,7 +66,8 @@ function renderSearchResults(query) {
             name: item.NameLower_Text,
             icon: item.Icon_Filename,
             rgba: [item.Colour_R, item.Colour_G, item.Colour_B, item.Colour_A],
-            type: "product"
+            type: "product",
+            upgradeClass: item.UpgradeClass
         });
     }
 
@@ -160,6 +161,14 @@ function createSearchCard(item) {
     const title = document.createElement("h4");
     title.textContent = item.name;
     content.appendChild(title);
+
+    // Upgrade modules share a name across classes, so show which class this one is
+    if (item.upgradeClass) {
+        const upgradeClass = document.createElement("p");
+        upgradeClass.className = "upgrade-card-category";
+        upgradeClass.textContent = `${item.upgradeClass}-Class`;
+        content.appendChild(upgradeClass);
+    }
 
     card.appendChild(imageWrapper);
     card.appendChild(content);

@@ -40,7 +40,7 @@ Promise.all([
                 id,
                 type,
                 name: item.NameLower_Text,
-                subtitle: item.Subtitle_Text || '',
+                subtitle: [item.UpgradeClass && `${item.UpgradeClass}-Class`, item.Subtitle_Text].filter(Boolean).join(' · '),
                 icon: item.Icon_Filename,
                 rgba: [item.Colour_R, item.Colour_G, item.Colour_B, item.Colour_A]
             });

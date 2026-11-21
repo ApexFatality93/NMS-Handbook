@@ -1076,6 +1076,46 @@ function createTechnologyStatsSection(itemId, item) {
     return section;
 }
 
+// Upgrade module products: the stats and ranges of the upgrade they install (card from upgrades/upgrade-cards.js)
+function createUpgradeStatsSection(item, upgradeData) {
+    const upgradeKey = Object.keys(upgradeData).find(key =>
+        upgradeData[key].Classes.some(cls => cls.Id === item.DeploysInto));
+    if (!upgradeKey) return null;
+
+    const upgrade = upgradeData[upgradeKey];
+    const cls = upgrade.Classes.find(c => c.Id === item.DeploysInto);
+
+    const section = document.createElement("div");
+    section.className = "recipe-section";
+
+    const title = document.createElement("h2");
+    title.textContent = "Possible Stats";
+    section.appendChild(title);
+
+    const note = document.createElement("p");
+    note.className = "breakdown-note";
+    note.textContent = "Rolled when the module is installed. Ranges show how much each stat can improve.";
+    section.appendChild(note);
+
+    const grid = document.createElement("div");
+    grid.className = "recipe-grid";
+    grid.appendChild(createClassCard(cls));
+    section.appendChild(grid);
+
+    if (upgrade.Classes.length > 1) {
+        const linkWrapper = document.createElement("div");
+        linkWrapper.className = "breakdown-toggle-wrapper";
+        const link = document.createElement("a");
+        link.className = "recipe-toggle-btn breakdown-calc-link";
+        link.href = `/upgrades/?id=${encodeURIComponent(upgradeKey)}`;
+        link.textContent = `Compare all ${upgrade.Name_Text} classes`;
+        linkWrapper.appendChild(link);
+        section.appendChild(linkWrapper);
+    }
+
+    return section;
+}
+
 function createConstructionRequirementsSection(itemId, item) {
     if (!item.Requirements || item.Requirements.length === 0) return null;
 
@@ -1247,7 +1287,8 @@ function loadDataAndDisplay() {
         title.textContent = item.NameLower_Text || item.Name;
 
         const subtitle = document.createElement("h3");
-        subtitle.textContent = item.Subtitle_Text || item.Subtitle;
+        subtitle.textContent = [item.UpgradeClass && `${item.UpgradeClass}-Class`, item.Subtitle_Text || item.Subtitle]
+            .filter(Boolean).join(" · ");
 
         const desc = document.createElement("p");
         desc.innerHTML = sanitizeText(item.Description_Text || item.Description);
@@ -1378,7 +1419,8 @@ function loadDataAndDisplay() {
             fetch("/JSON_Files/Bait_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Fish_Table.json").then(res => res.json()),
             fetch("/JSON_Files/Special_Rewards_Table.json").then(res => res.json()),
-            fetch("/JSON_Files/Used_In_Table.json").then(res => res.json())
+            fetch("/JSON_Files/Used_In_Table.json").then(res => res.json()),
+            item.DeploysInto ? fetch("/JSON_Files/Upgrade_Module_Table.json").then(res => res.json()) : null
         ];
 
         if (type === "construction") {
@@ -1397,8 +1439,17 @@ function loadDataAndDisplay() {
                 fishData,
                 specialRewardsData,
                 usedInData,
+                upgradeData,
                 constructionPurchaseData = null
             ] = dataArray;
+
+            // === Upgrade Module Stats Section ===
+            if (upgradeData) {
+                const upgradeStatsSection = createUpgradeStatsSection(item, upgradeData);
+                if (upgradeStatsSection) {
+                    sectionContainer.appendChild(upgradeStatsSection);
+                }
+            }
 
             // === Legacy Item Section ===
             if (legacyData[id]) {
